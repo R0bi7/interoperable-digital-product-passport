@@ -1,0 +1,320 @@
+{
+  "deploymentId": "whisky-v2-eval3",
+  "runs": [
+    "1792468448106"
+  ],
+  "rejections": [
+    {
+      "case": "mint by a non-issuer",
+      "network": "arbitrum-sepolia",
+      "n": 1,
+      "expectedError": "NotIssuer",
+      "held": 1,
+      "minedReverts": 1,
+      "gas": [
+        25802
+      ]
+    },
+    {
+      "case": "mint by a non-issuer",
+      "network": "base-sepolia",
+      "n": 1,
+      "expectedError": "NotIssuer",
+      "held": 1,
+      "minedReverts": 1,
+      "gas": [
+        25802
+      ]
+    },
+    {
+      "case": "mint by a non-issuer",
+      "network": "sepolia",
+      "n": 1,
+      "expectedError": "NotIssuer",
+      "held": 1,
+      "minedReverts": 1,
+      "gas": [
+        27544
+      ]
+    },
+    {
+      "case": "mint with a wrong expected token id",
+      "network": "arbitrum-sepolia",
+      "n": 1,
+      "expectedError": "UnexpectedTokenId",
+      "held": 1,
+      "minedReverts": 1,
+      "gas": [
+        28425
+      ]
+    },
+    {
+      "case": "mint with a wrong expected token id",
+      "network": "base-sepolia",
+      "n": 1,
+      "expectedError": "UnexpectedTokenId",
+      "held": 1,
+      "minedReverts": 1,
+      "gas": [
+        28425
+      ]
+    },
+    {
+      "case": "mint with a wrong expected token id",
+      "network": "sepolia",
+      "n": 1,
+      "expectedError": "UnexpectedTokenId",
+      "held": 1,
+      "minedReverts": 1,
+      "gas": [
+        27544
+      ]
+    },
+    {
+      "case": "revise by the holder",
+      "network": "arbitrum-sepolia",
+      "n": 1,
+      "expectedError": "NotIssuer",
+      "held": 1,
+      "minedReverts": 1,
+      "gas": [
+        25598
+      ]
+    },
+    {
+      "case": "revise by the holder",
+      "network": "base-sepolia",
+      "n": 1,
+      "expectedError": "NotIssuer",
+      "held": 1,
+      "minedReverts": 1,
+      "gas": [
+        25598
+      ]
+    },
+    {
+      "case": "revise by the holder",
+      "network": "sepolia",
+      "n": 1,
+      "expectedError": "NotIssuer",
+      "held": 1,
+      "minedReverts": 1,
+      "gas": [
+        27544
+      ]
+    },
+    {
+      "case": "revise with a stale revision",
+      "network": "arbitrum-sepolia",
+      "n": 1,
+      "expectedError": "StaleRevision",
+      "held": 1,
+      "minedReverts": 1,
+      "gas": [
+        30339
+      ]
+    },
+    {
+      "case": "revise with a stale revision",
+      "network": "base-sepolia",
+      "n": 1,
+      "expectedError": "StaleRevision",
+      "held": 1,
+      "minedReverts": 1,
+      "gas": [
+        30339
+      ]
+    },
+    {
+      "case": "revise with a stale revision",
+      "network": "sepolia",
+      "n": 1,
+      "expectedError": "StaleRevision",
+      "held": 1,
+      "minedReverts": 1,
+      "gas": [
+        27544
+      ]
+    }
+  ],
+  "permitted": [
+    {
+      "case": "transferFrom by an approved operator",
+      "network": "arbitrum-sepolia",
+      "n": 1,
+      "succeeded": 1,
+      "gas": [
+        60472
+      ]
+    },
+    {
+      "case": "transferFrom by an approved operator",
+      "network": "base-sepolia",
+      "n": 1,
+      "succeeded": 1,
+      "gas": [
+        60472
+      ]
+    },
+    {
+      "case": "transferFrom by an approved operator",
+      "network": "sepolia",
+      "n": 1,
+      "succeeded": 1,
+      "gas": [
+        157276
+      ]
+    }
+  ],
+  "configuration": [
+    {
+      "call": "lzReceive",
+      "network": "arbitrum-sepolia",
+      "n": 1,
+      "expectedError": "OnlyEndpoint",
+      "held": 1
+    },
+    {
+      "call": "lzReceive",
+      "network": "base-sepolia",
+      "n": 1,
+      "expectedError": "OnlyEndpoint",
+      "held": 1
+    },
+    {
+      "call": "lzReceive",
+      "network": "sepolia",
+      "n": 1,
+      "expectedError": "OnlyEndpoint",
+      "held": 1
+    },
+    {
+      "call": "setBaseURI",
+      "network": "arbitrum-sepolia",
+      "n": 1,
+      "expectedError": "OwnableUnauthorizedAccount",
+      "held": 1
+    },
+    {
+      "call": "setBaseURI",
+      "network": "base-sepolia",
+      "n": 1,
+      "expectedError": "OwnableUnauthorizedAccount",
+      "held": 1
+    },
+    {
+      "call": "setBaseURI",
+      "network": "sepolia",
+      "n": 1,
+      "expectedError": "OwnableUnauthorizedAccount",
+      "held": 1
+    },
+    {
+      "call": "setEnforcedOptions",
+      "network": "arbitrum-sepolia",
+      "n": 1,
+      "expectedError": "OwnableUnauthorizedAccount",
+      "held": 1
+    },
+    {
+      "call": "setEnforcedOptions",
+      "network": "base-sepolia",
+      "n": 1,
+      "expectedError": "OwnableUnauthorizedAccount",
+      "held": 1
+    },
+    {
+      "call": "setEnforcedOptions",
+      "network": "sepolia",
+      "n": 1,
+      "expectedError": "OwnableUnauthorizedAccount",
+      "held": 1
+    },
+    {
+      "call": "setIssuer",
+      "network": "arbitrum-sepolia",
+      "n": 1,
+      "expectedError": "OwnableUnauthorizedAccount",
+      "held": 1
+    },
+    {
+      "call": "setIssuer",
+      "network": "base-sepolia",
+      "n": 1,
+      "expectedError": "OwnableUnauthorizedAccount",
+      "held": 1
+    },
+    {
+      "call": "setIssuer",
+      "network": "sepolia",
+      "n": 1,
+      "expectedError": "OwnableUnauthorizedAccount",
+      "held": 1
+    },
+    {
+      "call": "setPeer",
+      "network": "arbitrum-sepolia",
+      "n": 1,
+      "expectedError": "OwnableUnauthorizedAccount",
+      "held": 1
+    },
+    {
+      "call": "setPeer",
+      "network": "base-sepolia",
+      "n": 1,
+      "expectedError": "OwnableUnauthorizedAccount",
+      "held": 1
+    },
+    {
+      "call": "setPeer",
+      "network": "sepolia",
+      "n": 1,
+      "expectedError": "OwnableUnauthorizedAccount",
+      "held": 1
+    }
+  ],
+  "maxCid": [
+    {
+      "route": "arbitrum-sepolia -> base-sepolia",
+      "n": 1,
+      "delivered": 1,
+      "seconds": [
+        45
+      ],
+      "deliveryTxGas": [
+        211733
+      ],
+      "enforcedGas": 286000,
+      "replays": 1,
+      "replaysRejected": 1
+    },
+    {
+      "route": "arbitrum-sepolia -> sepolia",
+      "n": 1,
+      "delivered": 1,
+      "seconds": [
+        153
+      ],
+      "deliveryTxGas": [
+        749637
+      ],
+      "enforcedGas": 1291000,
+      "replays": 1,
+      "replaysRejected": 1
+    },
+    {
+      "route": "base-sepolia -> arbitrum-sepolia",
+      "n": 1,
+      "delivered": 1,
+      "seconds": [
+        30
+      ],
+      "deliveryTxGas": [
+        211733
+      ],
+      "enforcedGas": 286000,
+      "replays": 1,
+      "replaysRejected": 1
+    }
+  ]
+}

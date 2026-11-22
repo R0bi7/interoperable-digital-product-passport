@@ -1,0 +1,533 @@
+Active live log: <tmp>/idpp-live/live---command-1792464815397119000.log; archive after exit: <repo>/smart_contracts/e2e_reports/live---command-1792464815397119000.log
+Watchdog idle=300s waiting=480s heartbeat=30s
+2026-10-20T02:53:35.432097+00:00 Window-start gate: 198.4s until permitted w3 start 2026-10-20T02:56:53.837000+00:00
+2026-10-20T02:54:05.441787+00:00 Window-start gate: 168.4s until permitted w3 start 2026-10-20T02:56:53.837000+00:00
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=0s last=2026-10-20T02:54:05.441787+00:00 Window-start gate: 168.4s until permitted w3 start 2026-10-20T02:56:53.837000+00:00
+2026-10-20T02:54:35.446858+00:00 Window-start gate: 138.4s until permitted w3 start 2026-10-20T02:56:53.837000+00:00
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=0s last=2026-10-20T02:54:35.446858+00:00 Window-start gate: 138.4s until permitted w3 start 2026-10-20T02:56:53.837000+00:00
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=30s last=2026-10-20T02:54:35.446858+00:00 Window-start gate: 138.4s until permitted w3 start 2026-10-20T02:56:53.837000+00:00
+2026-10-20T02:55:05.450080+00:00 Window-start gate: 108.4s until permitted w3 start 2026-10-20T02:56:53.837000+00:00
+2026-10-20T02:55:35.460324+00:00 Window-start gate: 78.4s until permitted w3 start 2026-10-20T02:56:53.837000+00:00
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=0s last=2026-10-20T02:55:35.460324+00:00 Window-start gate: 78.4s until permitted w3 start 2026-10-20T02:56:53.837000+00:00
+2026-10-20T02:56:05.463478+00:00 Window-start gate: 48.4s until permitted w3 start 2026-10-20T02:56:53.837000+00:00
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=0s last=2026-10-20T02:56:05.463478+00:00 Window-start gate: 48.4s until permitted w3 start 2026-10-20T02:56:53.837000+00:00
+2026-10-20T02:56:35.470883+00:00 Window-start gate: 18.4s until permitted w3 start 2026-10-20T02:56:53.837000+00:00
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=0s last=2026-10-20T02:56:35.470883+00:00 Window-start gate: 18.4s until permitted w3 start 2026-10-20T02:56:53.837000+00:00
+2026-10-20T02:56:53.884305+00:00 Window-start gate passed; beginning fresh capacity and health checks
+{
+  "at": "2026-10-20T02:56:55.671Z",
+  "account": "0x9415E00f429549A26310C83c1F47db40eb300415",
+  "balances": [
+    {
+      "network": "arbitrum-sepolia",
+      "balanceETH": "0.097813025584191551"
+    },
+    {
+      "network": "base-sepolia",
+      "balanceETH": "0.097953826122936598"
+    },
+    {
+      "network": "sepolia",
+      "balanceETH": "2.243629648097913513"
+    }
+  ],
+  "pins": 437,
+  "remainingPins": 18,
+  "plannedTotal": 455,
+  "capacity": 500
+}
+Scan healthy: sepolia eid=40161 dstEid=40231 age=597s status=DELIVERED at=2026-10-20T02:56:57.746124+00:00
+Scan healthy: arbitrum-sepolia eid=40231 dstEid=40161 age=556s status=DELIVERED at=2026-10-20T02:56:57.746124+00:00
+Scan healthy: base-sepolia eid=40245 dstEid=40161 age=535s status=DELIVERED at=2026-10-20T02:56:57.746124+00:00
+[2026-10-20T02:56:59.363Z] arbitrum-sepolia: 0xFE84e01B03Cae9B4AaD5678A5681B70bA77435C2, balance 0.097813025584191551, idPrefix 421614
+[2026-10-20T02:56:59.724Z] base-sepolia: 0xFE84e01B03Cae9B4AaD5678A5681B70bA77435C2, balance 0.097953826122936598, idPrefix 84532
+[2026-10-20T02:56:59.806Z] sepolia: 0xAD3B1CA4eD7e212cA7a231829a542128feA8A5Ba, balance 2.243629648097913513, idPrefix 11155111
+[2026-10-20T02:57:04.537Z] Scan preflight: arbitrum-sepolia -> base-sepolia ok (nonce 10 DELIVERED, 2.9 h ago); arbitrum-sepolia -> sepolia ok (nonce 9 DELIVERED, 2.6 h ago); base-sepolia -> arbitrum-sepolia ok (nonce 9 DELIVERED, 2.9 h ago); base-sepolia -> sepolia ok (nonce 10 DELIVERED, 2.2 h ago); sepolia -> arbitrum-sepolia ok (nonce 10 DELIVERED, 2.5 h ago); sepolia -> base-sepolia ok (nonce 9 DELIVERED, 2.2 h ago); arbitrum-sepolia: newest of any application 9 min ago; last 25: 24 DELIVERED, 1 INFLIGHT; base-sepolia: newest of any application 9 min ago; last 25: 24 DELIVERED, 1 INFLIGHT; sepolia: newest of any application 4 min ago; last 25: 9 BLOCKED, 16 DELIVERED
+[2026-10-20T02:57:04.538Z] Deployment whisky-v2-eval3, gateway <gateway>, upload path v3
+[2026-10-20T02:57:04.939Z] === latency arbitrum-sepolia <-> base-sepolia ===
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=1s last=[2026-10-20T02:57:04.939Z] === latency arbitrum-sepolia <-> base-sepolia ===
+[2026-10-20T02:57:06.671Z]   pinned revision 0 of 421614000000000018: bafkreidti262jfo26j7db3pxeiflyjvhslcvvsovykeaumsjmohwigynru (411 bytes)
+[2026-10-20T02:57:06.671Z] [arbitrum-sepolia] mint(0x9415E00f429549A26310C83c1F47db40eb300415, 421614000000000018, bafkreidti262jfo26j7db3pxeiflyjvhslcvvsovykeaumsjmohwigynru)
+[2026-10-20T02:57:12.862Z]   ok   PassportIssued emitted: tokenId 421614000000000018
+[2026-10-20T02:57:12.862Z]   ok   tokenId is the expectedTokenId and next in the chain namespace: 421614000000000018 == 421614000000000018
+[2026-10-20T02:57:12.862Z]   ok   originOf is this chain: 421614 == 421614
+[2026-10-20T02:57:12.862Z]   ok   recipient holds the token: ownerOf 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-20T02:57:12.862Z]   ok   passport is revision 0: (revision 0, bafkreidti262jfo26j7db3pxeiflyjvhslcvvsovykeaumsjmohwigynru)
+[2026-10-20T02:57:12.862Z]   ok   history hash commits to the run's CIDs: 0x0436a117b94e5beee9fb524738483b11a425e8f2cec362d32d8f3defd4f3e703 (expected 0x0436a117b94e5beee9fb524738483b11a425e8f2cec362d32d8f3defd4f3e703 over 1 CIDs)
+[2026-10-20T02:57:12.862Z]   ok   tokenURI resolves the CID: ipfs://bafkreidti262jfo26j7db3pxeiflyjvhslcvvsovykeaumsjmohwigynru
+[2026-10-20T02:57:12.862Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-20T02:57:13.213Z] [arbitrum-sepolia] send(421614000000000018) to base-sepolia (eid 40245), fee 0.000101831703710967
+[2026-10-20T02:57:18.754Z]   guid 0x775b55636e6e31d14ac4f9ea8f201eef1b12055e1851f7856d8a614d20bb4c26, https://testnet.layerzeroscan.com/tx/0xe818a486a7964417871c6b4377d7c1220ef2fbed6f8a660acd49d3a10a8b6f0a
+[2026-10-20T02:57:19.624Z]   waiting for base-sepolia (0s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=16s last=[2026-10-20T02:57:19.624Z]   waiting for base-sepolia (0s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+[2026-10-20T02:57:51.167Z]   waiting for base-sepolia (32s): INFLIGHT (Ready for committer to commit verification); ownerOf=absent; inboundPayloadHash=0xadea5e9907eec8b7051bcdeea8ac526e114d1fb7d9ee35c9cb756dbfbfa13336
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=14s last=[2026-10-20T02:57:51.167Z]   waiting for base-sepolia (32s): INFLIGHT (Ready for committer to commit verification); ownerOf=absent; inboundPayloadHash=0xadea5e9907eec8b7051bcdeea8ac526e114d1fb7d9ee35c9cb756dbfbfa13336
+[2026-10-20T02:58:30.239Z]   ok   token absent on the destination before the send: ownerOf reverts
+[2026-10-20T02:58:30.239Z]   ok   ONFTSent emitted: guid 0x775b55636e6e31d14ac4f9ea8f201eef1b12055e1851f7856d8a614d20bb4c26
+[2026-10-20T02:58:30.239Z]   ok   token burned on the source: ownerOf reverts
+[2026-10-20T02:58:30.239Z]   ok   source no longer serves the passport: reverts
+[2026-10-20T02:58:30.239Z]   ok   token delivered to the receiver under the same tokenId: ownerOf 0x9415E00f429549A26310C83c1F47db40eb300415 after ~48s; LayerZero Scan: DELIVERED (Executor transaction confirmed)
+[2026-10-20T02:58:30.239Z]   ok   destination carries (revision 0, bafkreidti262jfo26j7db3pxeiflyjvhslcvvsovykeaumsjmohwigynru): (revision 0, bafkreidti262jfo26j7db3pxeiflyjvhslcvvsovykeaumsjmohwigynru)
+[2026-10-20T02:58:30.239Z]   ok   history hash commits to the run's CIDs: 0x0436a117b94e5beee9fb524738483b11a425e8f2cec362d32d8f3defd4f3e703 (expected 0x0436a117b94e5beee9fb524738483b11a425e8f2cec362d32d8f3defd4f3e703 over 1 CIDs)
+[2026-10-20T02:58:30.239Z]   ok   destination tokenURI resolves the CID: ipfs://bafkreidti262jfo26j7db3pxeiflyjvhslcvvsovykeaumsjmohwigynru
+[2026-10-20T02:58:30.239Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-20T02:58:30.499Z] [base-sepolia] send(421614000000000018) to arbitrum-sepolia (eid 40231), fee 0.000108472967710967
+[2026-10-20T02:58:32.343Z]   guid 0xe68a8963c8bda9731917d7322e1b0b27f275f2da20ff1ddabfaf70ad85e5950b, https://testnet.layerzeroscan.com/tx/0x46953a87e37f68557a789e8a10c7a84c900ec7d29330e91ec993808daf492a5a
+[2026-10-20T02:58:33.490Z]   waiting for arbitrum-sepolia (0s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=2s last=[2026-10-20T02:58:33.490Z]   waiting for arbitrum-sepolia (0s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+[2026-10-20T02:59:05.331Z]   waiting for arbitrum-sepolia (32s): INFLIGHT (Ready for committer to commit verification); ownerOf=absent; inboundPayloadHash=0x774d8e32404d791602deb829444d6fb1130cb1231d6ae8acec7a3cd7d5587867
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=0s last=[2026-10-20T02:59:05.331Z]   waiting for arbitrum-sepolia (32s): INFLIGHT (Ready for committer to commit verification); ownerOf=absent; inboundPayloadHash=0x774d8e32404d791602deb829444d6fb1130cb1231d6ae8acec7a3cd7d5587867
+[2026-10-20T02:59:28.466Z]   ok   token absent on the destination before the send: ownerOf reverts
+[2026-10-20T02:59:28.466Z]   ok   ONFTSent emitted: guid 0xe68a8963c8bda9731917d7322e1b0b27f275f2da20ff1ddabfaf70ad85e5950b
+[2026-10-20T02:59:28.466Z]   ok   token burned on the source: ownerOf reverts
+[2026-10-20T02:59:28.466Z]   ok   source no longer serves the passport: reverts
+[2026-10-20T02:59:28.466Z]   ok   token delivered to the receiver under the same tokenId: ownerOf 0x9415E00f429549A26310C83c1F47db40eb300415 after ~38s; LayerZero Scan: DELIVERED (Executor transaction confirmed)
+[2026-10-20T02:59:28.466Z]   ok   destination carries (revision 0, bafkreidti262jfo26j7db3pxeiflyjvhslcvvsovykeaumsjmohwigynru): (revision 0, bafkreidti262jfo26j7db3pxeiflyjvhslcvvsovykeaumsjmohwigynru)
+[2026-10-20T02:59:28.466Z]   ok   history hash commits to the run's CIDs: 0x0436a117b94e5beee9fb524738483b11a425e8f2cec362d32d8f3defd4f3e703 (expected 0x0436a117b94e5beee9fb524738483b11a425e8f2cec362d32d8f3defd4f3e703 over 1 CIDs)
+[2026-10-20T02:59:28.466Z]   ok   destination tokenURI resolves the CID: ipfs://bafkreidti262jfo26j7db3pxeiflyjvhslcvvsovykeaumsjmohwigynru
+[2026-10-20T02:59:28.466Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-20T02:59:28.731Z] [arbitrum-sepolia] send(421614000000000018) to base-sepolia (eid 40245), fee 0.000101831703710967
+[2026-10-20T02:59:34.482Z]   guid 0xad9509d47341ed447f2d82d48511d852cb92be1a250905f2fb2fed4867856866, https://testnet.layerzeroscan.com/tx/0xd4953afcd90193801f7b5c3d78dea101d01c12e3c2b458c1e7ba03b563055fd6
+[2026-10-20T02:59:35.419Z]   waiting for base-sepolia (0s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=0s last=[2026-10-20T02:59:35.419Z]   waiting for base-sepolia (0s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=30s last=[2026-10-20T02:59:35.419Z]   waiting for base-sepolia (0s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+[2026-10-20T03:00:06.994Z]   waiting for base-sepolia (32s): INFLIGHT (Ready for committer to commit verification); ownerOf=absent; inboundPayloadHash=0x19a59a5d56e2dca7221452231c4a56f8b8dfbcdce6cdd7277bf91f309fb81643
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=29s last=[2026-10-20T03:00:06.994Z]   waiting for base-sepolia (32s): INFLIGHT (Ready for committer to commit verification); ownerOf=absent; inboundPayloadHash=0x19a59a5d56e2dca7221452231c4a56f8b8dfbcdce6cdd7277bf91f309fb81643
+[2026-10-20T03:00:41.246Z]   ok   token absent on the destination before the send: ownerOf reverts
+[2026-10-20T03:00:41.246Z]   ok   ONFTSent emitted: guid 0xad9509d47341ed447f2d82d48511d852cb92be1a250905f2fb2fed4867856866
+[2026-10-20T03:00:41.246Z]   ok   token burned on the source: ownerOf reverts
+[2026-10-20T03:00:41.246Z]   ok   source no longer serves the passport: reverts
+[2026-10-20T03:00:41.246Z]   ok   token delivered to the receiver under the same tokenId: ownerOf 0x9415E00f429549A26310C83c1F47db40eb300415 after ~43s; LayerZero Scan: DELIVERED (Executor transaction confirmed)
+[2026-10-20T03:00:41.246Z]   ok   destination carries (revision 0, bafkreidti262jfo26j7db3pxeiflyjvhslcvvsovykeaumsjmohwigynru): (revision 0, bafkreidti262jfo26j7db3pxeiflyjvhslcvvsovykeaumsjmohwigynru)
+[2026-10-20T03:00:41.246Z]   ok   history hash commits to the run's CIDs: 0x0436a117b94e5beee9fb524738483b11a425e8f2cec362d32d8f3defd4f3e703 (expected 0x0436a117b94e5beee9fb524738483b11a425e8f2cec362d32d8f3defd4f3e703 over 1 CIDs)
+[2026-10-20T03:00:41.246Z]   ok   destination tokenURI resolves the CID: ipfs://bafkreidti262jfo26j7db3pxeiflyjvhslcvvsovykeaumsjmohwigynru
+[2026-10-20T03:00:41.246Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-20T03:00:41.554Z] [base-sepolia] send(421614000000000018) to arbitrum-sepolia (eid 40231), fee 0.000108472967710967
+[2026-10-20T03:00:44.582Z]   guid 0x2dc7e79e5fbd5bf47fcec0a93407b46d3700ad35224e6424add0c0386dd28d77, https://testnet.layerzeroscan.com/tx/0x1c1da4cf211368d5cdbb0e00f9b53e4190a23d1f5a3359a8adad28fdd3d7e02d
+[2026-10-20T03:00:45.541Z]   waiting for arbitrum-sepolia (0s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=20s last=[2026-10-20T03:00:45.541Z]   waiting for arbitrum-sepolia (0s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+[2026-10-20T03:01:17.296Z]   waiting for arbitrum-sepolia (32s): INFLIGHT (Ready for committer to commit verification); ownerOf=absent; inboundPayloadHash=0x46a27bf6e24950a9149e2a504f4d058c66ae10f83ab53fd241e05f65559eb9be
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=19s last=[2026-10-20T03:01:17.296Z]   waiting for arbitrum-sepolia (32s): INFLIGHT (Ready for committer to commit verification); ownerOf=absent; inboundPayloadHash=0x46a27bf6e24950a9149e2a504f4d058c66ae10f83ab53fd241e05f65559eb9be
+[2026-10-20T03:01:40.358Z]   ok   token absent on the destination before the send: ownerOf reverts
+[2026-10-20T03:01:40.358Z]   ok   ONFTSent emitted: guid 0x2dc7e79e5fbd5bf47fcec0a93407b46d3700ad35224e6424add0c0386dd28d77
+[2026-10-20T03:01:40.358Z]   ok   token burned on the source: ownerOf reverts
+[2026-10-20T03:01:40.358Z]   ok   source no longer serves the passport: reverts
+[2026-10-20T03:01:40.358Z]   ok   token delivered to the receiver under the same tokenId: ownerOf 0x9415E00f429549A26310C83c1F47db40eb300415 after ~44s; LayerZero Scan: DELIVERED (Executor transaction confirmed)
+[2026-10-20T03:01:40.358Z]   ok   destination carries (revision 0, bafkreidti262jfo26j7db3pxeiflyjvhslcvvsovykeaumsjmohwigynru): (revision 0, bafkreidti262jfo26j7db3pxeiflyjvhslcvvsovykeaumsjmohwigynru)
+[2026-10-20T03:01:40.358Z]   ok   history hash commits to the run's CIDs: 0x0436a117b94e5beee9fb524738483b11a425e8f2cec362d32d8f3defd4f3e703 (expected 0x0436a117b94e5beee9fb524738483b11a425e8f2cec362d32d8f3defd4f3e703 over 1 CIDs)
+[2026-10-20T03:01:40.358Z]   ok   destination tokenURI resolves the CID: ipfs://bafkreidti262jfo26j7db3pxeiflyjvhslcvvsovykeaumsjmohwigynru
+[2026-10-20T03:01:40.358Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-20T03:01:40.716Z] [arbitrum-sepolia] send(421614000000000018) to base-sepolia (eid 40245), fee 0.000101831703710967
+[2026-10-20T03:01:46.715Z]   guid 0xc08af802b9bfdef92240664c4a8361624ea03a009a7e60c15616a19caba2b162, https://testnet.layerzeroscan.com/tx/0x2cdbacc675055f98839049062eacf284852de9c0667d04c1db8133370600f162
+[2026-10-20T03:01:47.595Z]   waiting for base-sepolia (0s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=18s last=[2026-10-20T03:01:47.595Z]   waiting for base-sepolia (0s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=48s last=[2026-10-20T03:01:47.595Z]   waiting for base-sepolia (0s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+[2026-10-20T03:02:42.836Z]   ok   token absent on the destination before the send: ownerOf reverts
+[2026-10-20T03:02:42.837Z]   ok   ONFTSent emitted: guid 0xc08af802b9bfdef92240664c4a8361624ea03a009a7e60c15616a19caba2b162
+[2026-10-20T03:02:42.837Z]   ok   token burned on the source: ownerOf reverts
+[2026-10-20T03:02:42.837Z]   ok   source no longer serves the passport: reverts
+[2026-10-20T03:02:42.837Z]   ok   token delivered to the receiver under the same tokenId: ownerOf 0x9415E00f429549A26310C83c1F47db40eb300415 after ~32s; LayerZero Scan: DELIVERED (Executor transaction confirmed)
+[2026-10-20T03:02:42.837Z]   ok   destination carries (revision 0, bafkreidti262jfo26j7db3pxeiflyjvhslcvvsovykeaumsjmohwigynru): (revision 0, bafkreidti262jfo26j7db3pxeiflyjvhslcvvsovykeaumsjmohwigynru)
+[2026-10-20T03:02:42.837Z]   ok   history hash commits to the run's CIDs: 0x0436a117b94e5beee9fb524738483b11a425e8f2cec362d32d8f3defd4f3e703 (expected 0x0436a117b94e5beee9fb524738483b11a425e8f2cec362d32d8f3defd4f3e703 over 1 CIDs)
+[2026-10-20T03:02:42.837Z]   ok   destination tokenURI resolves the CID: ipfs://bafkreidti262jfo26j7db3pxeiflyjvhslcvvsovykeaumsjmohwigynru
+[2026-10-20T03:02:42.837Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-20T03:02:43.095Z] [base-sepolia] send(421614000000000018) to arbitrum-sepolia (eid 40231), fee 0.000108472967710967
+[2026-10-20T03:02:46.316Z]   guid 0x2caab3401719f0a824af65db9e4151c2489ae44d2cbf082c45643af0f1fe37ba, https://testnet.layerzeroscan.com/tx/0xa7762a382a28bb34302aee604be6b898c312b282dc84afb9eca2dd92b34860f9
+[2026-10-20T03:02:47.210Z]   waiting for arbitrum-sepolia (0s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=19s last=[2026-10-20T03:02:47.210Z]   waiting for arbitrum-sepolia (0s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+[2026-10-20T03:03:30.772Z]   ok   token absent on the destination before the send: ownerOf reverts
+[2026-10-20T03:03:30.772Z]   ok   ONFTSent emitted: guid 0x2caab3401719f0a824af65db9e4151c2489ae44d2cbf082c45643af0f1fe37ba
+[2026-10-20T03:03:30.772Z]   ok   token burned on the source: ownerOf reverts
+[2026-10-20T03:03:30.772Z]   ok   source no longer serves the passport: reverts
+[2026-10-20T03:03:30.772Z]   ok   token delivered to the receiver under the same tokenId: ownerOf 0x9415E00f429549A26310C83c1F47db40eb300415 after ~32s; LayerZero Scan: DELIVERED (Executor transaction confirmed)
+[2026-10-20T03:03:30.772Z]   ok   destination carries (revision 0, bafkreidti262jfo26j7db3pxeiflyjvhslcvvsovykeaumsjmohwigynru): (revision 0, bafkreidti262jfo26j7db3pxeiflyjvhslcvvsovykeaumsjmohwigynru)
+[2026-10-20T03:03:30.772Z]   ok   history hash commits to the run's CIDs: 0x0436a117b94e5beee9fb524738483b11a425e8f2cec362d32d8f3defd4f3e703 (expected 0x0436a117b94e5beee9fb524738483b11a425e8f2cec362d32d8f3defd4f3e703 over 1 CIDs)
+[2026-10-20T03:03:30.772Z]   ok   destination tokenURI resolves the CID: ipfs://bafkreidti262jfo26j7db3pxeiflyjvhslcvvsovykeaumsjmohwigynru
+[2026-10-20T03:03:30.772Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-20T03:03:31.035Z] [arbitrum-sepolia] send(421614000000000018) to base-sepolia (eid 40245), fee 0.000101831703710967
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=5s last=[2026-10-20T03:03:31.035Z] [arbitrum-sepolia] send(421614000000000018) to base-sepolia (eid 40245), fee 0.000101831703710967
+[2026-10-20T03:03:36.788Z]   guid 0x2d403bbb0843a1e78df980f83f8db17a4ad4ec7ee21ffd1810b4476f83eb8686, https://testnet.layerzeroscan.com/tx/0x91a531c0eaaaf602fc7c2dc9024b2ed6b823e3bce1da1397b7ce39d82fd6e600
+[2026-10-20T03:03:37.696Z]   waiting for base-sepolia (0s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=28s last=[2026-10-20T03:03:37.696Z]   waiting for base-sepolia (0s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+[2026-10-20T03:04:09.256Z]   waiting for base-sepolia (32s): INFLIGHT (Ready for committer to commit verification); ownerOf=absent; inboundPayloadHash=0xf89cae6f9604fe8eaa9d2eaaab5896ffc43684075d9c44e89bf148d1402903a0
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=27s last=[2026-10-20T03:04:09.256Z]   waiting for base-sepolia (32s): INFLIGHT (Ready for committer to commit verification); ownerOf=absent; inboundPayloadHash=0xf89cae6f9604fe8eaa9d2eaaab5896ffc43684075d9c44e89bf148d1402903a0
+[2026-10-20T03:04:43.547Z]   ok   token absent on the destination before the send: ownerOf reverts
+[2026-10-20T03:04:43.548Z]   ok   ONFTSent emitted: guid 0x2d403bbb0843a1e78df980f83f8db17a4ad4ec7ee21ffd1810b4476f83eb8686
+[2026-10-20T03:04:43.548Z]   ok   token burned on the source: ownerOf reverts
+[2026-10-20T03:04:43.548Z]   ok   source no longer serves the passport: reverts
+[2026-10-20T03:04:43.548Z]   ok   token delivered to the receiver under the same tokenId: ownerOf 0x9415E00f429549A26310C83c1F47db40eb300415 after ~42s; LayerZero Scan: DELIVERED (Executor transaction confirmed)
+[2026-10-20T03:04:43.548Z]   ok   destination carries (revision 0, bafkreidti262jfo26j7db3pxeiflyjvhslcvvsovykeaumsjmohwigynru): (revision 0, bafkreidti262jfo26j7db3pxeiflyjvhslcvvsovykeaumsjmohwigynru)
+[2026-10-20T03:04:43.548Z]   ok   history hash commits to the run's CIDs: 0x0436a117b94e5beee9fb524738483b11a425e8f2cec362d32d8f3defd4f3e703 (expected 0x0436a117b94e5beee9fb524738483b11a425e8f2cec362d32d8f3defd4f3e703 over 1 CIDs)
+[2026-10-20T03:04:43.548Z]   ok   destination tokenURI resolves the CID: ipfs://bafkreidti262jfo26j7db3pxeiflyjvhslcvvsovykeaumsjmohwigynru
+[2026-10-20T03:04:43.548Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-20T03:04:43.851Z] [base-sepolia] send(421614000000000018) to arbitrum-sepolia (eid 40231), fee 0.000108472967710967
+[2026-10-20T03:04:46.259Z]   guid 0x371f78cca0476f8f005ae17c0b355ec8d247e7ebae29299bdf7f0adbfe73f5c6, https://testnet.layerzeroscan.com/tx/0x3ebbbee2254a45b0a871409c66e4dc3ca9cb83f110d2c3b5282048691daf302a
+[2026-10-20T03:04:47.266Z]   waiting for arbitrum-sepolia (0s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=19s last=[2026-10-20T03:04:47.266Z]   waiting for arbitrum-sepolia (0s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+[2026-10-20T03:05:18.939Z]   waiting for arbitrum-sepolia (32s): INFLIGHT (Ready for committer to commit verification); ownerOf=absent; inboundPayloadHash=0xc135540535b8c0fcbbebf57f7ce7c02d4ef044b5a23032da39bd29d485566d9a
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=17s last=[2026-10-20T03:05:18.939Z]   waiting for arbitrum-sepolia (32s): INFLIGHT (Ready for committer to commit verification); ownerOf=absent; inboundPayloadHash=0xc135540535b8c0fcbbebf57f7ce7c02d4ef044b5a23032da39bd29d485566d9a
+[2026-10-20T03:05:58.149Z]   ok   token absent on the destination before the send: ownerOf reverts
+[2026-10-20T03:05:58.150Z]   ok   ONFTSent emitted: guid 0x371f78cca0476f8f005ae17c0b355ec8d247e7ebae29299bdf7f0adbfe73f5c6
+[2026-10-20T03:05:58.150Z]   ok   token burned on the source: ownerOf reverts
+[2026-10-20T03:05:58.150Z]   ok   source no longer serves the passport: reverts
+[2026-10-20T03:05:58.150Z]   ok   token delivered to the receiver under the same tokenId: ownerOf 0x9415E00f429549A26310C83c1F47db40eb300415 after ~48s; LayerZero Scan: DELIVERED (Executor transaction confirmed)
+[2026-10-20T03:05:58.150Z]   ok   destination carries (revision 0, bafkreidti262jfo26j7db3pxeiflyjvhslcvvsovykeaumsjmohwigynru): (revision 0, bafkreidti262jfo26j7db3pxeiflyjvhslcvvsovykeaumsjmohwigynru)
+[2026-10-20T03:05:58.150Z]   ok   history hash commits to the run's CIDs: 0x0436a117b94e5beee9fb524738483b11a425e8f2cec362d32d8f3defd4f3e703 (expected 0x0436a117b94e5beee9fb524738483b11a425e8f2cec362d32d8f3defd4f3e703 over 1 CIDs)
+[2026-10-20T03:05:58.150Z]   ok   destination tokenURI resolves the CID: ipfs://bafkreidti262jfo26j7db3pxeiflyjvhslcvvsovykeaumsjmohwigynru
+[2026-10-20T03:05:58.150Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-20T03:05:58.150Z] === latency arbitrum-sepolia <-> base-sepolia: PASS ===
+[2026-10-20T03:05:58.151Z] === latency arbitrum-sepolia <-> sepolia ===
+[2026-10-20T03:05:59.523Z]   pinned revision 0 of 421614000000000019: bafkreicynj4tshgirqy4cn2crs22ifs5ny4xuzix3s3zaboggqasyyz3aq (406 bytes)
+[2026-10-20T03:05:59.523Z] [arbitrum-sepolia] mint(0x9415E00f429549A26310C83c1F47db40eb300415, 421614000000000019, bafkreicynj4tshgirqy4cn2crs22ifs5ny4xuzix3s3zaboggqasyyz3aq)
+[2026-10-20T03:06:05.934Z]   ok   PassportIssued emitted: tokenId 421614000000000019
+[2026-10-20T03:06:05.935Z]   ok   tokenId is the expectedTokenId and next in the chain namespace: 421614000000000019 == 421614000000000019
+[2026-10-20T03:06:05.935Z]   ok   originOf is this chain: 421614 == 421614
+[2026-10-20T03:06:05.935Z]   ok   recipient holds the token: ownerOf 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-20T03:06:05.935Z]   ok   passport is revision 0: (revision 0, bafkreicynj4tshgirqy4cn2crs22ifs5ny4xuzix3s3zaboggqasyyz3aq)
+[2026-10-20T03:06:05.935Z]   ok   history hash commits to the run's CIDs: 0x3b3ae766642701761bc6fcaa83eb45efb5aca654523ae82368bdc0da53260ef4 (expected 0x3b3ae766642701761bc6fcaa83eb45efb5aca654523ae82368bdc0da53260ef4 over 1 CIDs)
+[2026-10-20T03:06:05.935Z]   ok   tokenURI resolves the CID: ipfs://bafkreicynj4tshgirqy4cn2crs22ifs5ny4xuzix3s3zaboggqasyyz3aq
+[2026-10-20T03:06:05.935Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-20T03:06:06.159Z] [arbitrum-sepolia] send(421614000000000019) to sepolia (eid 40161), fee 0.000098985508365383
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=0s last=[2026-10-20T03:06:06.159Z] [arbitrum-sepolia] send(421614000000000019) to sepolia (eid 40161), fee 0.000098985508365383
+[2026-10-20T03:06:11.681Z]   guid 0xbf2c2b0f66dc3ad89f71d857b2368865b02154eb66cacef049e115cc122aa498, https://testnet.layerzeroscan.com/tx/0xf32f0942993498191fb50a83ed75184f0daa11179094bbe9f10727b2f64f8278
+[2026-10-20T03:06:12.341Z]   waiting for sepolia (0s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=24s last=[2026-10-20T03:06:12.341Z]   waiting for sepolia (0s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+[2026-10-20T03:06:43.208Z]   waiting for sepolia (31s): INFLIGHT (Ready for DVNs to verify); ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=23s last=[2026-10-20T03:06:43.208Z]   waiting for sepolia (31s): INFLIGHT (Ready for DVNs to verify); ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+[2026-10-20T03:07:14.288Z]   waiting for sepolia (62s): INFLIGHT (Ready for DVNs to verify); ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=22s last=[2026-10-20T03:07:14.288Z]   waiting for sepolia (62s): INFLIGHT (Ready for DVNs to verify); ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+[2026-10-20T03:07:45.349Z]   waiting for sepolia (93s): INFLIGHT (Ready for DVNs to verify); ownerOf=absent; inboundPayloadHash=0x7537d4072e71ea75bef307515f7636eae941f2b97651c0b359df575faa002019
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=21s last=[2026-10-20T03:07:45.349Z]   waiting for sepolia (93s): INFLIGHT (Ready for DVNs to verify); ownerOf=absent; inboundPayloadHash=0x7537d4072e71ea75bef307515f7636eae941f2b97651c0b359df575faa002019
+[2026-10-20T03:08:16.189Z]   waiting for sepolia (124s): INFLIGHT (Ready for committer to commit verification); ownerOf=absent; inboundPayloadHash=0x7537d4072e71ea75bef307515f7636eae941f2b97651c0b359df575faa002019
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=20s last=[2026-10-20T03:08:16.189Z]   waiting for sepolia (124s): INFLIGHT (Ready for committer to commit verification); ownerOf=absent; inboundPayloadHash=0x7537d4072e71ea75bef307515f7636eae941f2b97651c0b359df575faa002019
+[2026-10-20T03:09:00.659Z]   ok   token absent on the destination before the send: ownerOf reverts
+[2026-10-20T03:09:00.659Z]   ok   ONFTSent emitted: guid 0xbf2c2b0f66dc3ad89f71d857b2368865b02154eb66cacef049e115cc122aa498
+[2026-10-20T03:09:00.659Z]   ok   token burned on the source: ownerOf reverts
+[2026-10-20T03:09:00.659Z]   ok   source no longer serves the passport: reverts
+[2026-10-20T03:09:00.659Z]   ok   token delivered to the receiver under the same tokenId: ownerOf 0x9415E00f429549A26310C83c1F47db40eb300415 after ~140s; LayerZero Scan: INFLIGHT (Verification committed)
+[2026-10-20T03:09:00.659Z]   ok   destination carries (revision 0, bafkreicynj4tshgirqy4cn2crs22ifs5ny4xuzix3s3zaboggqasyyz3aq): (revision 0, bafkreicynj4tshgirqy4cn2crs22ifs5ny4xuzix3s3zaboggqasyyz3aq)
+[2026-10-20T03:09:00.659Z]   ok   history hash commits to the run's CIDs: 0x3b3ae766642701761bc6fcaa83eb45efb5aca654523ae82368bdc0da53260ef4 (expected 0x3b3ae766642701761bc6fcaa83eb45efb5aca654523ae82368bdc0da53260ef4 over 1 CIDs)
+[2026-10-20T03:09:00.659Z]   ok   destination tokenURI resolves the CID: ipfs://bafkreicynj4tshgirqy4cn2crs22ifs5ny4xuzix3s3zaboggqasyyz3aq
+[2026-10-20T03:09:00.659Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-20T03:09:00.860Z] [sepolia] send(421614000000000019) to arbitrum-sepolia (eid 40231), fee 0.000142248695540558
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=6s last=[2026-10-20T03:09:00.860Z] [sepolia] send(421614000000000019) to arbitrum-sepolia (eid 40231), fee 0.000142248695540558
+[2026-10-20T03:09:17.403Z]   guid 0x18df4d0462fbefcb788e4468a3c0686fe1082ca689f257bb48ec0d3faa92f655, https://testnet.layerzeroscan.com/tx/0x5b19dc8fa0f827f882c008b2e79beb434a556e3407149eda289d4d7240ca361c
+[2026-10-20T03:09:18.344Z]   waiting for arbitrum-sepolia (0s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=18s last=[2026-10-20T03:09:18.344Z]   waiting for arbitrum-sepolia (0s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+[2026-10-20T03:09:50.086Z]   waiting for arbitrum-sepolia (32s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=16s last=[2026-10-20T03:09:50.086Z]   waiting for arbitrum-sepolia (32s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=46s last=[2026-10-20T03:09:50.086Z]   waiting for arbitrum-sepolia (32s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+[2026-10-20T03:10:50.230Z]   ok   token absent on the destination before the send: ownerOf reverts
+[2026-10-20T03:10:50.230Z]   ok   ONFTSent emitted: guid 0x18df4d0462fbefcb788e4468a3c0686fe1082ca689f257bb48ec0d3faa92f655
+[2026-10-20T03:10:50.230Z]   ok   token burned on the source: ownerOf reverts
+[2026-10-20T03:10:50.230Z]   ok   source no longer serves the passport: reverts
+[2026-10-20T03:10:50.230Z]   ok   token delivered to the receiver under the same tokenId: ownerOf 0x9415E00f429549A26310C83c1F47db40eb300415 after ~69s; LayerZero Scan: DELIVERED (Executor transaction confirmed)
+[2026-10-20T03:10:50.230Z]   ok   destination carries (revision 0, bafkreicynj4tshgirqy4cn2crs22ifs5ny4xuzix3s3zaboggqasyyz3aq): (revision 0, bafkreicynj4tshgirqy4cn2crs22ifs5ny4xuzix3s3zaboggqasyyz3aq)
+[2026-10-20T03:10:50.230Z]   ok   history hash commits to the run's CIDs: 0x3b3ae766642701761bc6fcaa83eb45efb5aca654523ae82368bdc0da53260ef4 (expected 0x3b3ae766642701761bc6fcaa83eb45efb5aca654523ae82368bdc0da53260ef4 over 1 CIDs)
+[2026-10-20T03:10:50.230Z]   ok   destination tokenURI resolves the CID: ipfs://bafkreicynj4tshgirqy4cn2crs22ifs5ny4xuzix3s3zaboggqasyyz3aq
+[2026-10-20T03:10:50.230Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-20T03:10:50.410Z] [arbitrum-sepolia] send(421614000000000019) to sepolia (eid 40161), fee 0.000098985508365383
+network block skew detected; skipping block events (emitted=320927545 blockNumber320928636)
+[2026-10-20T03:10:56.095Z]   guid 0x15881d57e47a1674a61e9a37a2ab5d242c0a741058e6e059cabc65faf4f833e6, https://testnet.layerzeroscan.com/tx/0x02b8c1bb156390c39cc329dfd77502284ecf60ffbe755126d66cb817c6040dee
+[2026-10-20T03:10:56.734Z]   waiting for sepolia (0s): INFLIGHT (Source transaction sent); ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=10s last=[2026-10-20T03:10:56.734Z]   waiting for sepolia (0s): INFLIGHT (Source transaction sent); ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+[2026-10-20T03:11:27.578Z]   waiting for sepolia (31s): INFLIGHT (Source transaction sent); ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=9s last=[2026-10-20T03:11:27.578Z]   waiting for sepolia (31s): INFLIGHT (Source transaction sent); ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+[2026-10-20T03:11:58.472Z]   waiting for sepolia (62s): INFLIGHT (Ready for DVNs to verify); ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=8s last=[2026-10-20T03:11:58.472Z]   waiting for sepolia (62s): INFLIGHT (Ready for DVNs to verify); ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+[2026-10-20T03:12:29.342Z]   waiting for sepolia (93s): INFLIGHT (Ready for DVNs to verify); ownerOf=absent; inboundPayloadHash=0x789486f4c8d1650197d95e1a326c9f6b37c58ddb8b85527038c229871f1e0461
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=7s last=[2026-10-20T03:12:29.342Z]   waiting for sepolia (93s): INFLIGHT (Ready for DVNs to verify); ownerOf=absent; inboundPayloadHash=0x789486f4c8d1650197d95e1a326c9f6b37c58ddb8b85527038c229871f1e0461
+[2026-10-20T03:13:00.361Z]   waiting for sepolia (124s): INFLIGHT (Ready for committer to commit verification); ownerOf=absent; inboundPayloadHash=0x789486f4c8d1650197d95e1a326c9f6b37c58ddb8b85527038c229871f1e0461
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=7s last=[2026-10-20T03:13:00.361Z]   waiting for sepolia (124s): INFLIGHT (Ready for committer to commit verification); ownerOf=absent; inboundPayloadHash=0x789486f4c8d1650197d95e1a326c9f6b37c58ddb8b85527038c229871f1e0461
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=37s last=[2026-10-20T03:13:00.361Z]   waiting for sepolia (124s): INFLIGHT (Ready for committer to commit verification); ownerOf=absent; inboundPayloadHash=0x789486f4c8d1650197d95e1a326c9f6b37c58ddb8b85527038c229871f1e0461
+[2026-10-20T03:13:59.936Z]   ok   token absent on the destination before the send: ownerOf reverts
+[2026-10-20T03:13:59.936Z]   ok   ONFTSent emitted: guid 0x15881d57e47a1674a61e9a37a2ab5d242c0a741058e6e059cabc65faf4f833e6
+[2026-10-20T03:13:59.936Z]   ok   token burned on the source: ownerOf reverts
+[2026-10-20T03:13:59.936Z]   ok   source no longer serves the passport: reverts
+[2026-10-20T03:13:59.936Z]   ok   token delivered to the receiver under the same tokenId: ownerOf 0x9415E00f429549A26310C83c1F47db40eb300415 after ~155s; LayerZero Scan: INFLIGHT (Verification committed)
+[2026-10-20T03:13:59.936Z]   ok   destination carries (revision 0, bafkreicynj4tshgirqy4cn2crs22ifs5ny4xuzix3s3zaboggqasyyz3aq): (revision 0, bafkreicynj4tshgirqy4cn2crs22ifs5ny4xuzix3s3zaboggqasyyz3aq)
+[2026-10-20T03:13:59.936Z]   ok   history hash commits to the run's CIDs: 0x3b3ae766642701761bc6fcaa83eb45efb5aca654523ae82368bdc0da53260ef4 (expected 0x3b3ae766642701761bc6fcaa83eb45efb5aca654523ae82368bdc0da53260ef4 over 1 CIDs)
+[2026-10-20T03:13:59.936Z]   ok   destination tokenURI resolves the CID: ipfs://bafkreicynj4tshgirqy4cn2crs22ifs5ny4xuzix3s3zaboggqasyyz3aq
+[2026-10-20T03:13:59.936Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-20T03:14:00.125Z] [sepolia] send(421614000000000019) to arbitrum-sepolia (eid 40231), fee 0.000142248695540558
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=7s last=[2026-10-20T03:14:00.125Z] [sepolia] send(421614000000000019) to arbitrum-sepolia (eid 40231), fee 0.000142248695540558
+[2026-10-20T03:14:16.713Z]   guid 0x69c6a5f1ffa1d8a5cda27fcc06be4d249738b75e07646db9a825c1e5eafa76c0, https://testnet.layerzeroscan.com/tx/0xe05089f85292c3ced820dea1128f5f518757bfba82741c7d864e4a1e491a6eb9
+[2026-10-20T03:14:17.676Z]   waiting for arbitrum-sepolia (0s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=19s last=[2026-10-20T03:14:17.676Z]   waiting for arbitrum-sepolia (0s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+[2026-10-20T03:14:49.509Z]   waiting for arbitrum-sepolia (32s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=18s last=[2026-10-20T03:14:49.509Z]   waiting for arbitrum-sepolia (32s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+[2026-10-20T03:15:21.156Z]   waiting for arbitrum-sepolia (64s): INFLIGHT (Ready for committer to commit verification); ownerOf=absent; inboundPayloadHash=0xe3e4ddd8ca458884790d90b63efeac958e247217f9b98350f70948fc7908f34e
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=16s last=[2026-10-20T03:15:21.156Z]   waiting for arbitrum-sepolia (64s): INFLIGHT (Ready for committer to commit verification); ownerOf=absent; inboundPayloadHash=0xe3e4ddd8ca458884790d90b63efeac958e247217f9b98350f70948fc7908f34e
+[2026-10-20T03:15:49.975Z]   ok   token absent on the destination before the send: ownerOf reverts
+[2026-10-20T03:15:49.975Z]   ok   ONFTSent emitted: guid 0x69c6a5f1ffa1d8a5cda27fcc06be4d249738b75e07646db9a825c1e5eafa76c0
+[2026-10-20T03:15:49.975Z]   ok   token burned on the source: ownerOf reverts
+[2026-10-20T03:15:49.975Z]   ok   source no longer serves the passport: reverts
+[2026-10-20T03:15:49.975Z]   ok   token delivered to the receiver under the same tokenId: ownerOf 0x9415E00f429549A26310C83c1F47db40eb300415 after ~85s; LayerZero Scan: DELIVERED (Executor transaction confirmed)
+[2026-10-20T03:15:49.975Z]   ok   destination carries (revision 0, bafkreicynj4tshgirqy4cn2crs22ifs5ny4xuzix3s3zaboggqasyyz3aq): (revision 0, bafkreicynj4tshgirqy4cn2crs22ifs5ny4xuzix3s3zaboggqasyyz3aq)
+[2026-10-20T03:15:49.975Z]   ok   history hash commits to the run's CIDs: 0x3b3ae766642701761bc6fcaa83eb45efb5aca654523ae82368bdc0da53260ef4 (expected 0x3b3ae766642701761bc6fcaa83eb45efb5aca654523ae82368bdc0da53260ef4 over 1 CIDs)
+[2026-10-20T03:15:49.975Z]   ok   destination tokenURI resolves the CID: ipfs://bafkreicynj4tshgirqy4cn2crs22ifs5ny4xuzix3s3zaboggqasyyz3aq
+[2026-10-20T03:15:49.975Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-20T03:15:50.164Z] [arbitrum-sepolia] send(421614000000000019) to sepolia (eid 40161), fee 0.000098985508365383
+network block skew detected; skipping block events (emitted=320928654 blockNumber320929803)
+[2026-10-20T03:15:55.739Z]   guid 0xdd8284ab2fc6d0853545cee8fcce0f17cdb105775087429206485bbde0021069, https://testnet.layerzeroscan.com/tx/0x44822c6bb5b1c06f7413cb4323888768a4ea93e96437446db42a7bbbef490588
+[2026-10-20T03:15:56.396Z]   waiting for sepolia (0s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=11s last=[2026-10-20T03:15:56.396Z]   waiting for sepolia (0s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+[2026-10-20T03:16:27.271Z]   waiting for sepolia (31s): INFLIGHT (Ready for DVNs to verify); ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=10s last=[2026-10-20T03:16:27.271Z]   waiting for sepolia (31s): INFLIGHT (Ready for DVNs to verify); ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+[2026-10-20T03:16:58.334Z]   waiting for sepolia (62s): INFLIGHT (Ready for DVNs to verify); ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=9s last=[2026-10-20T03:16:58.334Z]   waiting for sepolia (62s): INFLIGHT (Ready for DVNs to verify); ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+[2026-10-20T03:17:29.186Z]   waiting for sepolia (93s): INFLIGHT (Ready for DVNs to verify); ownerOf=absent; inboundPayloadHash=0x24dc4c61aba1a35e59417bad1212f50c3a5a3b0b4fadde264ee74356a2680d3f
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=8s last=[2026-10-20T03:17:29.186Z]   waiting for sepolia (93s): INFLIGHT (Ready for DVNs to verify); ownerOf=absent; inboundPayloadHash=0x24dc4c61aba1a35e59417bad1212f50c3a5a3b0b4fadde264ee74356a2680d3f
+[2026-10-20T03:18:00.465Z]   waiting for sepolia (124s): INFLIGHT (Ready for committer to commit verification); ownerOf=absent; inboundPayloadHash=0x24dc4c61aba1a35e59417bad1212f50c3a5a3b0b4fadde264ee74356a2680d3f
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=7s last=[2026-10-20T03:18:00.465Z]   waiting for sepolia (124s): INFLIGHT (Ready for committer to commit verification); ownerOf=absent; inboundPayloadHash=0x24dc4c61aba1a35e59417bad1212f50c3a5a3b0b4fadde264ee74356a2680d3f
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=37s last=[2026-10-20T03:18:00.465Z]   waiting for sepolia (124s): INFLIGHT (Ready for committer to commit verification); ownerOf=absent; inboundPayloadHash=0x24dc4c61aba1a35e59417bad1212f50c3a5a3b0b4fadde264ee74356a2680d3f
+[2026-10-20T03:18:49.653Z]   ok   token absent on the destination before the send: ownerOf reverts
+[2026-10-20T03:18:49.653Z]   ok   ONFTSent emitted: guid 0xdd8284ab2fc6d0853545cee8fcce0f17cdb105775087429206485bbde0021069
+[2026-10-20T03:18:49.653Z]   ok   token burned on the source: ownerOf reverts
+[2026-10-20T03:18:49.653Z]   ok   source no longer serves the passport: reverts
+[2026-10-20T03:18:49.654Z]   ok   token delivered to the receiver under the same tokenId: ownerOf 0x9415E00f429549A26310C83c1F47db40eb300415 after ~146s; LayerZero Scan: INFLIGHT (Verification committed)
+[2026-10-20T03:18:49.654Z]   ok   destination carries (revision 0, bafkreicynj4tshgirqy4cn2crs22ifs5ny4xuzix3s3zaboggqasyyz3aq): (revision 0, bafkreicynj4tshgirqy4cn2crs22ifs5ny4xuzix3s3zaboggqasyyz3aq)
+[2026-10-20T03:18:49.654Z]   ok   history hash commits to the run's CIDs: 0x3b3ae766642701761bc6fcaa83eb45efb5aca654523ae82368bdc0da53260ef4 (expected 0x3b3ae766642701761bc6fcaa83eb45efb5aca654523ae82368bdc0da53260ef4 over 1 CIDs)
+[2026-10-20T03:18:49.654Z]   ok   destination tokenURI resolves the CID: ipfs://bafkreicynj4tshgirqy4cn2crs22ifs5ny4xuzix3s3zaboggqasyyz3aq
+[2026-10-20T03:18:49.654Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-20T03:18:49.835Z] [sepolia] send(421614000000000019) to arbitrum-sepolia (eid 40231), fee 0.000142248695540558
+[2026-10-20T03:19:02.385Z]   guid 0xedd9ee5ca9c0bafba50ab170c978e5f9dd1c8e81037ad959d63660e5ad2d6479, https://testnet.layerzeroscan.com/tx/0x0f223cc54b122a3b72259af648d31d8a899d02dd9dd5a5e8eba1ba1cda312b10
+[2026-10-20T03:19:03.386Z]   waiting for arbitrum-sepolia (0s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=4s last=[2026-10-20T03:19:03.386Z]   waiting for arbitrum-sepolia (0s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+[2026-10-20T03:19:35.233Z]   waiting for arbitrum-sepolia (32s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=2s last=[2026-10-20T03:19:35.233Z]   waiting for arbitrum-sepolia (32s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+[2026-10-20T03:20:07.080Z]   waiting for arbitrum-sepolia (64s): INFLIGHT (Ready for committer to commit verification); ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=0s last=[2026-10-20T03:20:07.080Z]   waiting for arbitrum-sepolia (64s): INFLIGHT (Ready for committer to commit verification); ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=30s last=[2026-10-20T03:20:07.080Z]   waiting for arbitrum-sepolia (64s): INFLIGHT (Ready for committer to commit verification); ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+[2026-10-20T03:20:57.054Z]   ok   token absent on the destination before the send: ownerOf reverts
+[2026-10-20T03:20:57.054Z]   ok   ONFTSent emitted: guid 0xedd9ee5ca9c0bafba50ab170c978e5f9dd1c8e81037ad959d63660e5ad2d6479
+[2026-10-20T03:20:57.054Z]   ok   token burned on the source: ownerOf reverts
+[2026-10-20T03:20:57.054Z]   ok   source no longer serves the passport: reverts
+[2026-10-20T03:20:57.054Z]   ok   token delivered to the receiver under the same tokenId: ownerOf 0x9415E00f429549A26310C83c1F47db40eb300415 after ~93s; LayerZero Scan: DELIVERED (Executor transaction confirmed)
+[2026-10-20T03:20:57.054Z]   ok   destination carries (revision 0, bafkreicynj4tshgirqy4cn2crs22ifs5ny4xuzix3s3zaboggqasyyz3aq): (revision 0, bafkreicynj4tshgirqy4cn2crs22ifs5ny4xuzix3s3zaboggqasyyz3aq)
+[2026-10-20T03:20:57.054Z]   ok   history hash commits to the run's CIDs: 0x3b3ae766642701761bc6fcaa83eb45efb5aca654523ae82368bdc0da53260ef4 (expected 0x3b3ae766642701761bc6fcaa83eb45efb5aca654523ae82368bdc0da53260ef4 over 1 CIDs)
+[2026-10-20T03:20:57.054Z]   ok   destination tokenURI resolves the CID: ipfs://bafkreicynj4tshgirqy4cn2crs22ifs5ny4xuzix3s3zaboggqasyyz3aq
+[2026-10-20T03:20:57.055Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-20T03:20:57.319Z] [arbitrum-sepolia] send(421614000000000019) to sepolia (eid 40161), fee 0.000098985508365383
+network block skew detected; skipping block events (emitted=320929820 blockNumber320931014)
+[2026-10-20T03:21:02.888Z]   guid 0x67a261e15a3dde78f31ef057522fe74a4d5425bebf6ab823eb932e9fe5ab3d1a, https://testnet.layerzeroscan.com/tx/0xc745fe7b411c7c537aa1fc082b27602e117db2eb2eb72b7895f62ec22b1bd6f6
+[2026-10-20T03:21:03.584Z]   waiting for sepolia (0s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=4s last=[2026-10-20T03:21:03.584Z]   waiting for sepolia (0s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+[2026-10-20T03:21:34.517Z]   waiting for sepolia (31s): INFLIGHT (Ready for DVNs to verify); ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=3s last=[2026-10-20T03:21:34.517Z]   waiting for sepolia (31s): INFLIGHT (Ready for DVNs to verify); ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+[2026-10-20T03:22:05.539Z]   waiting for sepolia (62s): INFLIGHT (Ready for DVNs to verify); ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=2s last=[2026-10-20T03:22:05.539Z]   waiting for sepolia (62s): INFLIGHT (Ready for DVNs to verify); ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+[2026-10-20T03:22:36.466Z]   waiting for sepolia (93s): INFLIGHT (Ready for committer to commit verification); ownerOf=absent; inboundPayloadHash=0xef38fa85c27f29f1c2a7a490d8a1da97031d59157f25193ae84aed8f9fe3ce4a
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=1s last=[2026-10-20T03:22:36.466Z]   waiting for sepolia (93s): INFLIGHT (Ready for committer to commit verification); ownerOf=absent; inboundPayloadHash=0xef38fa85c27f29f1c2a7a490d8a1da97031d59157f25193ae84aed8f9fe3ce4a
+[2026-10-20T03:23:07.315Z]   waiting for sepolia (124s): INFLIGHT (Ready for committer to commit verification); ownerOf=absent; inboundPayloadHash=0xef38fa85c27f29f1c2a7a490d8a1da97031d59157f25193ae84aed8f9fe3ce4a
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=0s last=[2026-10-20T03:23:07.315Z]   waiting for sepolia (124s): INFLIGHT (Ready for committer to commit verification); ownerOf=absent; inboundPayloadHash=0xef38fa85c27f29f1c2a7a490d8a1da97031d59157f25193ae84aed8f9fe3ce4a
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=30s last=[2026-10-20T03:23:07.315Z]   waiting for sepolia (124s): INFLIGHT (Ready for committer to commit verification); ownerOf=absent; inboundPayloadHash=0xef38fa85c27f29f1c2a7a490d8a1da97031d59157f25193ae84aed8f9fe3ce4a
+[2026-10-20T03:23:51.443Z]   ok   token absent on the destination before the send: ownerOf reverts
+[2026-10-20T03:23:51.444Z]   ok   ONFTSent emitted: guid 0x67a261e15a3dde78f31ef057522fe74a4d5425bebf6ab823eb932e9fe5ab3d1a
+[2026-10-20T03:23:51.444Z]   ok   token burned on the source: ownerOf reverts
+[2026-10-20T03:23:51.444Z]   ok   source no longer serves the passport: reverts
+[2026-10-20T03:23:51.444Z]   ok   token delivered to the receiver under the same tokenId: ownerOf 0x9415E00f429549A26310C83c1F47db40eb300415 after ~139s; LayerZero Scan: INFLIGHT (Verification committed)
+[2026-10-20T03:23:51.444Z]   ok   destination carries (revision 0, bafkreicynj4tshgirqy4cn2crs22ifs5ny4xuzix3s3zaboggqasyyz3aq): (revision 0, bafkreicynj4tshgirqy4cn2crs22ifs5ny4xuzix3s3zaboggqasyyz3aq)
+[2026-10-20T03:23:51.444Z]   ok   history hash commits to the run's CIDs: 0x3b3ae766642701761bc6fcaa83eb45efb5aca654523ae82368bdc0da53260ef4 (expected 0x3b3ae766642701761bc6fcaa83eb45efb5aca654523ae82368bdc0da53260ef4 over 1 CIDs)
+[2026-10-20T03:23:51.444Z]   ok   destination tokenURI resolves the CID: ipfs://bafkreicynj4tshgirqy4cn2crs22ifs5ny4xuzix3s3zaboggqasyyz3aq
+[2026-10-20T03:23:51.444Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-20T03:23:51.625Z] [sepolia] send(421614000000000019) to arbitrum-sepolia (eid 40231), fee 0.000142248695540558
+[2026-10-20T03:24:04.465Z]   guid 0x3b8235c5adce5c92c2cb0a18e260c8ada02fb9cb94a1dceff4c40d4a2d110551, https://testnet.layerzeroscan.com/tx/0xc7ac4979db33f340e1dba9005fc37428a2843183a1875e0fe988a9a77bd14d92
+[2026-10-20T03:24:05.302Z]   waiting for arbitrum-sepolia (0s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=2s last=[2026-10-20T03:24:05.302Z]   waiting for arbitrum-sepolia (0s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+[2026-10-20T03:24:37.012Z]   waiting for arbitrum-sepolia (32s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=1s last=[2026-10-20T03:24:37.012Z]   waiting for arbitrum-sepolia (32s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=31s last=[2026-10-20T03:24:37.012Z]   waiting for arbitrum-sepolia (32s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+[2026-10-20T03:25:08.729Z]   waiting for arbitrum-sepolia (64s): INFLIGHT (Ready for committer to commit verification); ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=29s last=[2026-10-20T03:25:08.729Z]   waiting for arbitrum-sepolia (64s): INFLIGHT (Ready for committer to commit verification); ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+[2026-10-20T03:25:58.513Z]   ok   token absent on the destination before the send: ownerOf reverts
+[2026-10-20T03:25:58.513Z]   ok   ONFTSent emitted: guid 0x3b8235c5adce5c92c2cb0a18e260c8ada02fb9cb94a1dceff4c40d4a2d110551
+[2026-10-20T03:25:58.513Z]   ok   token burned on the source: ownerOf reverts
+[2026-10-20T03:25:58.513Z]   ok   source no longer serves the passport: reverts
+[2026-10-20T03:25:58.513Z]   ok   token delivered to the receiver under the same tokenId: ownerOf 0x9415E00f429549A26310C83c1F47db40eb300415 after ~95s; LayerZero Scan: DELIVERED (Executor transaction confirmed)
+[2026-10-20T03:25:58.513Z]   ok   destination carries (revision 0, bafkreicynj4tshgirqy4cn2crs22ifs5ny4xuzix3s3zaboggqasyyz3aq): (revision 0, bafkreicynj4tshgirqy4cn2crs22ifs5ny4xuzix3s3zaboggqasyyz3aq)
+[2026-10-20T03:25:58.513Z]   ok   history hash commits to the run's CIDs: 0x3b3ae766642701761bc6fcaa83eb45efb5aca654523ae82368bdc0da53260ef4 (expected 0x3b3ae766642701761bc6fcaa83eb45efb5aca654523ae82368bdc0da53260ef4 over 1 CIDs)
+[2026-10-20T03:25:58.513Z]   ok   destination tokenURI resolves the CID: ipfs://bafkreicynj4tshgirqy4cn2crs22ifs5ny4xuzix3s3zaboggqasyyz3aq
+[2026-10-20T03:25:58.513Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-20T03:25:58.513Z] === latency arbitrum-sepolia <-> sepolia: PASS ===
+[2026-10-20T03:25:58.513Z] === latency base-sepolia <-> sepolia ===
+[2026-10-20T03:25:59.967Z]   pinned revision 0 of 84532000000000014: bafkreiffobwu6r4qa3vr5i3xcfzjkhp52jlwirrrhpldezc2o4srm2ourq (400 bytes)
+[2026-10-20T03:25:59.967Z] [base-sepolia] mint(0x9415E00f429549A26310C83c1F47db40eb300415, 84532000000000014, bafkreiffobwu6r4qa3vr5i3xcfzjkhp52jlwirrrhpldezc2o4srm2ourq)
+[2026-10-20T03:26:03.093Z]   ok   PassportIssued emitted: tokenId 84532000000000014
+[2026-10-20T03:26:03.093Z]   ok   tokenId is the expectedTokenId and next in the chain namespace: 84532000000000014 == 84532000000000014
+[2026-10-20T03:26:03.093Z]   ok   originOf is this chain: 84532 == 84532
+[2026-10-20T03:26:03.093Z]   ok   recipient holds the token: ownerOf 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-20T03:26:03.093Z]   ok   passport is revision 0: (revision 0, bafkreiffobwu6r4qa3vr5i3xcfzjkhp52jlwirrrhpldezc2o4srm2ourq)
+[2026-10-20T03:26:03.094Z]   ok   history hash commits to the run's CIDs: 0x5ca177f03861f235e2e86e300c16a18d8670757b6799755e64a6454c9ed074ba (expected 0x5ca177f03861f235e2e86e300c16a18d8670757b6799755e64a6454c9ed074ba over 1 CIDs)
+[2026-10-20T03:26:03.094Z]   ok   tokenURI resolves the CID: ipfs://bafkreiffobwu6r4qa3vr5i3xcfzjkhp52jlwirrrhpldezc2o4srm2ourq
+[2026-10-20T03:26:03.094Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-20T03:26:03.281Z] [base-sepolia] send(84532000000000014) to sepolia (eid 40161), fee 0.000098985508365383
+[2026-10-20T03:26:06.398Z]   guid 0x2d6eef796858f7bb04999adfb3b5e536a50a97b334903afd1169991c566da1c0, https://testnet.layerzeroscan.com/tx/0x1f5cc187607d1e4eefd6323ad3a22295a4918d273433dedee765edce800d4870
+[2026-10-20T03:26:07.077Z]   waiting for sepolia (0s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=1s last=[2026-10-20T03:26:07.077Z]   waiting for sepolia (0s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=31s last=[2026-10-20T03:26:07.077Z]   waiting for sepolia (0s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+[2026-10-20T03:26:37.980Z]   waiting for sepolia (31s): INFLIGHT (Ready for DVNs to verify); ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=30s last=[2026-10-20T03:26:37.980Z]   waiting for sepolia (31s): INFLIGHT (Ready for DVNs to verify); ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+[2026-10-20T03:27:08.953Z]   waiting for sepolia (62s): INFLIGHT (Ready for DVNs to verify); ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=29s last=[2026-10-20T03:27:08.953Z]   waiting for sepolia (62s): INFLIGHT (Ready for DVNs to verify); ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+[2026-10-20T03:27:39.871Z]   waiting for sepolia (93s): INFLIGHT (Ready for DVNs to verify); ownerOf=absent; inboundPayloadHash=0x69fd33deb1d8c0e97707617d3e88833a1599cb49e47cc166ad65f17d67c44368
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=28s last=[2026-10-20T03:27:39.871Z]   waiting for sepolia (93s): INFLIGHT (Ready for DVNs to verify); ownerOf=absent; inboundPayloadHash=0x69fd33deb1d8c0e97707617d3e88833a1599cb49e47cc166ad65f17d67c44368
+[2026-10-20T03:28:10.799Z]   waiting for sepolia (124s): INFLIGHT (Ready for committer to commit verification); ownerOf=absent; inboundPayloadHash=0x69fd33deb1d8c0e97707617d3e88833a1599cb49e47cc166ad65f17d67c44368
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=27s last=[2026-10-20T03:28:10.799Z]   waiting for sepolia (124s): INFLIGHT (Ready for committer to commit verification); ownerOf=absent; inboundPayloadHash=0x69fd33deb1d8c0e97707617d3e88833a1599cb49e47cc166ad65f17d67c44368
+[2026-10-20T03:29:05.094Z]   ok   token absent on the destination before the send: ownerOf reverts
+[2026-10-20T03:29:05.094Z]   ok   ONFTSent emitted: guid 0x2d6eef796858f7bb04999adfb3b5e536a50a97b334903afd1169991c566da1c0
+[2026-10-20T03:29:05.094Z]   ok   token burned on the source: ownerOf reverts
+[2026-10-20T03:29:05.094Z]   ok   source no longer serves the passport: reverts
+[2026-10-20T03:29:05.094Z]   ok   token delivered to the receiver under the same tokenId: ownerOf 0x9415E00f429549A26310C83c1F47db40eb300415 after ~145s; LayerZero Scan: INFLIGHT (Verification committed)
+[2026-10-20T03:29:05.094Z]   ok   destination carries (revision 0, bafkreiffobwu6r4qa3vr5i3xcfzjkhp52jlwirrrhpldezc2o4srm2ourq): (revision 0, bafkreiffobwu6r4qa3vr5i3xcfzjkhp52jlwirrrhpldezc2o4srm2ourq)
+[2026-10-20T03:29:05.094Z]   ok   history hash commits to the run's CIDs: 0x5ca177f03861f235e2e86e300c16a18d8670757b6799755e64a6454c9ed074ba (expected 0x5ca177f03861f235e2e86e300c16a18d8670757b6799755e64a6454c9ed074ba over 1 CIDs)
+[2026-10-20T03:29:05.094Z]   ok   destination tokenURI resolves the CID: ipfs://bafkreiffobwu6r4qa3vr5i3xcfzjkhp52jlwirrrhpldezc2o4srm2ourq
+[2026-10-20T03:29:05.094Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-20T03:29:05.255Z] [sepolia] send(84532000000000014) to base-sepolia (eid 40245), fee 0.000104562368596558
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=3s last=[2026-10-20T03:29:05.255Z] [sepolia] send(84532000000000014) to base-sepolia (eid 40245), fee 0.000104562368596558
+[2026-10-20T03:29:13.747Z]   guid 0x8c14b5362629554df4a733995dfc9eccf8c97dfbebd9a7d955330bcda1f95edd, https://testnet.layerzeroscan.com/tx/0x6a812c69b297bb2ab93547d1da03b3c677e18fcb53f165a4228a97cf7cb198a5
+[2026-10-20T03:29:14.515Z]   waiting for base-sepolia (0s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=24s last=[2026-10-20T03:29:14.515Z]   waiting for base-sepolia (0s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+[2026-10-20T03:29:46.059Z]   waiting for base-sepolia (32s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=22s last=[2026-10-20T03:29:46.059Z]   waiting for base-sepolia (32s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+[2026-10-20T03:30:17.629Z]   waiting for base-sepolia (63s): INFLIGHT (Ready for DVNs to verify); ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=21s last=[2026-10-20T03:30:17.629Z]   waiting for base-sepolia (63s): INFLIGHT (Ready for DVNs to verify); ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+[2026-10-20T03:30:49.112Z]   waiting for base-sepolia (95s): INFLIGHT (Ready for DVNs to verify); ownerOf=absent; inboundPayloadHash=0x125d0e9cd007d0ed7649c0f9dac59d7310433df7f945a3e4b5889483e7cbe094
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=19s last=[2026-10-20T03:30:49.112Z]   waiting for base-sepolia (95s): INFLIGHT (Ready for DVNs to verify); ownerOf=absent; inboundPayloadHash=0x125d0e9cd007d0ed7649c0f9dac59d7310433df7f945a3e4b5889483e7cbe094
+[2026-10-20T03:31:17.831Z]   ok   token absent on the destination before the send: ownerOf reverts
+[2026-10-20T03:31:17.831Z]   ok   ONFTSent emitted: guid 0x8c14b5362629554df4a733995dfc9eccf8c97dfbebd9a7d955330bcda1f95edd
+[2026-10-20T03:31:17.831Z]   ok   token burned on the source: ownerOf reverts
+[2026-10-20T03:31:17.831Z]   ok   source no longer serves the passport: reverts
+[2026-10-20T03:31:17.831Z]   ok   token delivered to the receiver under the same tokenId: ownerOf 0x9415E00f429549A26310C83c1F47db40eb300415 after ~102s; LayerZero Scan: DELIVERED (Executor transaction confirmed)
+[2026-10-20T03:31:17.831Z]   ok   destination carries (revision 0, bafkreiffobwu6r4qa3vr5i3xcfzjkhp52jlwirrrhpldezc2o4srm2ourq): (revision 0, bafkreiffobwu6r4qa3vr5i3xcfzjkhp52jlwirrrhpldezc2o4srm2ourq)
+[2026-10-20T03:31:17.831Z]   ok   history hash commits to the run's CIDs: 0x5ca177f03861f235e2e86e300c16a18d8670757b6799755e64a6454c9ed074ba (expected 0x5ca177f03861f235e2e86e300c16a18d8670757b6799755e64a6454c9ed074ba over 1 CIDs)
+[2026-10-20T03:31:17.831Z]   ok   destination tokenURI resolves the CID: ipfs://bafkreiffobwu6r4qa3vr5i3xcfzjkhp52jlwirrrhpldezc2o4srm2ourq
+[2026-10-20T03:31:17.831Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-20T03:31:18.009Z] [base-sepolia] send(84532000000000014) to sepolia (eid 40161), fee 0.000098985508365383
+[2026-10-20T03:31:20.337Z]   guid 0xe90b129407510a1d6b16b4bf2215279e22aa5332e930cd8c8bf8e09b87207ea5, https://testnet.layerzeroscan.com/tx/0x95b7159c6fef92ba5d29b61a4a58aeeccc3e30651748f92efd50973c2aefd9ce
+[2026-10-20T03:31:20.952Z]   waiting for sepolia (0s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=18s last=[2026-10-20T03:31:20.952Z]   waiting for sepolia (0s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+[2026-10-20T03:31:52.294Z]   waiting for sepolia (31s): INFLIGHT (Ready for DVNs to verify); ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=16s last=[2026-10-20T03:31:52.294Z]   waiting for sepolia (31s): INFLIGHT (Ready for DVNs to verify); ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+[2026-10-20T03:32:23.526Z]   waiting for sepolia (63s): INFLIGHT (Ready for DVNs to verify); ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=15s last=[2026-10-20T03:32:23.526Z]   waiting for sepolia (63s): INFLIGHT (Ready for DVNs to verify); ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+[2026-10-20T03:32:54.653Z]   waiting for sepolia (94s): INFLIGHT (Ready for DVNs to verify); ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=14s last=[2026-10-20T03:32:54.653Z]   waiting for sepolia (94s): INFLIGHT (Ready for DVNs to verify); ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+[2026-10-20T03:33:25.588Z]   waiting for sepolia (125s): INFLIGHT (Ready for committer to commit verification); ownerOf=absent; inboundPayloadHash=0xf9ad9f7a7c40b0a0098b9a89460581dc0aad10ce721ba815165aadd1600421f5
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=13s last=[2026-10-20T03:33:25.588Z]   waiting for sepolia (125s): INFLIGHT (Ready for committer to commit verification); ownerOf=absent; inboundPayloadHash=0xf9ad9f7a7c40b0a0098b9a89460581dc0aad10ce721ba815165aadd1600421f5
+[2026-10-20T03:33:56.452Z]   waiting for sepolia (156s): INFLIGHT (Ready for committer to commit verification); ownerOf=absent; inboundPayloadHash=0xf9ad9f7a7c40b0a0098b9a89460581dc0aad10ce721ba815165aadd1600421f5
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=12s last=[2026-10-20T03:33:56.452Z]   waiting for sepolia (156s): INFLIGHT (Ready for committer to commit verification); ownerOf=absent; inboundPayloadHash=0xf9ad9f7a7c40b0a0098b9a89460581dc0aad10ce721ba815165aadd1600421f5
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=42s last=[2026-10-20T03:33:56.452Z]   waiting for sepolia (156s): INFLIGHT (Ready for committer to commit verification); ownerOf=absent; inboundPayloadHash=0xf9ad9f7a7c40b0a0098b9a89460581dc0aad10ce721ba815165aadd1600421f5
+[2026-10-20T03:35:01.143Z]   ok   token absent on the destination before the send: ownerOf reverts
+[2026-10-20T03:35:01.143Z]   ok   ONFTSent emitted: guid 0xe90b129407510a1d6b16b4bf2215279e22aa5332e930cd8c8bf8e09b87207ea5
+[2026-10-20T03:35:01.143Z]   ok   token burned on the source: ownerOf reverts
+[2026-10-20T03:35:01.143Z]   ok   source no longer serves the passport: reverts
+[2026-10-20T03:35:01.143Z]   ok   token delivered to the receiver under the same tokenId: ownerOf 0x9415E00f429549A26310C83c1F47db40eb300415 after ~187s; LayerZero Scan: INFLIGHT (Verification committed)
+[2026-10-20T03:35:01.143Z]   ok   destination carries (revision 0, bafkreiffobwu6r4qa3vr5i3xcfzjkhp52jlwirrrhpldezc2o4srm2ourq): (revision 0, bafkreiffobwu6r4qa3vr5i3xcfzjkhp52jlwirrrhpldezc2o4srm2ourq)
+[2026-10-20T03:35:01.143Z]   ok   history hash commits to the run's CIDs: 0x5ca177f03861f235e2e86e300c16a18d8670757b6799755e64a6454c9ed074ba (expected 0x5ca177f03861f235e2e86e300c16a18d8670757b6799755e64a6454c9ed074ba over 1 CIDs)
+[2026-10-20T03:35:01.143Z]   ok   destination tokenURI resolves the CID: ipfs://bafkreiffobwu6r4qa3vr5i3xcfzjkhp52jlwirrrhpldezc2o4srm2ourq
+[2026-10-20T03:35:01.143Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-20T03:35:01.316Z] [sepolia] send(84532000000000014) to base-sepolia (eid 40245), fee 0.000104562368596558
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=7s last=[2026-10-20T03:35:01.316Z] [sepolia] send(84532000000000014) to base-sepolia (eid 40245), fee 0.000104562368596558
+[2026-10-20T03:35:13.905Z]   guid 0x8f830c1868e8e28a28381d74bd062d2eb7d4ede025bd042441853f8a7d7f61be, https://testnet.layerzeroscan.com/tx/0xdb00fb1d834048ecf177d95acb08f1e4305429fd330fb43a54370b7c01842270
+[2026-10-20T03:35:14.792Z]   waiting for base-sepolia (0s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=24s last=[2026-10-20T03:35:14.792Z]   waiting for base-sepolia (0s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+[2026-10-20T03:35:46.275Z]   waiting for base-sepolia (32s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=23s last=[2026-10-20T03:35:46.275Z]   waiting for base-sepolia (32s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=53s last=[2026-10-20T03:35:46.275Z]   waiting for base-sepolia (32s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+[2026-10-20T03:36:41.045Z]   ok   token absent on the destination before the send: ownerOf reverts
+[2026-10-20T03:36:41.045Z]   ok   ONFTSent emitted: guid 0x8f830c1868e8e28a28381d74bd062d2eb7d4ede025bd042441853f8a7d7f61be
+[2026-10-20T03:36:41.045Z]   ok   token burned on the source: ownerOf reverts
+[2026-10-20T03:36:41.045Z]   ok   source no longer serves the passport: reverts
+[2026-10-20T03:36:41.045Z]   ok   token delivered to the receiver under the same tokenId: ownerOf 0x9415E00f429549A26310C83c1F47db40eb300415 after ~65s; LayerZero Scan: DELIVERED (Executor transaction confirmed)
+[2026-10-20T03:36:41.045Z]   ok   destination carries (revision 0, bafkreiffobwu6r4qa3vr5i3xcfzjkhp52jlwirrrhpldezc2o4srm2ourq): (revision 0, bafkreiffobwu6r4qa3vr5i3xcfzjkhp52jlwirrrhpldezc2o4srm2ourq)
+[2026-10-20T03:36:41.045Z]   ok   history hash commits to the run's CIDs: 0x5ca177f03861f235e2e86e300c16a18d8670757b6799755e64a6454c9ed074ba (expected 0x5ca177f03861f235e2e86e300c16a18d8670757b6799755e64a6454c9ed074ba over 1 CIDs)
+[2026-10-20T03:36:41.045Z]   ok   destination tokenURI resolves the CID: ipfs://bafkreiffobwu6r4qa3vr5i3xcfzjkhp52jlwirrrhpldezc2o4srm2ourq
+[2026-10-20T03:36:41.045Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-20T03:36:41.209Z] [base-sepolia] send(84532000000000014) to sepolia (eid 40161), fee 0.000098985508365383
+[2026-10-20T03:36:44.453Z]   guid 0x35e0c7688a722b0f2c399cd9d805fc37169e063996829e009c7b74564eda9e4a, https://testnet.layerzeroscan.com/tx/0xfcf77401b477f5b388dd750fed1cea25e3ade3c249706b531e045e75b22256aa
+[2026-10-20T03:36:45.131Z]   waiting for sepolia (0s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=24s last=[2026-10-20T03:36:45.131Z]   waiting for sepolia (0s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+[2026-10-20T03:37:16.009Z]   waiting for sepolia (31s): INFLIGHT (Ready for DVNs to verify); ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=23s last=[2026-10-20T03:37:16.009Z]   waiting for sepolia (31s): INFLIGHT (Ready for DVNs to verify); ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+[2026-10-20T03:37:46.886Z]   waiting for sepolia (62s): INFLIGHT (Ready for DVNs to verify); ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=22s last=[2026-10-20T03:37:46.886Z]   waiting for sepolia (62s): INFLIGHT (Ready for DVNs to verify); ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+[2026-10-20T03:38:17.835Z]   waiting for sepolia (93s): INFLIGHT (Ready for DVNs to verify); ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=21s last=[2026-10-20T03:38:17.835Z]   waiting for sepolia (93s): INFLIGHT (Ready for DVNs to verify); ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+[2026-10-20T03:38:48.693Z]   waiting for sepolia (124s): INFLIGHT (Ready for DVNs to verify); ownerOf=absent; inboundPayloadHash=0x91e9d445b13f34e2f3c741a2d0df0a2a6c212d72e4b470425f1bd03d1fbf648b
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=20s last=[2026-10-20T03:38:48.693Z]   waiting for sepolia (124s): INFLIGHT (Ready for DVNs to verify); ownerOf=absent; inboundPayloadHash=0x91e9d445b13f34e2f3c741a2d0df0a2a6c212d72e4b470425f1bd03d1fbf648b
+[2026-10-20T03:39:19.561Z]   waiting for sepolia (155s): INFLIGHT (Ready for committer to commit verification); ownerOf=absent; inboundPayloadHash=0x91e9d445b13f34e2f3c741a2d0df0a2a6c212d72e4b470425f1bd03d1fbf648b
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=20s last=[2026-10-20T03:39:19.561Z]   waiting for sepolia (155s): INFLIGHT (Ready for committer to commit verification); ownerOf=absent; inboundPayloadHash=0x91e9d445b13f34e2f3c741a2d0df0a2a6c212d72e4b470425f1bd03d1fbf648b
+[2026-10-20T03:39:50.515Z]   waiting for sepolia (185s): INFLIGHT (Ready for committer to commit verification); ownerOf=absent; inboundPayloadHash=0x91e9d445b13f34e2f3c741a2d0df0a2a6c212d72e4b470425f1bd03d1fbf648b
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=19s last=[2026-10-20T03:39:50.515Z]   waiting for sepolia (185s): INFLIGHT (Ready for committer to commit verification); ownerOf=absent; inboundPayloadHash=0x91e9d445b13f34e2f3c741a2d0df0a2a6c212d72e4b470425f1bd03d1fbf648b
+[2026-10-20T03:40:29.595Z]   ok   token absent on the destination before the send: ownerOf reverts
+[2026-10-20T03:40:29.595Z]   ok   ONFTSent emitted: guid 0x35e0c7688a722b0f2c399cd9d805fc37169e063996829e009c7b74564eda9e4a
+[2026-10-20T03:40:29.595Z]   ok   token burned on the source: ownerOf reverts
+[2026-10-20T03:40:29.595Z]   ok   source no longer serves the passport: reverts
+[2026-10-20T03:40:29.595Z]   ok   token delivered to the receiver under the same tokenId: ownerOf 0x9415E00f429549A26310C83c1F47db40eb300415 after ~192s; LayerZero Scan: INFLIGHT (Verification committed)
+[2026-10-20T03:40:29.595Z]   ok   destination carries (revision 0, bafkreiffobwu6r4qa3vr5i3xcfzjkhp52jlwirrrhpldezc2o4srm2ourq): (revision 0, bafkreiffobwu6r4qa3vr5i3xcfzjkhp52jlwirrrhpldezc2o4srm2ourq)
+[2026-10-20T03:40:29.595Z]   ok   history hash commits to the run's CIDs: 0x5ca177f03861f235e2e86e300c16a18d8670757b6799755e64a6454c9ed074ba (expected 0x5ca177f03861f235e2e86e300c16a18d8670757b6799755e64a6454c9ed074ba over 1 CIDs)
+[2026-10-20T03:40:29.595Z]   ok   destination tokenURI resolves the CID: ipfs://bafkreiffobwu6r4qa3vr5i3xcfzjkhp52jlwirrrhpldezc2o4srm2ourq
+[2026-10-20T03:40:29.595Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-20T03:40:29.754Z] [sepolia] send(84532000000000014) to base-sepolia (eid 40245), fee 0.000104562368596558
+[2026-10-20T03:40:38.287Z]   guid 0xb8b7223eb04c69a3850a3fc870a519008f805c8bcc0a25b1963c134f0221ef9a, https://testnet.layerzeroscan.com/tx/0xd3cac0730c2578126285c770946b62b9a4fd9d01862119e42c85d5dc83b9ed18
+[2026-10-20T03:40:39.200Z]   waiting for base-sepolia (0s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=0s last=[2026-10-20T03:40:39.200Z]   waiting for base-sepolia (0s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=30s last=[2026-10-20T03:40:39.200Z]   waiting for base-sepolia (0s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+[2026-10-20T03:41:10.738Z]   waiting for base-sepolia (32s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=29s last=[2026-10-20T03:41:10.738Z]   waiting for base-sepolia (32s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+[2026-10-20T03:41:42.283Z]   waiting for base-sepolia (63s): INFLIGHT (Ready for DVNs to verify); ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=27s last=[2026-10-20T03:41:42.283Z]   waiting for base-sepolia (63s): INFLIGHT (Ready for DVNs to verify); ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=57s last=[2026-10-20T03:41:42.283Z]   waiting for base-sepolia (63s): INFLIGHT (Ready for DVNs to verify); ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+[2026-10-20T03:42:42.462Z]   ok   token absent on the destination before the send: ownerOf reverts
+[2026-10-20T03:42:42.462Z]   ok   ONFTSent emitted: guid 0xb8b7223eb04c69a3850a3fc870a519008f805c8bcc0a25b1963c134f0221ef9a
+[2026-10-20T03:42:42.462Z]   ok   token burned on the source: ownerOf reverts
+[2026-10-20T03:42:42.462Z]   ok   source no longer serves the passport: reverts
+[2026-10-20T03:42:42.462Z]   ok   token delivered to the receiver under the same tokenId: ownerOf 0x9415E00f429549A26310C83c1F47db40eb300415 after ~97s; LayerZero Scan: DELIVERED (Executor transaction confirmed)
+[2026-10-20T03:42:42.462Z]   ok   destination carries (revision 0, bafkreiffobwu6r4qa3vr5i3xcfzjkhp52jlwirrrhpldezc2o4srm2ourq): (revision 0, bafkreiffobwu6r4qa3vr5i3xcfzjkhp52jlwirrrhpldezc2o4srm2ourq)
+[2026-10-20T03:42:42.462Z]   ok   history hash commits to the run's CIDs: 0x5ca177f03861f235e2e86e300c16a18d8670757b6799755e64a6454c9ed074ba (expected 0x5ca177f03861f235e2e86e300c16a18d8670757b6799755e64a6454c9ed074ba over 1 CIDs)
+[2026-10-20T03:42:42.462Z]   ok   destination tokenURI resolves the CID: ipfs://bafkreiffobwu6r4qa3vr5i3xcfzjkhp52jlwirrrhpldezc2o4srm2ourq
+[2026-10-20T03:42:42.462Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-20T03:42:42.621Z] [base-sepolia] send(84532000000000014) to sepolia (eid 40161), fee 0.000098985508365383
+[2026-10-20T03:42:44.323Z]   guid 0x765f173441f616bd9d22bbb921cff5121311ac1a4e3131a0252c3670dec69636, https://testnet.layerzeroscan.com/tx/0x8bbe1031e8660f6b9fff512c17af50a3c6a341185551e491e6f60a409eadd5bb
+[2026-10-20T03:42:44.990Z]   waiting for sepolia (0s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=24s last=[2026-10-20T03:42:44.990Z]   waiting for sepolia (0s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+[2026-10-20T03:43:16.154Z]   waiting for sepolia (31s): INFLIGHT (Ready for DVNs to verify); ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=23s last=[2026-10-20T03:43:16.154Z]   waiting for sepolia (31s): INFLIGHT (Ready for DVNs to verify); ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+[2026-10-20T03:43:47.038Z]   waiting for sepolia (62s): INFLIGHT (Ready for DVNs to verify); ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=23s last=[2026-10-20T03:43:47.038Z]   waiting for sepolia (62s): INFLIGHT (Ready for DVNs to verify); ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+[2026-10-20T03:44:17.974Z]   waiting for sepolia (93s): INFLIGHT (Ready for DVNs to verify); ownerOf=absent; inboundPayloadHash=0xc46551f34c640034dd21c29426b3ed0f1b6bd7961ed048939a0f752175fda041
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=22s last=[2026-10-20T03:44:17.974Z]   waiting for sepolia (93s): INFLIGHT (Ready for DVNs to verify); ownerOf=absent; inboundPayloadHash=0xc46551f34c640034dd21c29426b3ed0f1b6bd7961ed048939a0f752175fda041
+[2026-10-20T03:44:48.898Z]   waiting for sepolia (124s): INFLIGHT (Ready for committer to commit verification); ownerOf=absent; inboundPayloadHash=0xc46551f34c640034dd21c29426b3ed0f1b6bd7961ed048939a0f752175fda041
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=21s last=[2026-10-20T03:44:48.898Z]   waiting for sepolia (124s): INFLIGHT (Ready for committer to commit verification); ownerOf=absent; inboundPayloadHash=0xc46551f34c640034dd21c29426b3ed0f1b6bd7961ed048939a0f752175fda041
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=51s last=[2026-10-20T03:44:48.898Z]   waiting for sepolia (124s): INFLIGHT (Ready for committer to commit verification); ownerOf=absent; inboundPayloadHash=0xc46551f34c640034dd21c29426b3ed0f1b6bd7961ed048939a0f752175fda041
+[2026-10-20T03:45:48.172Z]   ok   token absent on the destination before the send: ownerOf reverts
+[2026-10-20T03:45:48.172Z]   ok   ONFTSent emitted: guid 0x765f173441f616bd9d22bbb921cff5121311ac1a4e3131a0252c3670dec69636
+[2026-10-20T03:45:48.172Z]   ok   token burned on the source: ownerOf reverts
+[2026-10-20T03:45:48.172Z]   ok   source no longer serves the passport: reverts
+[2026-10-20T03:45:48.172Z]   ok   token delivered to the receiver under the same tokenId: ownerOf 0x9415E00f429549A26310C83c1F47db40eb300415 after ~150s; LayerZero Scan: INFLIGHT (Verification committed)
+[2026-10-20T03:45:48.172Z]   ok   destination carries (revision 0, bafkreiffobwu6r4qa3vr5i3xcfzjkhp52jlwirrrhpldezc2o4srm2ourq): (revision 0, bafkreiffobwu6r4qa3vr5i3xcfzjkhp52jlwirrrhpldezc2o4srm2ourq)
+[2026-10-20T03:45:48.172Z]   ok   history hash commits to the run's CIDs: 0x5ca177f03861f235e2e86e300c16a18d8670757b6799755e64a6454c9ed074ba (expected 0x5ca177f03861f235e2e86e300c16a18d8670757b6799755e64a6454c9ed074ba over 1 CIDs)
+[2026-10-20T03:45:48.172Z]   ok   destination tokenURI resolves the CID: ipfs://bafkreiffobwu6r4qa3vr5i3xcfzjkhp52jlwirrrhpldezc2o4srm2ourq
+[2026-10-20T03:45:48.172Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-20T03:45:48.332Z] [sepolia] send(84532000000000014) to base-sepolia (eid 40245), fee 0.000104562368596558
+[2026-10-20T03:46:04.871Z]   guid 0x8147254d9cd861bc80fc14fcf4c216eabd01e2844caddf0ec1356c63de1ad2c0, https://testnet.layerzeroscan.com/tx/0xee51b6f310d83f27bc5582640722783851cfdc6b87a5e9ec6a3542935070c259
+[2026-10-20T03:46:05.640Z]   waiting for base-sepolia (0s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=4s last=[2026-10-20T03:46:05.640Z]   waiting for base-sepolia (0s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+[2026-10-20T03:46:37.296Z]   waiting for base-sepolia (32s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=2s last=[2026-10-20T03:46:37.296Z]   waiting for base-sepolia (32s): scan HTTP 404; ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+[2026-10-20T03:47:08.838Z]   waiting for base-sepolia (63s): INFLIGHT (Ready for DVNs to verify); ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=1s last=[2026-10-20T03:47:08.838Z]   waiting for base-sepolia (63s): INFLIGHT (Ready for DVNs to verify); ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+Watchdog status: pid=11510 alive=True launcher_alive=True silence=31s last=[2026-10-20T03:47:08.838Z]   waiting for base-sepolia (63s): INFLIGHT (Ready for DVNs to verify); ownerOf=absent; inboundPayloadHash=0x0000000000000000000000000000000000000000000000000000000000000000
+[2026-10-20T03:48:04.000Z]   ok   token absent on the destination before the send: ownerOf reverts
+[2026-10-20T03:48:04.000Z]   ok   ONFTSent emitted: guid 0x8147254d9cd861bc80fc14fcf4c216eabd01e2844caddf0ec1356c63de1ad2c0
+[2026-10-20T03:48:04.000Z]   ok   token burned on the source: ownerOf reverts
+[2026-10-20T03:48:04.000Z]   ok   source no longer serves the passport: reverts
+[2026-10-20T03:48:04.000Z]   ok   token delivered to the receiver under the same tokenId: ownerOf 0x9415E00f429549A26310C83c1F47db40eb300415 after ~95s; LayerZero Scan: DELIVERED (Executor transaction confirmed)
+[2026-10-20T03:48:04.000Z]   ok   destination carries (revision 0, bafkreiffobwu6r4qa3vr5i3xcfzjkhp52jlwirrrhpldezc2o4srm2ourq): (revision 0, bafkreiffobwu6r4qa3vr5i3xcfzjkhp52jlwirrrhpldezc2o4srm2ourq)
+[2026-10-20T03:48:04.000Z]   ok   history hash commits to the run's CIDs: 0x5ca177f03861f235e2e86e300c16a18d8670757b6799755e64a6454c9ed074ba (expected 0x5ca177f03861f235e2e86e300c16a18d8670757b6799755e64a6454c9ed074ba over 1 CIDs)
+[2026-10-20T03:48:04.000Z]   ok   destination tokenURI resolves the CID: ipfs://bafkreiffobwu6r4qa3vr5i3xcfzjkhp52jlwirrrhpldezc2o4srm2ourq
+[2026-10-20T03:48:04.000Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-20T03:48:04.000Z] === latency base-sepolia <-> sepolia: PASS ===
+[2026-10-20T03:48:04.007Z] 3 pairs, 0 failed. Report: <repo>/smart_contracts/e2e_reports/latency-1792465019048.md
+Watchdog exit=0

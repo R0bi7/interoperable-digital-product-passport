@@ -1,0 +1,135 @@
+{
+  "at": "2026-10-19T20:02:57.088Z",
+  "deploymentId": "whisky-v2-eval3",
+  "account": "0x9415E00f429549A26310C83c1F47db40eb300415",
+  "chains": [
+    {
+      "network": "arbitrum-sepolia",
+      "chainId": 421614,
+      "eid": 40231,
+      "address": "0xFE84e01B03Cae9B4AaD5678A5681B70bA77435C2",
+      "deploymentBlock": 320829977,
+      "readBlock": 320831847,
+      "codeBytes": 15632,
+      "codeHash": "0xf88977b41d7f379151fef567d24d70447aa80b4f31a596fe5fdcaa917845d041",
+      "owner": "0x9415E00f429549A26310C83c1F47db40eb300415",
+      "issuer": true,
+      "idPrefix": "421614",
+      "endpoint": "0x6EDCE65403992e310A62460808c4b910D972f10f",
+      "onftVersion": [
+        "0x23e18da6",
+        "14490024798553719034"
+      ],
+      "mintedCount": "0",
+      "balanceWei": "99909757586441668",
+      "peers": [
+        {
+          "eid": 40245,
+          "peer": "0x000000000000000000000000fe84e01b03cae9b4aad5678a5681b70ba77435c2"
+        },
+        {
+          "eid": 40161,
+          "peer": "0x000000000000000000000000ad3b1ca4ed7e212ca7a231829a542128fea8a5ba"
+        }
+      ]
+    },
+    {
+      "network": "base-sepolia",
+      "chainId": 84532,
+      "eid": 40245,
+      "address": "0xFE84e01B03Cae9B4AaD5678A5681B70bA77435C2",
+      "deploymentBlock": 48335698,
+      "readBlock": 48335946,
+      "codeBytes": 15632,
+      "codeHash": "0x58e18fccac647dfe97979e401fe1cf9ef85a034f83c5a65d301285b2d05b9ee8",
+      "owner": "0x9415E00f429549A26310C83c1F47db40eb300415",
+      "issuer": true,
+      "idPrefix": "84532",
+      "endpoint": "0x6EDCE65403992e310A62460808c4b910D972f10f",
+      "onftVersion": [
+        "0x23e18da6",
+        "14490024798553719034"
+      ],
+      "mintedCount": "0",
+      "balanceWei": "99973010223989375",
+      "peers": [
+        {
+          "eid": 40231,
+          "peer": "0x000000000000000000000000fe84e01b03cae9b4aad5678a5681b70ba77435c2"
+        },
+        {
+          "eid": 40161,
+          "peer": "0x000000000000000000000000ad3b1ca4ed7e212ca7a231829a542128fea8a5ba"
+        }
+      ]
+    },
+    {
+      "network": "sepolia",
+      "chainId": 11155111,
+      "eid": 40161,
+      "address": "0xAD3B1CA4eD7e212cA7a231829a542128feA8A5Ba",
+      "deploymentBlock": 11950374,
+      "readBlock": 11950414,
+      "codeBytes": 15632,
+      "codeHash": "0xc76ab0b6c50699b72e4d226b2fa6a242a6ab6247802cb0dea54c908dd387771c",
+      "owner": "0x9415E00f429549A26310C83c1F47db40eb300415",
+      "issuer": true,
+      "idPrefix": "11155111",
+      "endpoint": "0x6EDCE65403992e310A62460808c4b910D972f10f",
+      "onftVersion": [
+        "0x23e18da6",
+        "14490024798553719034"
+      ],
+      "mintedCount": "0",
+      "balanceWei": "2246010742488028826",
+      "peers": [
+        {
+          "eid": 40231,
+          "peer": "0x000000000000000000000000fe84e01b03cae9b4aad5678a5681b70ba77435c2"
+        },
+        {
+          "eid": 40245,
+          "peer": "0x000000000000000000000000fe84e01b03cae9b4aad5678a5681b70ba77435c2"
+        }
+      ]
+    }
+  ],
+  "quotes": [
+    {
+      "source": "arbitrum-sepolia",
+      "destination": "base-sepolia",
+      "nativeFeeWei": "101825559710967",
+      "label": "actual app quote for next token id, as used by e2e:budget"
+    },
+    {
+      "source": "arbitrum-sepolia",
+      "destination": "sepolia",
+      "nativeFeeWei": "98985508323399",
+      "label": "actual app quote for next token id, as used by e2e:budget"
+    },
+    {
+      "source": "base-sepolia",
+      "destination": "arbitrum-sepolia",
+      "nativeFeeWei": "108452487710967",
+      "label": "actual app quote for next token id, as used by e2e:budget"
+    },
+    {
+      "source": "base-sepolia",
+      "destination": "sepolia",
+      "nativeFeeWei": "98985508323399",
+      "label": "actual app quote for next token id, as used by e2e:budget"
+    },
+    {
+      "source": "sepolia",
+      "destination": "arbitrum-sepolia",
+      "nativeFeeWei": "142161200884558",
+      "label": "actual app quote for next token id, as used by e2e:budget"
+    },
+    {
+      "source": "sepolia",
+      "destination": "base-sepolia",
+      "nativeFeeWei": "104556224596558",
+      "label": "actual app quote for next token id, as used by e2e:budget"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "indexer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.12"
+  },
+  "scripts": {
+    "dev": "ponder dev",
+    "start": "ponder start",
+    "db": "ponder db",
+    "codegen": "ponder codegen",
+    "test": "vitest run",
+    "test:live": "vitest run -c vitest.live.config.ts",
+    "checkTs": "tsc --noEmit",
+    "lint": "biome check .",
+    "test:coverage": "vitest run --coverage"
+  },
+  "dependencies": {
+    "@idpp/passport-config": "workspace:*",
+    "hono": "4.13.13",
+    "ponder": "0.18.1",
+    "viem": "2.57.4"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.5.15",
+    "@types/node": "22.20.5",
+    "@vitest/coverage-v8": "5.0.3",
+    "typescript": "5.9.3",
+    "vitest": "5.0.3"
+  }
+}

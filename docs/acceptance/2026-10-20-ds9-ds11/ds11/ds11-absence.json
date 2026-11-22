@@ -1,0 +1,25 @@
+{
+  "at": "2026-10-20T17:31:13.033Z",
+  "tokens": [
+    {
+      "tokenId": "421614000000000039",
+      "arbitrumSepolia": {
+        "error": "ERC721NonexistentToken"
+      },
+      "baseSepolia": {
+        "owner": "0x9415E00f429549A26310C83c1F47db40eb300415"
+      },
+      "absentOnSource": true
+    },
+    {
+      "tokenId": "421614000000000040",
+      "arbitrumSepolia": {
+        "error": "ERC721NonexistentToken"
+      },
+      "baseSepolia": {
+        "owner": "0x9415E00f429549A26310C83c1F47db40eb300415"
+      },
+      "absentOnSource": true
+    }
+  ]
+}

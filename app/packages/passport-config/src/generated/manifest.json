@@ -1,0 +1,26 @@
+{
+  "deploymentId": "whisky-v2-eval3",
+  "chains": [
+    {
+      "network": "arbitrum-sepolia",
+      "chainId": 421614,
+      "eid": 40231,
+      "address": "0xFE84e01B03Cae9B4AaD5678A5681B70bA77435C2",
+      "deploymentBlock": 320829977
+    },
+    {
+      "network": "base-sepolia",
+      "chainId": 84532,
+      "eid": 40245,
+      "address": "0xFE84e01B03Cae9B4AaD5678A5681B70bA77435C2",
+      "deploymentBlock": 48335698
+    },
+    {
+      "network": "sepolia",
+      "chainId": 11155111,
+      "eid": 40161,
+      "address": "0xAD3B1CA4eD7e212cA7a231829a542128feA8A5Ba",
+      "deploymentBlock": 11950374
+    }
+  ]
+}

@@ -1,0 +1,432 @@
+{
+  "deploymentId": "whisky-v2-eval3",
+  "rows": [
+    {
+      "operation": "approve",
+      "network": "arbitrum-sepolia",
+      "state": "",
+      "gas": [
+        48752
+      ],
+      "feeWei": [
+        "1029544736000"
+      ],
+      "summary": {
+        "n": 1,
+        "mean": 48752,
+        "sd": 0,
+        "min": 48752,
+        "q1": 48752,
+        "median": 48752,
+        "q3": 48752,
+        "p95": 48752,
+        "max": 48752,
+        "meanCi95": null,
+        "medianCi95": null,
+        "outliers": 0
+      }
+    },
+    {
+      "operation": "approve",
+      "network": "base-sepolia",
+      "state": "",
+      "gas": [
+        48752
+      ],
+      "feeWei": [
+        "292512000000"
+      ],
+      "summary": {
+        "n": 1,
+        "mean": 48752,
+        "sd": 0,
+        "min": 48752,
+        "q1": 48752,
+        "median": 48752,
+        "q3": 48752,
+        "p95": 48752,
+        "max": 48752,
+        "meanCi95": null,
+        "medianCi95": null,
+        "outliers": 0
+      }
+    },
+    {
+      "operation": "approve",
+      "network": "sepolia",
+      "state": "",
+      "gas": [
+        130772
+      ],
+      "feeWei": [
+        "130774092352"
+      ],
+      "summary": {
+        "n": 1,
+        "mean": 130772,
+        "sd": 0,
+        "min": 130772,
+        "q1": 130772,
+        "median": 130772,
+        "q3": 130772,
+        "p95": 130772,
+        "max": 130772,
+        "meanCi95": null,
+        "medianCi95": null,
+        "outliers": 0
+      }
+    },
+    {
+      "operation": "mint",
+      "network": "arbitrum-sepolia",
+      "state": "later mint, to self",
+      "gas": [
+        155874
+      ],
+      "feeWei": [
+        "3281771196000"
+      ],
+      "summary": {
+        "n": 1,
+        "mean": 155874,
+        "sd": 0,
+        "min": 155874,
+        "q1": 155874,
+        "median": 155874,
+        "q3": 155874,
+        "p95": 155874,
+        "max": 155874,
+        "meanCi95": null,
+        "medianCi95": null,
+        "outliers": 0
+      }
+    },
+    {
+      "operation": "mint",
+      "network": "arbitrum-sepolia",
+      "state": "raw 96-byte CID, no payload",
+      "gas": [
+        178955,
+        178955
+      ],
+      "feeWei": [
+        "3781319150000",
+        "3758055000000"
+      ],
+      "summary": {
+        "n": 2,
+        "mean": 178955,
+        "sd": 0,
+        "min": 178955,
+        "q1": 178955,
+        "median": 178955,
+        "q3": 178955,
+        "p95": 178955,
+        "max": 178955,
+        "meanCi95": null,
+        "medianCi95": null,
+        "outliers": 0
+      }
+    },
+    {
+      "operation": "mint",
+      "network": "base-sepolia",
+      "state": "later mint, to self",
+      "gas": [
+        155874
+      ],
+      "feeWei": [
+        "935244000000"
+      ],
+      "summary": {
+        "n": 1,
+        "mean": 155874,
+        "sd": 0,
+        "min": 155874,
+        "q1": 155874,
+        "median": 155874,
+        "q3": 155874,
+        "p95": 155874,
+        "max": 155874,
+        "meanCi95": null,
+        "medianCi95": null,
+        "outliers": 0
+      }
+    },
+    {
+      "operation": "mint",
+      "network": "base-sepolia",
+      "state": "raw 96-byte CID, no payload",
+      "gas": [
+        178955
+      ],
+      "feeWei": [
+        "1073730000000"
+      ],
+      "summary": {
+        "n": 1,
+        "mean": 178955,
+        "sd": 0,
+        "min": 178955,
+        "q1": 178955,
+        "median": 178955,
+        "q3": 178955,
+        "p95": 178955,
+        "max": 178955,
+        "meanCi95": null,
+        "medianCi95": null,
+        "outliers": 0
+      }
+    },
+    {
+      "operation": "mint",
+      "network": "sepolia",
+      "state": "later mint, to self",
+      "gas": [
+        604074
+      ],
+      "feeWei": [
+        "604083665184"
+      ],
+      "summary": {
+        "n": 1,
+        "mean": 604074,
+        "sd": 0,
+        "min": 604074,
+        "q1": 604074,
+        "median": 604074,
+        "q3": 604074,
+        "p95": 604074,
+        "max": 604074,
+        "meanCi95": null,
+        "medianCi95": null,
+        "outliers": 0
+      }
+    },
+    {
+      "operation": "revise",
+      "network": "arbitrum-sepolia",
+      "state": "depth 1",
+      "gas": [
+        72280
+      ],
+      "feeWei": [
+        "1527854640000"
+      ],
+      "summary": {
+        "n": 1,
+        "mean": 72280,
+        "sd": 0,
+        "min": 72280,
+        "q1": 72280,
+        "median": 72280,
+        "q3": 72280,
+        "p95": 72280,
+        "max": 72280,
+        "meanCi95": null,
+        "medianCi95": null,
+        "outliers": 0
+      }
+    },
+    {
+      "operation": "revise",
+      "network": "base-sepolia",
+      "state": "depth 1",
+      "gas": [
+        72280
+      ],
+      "feeWei": [
+        "433680000000"
+      ],
+      "summary": {
+        "n": 1,
+        "mean": 72280,
+        "sd": 0,
+        "min": 72280,
+        "q1": 72280,
+        "median": 72280,
+        "q3": 72280,
+        "p95": 72280,
+        "max": 72280,
+        "meanCi95": null,
+        "medianCi95": null,
+        "outliers": 0
+      }
+    },
+    {
+      "operation": "revise",
+      "network": "sepolia",
+      "state": "depth 1",
+      "gas": [
+        175700
+      ],
+      "feeWei": [
+        "175702811200"
+      ],
+      "summary": {
+        "n": 1,
+        "mean": 175700,
+        "sd": 0,
+        "min": 175700,
+        "q1": 175700,
+        "median": 175700,
+        "q3": 175700,
+        "p95": 175700,
+        "max": 175700,
+        "meanCi95": null,
+        "medianCi95": null,
+        "outliers": 0
+      }
+    },
+    {
+      "operation": "send arbitrum-sepolia -> base-sepolia",
+      "network": "arbitrum-sepolia",
+      "state": "first arrival",
+      "gas": [
+        237434
+      ],
+      "feeWei": [
+        "5021254232000"
+      ],
+      "summary": {
+        "n": 1,
+        "mean": 237434,
+        "sd": 0,
+        "min": 237434,
+        "q1": 237434,
+        "median": 237434,
+        "q3": 237434,
+        "p95": 237434,
+        "max": 237434,
+        "meanCi95": null,
+        "medianCi95": null,
+        "outliers": 0
+      }
+    },
+    {
+      "operation": "send arbitrum-sepolia -> sepolia",
+      "network": "arbitrum-sepolia",
+      "state": "first arrival",
+      "gas": [
+        237434
+      ],
+      "feeWei": [
+        "5033600800000"
+      ],
+      "summary": {
+        "n": 1,
+        "mean": 237434,
+        "sd": 0,
+        "min": 237434,
+        "q1": 237434,
+        "median": 237434,
+        "q3": 237434,
+        "p95": 237434,
+        "max": 237434,
+        "meanCi95": null,
+        "medianCi95": null,
+        "outliers": 0
+      }
+    },
+    {
+      "operation": "send base-sepolia -> arbitrum-sepolia",
+      "network": "base-sepolia",
+      "state": "first arrival",
+      "gas": [
+        237434
+      ],
+      "feeWei": [
+        "1424604000000"
+      ],
+      "summary": {
+        "n": 1,
+        "mean": 237434,
+        "sd": 0,
+        "min": 237434,
+        "q1": 237434,
+        "median": 237434,
+        "q3": 237434,
+        "p95": 237434,
+        "max": 237434,
+        "meanCi95": null,
+        "medianCi95": null,
+        "outliers": 0
+      }
+    },
+    {
+      "operation": "transfer",
+      "network": "arbitrum-sepolia",
+      "state": "to a new holder, transferFrom, by approved operator",
+      "gas": [
+        60472
+      ],
+      "feeWei": [
+        "1269912000000"
+      ],
+      "summary": {
+        "n": 1,
+        "mean": 60472,
+        "sd": 0,
+        "min": 60472,
+        "q1": 60472,
+        "median": 60472,
+        "q3": 60472,
+        "p95": 60472,
+        "max": 60472,
+        "meanCi95": null,
+        "medianCi95": null,
+        "outliers": 0
+      }
+    },
+    {
+      "operation": "transfer",
+      "network": "base-sepolia",
+      "state": "to a new holder, transferFrom, by approved operator",
+      "gas": [
+        60472
+      ],
+      "feeWei": [
+        "362832000000"
+      ],
+      "summary": {
+        "n": 1,
+        "mean": 60472,
+        "sd": 0,
+        "min": 60472,
+        "q1": 60472,
+        "median": 60472,
+        "q3": 60472,
+        "p95": 60472,
+        "max": 60472,
+        "meanCi95": null,
+        "medianCi95": null,
+        "outliers": 0
+      }
+    },
+    {
+      "operation": "transfer",
+      "network": "sepolia",
+      "state": "to a new holder, transferFrom, by approved operator",
+      "gas": [
+        157276
+      ],
+      "feeWei": [
+        "157278516416"
+      ],
+      "summary": {
+        "n": 1,
+        "mean": 157276,
+        "sd": 0,
+        "min": 157276,
+        "q1": 157276,
+        "median": 157276,
+        "q3": 157276,
+        "p95": 157276,
+        "max": 157276,
+        "meanCi95": null,
+        "medianCi95": null,
+        "outliers": 0
+      }
+    }
+  ]
+}

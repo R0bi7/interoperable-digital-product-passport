@@ -1,0 +1,185 @@
+{
+  "deploymentId": "whisky-v2-eval3",
+  "maxCidBytes": 96,
+  "maxLengthCid": "bafkreiaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "payloads": [
+    {
+      "name": "cask-minimal",
+      "kind": "cask",
+      "granularity": "item",
+      "bytes": 318,
+      "cid": "bafkreifs5b3dtac3ebnln6z6kamiypkkub2afsvoi2yvqm7dum22ble5su",
+      "sha256": "b2e87639805b205ab6fb3e50188c3d4aa07402caae46b15833e3a335a0ac9d95"
+    },
+    {
+      "name": "cask-full",
+      "kind": "cask",
+      "granularity": "item",
+      "bytes": 594,
+      "cid": "bafkreieica4l5mq37bg56uszdysvhqtqpwtt3cwsb4u5zt6w4xvbeojtbe",
+      "sha256": "881038beb21bf84ddf52591e2553c2707da73d8ad20f29dccfd6e5ea12393309"
+    },
+    {
+      "name": "cask-batch",
+      "kind": "cask",
+      "granularity": "batch",
+      "bytes": 626,
+      "cid": "bafkreiakl6d6vzwgl2dyys6cb73ukix7ynrceqk6ddqrhm4p7hapycnffe",
+      "sha256": "0a5f87eae6c65e878c4bc20ff74522ffc36222415e18e113b38ff9c0fc09a529"
+    },
+    {
+      "name": "bottle-1-cask",
+      "kind": "bottle",
+      "granularity": "item",
+      "bytes": 374,
+      "cid": "bafkreifbpueocmab5662wcldohteehaspxdktfghugldktgbp3l36vmrle",
+      "sha256": "a17d08e13001efbdab096371e6421c127dc6a994c7a196354cc17ed7bf559159"
+    },
+    {
+      "name": "bottle-3-casks",
+      "kind": "bottle",
+      "granularity": "item",
+      "bytes": 506,
+      "cid": "bafkreiaslxv2bvf6hy4ls63r7czet55jurci3xpjfz6zfcxl44gmlteddi",
+      "sha256": "125deba0d4be3e38b97b71f8b249f7a9a4448ddde92e7d928aebe70cc5cc831a"
+    },
+    {
+      "name": "bottle-10-casks",
+      "kind": "bottle",
+      "granularity": "item",
+      "bytes": 968,
+      "cid": "bafkreib3go52xcwvazzyfpdk4owqqt4m7c5bucdizlbb5umv4ryqj4udne",
+      "sha256": "3b33bbab8ad5067382bc6ae3ad084f8cf8ba1a0868cac21ed195e47104f28369"
+    },
+    {
+      "name": "bottle-batch",
+      "kind": "bottle",
+      "granularity": "batch",
+      "bytes": 541,
+      "cid": "bafkreidshxfo7bxqtslurai7ewgsuz7fkqppwjknwytfmbrrecdbgoptby",
+      "sha256": "723dcaef86f09c9748811f258d2a67e5541efb254db62656063120861339f30e"
+    },
+    {
+      "name": "size-2-kib",
+      "kind": "cask",
+      "granularity": "item",
+      "bytes": 2048,
+      "cid": "bafkreietxlbxpwros4jkydpbzw7rteuaq3zn433fsa4s3w74rapunfsu74",
+      "sha256": "93bac377da2e9712ac0de1cdbf19928086f2de6f6590392ddbfc881f469654ff"
+    },
+    {
+      "name": "size-64-kib",
+      "kind": "cask",
+      "granularity": "item",
+      "bytes": 65536,
+      "cid": "bafkreibxzofa7apenid42v6ch3hslwnnmrctjky3nfrmvnynhjj26l4xya",
+      "sha256": "37cb8a0f81e46a07cd57c23ecf25d9ad644534ab1b6962cab70d3a53af2f97c0"
+    }
+  ],
+  "chains": [
+    {
+      "depth": 1,
+      "bytesPerRevision": [
+        347
+      ],
+      "totalBytes": 347,
+      "cids": [
+        "bafkreigrfltqstuddvuak5xqg5hhje7zk7umz53csmp2j7z5yv2phhhhgm"
+      ]
+    },
+    {
+      "depth": 5,
+      "bytesPerRevision": [
+        347,
+        404,
+        404,
+        404,
+        404
+      ],
+      "totalBytes": 1963,
+      "cids": [
+        "bafkreigrfltqstuddvuak5xqg5hhje7zk7umz53csmp2j7z5yv2phhhhgm",
+        "bafkreigwys5lhmanet5n24jfkeg2g4mq4tfani4abrers45gfbqbyvqwum",
+        "bafkreihrkh5yme2c5z3bwlfnl3by7kujdh4fos77jh3d4edcnma4vzzvsq",
+        "bafkreihtwi2ellcxdvgcm6x75a6uthkxzibeanbzeuzddcbpjcd5pieep4",
+        "bafkreihbaimtkk5vnobtivsmv7rplixvu5nhwwbugfirbv6466hxdwgo5m"
+      ]
+    },
+    {
+      "depth": 10,
+      "bytesPerRevision": [
+        347,
+        404,
+        404,
+        404,
+        404,
+        404,
+        404,
+        404,
+        404,
+        404
+      ],
+      "totalBytes": 3983,
+      "cids": [
+        "bafkreigrfltqstuddvuak5xqg5hhje7zk7umz53csmp2j7z5yv2phhhhgm",
+        "bafkreigwys5lhmanet5n24jfkeg2g4mq4tfani4abrers45gfbqbyvqwum",
+        "bafkreihrkh5yme2c5z3bwlfnl3by7kujdh4fos77jh3d4edcnma4vzzvsq",
+        "bafkreihtwi2ellcxdvgcm6x75a6uthkxzibeanbzeuzddcbpjcd5pieep4",
+        "bafkreihbaimtkk5vnobtivsmv7rplixvu5nhwwbugfirbv6466hxdwgo5m",
+        "bafkreicbumf6x5qylzkjttyz5x26ebfbbgthplmo6bqn4tx323jeuoroui",
+        "bafkreieh7ofzoacgpbyjrebmqjepwhjhrmdpbqgnjih734pt2mllwvqjja",
+        "bafkreicmrsog2rqohr3ypv5wazenyoh3yt5jfngw6twoqghqojtk57aiui",
+        "bafkreib2tntlkaexp6pisme2zqbhns2r3clijnq27qez6p6onpe4w4tngm",
+        "bafkreic7mt663tcoa2mjfexjwl7ljmhipd32dkkywlw62tnpf4zrrqdxv4"
+      ]
+    },
+    {
+      "depth": 20,
+      "bytesPerRevision": [
+        347,
+        404,
+        404,
+        404,
+        404,
+        404,
+        404,
+        404,
+        404,
+        404,
+        406,
+        406,
+        406,
+        406,
+        406,
+        406,
+        406,
+        406,
+        406,
+        406
+      ],
+      "totalBytes": 8043,
+      "cids": [
+        "bafkreigrfltqstuddvuak5xqg5hhje7zk7umz53csmp2j7z5yv2phhhhgm",
+        "bafkreigwys5lhmanet5n24jfkeg2g4mq4tfani4abrers45gfbqbyvqwum",
+        "bafkreihrkh5yme2c5z3bwlfnl3by7kujdh4fos77jh3d4edcnma4vzzvsq",
+        "bafkreihtwi2ellcxdvgcm6x75a6uthkxzibeanbzeuzddcbpjcd5pieep4",
+        "bafkreihbaimtkk5vnobtivsmv7rplixvu5nhwwbugfirbv6466hxdwgo5m",
+        "bafkreicbumf6x5qylzkjttyz5x26ebfbbgthplmo6bqn4tx323jeuoroui",
+        "bafkreieh7ofzoacgpbyjrebmqjepwhjhrmdpbqgnjih734pt2mllwvqjja",
+        "bafkreicmrsog2rqohr3ypv5wazenyoh3yt5jfngw6twoqghqojtk57aiui",
+        "bafkreib2tntlkaexp6pisme2zqbhns2r3clijnq27qez6p6onpe4w4tngm",
+        "bafkreic7mt663tcoa2mjfexjwl7ljmhipd32dkkywlw62tnpf4zrrqdxv4",
+        "bafkreiemyd4rf446nxv4iheq45o7kv5duzecupwcg4mj6hdng5jvvarm5m",
+        "bafkreick7djy4xwulzhds534n6w4y6svcusydhvbwtzbj6aw7lphaqohdy",
+        "bafkreidkgnm7kdd62rf23s47brrtz66nmg6bpbm3g4he3lrdssvfrup7bm",
+        "bafkreihogtt66uplbaw67has5fsriwg55lv6wuuudz6qtofe7o5o5psyji",
+        "bafkreiecu3j2jl6eu52n3rxirvnzxnmk4qpjfqgkhgeuxtipjdda57nti4",
+        "bafkreieyu5knbabi6pvktzt32t4zxksqsfmv6jqilkwz474rnw47irajma",
+        "bafkreifnbuijwfet3kgannacb2am2jpuo7gxrpddn4syezvs7ynmszbaay",
+        "bafkreig2upq4ilgvlyj6qbi3sdfbxnu7rrhd2yy5bbazpnzzepgauuf3m4",
+        "bafkreicixxt3ceixmuck7q6m6vovi37rnuppw4vfjkxgie3s4kq6hxvpwe",
+        "bafkreig4urwlwpqzjmsqinb6b6tw7oyognleb5qsn5fpm5t5dqa3ijiq5i"
+      ]
+    }
+  ]
+}

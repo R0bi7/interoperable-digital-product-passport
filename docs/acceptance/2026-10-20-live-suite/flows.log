@@ -1,0 +1,117 @@
+
+> web@0.1.0 test:e2e:live <repo>/app/apps/web
+> NEXT_PUBLIC_INDEXER_URL=${INDEXER_URL:-} next build && playwright test -c playwright.live.config.ts
+
+   ▲ Next.js 15.5.27
+   - Environments: .env.local
+
+   Creating an optimized production build ...
+ ⚠ Compiled with warnings in 6.7s
+
+../../node_modules/.pnpm/ox@0.14.54_typescript@5.9.3_zod@4.6.6/node_modules/ox/_esm/tempo/internal/virtualMasterPool.js
+Critical dependency: the request of a dependency is an expression
+
+Import trace for requested module:
+../../node_modules/.pnpm/ox@0.14.54_typescript@5.9.3_zod@4.6.6/node_modules/ox/_esm/tempo/internal/virtualMasterPool.js
+../../node_modules/.pnpm/ox@0.14.54_typescript@5.9.3_zod@4.6.6/node_modules/ox/_esm/tempo/VirtualMaster.js
+../../node_modules/.pnpm/ox@0.14.54_typescript@5.9.3_zod@4.6.6/node_modules/ox/_esm/tempo/index.js
+../../node_modules/.pnpm/viem@2.57.4_bufferutil@4.1.0_typescript@5.9.3_utf-8-validate@5.0.10_zod@4.6.6/node_modules/viem/_esm/tempo/chainConfig.js
+../../node_modules/.pnpm/viem@2.57.4_bufferutil@4.1.0_typescript@5.9.3_utf-8-validate@5.0.10_zod@4.6.6/node_modules/viem/_esm/chains/definitions/tempo.js
+../../node_modules/.pnpm/viem@2.57.4_bufferutil@4.1.0_typescript@5.9.3_utf-8-validate@5.0.10_zod@4.6.6/node_modules/viem/_esm/chains/index.js
+./src/lib/chains.ts
+./src/providers/web3-provider.tsx
+
+   Skipping linting
+   Checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/7) ...
+   Generating static pages (1/7) 
+   Generating static pages (3/7) 
+   Generating static pages (5/7) 
+ ✓ Generating static pages (7/7)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                                 Size  First Load JS
+┌ ○ /                                    3.63 kB         277 kB
+├ ○ /_not-found                             1 kB         106 kB
+├ ƒ /api/mint                              139 B         105 kB
+├ ƒ /api/mint/challenge                    139 B         105 kB
+├ ƒ /api/pin                               139 B         105 kB
+├ ƒ /api/pin/challenge                     139 B         105 kB
+├ ○ /mint                                6.38 kB         388 kB
+├ ƒ /passport/[tokenId]                  6.72 kB         287 kB
+├ ƒ /passport/[tokenId]/revise            5.4 kB         394 kB
+├ ƒ /passport/[tokenId]/send              6.4 kB         395 kB
+├ ƒ /passport/[tokenId]/verify-owner     1.47 kB         274 kB
+├ ○ /prove                               2.44 kB         399 kB
+└ ○ /scan                                 3.4 kB         129 kB
++ First Load JS shared by all             105 kB
+  ├ chunks/6910-776e8153e86dd093.js      46.4 kB
+  ├ chunks/8577a58c-ffee9a462bf95a5e.js  54.2 kB
+  └ other shared chunks (total)          4.45 kB
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
+
+Running 42 tests using 1 worker
+
+  ✓   1 e2e-live/flows.spec.ts:56:1 › connects the injected wallet (wagmi reconnects it on load) (187ms)
+minted token 421614000000000026
+  ✓   2 e2e-live/flows.spec.ts:64:3 › sample 1: mints a cask: signs the challenge, pins, mints, and the chain agrees (11.8s)
+  ✓   3 e2e-live/flows.spec.ts:106:3 › sample 1: revises the passport: signs the pin challenge, pins, writes revision 1 (2.1m)
+minted token 421614000000000027
+  ✓   4 e2e-live/flows.spec.ts:64:3 › sample 2: mints a cask: signs the challenge, pins, mints, and the chain agrees (5.5s)
+  ✓   5 e2e-live/flows.spec.ts:106:3 › sample 2: revises the passport: signs the pin challenge, pins, writes revision 1 (2.1m)
+minted token 421614000000000028
+  ✓   6 e2e-live/flows.spec.ts:64:3 › sample 3: mints a cask: signs the challenge, pins, mints, and the chain agrees (10.3s)
+  ✓   7 e2e-live/flows.spec.ts:106:3 › sample 3: revises the passport: signs the pin challenge, pins, writes revision 1 (2.1m)
+minted token 421614000000000029
+  ✓   8 e2e-live/flows.spec.ts:64:3 › sample 4: mints a cask: signs the challenge, pins, mints, and the chain agrees (6.6s)
+  ✓   9 e2e-live/flows.spec.ts:106:3 › sample 4: revises the passport: signs the pin challenge, pins, writes revision 1 (2.2m)
+minted token 421614000000000030
+  ✓  10 e2e-live/flows.spec.ts:64:3 › sample 5: mints a cask: signs the challenge, pins, mints, and the chain agrees (6.4s)
+  ✓  11 e2e-live/flows.spec.ts:106:3 › sample 5: revises the passport: signs the pin challenge, pins, writes revision 1 (2.2m)
+minted token 421614000000000031
+  ✓  12 e2e-live/flows.spec.ts:64:3 › sample 6: mints a cask: signs the challenge, pins, mints, and the chain agrees (6.3s)
+  ✓  13 e2e-live/flows.spec.ts:106:3 › sample 6: revises the passport: signs the pin challenge, pins, writes revision 1 (2.2m)
+minted token 421614000000000032
+  ✓  14 e2e-live/flows.spec.ts:64:3 › sample 7: mints a cask: signs the challenge, pins, mints, and the chain agrees (5.8s)
+  ✓  15 e2e-live/flows.spec.ts:106:3 › sample 7: revises the passport: signs the pin challenge, pins, writes revision 1 (2.2m)
+minted token 421614000000000033
+  ✓  16 e2e-live/flows.spec.ts:64:3 › sample 8: mints a cask: signs the challenge, pins, mints, and the chain agrees (10.8s)
+  ✓  17 e2e-live/flows.spec.ts:106:3 › sample 8: revises the passport: signs the pin challenge, pins, writes revision 1 (2.2m)
+minted token 421614000000000034
+  ✓  18 e2e-live/flows.spec.ts:64:3 › sample 9: mints a cask: signs the challenge, pins, mints, and the chain agrees (6.1s)
+  ✓  19 e2e-live/flows.spec.ts:106:3 › sample 9: revises the passport: signs the pin challenge, pins, writes revision 1 (2.1m)
+minted token 421614000000000035
+  ✓  20 e2e-live/flows.spec.ts:64:3 › sample 10: mints a cask: signs the challenge, pins, mints, and the chain agrees (6.4s)
+  ✓  21 e2e-live/flows.spec.ts:106:3 › sample 10: revises the passport: signs the pin challenge, pins, writes revision 1 (2.2m)
+  ✓  22 e2e-live/flows.spec.ts:152:1 › a stale revise is refused with a clear message (10.3s)
+  ✓  23 e2e-live/flows.spec.ts:206:3 › send sample 1: 421614 to 84532 (54.0s)
+  ✓  24 e2e-live/flows.spec.ts:206:3 › send sample 2: 84532 to 421614 (51.5s)
+  ✓  25 e2e-live/flows.spec.ts:206:3 › send sample 3: 421614 to 84532 (57.2s)
+  ✓  26 e2e-live/flows.spec.ts:206:3 › send sample 4: 84532 to 421614 (55.4s)
+  ✓  27 e2e-live/flows.spec.ts:206:3 › send sample 5: 421614 to 84532 (54.0s)
+  ✓  28 e2e-live/flows.spec.ts:206:3 › send sample 6: 84532 to 421614 (55.0s)
+  ✓  29 e2e-live/flows.spec.ts:206:3 › send sample 7: 421614 to 84532 (57.0s)
+  ✓  30 e2e-live/flows.spec.ts:206:3 › send sample 8: 84532 to 421614 (49.4s)
+  ✓  31 e2e-live/flows.spec.ts:206:3 › send sample 9: 421614 to 84532 (32.5s)
+  ✓  32 e2e-live/flows.spec.ts:206:3 › send sample 10: 84532 to 421614 (48.9s)
+  ✓  33 e2e-live/flows.spec.ts:206:3 › send sample 11: 421614 to 84532 (31.5s)
+  ✓  34 e2e-live/flows.spec.ts:206:3 › send sample 12: 84532 to 421614 (53.0s)
+  ✓  35 e2e-live/flows.spec.ts:206:3 › send sample 13: 421614 to 84532 (1.0m)
+  ✓  36 e2e-live/flows.spec.ts:206:3 › send sample 14: 84532 to 421614 (1.0m)
+  ✓  37 e2e-live/flows.spec.ts:206:3 › send sample 15: 421614 to 84532 (58.6s)
+  ✓  38 e2e-live/flows.spec.ts:206:3 › send sample 16: 84532 to 421614 (55.7s)
+  ✓  39 e2e-live/flows.spec.ts:206:3 › send sample 17: 421614 to 84532 (54.5s)
+  ✓  40 e2e-live/flows.spec.ts:206:3 › send sample 18: 84532 to 421614 (48.9s)
+  ✓  41 e2e-live/flows.spec.ts:206:3 › send sample 19: 421614 to 84532 (31.4s)
+wallet requests: personal_sign, personal_sign, eth_sendTransaction on 421614, personal_sign, personal_sign, eth_sendTransaction on 421614, personal_sign, personal_sign, eth_sendTransaction on 421614, personal_sign, personal_sign, eth_sendTransaction on 421614, personal_sign, personal_sign, eth_sendTransaction on 421614, personal_sign, personal_sign, eth_sendTransaction on 421614, personal_sign, personal_sign, eth_sendTransaction on 421614, personal_sign, personal_sign, eth_sendTransaction on 421614, personal_sign, personal_sign, eth_sendTransaction on 421614, personal_sign, personal_sign, eth_sendTransaction on 421614, personal_sign, eth_sendTransaction on 421614, eth_sendTransaction on 84532, eth_sendTransaction on 421614, eth_sendTransaction on 84532, eth_sendTransaction on 421614, eth_sendTransaction on 84532, eth_sendTransaction on 421614, eth_sendTransaction on 84532, eth_sendTransaction on 421614, eth_sendTransaction on 84532, eth_sendTransaction on 421614, eth_sendTransaction on 84532, eth_sendTransaction on 421614, eth_sendTransaction on 84532, eth_sendTransaction on 421614, eth_sendTransaction on 84532, eth_sendTransaction on 421614, eth_sendTransaction on 84532, eth_sendTransaction on 421614, eth_sendTransaction on 84532
+  ✓  42 e2e-live/flows.spec.ts:206:3 › send sample 20: 84532 to 421614 (50.7s)
+
+  Slow test file: e2e-live/flows.spec.ts (40.3m)
+  Consider running tests from slow files in parallel. See: https://playwright.dev/docs/test-parallel
+  42 passed (40.3m)

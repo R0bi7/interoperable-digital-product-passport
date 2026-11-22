@@ -1,0 +1,43 @@
+{
+  "header": {
+    "startedAt": "2026-10-20T14:59:39.099Z",
+    "gitSha": "cc9254438b0d03b67fb2b5ab4c13d8436df44694",
+    "gitDirty": true,
+    "deploymentId": "whisky-v2-eval3",
+    "chains": [
+      {
+        "chainId": 421614,
+        "eid": 40231,
+        "address": "0xFE84e01B03Cae9B4AaD5678A5681B70bA77435C2"
+      },
+      {
+        "chainId": 84532,
+        "eid": 40245,
+        "address": "0xFE84e01B03Cae9B4AaD5678A5681B70bA77435C2"
+      },
+      {
+        "chainId": 11155111,
+        "eid": 40161,
+        "address": "0xAD3B1CA4eD7e212cA7a231829a542128feA8A5Ba"
+      }
+    ],
+    "tools": {
+      "node": "v24.10.0",
+      "playwright": "1.64.0"
+    },
+    "indexerUrl": "http://localhost:42069"
+  },
+  "observations": [
+    {
+      "operation": "mint",
+      "tokenId": "421614000000000025",
+      "chainId": 421614,
+      "clickAt": "2026-10-20T14:59:39.854Z",
+      "confirmedAt": "2026-10-20T14:59:44.748Z",
+      "verifiedAt": "2026-10-20T14:59:45.916Z",
+      "outcome": "verified",
+      "txHash": "0xb2d3df02c48590285b51d45ac5f717718ff8d868f50f07592c4c3c790212808a",
+      "lastPageState": "Skip to content\nWhisky Distillery\nInteroperable Digital Product Passport\nPassports\nScan\nMint\nConnect Wallet\n\nNo browser wallet found. Install an Ethereum wallet extension (for example MetaMask) and reload.\n\nPASSPORT\n\n421614000000000025\nheld\nRevise\nSend to another chain\nVerify owner\nProve ownership\nOrigin (originOf)\nArbitrum Sepolia (421614)\nDeployment\nwhisky-v2-eval3\nCurrent chain\nArbitrum Sepolia\nContract\n0xFE84e01B03Cae9B4AaD5678A5681B70bA77435C2\nOwner\n0x9415e00f429549a26310c83c1f47db40eb300415\nRevision\n0\nCID\nbafkreiadbd7rue7kdrsvrkni3hrq66avjqfigp75xgoprlyh5opfqmb2s4\nLive confirmation\n\nRead ownerOf and passportOf on Arbitrum Sepolia in one multicall at block 321093135.\n\nThe live read agrees with the indexer.\n\nIndexer progress\nArbitrum Sepolia: indexed block 321093132 of 321093133 (1 blocks behind)\nQR code\n\nPrint this on the cask or bottle. Scanning it opens this passport and its verification.\n\nhttp://localhost:3112/passport/421614000000000025?deployment=whisky-v2-eval3\n\nDownload PNG\nCopy link\nTimeline\nIssued on Arbitrum Sepolia\n2026-10-20T14:59:43Z, block 321093132, 0xb2d3df02…12808a\nRevisions and verification\n\nChecked in this browser on the raw bytes from the gateway: content (bytes hash to the CID), binding (envelope names this deployment, token and revision), history (each previousCid is the preceding revision's CID), recorded on chain (the emitting contract receipt confirms this CID, revision and author; timestamps remain indexer-sourced), and once for the passport history hash (the CIDs of every revision, in order, recompute the historyHash of the live passportOf read).\n\nhistory hash: verified\nRevision 0\nArbitrum Sepolia, 2026-10-20T14:59:43Z, tx\nbafkreiadbd7rue7kdrsvrkni3hrq66avjqfigp75xgoprlyh5opfqmb2s4CID from passportOf on chain (live read)\ncontent: verified\nbinding: verified\nhistory: verified\nrecorded on chain: verified\nPayload data\nKind\ncask\nGranularity\nitem\nDistillery\nLive Test Distillery\nCask type\nBourbon barrel\nCask number\nE2E-1792508379828\nVolume (liters)\n200\nAlcohol by volume (%)\n63.5\nFill date\n2026-10-01(domain assertion by the issuer, not chain evidence)\nDescription\nMinted by the live Playwright suite."
+    }
+  ]
+}

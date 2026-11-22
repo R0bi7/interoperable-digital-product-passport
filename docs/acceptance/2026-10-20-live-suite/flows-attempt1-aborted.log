@@ -1,0 +1,64 @@
+
+> web@0.1.0 test:e2e:live <repo>/app/apps/web
+> NEXT_PUBLIC_INDEXER_URL=${INDEXER_URL:-} next build && playwright test -c playwright.live.config.ts
+
+   ▲ Next.js 15.5.27
+   - Environments: .env.local
+
+   Creating an optimized production build ...
+ ⚠ Compiled with warnings in 14.1s
+
+../../node_modules/.pnpm/ox@0.14.54_typescript@5.9.3_zod@4.6.6/node_modules/ox/_esm/tempo/internal/virtualMasterPool.js
+Critical dependency: the request of a dependency is an expression
+
+Import trace for requested module:
+../../node_modules/.pnpm/ox@0.14.54_typescript@5.9.3_zod@4.6.6/node_modules/ox/_esm/tempo/internal/virtualMasterPool.js
+../../node_modules/.pnpm/ox@0.14.54_typescript@5.9.3_zod@4.6.6/node_modules/ox/_esm/tempo/VirtualMaster.js
+../../node_modules/.pnpm/ox@0.14.54_typescript@5.9.3_zod@4.6.6/node_modules/ox/_esm/tempo/index.js
+../../node_modules/.pnpm/viem@2.57.4_bufferutil@4.1.0_typescript@5.9.3_utf-8-validate@5.0.10_zod@4.6.6/node_modules/viem/_esm/tempo/chainConfig.js
+../../node_modules/.pnpm/viem@2.57.4_bufferutil@4.1.0_typescript@5.9.3_utf-8-validate@5.0.10_zod@4.6.6/node_modules/viem/_esm/chains/definitions/tempo.js
+../../node_modules/.pnpm/viem@2.57.4_bufferutil@4.1.0_typescript@5.9.3_utf-8-validate@5.0.10_zod@4.6.6/node_modules/viem/_esm/chains/index.js
+./src/lib/chains.ts
+./src/providers/web3-provider.tsx
+
+   Skipping linting
+   Checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/7) ...
+   Generating static pages (1/7) 
+   Generating static pages (3/7) 
+   Generating static pages (5/7) 
+ ✓ Generating static pages (7/7)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                                 Size  First Load JS
+┌ ○ /                                    3.63 kB         277 kB
+├ ○ /_not-found                             1 kB         106 kB
+├ ƒ /api/mint                              139 B         105 kB
+├ ƒ /api/mint/challenge                    139 B         105 kB
+├ ƒ /api/pin                               139 B         105 kB
+├ ƒ /api/pin/challenge                     139 B         105 kB
+├ ○ /mint                                6.38 kB         388 kB
+├ ƒ /passport/[tokenId]                  6.72 kB         287 kB
+├ ƒ /passport/[tokenId]/revise            5.4 kB         394 kB
+├ ƒ /passport/[tokenId]/send              6.4 kB         395 kB
+├ ƒ /passport/[tokenId]/verify-owner     1.47 kB         274 kB
+├ ○ /prove                               2.44 kB         399 kB
+└ ○ /scan                                 3.4 kB         129 kB
++ First Load JS shared by all             105 kB
+  ├ chunks/6910-776e8153e86dd093.js      46.4 kB
+  ├ chunks/8577a58c-ffee9a462bf95a5e.js  54.2 kB
+  └ other shared chunks (total)          4.45 kB
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
+
+Running 42 tests using 1 worker
+
+  ✓   1 e2e-live/flows.spec.ts:56:1 › connects the injected wallet (wagmi reconnects it on load) (192ms)
+minted token 421614000000000025
+  ✓   2 e2e-live/flows.spec.ts:64:3 › sample 1: mints a cask: signs the challenge, pins, mints, and the chain agrees (6.6s)
+ ELIFECYCLE  Command failed.

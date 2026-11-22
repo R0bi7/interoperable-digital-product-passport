@@ -1,0 +1,18 @@
+\begin{table}[htbp]
+    \centering
+    \small
+    \begin{tabular}{lrrll}
+    \toprule
+    Direction & Sends & Source gas used & Source receipt gas fee & LayerZero fee paid (msg.value) \\
+    \midrule
+    arbitrum-sepolia -> base-sepolia & 12 & 234,531 & 0.000004925151 to 0.000004976278758 ETH & 0.000101831703710967 ETH \\
+    arbitrum-sepolia -> sepolia & 12 & 234,531 & 0.000004925151 to 0.000004959392526 ETH & 0.000098985508365383 ETH \\
+    base-sepolia -> arbitrum-sepolia & 12 & 234,531 & 0.000001407186 to 0.00000377922549807 ETH & 0.000108472967710967 ETH \\
+    base-sepolia -> sepolia & 12 & 234,531 & 0.000001407186 ETH & 0.000098985508365383 ETH \\
+    sepolia -> arbitrum-sepolia & 12 & 272,415 & 0.00000027241881381 to 0.000000272419631055 ETH & 0.000142248695540558 ETH \\
+    sepolia -> base-sepolia & 12 & 272,415 & 0.00000027241881381 to 0.000000272419631055 ETH & 0.000104562368596558 ETH \\
+    \bottomrule
+    \end{tabular}
+    \caption{Gas and fees of a send per direction on deployment whisky-v2-eval3, over 3 windows (w1, w2, w3; labels; UTC starts in the Markdown report): gas used and source receipt gas fee (gasUsed * effectiveGasPrice; Base L1 data charge excluded, not complete transaction cost), and the LayerZero fee paid as msg.value. Min to max over the sends; testnet coins, no conversion. LIVE (whisky-v2-eval3).}
+    \label{tab:send-cost}
+\end{table}

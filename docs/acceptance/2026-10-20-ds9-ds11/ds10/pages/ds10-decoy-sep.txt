@@ -1,0 +1,78 @@
+Skip to content
+Whisky Distillery
+Interoperable Digital Product Passport
+Passports
+Scan
+Mint
+Connect Wallet
+
+No browser wallet found. Install an Ethereum wallet extension (for example MetaMask) and reload.
+
+PASSPORT
+
+11155111000000000019
+held
+Revise
+Send to another chain
+Verify owner
+Prove ownership
+Origin (originOf)
+Sepolia (11155111)
+Deployment
+whisky-v2-eval3
+Current chain
+Sepolia
+Contract
+0xAD3B1CA4eD7e212cA7a231829a542128feA8A5Ba
+Owner
+0x9415e00f429549a26310c83c1f47db40eb300415
+Revision
+1
+CID
+bafkreifsnurnp2nnxygng5we5wij5lgkskm657bk4njkoxvfe63dkjdrmy
+Live confirmation
+Live read on Sepolia failed: HTTP request failed. URL: https://11155111.rpc.thirdweb.com/ Request body: {"method":"eth_blockNumber"} Details: Failed to fetch Version: viem@2.57.4. Showing indexer values only.
+Indexer progress
+Arbitrum Sepolia: indexed block 321118785 of 321118787 (2 blocks behind)
+QR code
+
+Print this on the cask or bottle. Scanning it opens this passport and its verification.
+
+http://localhost:3120/passport/11155111000000000019?deployment=whisky-v2-eval3
+
+Download PNG
+Copy link
+Timeline
+Issued on Sepolia
+2026-10-20T16:45:12Z, block 11956572, 0x2a00d53f…8723a1
+Revised on Sepolia
+2026-10-20T16:45:24Z, block 11956573, 0xd8289f4a…f9b867
+Revisions and verification
+
+Checked in this browser on the raw bytes from the gateway: content (bytes hash to the CID), binding (envelope names this deployment, token and revision), history (each previousCid is the preceding revision's CID), recorded on chain (the emitting contract receipt confirms this CID, revision and author; timestamps remain indexer-sourced), and once for the passport history hash (the CIDs of every revision, in order, recompute the historyHash of the live passportOf read).
+
+Indexer only: the live read failed. No binding below is confirmed on chain.
+history hash: unavailable
+
+history hash: no live read of passportOf
+
+Revision 0
+Sepolia, 2026-10-20T16:45:12Z, tx
+bafkreie44kw2mfhh6xakolofihgvnfpfyxuy66re4kske47fmueqtqozxyCID from the indexer
+content: verified
+binding: unconfirmed
+history: verified
+recorded on chain: unavailable
+binding: indexer only: HTTP request failed. URL: https://11155111.rpc.thirdweb.com/ Request body: {"method":"eth_blockNumber"} Details: Failed to fetch Version: viem@2.57.4
+recorded: receipt unavailable: HTTP request failed. URL: https://11155111.rpc.thirdweb.com/ Request body: {"method":"eth_getTransactionReceipt","params":["0x2a00d53f11e17c4da922827010ccff3937facfedcdf5e4c9eeabd5ac228723a1"]} Details: Failed to fetch Version: viem@2.57.4
+Payload data
+Revision 1
+Sepolia, 2026-10-20T16:45:24Z, tx
+bafkreifsnurnp2nnxygng5we5wij5lgkskm657bk4njkoxvfe63dkjdrmyCID from the indexer
+content: verified
+binding: unconfirmed
+history: verified
+recorded on chain: unavailable
+binding: indexer only: HTTP request failed. URL: https://11155111.rpc.thirdweb.com/ Request body: {"method":"eth_blockNumber"} Details: Failed to fetch Version: viem@2.57.4
+recorded: receipt unavailable: HTTP request failed. URL: https://11155111.rpc.thirdweb.com/ Request body: {"method":"eth_getTransactionReceipt","params":["0xd8289f4ae077592338596d1e1700909f1fca0e229ec5fea9d8f88f4e9bf9b867"]} Details: Failed to fetch Version: viem@2.57.4
+Payload data

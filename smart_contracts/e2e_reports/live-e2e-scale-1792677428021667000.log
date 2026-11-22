@@ -1,0 +1,122 @@
+Active live log: <tmp>/idpp-live/live-e2e-scale-1792677428021667000.log; archive after exit: <repo>/smart_contracts/e2e_reports/live-e2e-scale-1792677428021667000.log
+Scan healthy: sepolia eid=40161 dstEid=40231 age=647s status=DELIVERED at=2026-10-22T13:57:08.783977+00:00
+Scan healthy: arbitrum-sepolia eid=40231 dstEid=40161 age=604s status=DELIVERED at=2026-10-22T13:57:08.783977+00:00
+Scan healthy: base-sepolia eid=40245 dstEid=40161 age=606s status=DELIVERED at=2026-10-22T13:57:08.783977+00:00
+Watchdog idle=300s waiting=2100s heartbeat=30s
+npm warn Unknown env config "reporter". This will stop working in the next major version of npm.
+npm warn Unknown env config "npm-globalconfig". This will stop working in the next major version of npm.
+npm warn Unknown env config "verify-deps-before-run". This will stop working in the next major version of npm.
+npm warn Unknown env config "_jsr-registry". This will stop working in the next major version of npm.
+[2026-10-22T13:57:10.670Z] base-sepolia: 0xFE84e01B03Cae9B4AaD5678A5681B70bA77435C2, balance 0.095876855399805888, idPrefix 84532
+[2026-10-22T13:57:11.231Z] arbitrum-sepolia: 0xFE84e01B03Cae9B4AaD5678A5681B70bA77435C2, balance 0.095209863205644238, idPrefix 421614
+[2026-10-22T13:57:12.477Z] Scan preflight: base-sepolia -> arbitrum-sepolia ok (nonce 24 DELIVERED, 46.3 h ago); base-sepolia: newest of any application 10 min ago; last 25: 23 DELIVERED, 2 INFLIGHT
+[2026-10-22T13:57:12.478Z] Deployment whisky-v2-eval3, gateway <gateway>, upload path v3
+[2026-10-22T13:57:13.861Z] DS4 Base balance 0.095876855399805888; twice quoted batch cost 0.00231993719421934
+[2026-10-22T13:57:13.862Z] DS4 phase: mint submission
+[2026-10-22T13:57:14.418Z] DS4 mint 1/20 confirmed
+[2026-10-22T13:57:17.161Z] DS4 phase: mint receipts and verification
+[2026-10-22T13:57:18.743Z] DS4 mint 2/20 confirmed
+[2026-10-22T13:57:18.747Z] DS4 mint 3/20 confirmed
+[2026-10-22T13:57:18.867Z] DS4 mint 4/20 confirmed
+[2026-10-22T13:57:18.868Z] DS4 mint 5/20 confirmed
+[2026-10-22T13:57:18.868Z] DS4 mint 6/20 confirmed
+[2026-10-22T13:57:18.868Z] DS4 mint 7/20 confirmed
+[2026-10-22T13:57:18.868Z] DS4 mint 8/20 confirmed
+[2026-10-22T13:57:18.868Z] DS4 mint 9/20 confirmed
+[2026-10-22T13:57:18.868Z] DS4 mint 10/20 confirmed
+[2026-10-22T13:57:18.868Z] DS4 mint 11/20 confirmed
+[2026-10-22T13:57:18.868Z] DS4 mint 12/20 confirmed
+[2026-10-22T13:57:18.868Z] DS4 mint 13/20 confirmed
+[2026-10-22T13:57:18.868Z] DS4 mint 14/20 confirmed
+[2026-10-22T13:57:18.868Z] DS4 mint 15/20 confirmed
+[2026-10-22T13:57:18.868Z] DS4 mint 16/20 confirmed
+[2026-10-22T13:57:18.868Z] DS4 mint 17/20 confirmed
+[2026-10-22T13:57:18.868Z] DS4 mint 18/20 confirmed
+[2026-10-22T13:57:18.868Z] DS4 mint 19/20 confirmed
+[2026-10-22T13:57:18.869Z] DS4 mint 20/20 confirmed
+[2026-10-22T13:57:25.153Z] DS4 reconcile start: 20 broadcast mint ids
+[2026-10-22T13:57:25.154Z] DS4 reconcile token 84532000000000022: verified
+[2026-10-22T13:57:25.154Z] DS4 reconcile token 84532000000000023: verified
+[2026-10-22T13:57:25.154Z] DS4 reconcile token 84532000000000024: verified
+[2026-10-22T13:57:25.154Z] DS4 reconcile token 84532000000000025: verified
+[2026-10-22T13:57:25.154Z] DS4 reconcile token 84532000000000026: verified
+[2026-10-22T13:57:25.154Z] DS4 reconcile token 84532000000000027: verified
+[2026-10-22T13:57:25.154Z] DS4 reconcile token 84532000000000028: verified
+[2026-10-22T13:57:25.154Z] DS4 reconcile token 84532000000000029: verified
+[2026-10-22T13:57:25.154Z] DS4 reconcile token 84532000000000030: verified
+[2026-10-22T13:57:25.154Z] DS4 reconcile token 84532000000000031: verified
+[2026-10-22T13:57:25.154Z] DS4 reconcile token 84532000000000032: verified
+[2026-10-22T13:57:25.154Z] DS4 reconcile token 84532000000000033: verified
+[2026-10-22T13:57:25.154Z] DS4 reconcile token 84532000000000034: verified
+[2026-10-22T13:57:25.154Z] DS4 reconcile token 84532000000000035: verified
+[2026-10-22T13:57:25.154Z] DS4 reconcile token 84532000000000036: verified
+[2026-10-22T13:57:25.154Z] DS4 reconcile token 84532000000000037: verified
+[2026-10-22T13:57:25.155Z] DS4 reconcile token 84532000000000038: verified
+[2026-10-22T13:57:25.155Z] DS4 reconcile token 84532000000000039: verified
+[2026-10-22T13:57:25.155Z] DS4 reconcile token 84532000000000040: verified
+[2026-10-22T13:57:25.155Z] DS4 reconcile token 84532000000000041: verified
+[2026-10-22T13:57:25.155Z] DS4 reconcile end: 20 broadcast mint ids
+[2026-10-22T13:57:26.149Z] DS4 phase: send submission and delivery
+[2026-10-22T13:57:26.708Z] DS4 send 1/10 confirmed
+[2026-10-22T13:57:27.226Z] DS4 waiting token 84532000000000022 1s: scan HTTP 404
+[2026-10-22T13:57:27.777Z] DS4 phase: delivery
+[2026-10-22T13:57:30.727Z] DS4 send 2/10 confirmed
+[2026-10-22T13:57:30.732Z] DS4 send 3/10 confirmed
+[2026-10-22T13:57:30.853Z] DS4 send 4/10 confirmed
+[2026-10-22T13:57:30.856Z] DS4 send 5/10 confirmed
+[2026-10-22T13:57:30.858Z] DS4 send 6/10 confirmed
+[2026-10-22T13:57:30.860Z] DS4 send 7/10 confirmed
+[2026-10-22T13:57:30.861Z] DS4 send 8/10 confirmed
+[2026-10-22T13:57:30.863Z] DS4 send 9/10 confirmed
+[2026-10-22T13:57:30.865Z] DS4 send 10/10 confirmed
+[2026-10-22T13:57:31.218Z] DS4 waiting token 84532000000000026 0s: scan HTTP 404
+[2026-10-22T13:57:31.308Z] DS4 waiting token 84532000000000023 1s: scan HTTP 404
+[2026-10-22T13:57:31.321Z] DS4 waiting token 84532000000000027 1s: scan HTTP 404
+[2026-10-22T13:57:31.412Z] DS4 waiting token 84532000000000028 1s: scan HTTP 404
+[2026-10-22T13:57:31.463Z] DS4 waiting token 84532000000000030 1s: scan HTTP 404
+[2026-10-22T13:57:31.465Z] DS4 waiting token 84532000000000024 1s: scan HTTP 404
+[2026-10-22T13:57:31.466Z] DS4 waiting token 84532000000000029 1s: scan HTTP 404
+[2026-10-22T13:57:31.468Z] DS4 waiting token 84532000000000031 1s: scan HTTP 404
+[2026-10-22T13:57:31.472Z] DS4 waiting token 84532000000000025 1s: scan HTTP 404
+Watchdog status: pid=81452 alive=True launcher_alive=True silence=7s last=[2026-10-22T13:57:31.472Z] DS4 waiting token 84532000000000025 1s: scan HTTP 404
+[2026-10-22T13:57:53.481Z] DS4 hop token 84532000000000023 ended: delivered
+[2026-10-22T13:57:53.651Z] DS4 hop token 84532000000000024 ended: delivered
+[2026-10-22T13:57:53.701Z] DS4 hop token 84532000000000025 ended: delivered
+[2026-10-22T13:57:54.594Z] DS4 hop token 84532000000000022 ended: delivered
+[2026-10-22T13:58:02.573Z] DS4 waiting token 84532000000000026 32s: INFLIGHT (Verification committed)
+[2026-10-22T13:58:02.688Z] DS4 waiting token 84532000000000027 32s: INFLIGHT (Verification committed)
+[2026-10-22T13:58:02.730Z] DS4 waiting token 84532000000000028 32s: INFLIGHT (Ready for committer to commit verification)
+[2026-10-22T13:58:02.919Z] DS4 waiting token 84532000000000029 32s: INFLIGHT (Verification committed)
+[2026-10-22T13:58:02.967Z] DS4 waiting token 84532000000000031 32s: INFLIGHT (Ready for DVNs to verify)
+[2026-10-22T13:58:03.038Z] DS4 waiting token 84532000000000030 32s: INFLIGHT (Ready for committer to commit verification)
+Watchdog status: pid=81452 alive=True launcher_alive=True silence=6s last=[2026-10-22T13:58:03.038Z] DS4 waiting token 84532000000000030 32s: INFLIGHT (Ready for committer to commit verification)
+[2026-10-22T13:58:14.467Z] DS4 hop token 84532000000000026 ended: delivered
+[2026-10-22T13:58:14.550Z] DS4 hop token 84532000000000027 ended: delivered
+[2026-10-22T13:58:14.618Z] DS4 hop token 84532000000000028 ended: delivered
+[2026-10-22T13:58:14.713Z] DS4 hop token 84532000000000029 ended: delivered
+[2026-10-22T13:58:14.803Z] DS4 hop token 84532000000000031 ended: delivered
+[2026-10-22T13:58:14.832Z] DS4 hop token 84532000000000030 ended: delivered
+[2026-10-22T13:58:14.833Z] DS4 reconcile start: 20 broadcast mint ids
+[2026-10-22T13:58:14.833Z] DS4 reconcile token 84532000000000022: verified
+[2026-10-22T13:58:14.833Z] DS4 reconcile token 84532000000000023: verified
+[2026-10-22T13:58:14.833Z] DS4 reconcile token 84532000000000024: verified
+[2026-10-22T13:58:14.833Z] DS4 reconcile token 84532000000000025: verified
+[2026-10-22T13:58:14.833Z] DS4 reconcile token 84532000000000026: verified
+[2026-10-22T13:58:14.833Z] DS4 reconcile token 84532000000000027: verified
+[2026-10-22T13:58:14.833Z] DS4 reconcile token 84532000000000028: verified
+[2026-10-22T13:58:14.833Z] DS4 reconcile token 84532000000000029: verified
+[2026-10-22T13:58:14.833Z] DS4 reconcile token 84532000000000030: verified
+[2026-10-22T13:58:14.833Z] DS4 reconcile token 84532000000000031: verified
+[2026-10-22T13:58:14.833Z] DS4 reconcile token 84532000000000032: verified
+[2026-10-22T13:58:14.833Z] DS4 reconcile token 84532000000000033: verified
+[2026-10-22T13:58:14.834Z] DS4 reconcile token 84532000000000034: verified
+[2026-10-22T13:58:14.834Z] DS4 reconcile token 84532000000000035: verified
+[2026-10-22T13:58:14.834Z] DS4 reconcile token 84532000000000036: verified
+[2026-10-22T13:58:14.834Z] DS4 reconcile token 84532000000000037: verified
+[2026-10-22T13:58:14.834Z] DS4 reconcile token 84532000000000038: verified
+[2026-10-22T13:58:14.834Z] DS4 reconcile token 84532000000000039: verified
+[2026-10-22T13:58:14.834Z] DS4 reconcile token 84532000000000040: verified
+[2026-10-22T13:58:14.834Z] DS4 reconcile token 84532000000000041: verified
+[2026-10-22T13:58:14.834Z] DS4 reconcile end: 20 broadcast mint ids
+[2026-10-22T13:58:14.926Z] DS4 report: <repo>/smart_contracts/e2e_reports/scale-1792677430419.md
+Watchdog exit=0

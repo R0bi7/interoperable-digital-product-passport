@@ -1,0 +1,15 @@
+commit ee4cdec clean
+built
+
+Running 8 tests using 1 worker
+
+  ✓  1 e2e-live/ds11.spec.ts:173:3 › mints a bottle with one source cask (8.0s)
+  ✓  2 e2e-live/ds11.spec.ts:173:3 › mints a bottle with two source casks (7.4s)
+  ✓  3 e2e-live/ds11.spec.ts:203:1 › revises the bottle with two source casks (2.3m)
+  ✓  4 e2e-live/ds11.spec.ts:238:3 › sends bottle 1 to Base Sepolia and reads it there (1.0m)
+  ✓  5 e2e-live/ds11.spec.ts:238:3 › sends bottle 2 to Base Sepolia and reads it there (59.1s)
+  ✓  6 e2e-live/ds11.spec.ts:333:3 › refuses a bottle with a missing cask before any pin or transaction (1.9s)
+  ✓  7 e2e-live/ds11.spec.ts:333:3 › refuses a bottle with a non-cask before any pin or transaction (2.4s)
+  ✓  8 e2e-live/ds11.spec.ts:333:3 › refuses a bottle with a nonexistent revision before any pin or transaction (1.9s)
+
+  8 passed (4.6m)

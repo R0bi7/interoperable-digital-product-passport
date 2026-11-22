@@ -1,0 +1,254 @@
+{
+  "header": {
+    "createdAt": "2026-10-20T16:42:31.703Z",
+    "deploymentId": "whisky-v2-eval3",
+    "account": "0x9415E00f429549A26310C83c1F47db40eb300415"
+  },
+  "a1": [
+    {
+      "chainId": 421614,
+      "tokenId": "421614000000000036",
+      "claimedTokenId": "421614000000001035",
+      "cid": "bafkreielk6g5tzk4op673x73adey5bt3micbj7wwxnv4tlyfu6s6326dem",
+      "mintTx": "0xf1af3b304c8f82eec72bb3be11b12223ce9eb2977db35112365db05a5a325cf9",
+      "block": "321117295",
+      "harness": {
+        "onChainRevision": "0",
+        "onChainCid": "bafkreielk6g5tzk4op673x73adey5bt3micbj7wwxnv4tlyfu6s6326dem",
+        "content": {
+          "status": "verified"
+        },
+        "binding": {
+          "status": "failed",
+          "reason": "tokenId 421614000000001035 differs from 421614000000000036"
+        },
+        "history": {
+          "status": "verified"
+        }
+      }
+    },
+    {
+      "chainId": 84532,
+      "tokenId": "84532000000000019",
+      "claimedTokenId": "84532000000001018",
+      "cid": "bafkreieyy74er4otdoxfq5rdo4hfgn5efke5aziidiqrsngjwwffvatpxq",
+      "mintTx": "0xefb778eea4aae18ce88208fe245d3f7ecf554838e5e00c929feb72f6ca369462",
+      "block": "48373136",
+      "adopted": true,
+      "harness": {
+        "onChainRevision": "0",
+        "onChainCid": "bafkreieyy74er4otdoxfq5rdo4hfgn5efke5aziidiqrsngjwwffvatpxq",
+        "content": {
+          "status": "verified"
+        },
+        "binding": {
+          "status": "failed",
+          "reason": "tokenId 84532000000001018 differs from 84532000000000019"
+        },
+        "history": {
+          "status": "verified"
+        }
+      }
+    },
+    {
+      "chainId": 11155111,
+      "tokenId": "11155111000000000017",
+      "claimedTokenId": "11155111000000001016",
+      "cid": "bafkreicxbvkbgwdlrw66jmkvf5cktzuuigkroffrgxxjogd37w3pdds2im",
+      "mintTx": "0x1a647fc5faa60404062761b73e66652d90f464f5bd89a48f490e41accb47a96e",
+      "block": "11956564",
+      "harness": {
+        "onChainRevision": "0",
+        "onChainCid": "bafkreicxbvkbgwdlrw66jmkvf5cktzuuigkroffrgxxjogd37w3pdds2im",
+        "content": {
+          "status": "verified"
+        },
+        "binding": {
+          "status": "failed",
+          "reason": "tokenId 11155111000000001016 differs from 11155111000000000017"
+        },
+        "history": {
+          "status": "verified"
+        }
+      }
+    }
+  ],
+  "a2": [
+    {
+      "chainId": 421614,
+      "tokenId": "421614000000000037",
+      "claimedDeploymentId": "whisky-v2-tamper-fixture-other",
+      "cid": "bafkreignzruzresdw5ue7z2p674uon2eqrpzdszvjlpytsfdl6bh34yola",
+      "mintTx": "0x4763655e0122840b68776c6f37a2a26cb631f80d932850edb2d16b7b3e6d9a63",
+      "block": "321117555",
+      "harness": {
+        "onChainRevision": "0",
+        "onChainCid": "bafkreignzruzresdw5ue7z2p674uon2eqrpzdszvjlpytsfdl6bh34yola",
+        "content": {
+          "status": "verified"
+        },
+        "binding": {
+          "status": "failed",
+          "reason": "deploymentId whisky-v2-tamper-fixture-other differs from whisky-v2-eval3"
+        },
+        "history": {
+          "status": "verified"
+        }
+      }
+    },
+    {
+      "chainId": 84532,
+      "tokenId": "84532000000000020",
+      "claimedDeploymentId": "whisky-v2-tamper-fixture-other",
+      "cid": "bafkreihnukwgkpblhrln6adjtxeky7xu6stlfheld7yiydkghzu2mpmqbi",
+      "mintTx": "0xdd6789a6ecba7e22f6207d01772f5b03d1648b0f6c3d4b1f48b02e48af52d94c",
+      "block": "48373171",
+      "harness": {
+        "onChainRevision": "0",
+        "onChainCid": "bafkreihnukwgkpblhrln6adjtxeky7xu6stlfheld7yiydkghzu2mpmqbi",
+        "content": {
+          "status": "verified"
+        },
+        "binding": {
+          "status": "failed",
+          "reason": "deploymentId whisky-v2-tamper-fixture-other differs from whisky-v2-eval3"
+        },
+        "history": {
+          "status": "verified"
+        }
+      }
+    },
+    {
+      "chainId": 11155111,
+      "tokenId": "11155111000000000018",
+      "claimedDeploymentId": "whisky-v2-tamper-fixture-other",
+      "cid": "bafkreifjcdlms7qbkzvyzdm2zhmyuvew2h4jeu7usvqp5wkeebeajdu35m",
+      "mintTx": "0x5b84e11c403f7be82de11a1e845585a06a99425b1a544deb1efdada2fa13928e",
+      "block": "11956566",
+      "harness": {
+        "onChainRevision": "0",
+        "onChainCid": "bafkreifjcdlms7qbkzvyzdm2zhmyuvew2h4jeu7usvqp5wkeebeajdu35m",
+        "content": {
+          "status": "verified"
+        },
+        "binding": {
+          "status": "failed",
+          "reason": "deploymentId whisky-v2-tamper-fixture-other differs from whisky-v2-eval3"
+        },
+        "history": {
+          "status": "verified"
+        }
+      }
+    }
+  ],
+  "c": [
+    {
+      "chainId": 421614,
+      "tokenId": "421614000000000038",
+      "rev0Cid": "bafkreihqmccn3pzef4pbjgwgb56lvr5tjgl6mt7iufq2zx2jomdj6vg56m",
+      "decoyCid": "bafkreicj26427kimuqzutdzz4k742w5kdlatyaqi6g4iwjsgdef4ftdzqe",
+      "rev1Cid": "bafkreiblnnz3kcpe2qzugrrsbtehsyba63hdump3iheonsmmq2o2cvdzwq",
+      "rev1PreviousCid": "bafkreicj26427kimuqzutdzz4k742w5kdlatyaqi6g4iwjsgdef4ftdzqe",
+      "mintTx": "0xe7517aa16785087c61cef9d4c0596fd0d27e0d6a05d9b9d6d110f9e8025aa60b",
+      "mintBlock": "321117669",
+      "reviseTx": "0xc721784514988125ad277990f92c5f5f9320a80cbade6f34ad492ded70089efb",
+      "reviseBlock": "321117676",
+      "harness": {
+        "onChainRevision": "1",
+        "onChainCid": "bafkreiblnnz3kcpe2qzugrrsbtehsyba63hdump3iheonsmmq2o2cvdzwq",
+        "content": {
+          "status": "verified"
+        },
+        "binding": {
+          "status": "verified"
+        },
+        "history": {
+          "status": "failed",
+          "reason": "revision 0 is bafkreicj26427kimuqzutdzz4k742w5kdlatyaqi6g4iwjsgdef4ftdzqe, the flow wrote bafkreihqmccn3pzef4pbjgwgb56lvr5tjgl6mt7iufq2zx2jomdj6vg56m"
+        }
+      }
+    },
+    {
+      "chainId": 84532,
+      "tokenId": "84532000000000021",
+      "rev0Cid": "bafkreicz2rqf7vh26zp27f2qkkbxpswljao5envlwfzrvwpofb5x5fxyoy",
+      "decoyCid": "bafkreigjydy6iohe6pritxzynvq3xqttfewvqg4dw7bszlg7dtvdk75u3e",
+      "rev1Cid": "bafkreie2hut7i2uoknnppxbjrnwyspvscrm6g4wwuh4czy7owsu7tv6oai",
+      "rev1PreviousCid": "bafkreigjydy6iohe6pritxzynvq3xqttfewvqg4dw7bszlg7dtvdk75u3e",
+      "mintTx": "0xeb993e53adcb7e2dcb7bf5e3a3f1b1597a9e2d357758b61937cc5a5aa983a3d4",
+      "mintBlock": null,
+      "reviseTx": "0x9983a5e036948817e03ee46942bef1fd36e1c1a86dec510929844f4a43be1fad",
+      "reviseBlock": "48373203",
+      "resumed": true,
+      "harness": {
+        "onChainRevision": "1",
+        "onChainCid": "bafkreie2hut7i2uoknnppxbjrnwyspvscrm6g4wwuh4czy7owsu7tv6oai",
+        "content": {
+          "status": "verified"
+        },
+        "binding": {
+          "status": "verified"
+        },
+        "history": {
+          "status": "failed",
+          "reason": "revision 0 is bafkreigjydy6iohe6pritxzynvq3xqttfewvqg4dw7bszlg7dtvdk75u3e, the flow wrote bafkreicz2rqf7vh26zp27f2qkkbxpswljao5envlwfzrvwpofb5x5fxyoy"
+        }
+      }
+    },
+    {
+      "chainId": 11155111,
+      "tokenId": "11155111000000000019",
+      "rev0Cid": "bafkreigqj5tf2duvzgpxestvox4ghcrvdrhzex4pallcq7bykow4vttmrm",
+      "decoyCid": "bafkreie44kw2mfhh6xakolofihgvnfpfyxuy66re4kske47fmueqtqozxy",
+      "rev1Cid": "bafkreifsnurnp2nnxygng5we5wij5lgkskm657bk4njkoxvfe63dkjdrmy",
+      "rev1PreviousCid": "bafkreie44kw2mfhh6xakolofihgvnfpfyxuy66re4kske47fmueqtqozxy",
+      "mintTx": "0x2a00d53f11e17c4da922827010ccff3937facfedcdf5e4c9eeabd5ac228723a1",
+      "mintBlock": "11956572",
+      "reviseTx": "0xd8289f4ae077592338596d1e1700909f1fca0e229ec5fea9d8f88f4e9bf9b867",
+      "reviseBlock": "11956573",
+      "harness": {
+        "onChainRevision": "1",
+        "onChainCid": "bafkreifsnurnp2nnxygng5we5wij5lgkskm657bk4njkoxvfe63dkjdrmy",
+        "content": {
+          "status": "verified"
+        },
+        "binding": {
+          "status": "verified"
+        },
+        "history": {
+          "status": "failed",
+          "reason": "revision 0 is bafkreie44kw2mfhh6xakolofihgvnfpfyxuy66re4kske47fmueqtqozxy, the flow wrote bafkreigqj5tf2duvzgpxestvox4ghcrvdrhzex4pallcq7bykow4vttmrm"
+        }
+      }
+    }
+  ],
+  "future": [
+    {
+      "chainId": 421614,
+      "tokenId": "421614000000000006",
+      "owner": "0xea12576C5DDa8857917dAD466f9335E2Cf877703",
+      "liveRevision": "0",
+      "liveCid": "bafkreibbu66u23apikqfqaz2ly75gmmb7oxouarmtdobjy4wovhawhgf6a",
+      "futureRevision": "1",
+      "futureCid": "bafkreihilbaisi76t6vzc27a4s6zfarlnqb5lt3zdivh43rkvmxslx23h4"
+    },
+    {
+      "chainId": 84532,
+      "tokenId": "84532000000000004",
+      "owner": "0xeDf5C18dF6B33dFF04f1354c66A5263695314ddA",
+      "liveRevision": "0",
+      "liveCid": "bafkreibapdjrdlfmku4ijx2bbcf3qxyoh3m6nynz4ugpeq3tqu2ubdbnge",
+      "futureRevision": "1",
+      "futureCid": "bafkreigpfd6t32it5mlr5hg7x67iuwlkqroge5bad2yasntffot3qnkzze"
+    },
+    {
+      "chainId": 11155111,
+      "tokenId": "11155111000000000006",
+      "owner": "0x9f83767BC92f5751254e57aC3F0450b170B3b9B0",
+      "liveRevision": "0",
+      "liveCid": "bafkreiel7pefix2zppsyj2uy7rmkjvgrp76vxxdm7vj4gvr6ghpsgkvxdm",
+      "futureRevision": "1",
+      "futureCid": "bafkreidnjprg4iiofo6n3tvrwc3c6fiyrom4rsbrybq7ymlupj6yc2qkwu"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "deploymentId": "whisky-v2-eval3",
+  "cases": [
+    {
+      "name": "a1-other-token",
+      "expected": "binding failed: the envelope names another token id",
+      "revisions": [
+        {
+          "cid": "bafkreigp5iqbu7mpwyn7iuv6wopd4hyrart7rrzoi5hye7bwmcynufq3y4",
+          "canonical": "{\"data\":{\"alcoholByVolume\":\"63.5\",\"caskNumber\":\"C-300\",\"caskType\":\"Bourbon barrel\",\"description\":\"claims another token\",\"distillery\":\"Demo Distillery\",\"fillDate\":\"2026-10-01\",\"volumeLiters\":\"200\"},\"deploymentId\":\"whisky-v2-eval3\",\"granularity\":\"item\",\"kind\":\"cask\",\"previousCid\":null,\"revision\":\"0\",\"schema\":\"idpp-passport/1\",\"tokenId\":\"421614000000001299\"}"
+        }
+      ],
+      "served": []
+    },
+    {
+      "name": "a2-other-deployment",
+      "expected": "binding failed: the envelope names another deployment id",
+      "revisions": [
+        {
+          "cid": "bafkreifbzvm6nezcphmhhadcag6xh7dyfxbzai3jivxdfukck33viy5tze",
+          "canonical": "{\"data\":{\"alcoholByVolume\":\"63.5\",\"caskNumber\":\"C-300\",\"caskType\":\"Bourbon barrel\",\"description\":\"claims another deployment\",\"distillery\":\"Demo Distillery\",\"fillDate\":\"2026-10-01\",\"volumeLiters\":\"200\"},\"deploymentId\":\"another-deployment\",\"granularity\":\"item\",\"kind\":\"cask\",\"previousCid\":null,\"revision\":\"0\",\"schema\":\"idpp-passport/1\",\"tokenId\":\"421614000000000300\"}"
+        }
+      ],
+      "served": []
+    },
+    {
+      "name": "b-altered-bytes",
+      "expected": "content failed: a gateway serves bytes that do not hash to the CID",
+      "revisions": [
+        {
+          "cid": "bafkreift33sguyzrh73xgscstlw6ecevbqekblod22acjyxewkcsqukcvi",
+          "canonical": "{\"data\":{\"alcoholByVolume\":\"63.5\",\"caskNumber\":\"C-300\",\"caskType\":\"Bourbon barrel\",\"description\":\"revision 0\",\"distillery\":\"Demo Distillery\",\"fillDate\":\"2026-10-01\",\"volumeLiters\":\"200\"},\"deploymentId\":\"whisky-v2-eval3\",\"granularity\":\"item\",\"kind\":\"cask\",\"previousCid\":null,\"revision\":\"0\",\"schema\":\"idpp-passport/1\",\"tokenId\":\"421614000000000300\"}"
+        }
+      ],
+      "served": []
+    },
+    {
+      "name": "c-broken-chain",
+      "expected": "history failed: revision 1 names a previousCid that is not the CID of revision 0",
+      "revisions": [
+        {
+          "cid": "bafkreift33sguyzrh73xgscstlw6ecevbqekblod22acjyxewkcsqukcvi",
+          "canonical": "{\"data\":{\"alcoholByVolume\":\"63.5\",\"caskNumber\":\"C-300\",\"caskType\":\"Bourbon barrel\",\"description\":\"revision 0\",\"distillery\":\"Demo Distillery\",\"fillDate\":\"2026-10-01\",\"volumeLiters\":\"200\"},\"deploymentId\":\"whisky-v2-eval3\",\"granularity\":\"item\",\"kind\":\"cask\",\"previousCid\":null,\"revision\":\"0\",\"schema\":\"idpp-passport/1\",\"tokenId\":\"421614000000000300\"}"
+        },
+        {
+          "cid": "bafkreiamtiwtiokc3vmmsv74wwsazsax7lf5avpuvdhyllqgfzerlncz5u",
+          "canonical": "{\"data\":{\"alcoholByVolume\":\"63.5\",\"caskNumber\":\"C-300\",\"caskType\":\"Bourbon barrel\",\"description\":\"wrong link\",\"distillery\":\"Demo Distillery\",\"fillDate\":\"2026-10-01\",\"volumeLiters\":\"200\"},\"deploymentId\":\"whisky-v2-eval3\",\"granularity\":\"item\",\"kind\":\"cask\",\"previousCid\":\"bafkreigh2akiscaildcqabsyg3dfr6chu3fgpregiymsck7e7aqa4s52zy\",\"revision\":\"1\",\"schema\":\"idpp-passport/1\",\"tokenId\":\"421614000000000300\"}"
+        }
+      ],
+      "served": []
+    },
+    {
+      "name": "decoy-predecessor",
+      "expected": "history consistent but the predecessor was never recorded on chain: the reader must compare with the recorded CIDs",
+      "revisions": [
+        {
+          "cid": "bafkreift33sguyzrh73xgscstlw6ecevbqekblod22acjyxewkcsqukcvi",
+          "canonical": "{\"data\":{\"alcoholByVolume\":\"63.5\",\"caskNumber\":\"C-300\",\"caskType\":\"Bourbon barrel\",\"description\":\"revision 0\",\"distillery\":\"Demo Distillery\",\"fillDate\":\"2026-10-01\",\"volumeLiters\":\"200\"},\"deploymentId\":\"whisky-v2-eval3\",\"granularity\":\"item\",\"kind\":\"cask\",\"previousCid\":null,\"revision\":\"0\",\"schema\":\"idpp-passport/1\",\"tokenId\":\"421614000000000300\"}"
+        },
+        {
+          "cid": "bafkreidno6ddtaj4wtiybgjrhz4og4s6ck4tul753veulj72qmfchppqwe",
+          "canonical": "{\"data\":{\"alcoholByVolume\":\"63.5\",\"caskNumber\":\"C-300\",\"caskType\":\"Bourbon barrel\",\"description\":\"links to the decoy\",\"distillery\":\"Demo Distillery\",\"fillDate\":\"2026-10-01\",\"volumeLiters\":\"200\"},\"deploymentId\":\"whisky-v2-eval3\",\"granularity\":\"item\",\"kind\":\"cask\",\"previousCid\":\"bafkreidu3pent2oqpezewbsu6uuw6ejdnqitf3lqehbb7tpllce4kwkwle\",\"revision\":\"1\",\"schema\":\"idpp-passport/1\",\"tokenId\":\"421614000000000300\"}"
+        }
+      ],
+      "served": [
+        {
+          "cid": "bafkreidu3pent2oqpezewbsu6uuw6ejdnqitf3lqehbb7tpllce4kwkwle",
+          "canonical": "{\"data\":{\"alcoholByVolume\":\"63.5\",\"caskNumber\":\"C-300\",\"caskType\":\"Bourbon barrel\",\"description\":\"decoy predecessor that was never recorded on chain\",\"distillery\":\"Demo Distillery\",\"fillDate\":\"2026-10-01\",\"volumeLiters\":\"200\"},\"deploymentId\":\"whisky-v2-eval3\",\"granularity\":\"item\",\"kind\":\"cask\",\"previousCid\":null,\"revision\":\"0\",\"schema\":\"idpp-passport/1\",\"tokenId\":\"421614000000000300\"}"
+        }
+      ]
+    },
+    {
+      "name": "future-revision",
+      "expected": "binding failed or unconfirmed: the envelope is above the revision on chain",
+      "revisions": [
+        {
+          "cid": "bafkreift33sguyzrh73xgscstlw6ecevbqekblod22acjyxewkcsqukcvi",
+          "canonical": "{\"data\":{\"alcoholByVolume\":\"63.5\",\"caskNumber\":\"C-300\",\"caskType\":\"Bourbon barrel\",\"description\":\"revision 0\",\"distillery\":\"Demo Distillery\",\"fillDate\":\"2026-10-01\",\"volumeLiters\":\"200\"},\"deploymentId\":\"whisky-v2-eval3\",\"granularity\":\"item\",\"kind\":\"cask\",\"previousCid\":null,\"revision\":\"0\",\"schema\":\"idpp-passport/1\",\"tokenId\":\"421614000000000300\"}"
+        },
+        {
+          "cid": "bafkreiffr6l44pn7c3ohzshatjuvynff6mc56wb64ej7mfuaobgbvhnicu",
+          "canonical": "{\"data\":{\"alcoholByVolume\":\"63.5\",\"caskNumber\":\"C-300\",\"caskType\":\"Bourbon barrel\",\"description\":\"a revision that does not exist yet\",\"distillery\":\"Demo Distillery\",\"fillDate\":\"2026-10-01\",\"volumeLiters\":\"200\"},\"deploymentId\":\"whisky-v2-eval3\",\"granularity\":\"item\",\"kind\":\"cask\",\"previousCid\":\"bafkreift33sguyzrh73xgscstlw6ecevbqekblod22acjyxewkcsqukcvi\",\"revision\":\"5\",\"schema\":\"idpp-passport/1\",\"tokenId\":\"421614000000000300\"}"
+        }
+      ],
+      "served": []
+    }
+  ]
+}

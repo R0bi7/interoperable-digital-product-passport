@@ -1,0 +1,24 @@
+node_modules/
+dist/
+.next/
+out/
+.turbo/
+coverage/
+*.tsbuildinfo
+next-env.d.ts
+
+# Ponder
+.ponder/
+# Written by `ponder codegen`. Anchored: packages/passport-config/src/generated/ is committed.
+apps/indexer/generated/
+
+# Env files: only .env.example is committed
+.env
+.env.*
+!.env.example
+
+.DS_Store
+
+# Playwright
+playwright-report/
+test-results/

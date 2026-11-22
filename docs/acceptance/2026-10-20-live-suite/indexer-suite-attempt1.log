@@ -1,0 +1,231 @@
+
+> web@0.1.0 test:e2e:indexer <repo>/app/apps/web
+> NEXT_PUBLIC_INDEXER_URL=${INDEXER_URL:-http://localhost:42069} next build && playwright test -c playwright.indexer.config.ts
+
+   ▲ Next.js 15.5.27
+   - Environments: .env.local
+
+   Creating an optimized production build ...
+ ⚠ Compiled with warnings in 6.3s
+
+../../node_modules/.pnpm/ox@0.14.54_typescript@5.9.3_zod@4.6.6/node_modules/ox/_esm/tempo/internal/virtualMasterPool.js
+Critical dependency: the request of a dependency is an expression
+
+Import trace for requested module:
+../../node_modules/.pnpm/ox@0.14.54_typescript@5.9.3_zod@4.6.6/node_modules/ox/_esm/tempo/internal/virtualMasterPool.js
+../../node_modules/.pnpm/ox@0.14.54_typescript@5.9.3_zod@4.6.6/node_modules/ox/_esm/tempo/VirtualMaster.js
+../../node_modules/.pnpm/ox@0.14.54_typescript@5.9.3_zod@4.6.6/node_modules/ox/_esm/tempo/index.js
+../../node_modules/.pnpm/viem@2.57.4_bufferutil@4.1.0_typescript@5.9.3_utf-8-validate@5.0.10_zod@4.6.6/node_modules/viem/_esm/tempo/chainConfig.js
+../../node_modules/.pnpm/viem@2.57.4_bufferutil@4.1.0_typescript@5.9.3_utf-8-validate@5.0.10_zod@4.6.6/node_modules/viem/_esm/chains/definitions/tempo.js
+../../node_modules/.pnpm/viem@2.57.4_bufferutil@4.1.0_typescript@5.9.3_utf-8-validate@5.0.10_zod@4.6.6/node_modules/viem/_esm/chains/index.js
+./src/lib/chains.ts
+./src/providers/web3-provider.tsx
+
+   Skipping linting
+   Checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/7) ...
+   Generating static pages (1/7) 
+   Generating static pages (3/7) 
+   Generating static pages (5/7) 
+ ✓ Generating static pages (7/7)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                                 Size  First Load JS
+┌ ○ /                                    3.63 kB         277 kB
+├ ○ /_not-found                             1 kB         106 kB
+├ ƒ /api/mint                              139 B         105 kB
+├ ƒ /api/mint/challenge                    139 B         105 kB
+├ ƒ /api/pin                               139 B         105 kB
+├ ƒ /api/pin/challenge                     139 B         105 kB
+├ ○ /mint                                6.38 kB         388 kB
+├ ƒ /passport/[tokenId]                  6.72 kB         287 kB
+├ ƒ /passport/[tokenId]/revise            5.4 kB         394 kB
+├ ƒ /passport/[tokenId]/send              6.4 kB         395 kB
+├ ƒ /passport/[tokenId]/verify-owner     1.47 kB         274 kB
+├ ○ /prove                               2.44 kB         399 kB
+└ ○ /scan                                 3.4 kB         129 kB
++ First Load JS shared by all             105 kB
+  ├ chunks/6910-776e8153e86dd093.js      46.4 kB
+  ├ chunks/8577a58c-ffee9a462bf95a5e.js  54.2 kB
+  └ other shared chunks (total)          4.45 kB
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
+
+Running 11 tests using 1 worker
+
+subject token 84532000000000018 (held, 3 events)
+  ✘   1 e2e-live/indexer.spec.ts:88:3 › list › shows the indexer's passports, not fixtures (15.0m)
+subject token 84532000000000018 (held, 3 events)
+  ✘   2 e2e-live/indexer.spec.ts:101:3 › list › filters by status and by chain the way the API does (1.0m)
+subject token 84532000000000018 (held, 3 events)
+  ✓   3 e2e-live/indexer.spec.ts:124:3 › detail › renders the indexer's view and the chain confirms it (991ms)
+  ✘   4 e2e-live/indexer.spec.ts:135:3 › detail › shows the origin, the current chain and one card per revision (4.0m)
+subject token 84532000000000018 (held, 3 events)
+  ✓   5 e2e-live/indexer.spec.ts:150:3 › detail › lists every timeline event the indexer reports, hops merged (176ms)
+  ✘   6 e2e-live/indexer.spec.ts:168:3 › detail › verifies every revision's payload against its CID (2.0m)
+subject token 84532000000000018 (held, 3 events)
+  ✓   7 e2e-live/indexer.spec.ts:184:3 › detail › tells an unknown token from a malformed one (229ms)
+  ✓   8 e2e-live/indexer.spec.ts:192:3 › scan › opens the passport from a bare id and from its URL (371ms)
+  ✓   9 e2e-live/indexer.spec.ts:206:3 › mint refusal (no gas, nothing pinned) › a wallet outside the allowlist gets no challenge (26ms)
+  ✓  10 e2e-live/indexer.spec.ts:212:3 › mint refusal (no gas, nothing pinned) › a forged mint request is refused before any pin or transaction (9ms)
+  ✓  11 e2e-live/indexer.spec.ts:231:3 › send, observed by the indexer › the indexer places the token on the destination and the panel cites it (5.1m)
+
+
+  1) e2e-live/indexer.spec.ts:88:3 › list › shows the indexer's passports, not fixtures ────────────
+
+    Test timeout of 900000ms exceeded.
+
+    Error: locator.click: Test timeout of 900000ms exceeded.
+    Call log:
+      - waiting for getByRole('button', { name: 'Load more' })
+        - locator resolved to <button tabindex="0" type="button" data-slot="button" class="group/button inline-flex shrink-0 items-center justify-center rounded-lg border bg-clip-padding text-sm font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:bor…>Load more</button>
+      - attempting click action
+        - waiting for element to be visible, enabled and stable
+        - element is not stable
+      - retrying click action
+        - waiting for element to be visible, enabled and stable
+      - element was detached from the DOM, retrying
+
+
+      93 |     // The page asks for 20 at a time and offers "Load more" for the rest.
+      94 |     while (await page.getByRole("button", { name: "Load more" }).isVisible()) {
+    > 95 |       await page.getByRole("button", { name: "Load more" }).click();
+         |                                                             ^
+      96 |     }
+      97 |     await expect(rows).toHaveCount(all.length);
+      98 |     await expect(rows.filter({ hasText: subject.tokenId })).toHaveCount(1);
+        at <repo>/app/apps/web/e2e-live/indexer.spec.ts:95:61
+
+    Error Context: test-results/indexer-list-shows-the-indexer-s-passports-not-fixtures/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/indexer-list-shows-the-indexer-s-passports-not-fixtures/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/indexer-list-shows-the-indexer-s-passports-not-fixtures/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) e2e-live/indexer.spec.ts:101:3 › list › filters by status and by chain the way the API does ───
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  getByRole('row').filter({ has: getByRole('link') })
+    Expected: 35
+    Received: 20
+    Timeout:  60000ms
+
+    Call log:
+      - Expect "toHaveCount" getByRole('row').filter({ has: getByRole('link') }) with timeout 60000ms
+      - waiting for getByRole('row').filter({ has: getByRole('link') })
+        - locator resolved to 0 elements
+        - unexpected value "0"
+        122 × locator resolved to 20 elements
+            - unexpected value "20"
+
+
+      107 |     const onChain = all.filter((item) => item.currentChainId === chainId);
+      108 |     await page.getByLabel("Chain").selectOption(String(chainId));
+    > 109 |     await expect(rows).toHaveCount(onChain.length);
+          |                        ^
+      110 |     await expect(rows.filter({ hasText: CHAIN_NAME[chainId] ?? "" }).first()).toBeVisible();
+      111 |
+      112 |     await page.getByRole("button", { name: "Clear filters" }).click();
+        at <repo>/app/apps/web/e2e-live/indexer.spec.ts:109:24
+
+    Error Context: test-results/indexer-list-filters-by-st-b0e9d--chain-the-way-the-API-does/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/indexer-list-filters-by-st-b0e9d--chain-the-way-the-API-does/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/indexer-list-filters-by-st-b0e9d--chain-the-way-the-API-does/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) e2e-live/indexer.spec.ts:135:3 › detail › shows the origin, the current chain and one card per revision 
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  getByText(/^content: /)
+    Expected: 1
+    Received: 2
+    Timeout:  240000ms
+
+    Call log:
+      - Expect "toHaveCount" getByText(/^content: /) with timeout 240000ms
+      - waiting for getByText(/^content: /)
+        6 × locator resolved to 0 elements
+          - unexpected value "0"
+        474 × locator resolved to 2 elements
+            - unexpected value "2"
+
+
+      141 |       CHAIN_NAME[subject.currentChainId as number] ?? "",
+      142 |     );
+    > 143 |     await expect(page.getByText(/^content: /)).toHaveCount(subject.revisions.length, {
+          |                                                ^
+      144 |       timeout: 4 * 60_000,
+      145 |     });
+      146 |     const conflicts = subject.revisions.filter((r) => r.conflict).length;
+        at <repo>/app/apps/web/e2e-live/indexer.spec.ts:143:48
+
+    Error Context: test-results/indexer-detail-shows-the-o-04a97-n-and-one-card-per-revision/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/indexer-detail-shows-the-o-04a97-n-and-one-card-per-revision/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/indexer-detail-shows-the-o-04a97-n-and-one-card-per-revision/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4) e2e-live/indexer.spec.ts:168:3 › detail › verifies every revision's payload against its CID ───
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  getByText(/^content: /)
+    Expected: 1
+    Received: 2
+    Timeout:  120000ms
+
+    Call log:
+      - Expect "toHaveCount" getByText(/^content: /) with timeout 120000ms
+      - waiting for getByText(/^content: /)
+        6 × locator resolved to 0 elements
+          - unexpected value "0"
+        236 × locator resolved to 2 elements
+            - unexpected value "2"
+
+
+      170 |     for (let attempt = 0; attempt < 4; attempt++) {
+      171 |       await page.goto(`/passport/${subject.tokenId}`);
+    > 172 |       await expect(page.getByText(/^content: /)).toHaveCount(subject.revisions.length, {
+          |                                                  ^
+      173 |         timeout: 2 * 60_000,
+      174 |       });
+      175 |       if ((await page.getByText("content: verified").count()) === subject.revisions.length) break;
+        at <repo>/app/apps/web/e2e-live/indexer.spec.ts:172:50
+
+    Error Context: test-results/indexer-detail-verifies-ev-51fc6-n-s-payload-against-its-CID/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/indexer-detail-verifies-ev-51fc6-n-s-payload-against-its-CID/trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results/indexer-detail-verifies-ev-51fc6-n-s-payload-against-its-CID/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4 failed
+    e2e-live/indexer.spec.ts:88:3 › list › shows the indexer's passports, not fixtures ─────────────
+    e2e-live/indexer.spec.ts:101:3 › list › filters by status and by chain the way the API does ────
+    e2e-live/indexer.spec.ts:135:3 › detail › shows the origin, the current chain and one card per revision 
+    e2e-live/indexer.spec.ts:168:3 › detail › verifies every revision's payload against its CID ────
+  7 passed (27.2m)
+ ELIFECYCLE  Command failed with exit code 1.

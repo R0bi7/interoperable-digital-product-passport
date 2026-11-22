@@ -1,0 +1,13 @@
+
+> @idpp/passport-config@0.1.0 test:int <repo>/app/packages/passport-config
+> VITEST_INT=1 vitest run
+
+
+ RUN  v5.0.3 <repo>/app/packages/passport-config
+
+
+ Test Files  1 passed (1)
+      Tests  1 passed (1)
+   Start at  16:58:51
+   Duration  7.82s (tests 98%, import 1%, transform 1%)
+

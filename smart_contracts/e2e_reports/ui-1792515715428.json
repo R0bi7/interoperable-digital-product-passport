@@ -1,0 +1,77 @@
+{
+  "runId": "1792515715428",
+  "deploymentId": "whisky-v2-eval3",
+  "header": {
+    "window": "ds9",
+    "gitSha": "ee4cdec328a02d3f3f38818ee61149ebdd91fece",
+    "gitDirty": null,
+    "startedAt": "2026-10-20T17:01:55.428Z",
+    "sources": [
+      "docs/evaluation/DS9.md",
+      "docs/acceptance/2026-10-20-ds9-ds11/ds9/ds9-results.json"
+    ],
+    "note": "kubo 0.43.1; copies from the IPFS network, reads through the Pinata gateway and offline from the local node."
+  },
+  "flows": [
+    {
+      "flow": "DS1 Arbitrum Sepolia: bafkreic3vditdrpl4srgti4thqlpkzfpjr63kvsli4gahg72tcdoj6vnc4",
+      "status": "PASS",
+      "tokenId": "421614000000000007",
+      "steps": []
+    },
+    {
+      "flow": "DS1 Base Sepolia: bafkreibendbl26im7ixabj5bf3nzq4yhmwinavwo3stffn33yszbkflyaa",
+      "status": "PASS",
+      "tokenId": "84532000000000005",
+      "steps": []
+    },
+    {
+      "flow": "DS1 Sepolia: bafkreigszk3yj5f573k6bgg4sgehc6c4luunbpk57hj5nprlyges2dvtei",
+      "status": "PASS",
+      "tokenId": "11155111000000000007",
+      "steps": []
+    },
+    {
+      "flow": "DS2 w3 arbitrum<->base, after last hop: bafkreidti262jfo26j7db3pxeiflyjvhslcvvsovykeaumsjmohwigynru",
+      "status": "PASS",
+      "tokenId": "421614000000000018",
+      "steps": []
+    },
+    {
+      "flow": "DS2 w3 arbitrum<->sepolia, after last hop: bafkreicynj4tshgirqy4cn2crs22ifs5ny4xuzix3s3zaboggqasyyz3aq",
+      "status": "PASS",
+      "tokenId": "421614000000000019",
+      "steps": []
+    },
+    {
+      "flow": "DS2 w3 base<->sepolia, after last hop: bafkreiffobwu6r4qa3vr5i3xcfzjkhp52jlwirrrhpldezc2o4srm2ourq",
+      "status": "PASS",
+      "tokenId": "84532000000000014",
+      "steps": []
+    },
+    {
+      "flow": "DS10 case c (revision 1): bafkreiblnnz3kcpe2qzugrrsbtehsyba63hdump3iheonsmmq2o2cvdzwq",
+      "status": "PASS",
+      "tokenId": "421614000000000038",
+      "steps": []
+    },
+    {
+      "flow": "DS11 bottle with two source casks: bafkreifkppq3ubz4u4urtntwh5l2oy5c63wss55cqdlay4wxti4bek43uq",
+      "status": "PASS",
+      "tokenId": "421614000000000040",
+      "steps": []
+    },
+    {
+      "flow": "DS12 round-trip token: bafkreigj4q4hywugtg435s2dagdpeksop2nb4e62txgovpnosk7uvxhwom",
+      "status": "PASS",
+      "tokenId": "421614000000000035",
+      "steps": []
+    },
+    {
+      "flow": "DS12 sample 3 cask: bafkreiaevo53a2xqz2hmkaiexwobxbjzuyxxtrmx4l3ywuprets7ean2wi",
+      "status": "PASS",
+      "tokenId": "421614000000000028",
+      "steps": []
+    }
+  ]
+}

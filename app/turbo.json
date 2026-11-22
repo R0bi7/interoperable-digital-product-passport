@@ -1,0 +1,68 @@
+{
+  "$schema": "https://turborepo.com/schema.json",
+  "agentGuidance": false,
+  "ui": "stream",
+  "globalPassThroughEnv": [
+    "PINATA_JWT",
+    "PINATA_GATEWAY",
+    "PINATA_UPLOAD_PATH",
+    "PONDER_RPC_URL_*",
+    "PONDER_LOG_BLOCK_RANGE_*",
+    "PONDER_RPC_INTERVAL_MS_*",
+    "PONDER_TELEMETRY_DISABLED",
+    "DATABASE_URL",
+    "DATABASE_SCHEMA",
+    "OPERATOR_PRIVATE_KEY",
+    "ISSUER_ALLOWLIST",
+    "PIN_RATE_LIMIT_PER_MINUTE",
+    "RPC_URL_*",
+    "PORT",
+    "INDEXER_STATUS_URL"
+  ],
+  "tasks": {
+    "build": {
+      "dependsOn": [
+        "^build"
+      ],
+      "outputs": [
+        "dist/**",
+        ".next/**",
+        "!.next/cache/**"
+      ]
+    },
+    "checkTs": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "lint": {},
+    "test": {
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": false
+    },
+    "codegen": {
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": false
+    },
+    "dev": {
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": false,
+      "persistent": true
+    },
+    "test:coverage": {
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": false,
+      "outputs": [
+        "coverage/**"
+      ]
+    }
+  }
+}

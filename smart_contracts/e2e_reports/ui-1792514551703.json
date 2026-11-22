@@ -1,0 +1,224 @@
+{
+  "runId": "1792514551703",
+  "deploymentId": "whisky-v2-eval3",
+  "header": {
+    "window": "ds10",
+    "gitSha": "5db5cd7931690000665fae3d0c6a3500eecf7695",
+    "gitDirty": null,
+    "startedAt": "2026-10-20T16:42:31.703Z",
+    "sources": [
+      "docs/evaluation/DS10.md",
+      "docs/acceptance/2026-10-20-ds9-ds11/ds10/ds10-ui-results.json"
+    ],
+    "note": "Reader run against the stand-in at 5db5cd7 (tree state not recorded in a file). Fixtures from 2026-10-20T16:42:31.703Z in three invocations of ds10-chain.cts: 2f8109e as committed (a1 Arbitrum; a1 Base minted, its record lost to RPC lag), then two uncommitted working copies: one with retrying reads and the a1 adopt path (a1 Base adopted, a1 Sepolia, a2, c Arbitrum, c Base mint), then the copy committed unchanged in 2eef9b7 (c Base resumed, c Sepolia, future). Fixtures are set-up transactions; the observations are the reader loads."
+  },
+  "flows": [
+    {
+      "flow": "a1-arb",
+      "status": "PASS",
+      "tokenId": "421614000000000036",
+      "steps": [
+        {
+          "step": "mint",
+          "network": "arbitrum-sepolia",
+          "txHash": "0xf1af3b304c8f82eec72bb3be11b12223ce9eb2977db35112365db05a5a325cf9",
+          "checks": []
+        }
+      ]
+    },
+    {
+      "flow": "a1-base",
+      "status": "PASS",
+      "tokenId": "84532000000000019",
+      "steps": [
+        {
+          "step": "mint",
+          "network": "base-sepolia",
+          "txHash": "0xefb778eea4aae18ce88208fe245d3f7ecf554838e5e00c929feb72f6ca369462",
+          "checks": []
+        }
+      ]
+    },
+    {
+      "flow": "a1-sep",
+      "status": "PASS",
+      "tokenId": "11155111000000000017",
+      "steps": [
+        {
+          "step": "mint",
+          "network": "sepolia",
+          "txHash": "0x1a647fc5faa60404062761b73e66652d90f464f5bd89a48f490e41accb47a96e",
+          "checks": []
+        }
+      ]
+    },
+    {
+      "flow": "a2-arb",
+      "status": "PASS",
+      "tokenId": "421614000000000037",
+      "steps": [
+        {
+          "step": "mint",
+          "network": "arbitrum-sepolia",
+          "txHash": "0x4763655e0122840b68776c6f37a2a26cb631f80d932850edb2d16b7b3e6d9a63",
+          "checks": []
+        }
+      ]
+    },
+    {
+      "flow": "a2-base",
+      "status": "PASS",
+      "tokenId": "84532000000000020",
+      "steps": [
+        {
+          "step": "mint",
+          "network": "base-sepolia",
+          "txHash": "0xdd6789a6ecba7e22f6207d01772f5b03d1648b0f6c3d4b1f48b02e48af52d94c",
+          "checks": []
+        }
+      ]
+    },
+    {
+      "flow": "a2-sep",
+      "status": "PASS",
+      "tokenId": "11155111000000000018",
+      "steps": [
+        {
+          "step": "mint",
+          "network": "sepolia",
+          "txHash": "0x5b84e11c403f7be82de11a1e845585a06a99425b1a544deb1efdada2fa13928e",
+          "checks": []
+        }
+      ]
+    },
+    {
+      "flow": "c-arb",
+      "status": "PASS",
+      "tokenId": "421614000000000038",
+      "steps": [
+        {
+          "step": "mint",
+          "network": "arbitrum-sepolia",
+          "txHash": "0xe7517aa16785087c61cef9d4c0596fd0d27e0d6a05d9b9d6d110f9e8025aa60b",
+          "checks": []
+        },
+        {
+          "step": "revise",
+          "network": "arbitrum-sepolia",
+          "txHash": "0xc721784514988125ad277990f92c5f5f9320a80cbade6f34ad492ded70089efb",
+          "checks": []
+        }
+      ]
+    },
+    {
+      "flow": "c-base",
+      "status": "PASS",
+      "tokenId": "84532000000000021",
+      "steps": [
+        {
+          "step": "mint",
+          "network": "base-sepolia",
+          "txHash": "0xeb993e53adcb7e2dcb7bf5e3a3f1b1597a9e2d357758b61937cc5a5aa983a3d4",
+          "checks": []
+        },
+        {
+          "step": "revise",
+          "network": "base-sepolia",
+          "txHash": "0x9983a5e036948817e03ee46942bef1fd36e1c1a86dec510929844f4a43be1fad",
+          "checks": []
+        }
+      ]
+    },
+    {
+      "flow": "c-sep",
+      "status": "PASS",
+      "tokenId": "11155111000000000019",
+      "steps": [
+        {
+          "step": "mint",
+          "network": "sepolia",
+          "txHash": "0x2a00d53f11e17c4da922827010ccff3937facfedcdf5e4c9eeabd5ac228723a1",
+          "checks": []
+        },
+        {
+          "step": "revise",
+          "network": "sepolia",
+          "txHash": "0xd8289f4ae077592338596d1e1700909f1fca0e229ec5fea9d8f88f4e9bf9b867",
+          "checks": []
+        }
+      ]
+    },
+    {
+      "flow": "b-control-arb",
+      "status": "PASS",
+      "tokenId": "421614000000000005",
+      "steps": []
+    },
+    {
+      "flow": "b-altered-arb",
+      "status": "PASS",
+      "tokenId": "421614000000000005",
+      "steps": []
+    },
+    {
+      "flow": "b-control-base",
+      "status": "PASS",
+      "tokenId": "84532000000000003",
+      "steps": []
+    },
+    {
+      "flow": "b-altered-base",
+      "status": "PASS",
+      "tokenId": "84532000000000003",
+      "steps": []
+    },
+    {
+      "flow": "b-control-sep",
+      "status": "PASS",
+      "tokenId": "11155111000000000005",
+      "steps": []
+    },
+    {
+      "flow": "b-altered-sep",
+      "status": "PASS",
+      "tokenId": "11155111000000000005",
+      "steps": []
+    },
+    {
+      "flow": "decoy-arb",
+      "status": "PASS",
+      "tokenId": "421614000000000038",
+      "steps": []
+    },
+    {
+      "flow": "decoy-base",
+      "status": "PASS",
+      "tokenId": "84532000000000021",
+      "steps": []
+    },
+    {
+      "flow": "decoy-sep",
+      "status": "FAIL",
+      "tokenId": "11155111000000000019",
+      "steps": []
+    },
+    {
+      "flow": "future-arb",
+      "status": "PASS",
+      "tokenId": "421614000000000006",
+      "steps": []
+    },
+    {
+      "flow": "future-base",
+      "status": "PASS",
+      "tokenId": "84532000000000004",
+      "steps": []
+    },
+    {
+      "flow": "future-sep",
+      "status": "FAIL",
+      "tokenId": "11155111000000000006",
+      "steps": []
+    }
+  ]
+}

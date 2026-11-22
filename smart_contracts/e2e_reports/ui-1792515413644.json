@@ -1,0 +1,97 @@
+{
+  "runId": "1792515413644",
+  "deploymentId": "whisky-v2-eval3",
+  "header": {
+    "window": "ds11",
+    "gitSha": "ee4cdec328a02d3f3f38818ee61149ebdd91fece",
+    "gitDirty": false,
+    "startedAt": "2026-10-20T16:56:53.644Z",
+    "sources": [
+      "docs/evaluation/DS11.md",
+      "docs/acceptance/2026-10-20-ds9-ds11/ds11/ds11-results.json"
+    ],
+    "note": "Indexer-backed production build; key-backed injected wallet."
+  },
+  "flows": [
+    {
+      "flow": "mints a bottle with one source cask",
+      "status": "PASS",
+      "tokenId": "421614000000000039",
+      "steps": [
+        {
+          "step": "mint bottle with one source cask",
+          "network": "arbitrum-sepolia",
+          "txHash": "0x3d89de4e7514aaa62b4028eab393532c9b07cc5651d3c72d3917bcae485ef80d",
+          "checks": []
+        }
+      ]
+    },
+    {
+      "flow": "mints a bottle with two source casks",
+      "status": "PASS",
+      "tokenId": "421614000000000040",
+      "steps": [
+        {
+          "step": "mint bottle with two source casks",
+          "network": "arbitrum-sepolia",
+          "txHash": "0x192a2f529560bc81b0122d14e94022c568980e6d507cbe156f5de661aed28ee0",
+          "checks": []
+        }
+      ]
+    },
+    {
+      "flow": "revises the bottle with two source casks (2.3m)",
+      "status": "PASS",
+      "tokenId": "421614000000000040",
+      "steps": [
+        {
+          "step": "revise bottle with two source casks",
+          "network": "arbitrum-sepolia",
+          "txHash": "0x26fb2867cd3f39815a227129245671122a895fb914803713a28c68efedde004a",
+          "checks": []
+        }
+      ]
+    },
+    {
+      "flow": "sends bottle 1 to Base Sepolia and reads it there (1.0m)",
+      "status": "PASS",
+      "tokenId": "421614000000000039",
+      "steps": [
+        {
+          "step": "send bottle 1",
+          "network": "arbitrum-sepolia",
+          "txHash": "0x1c4a492b41ef5cdbd90d35ba0846a2e38c11ccac54d5cb4dd8322c68e0f382f4",
+          "checks": []
+        }
+      ]
+    },
+    {
+      "flow": "sends bottle 2 to Base Sepolia and reads it there",
+      "status": "PASS",
+      "tokenId": "421614000000000040",
+      "steps": [
+        {
+          "step": "send bottle 2",
+          "network": "arbitrum-sepolia",
+          "txHash": "0xbf15cc6a10974cb5eea9a2b5c23d8d9f00efd374ec631220f4360379ad3d61b3",
+          "checks": []
+        }
+      ]
+    },
+    {
+      "flow": "refuses a bottle with a missing cask before any pin or transaction",
+      "status": "PASS",
+      "steps": []
+    },
+    {
+      "flow": "refuses a bottle with a non-cask before any pin or transaction",
+      "status": "PASS",
+      "steps": []
+    },
+    {
+      "flow": "refuses a bottle with a nonexistent revision before any pin or transaction",
+      "status": "PASS",
+      "steps": []
+    }
+  ]
+}

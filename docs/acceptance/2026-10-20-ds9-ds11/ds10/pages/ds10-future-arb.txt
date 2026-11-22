@@ -1,0 +1,98 @@
+Skip to content
+Whisky Distillery
+Interoperable Digital Product Passport
+Passports
+Scan
+Mint
+Connect Wallet
+
+No browser wallet found. Install an Ethereum wallet extension (for example MetaMask) and reload.
+
+PASSPORT
+
+421614000000000006
+held
+Revise
+Send to another chain
+Verify owner
+Prove ownership
+Origin (originOf)
+Arbitrum Sepolia (421614)
+Deployment
+whisky-v2-eval3
+Current chain
+Arbitrum Sepolia
+Contract
+0xFE84e01B03Cae9B4AaD5678A5681B70bA77435C2
+Owner
+0xea12576C5DDa8857917dAD466f9335E2Cf877703
+Revision
+0
+CID
+bafkreibbu66u23apikqfqaz2ly75gmmb7oxouarmtdobjy4wovhawhgf6a
+Live confirmation
+
+Read ownerOf and passportOf on Arbitrum Sepolia in one multicall at block 321118821.
+
+The indexer is behind or inconsistent. The values shown above are the live ones.
+revision: indexer 1, chain 0
+cid: indexer bafkreihilbaisi76t6vzc27a4s6zfarlnqb5lt3zdivh43rkvmxslx23h4, chain bafkreibbu66u23apikqfqaz2ly75gmmb7oxouarmtdobjy4wovhawhgf6a
+Indexer progress
+Arbitrum Sepolia: indexed block 321118816 of 321118819 (3 blocks behind)
+QR code
+
+Print this on the cask or bottle. Scanning it opens this passport and its verification.
+
+http://localhost:3120/passport/421614000000000006?deployment=whisky-v2-eval3
+
+Download PNG
+Copy link
+Timeline
+Issued on Arbitrum Sepolia
+2026-10-19T20:48:21Z, block 320842023, 0xf5c9937c…93b7ae
+Ownership transferred on Arbitrum Sepolia
+2026-10-19T20:50:42Z, block 320842550, 0x957e41b6…e020f8
+Revised on Arbitrum Sepolia
+2026-10-20T16:49:05Z, block 320842550, 0x00000000…000001
+Revisions and verification
+
+Checked in this browser on the raw bytes from the gateway: content (bytes hash to the CID), binding (envelope names this deployment, token and revision), history (each previousCid is the preceding revision's CID), recorded on chain (the emitting contract receipt confirms this CID, revision and author; timestamps remain indexer-sourced), and once for the passport history hash (the CIDs of every revision, in order, recompute the historyHash of the live passportOf read).
+
+The chain holds revision 0; the indexer lists revision 1. Revisions above 0 are not confirmed on chain.
+history hash: verified
+Revision 0
+Arbitrum Sepolia, 2026-10-19T20:48:21Z, tx
+bafkreibbu66u23apikqfqaz2ly75gmmb7oxouarmtdobjy4wovhawhgf6aCID from passportOf on chain (live read)
+content: verified
+binding: verified
+history: verified
+recorded on chain: verified
+Payload data
+Kind
+cask
+Granularity
+item
+Distillery
+Demo Distillery
+Cask type
+Bourbon barrel
+Cask number
+421614000000000006
+Volume (liters)
+200
+Alcohol by volume (%)
+63.5
+Fill date
+2026-10-01(domain assertion by the issuer, not chain evidence)
+Description
+ops mint 3 (run 1792442510606)
+Revision 1
+Arbitrum Sepolia, 2026-10-20T16:49:05Z, tx
+bafkreihilbaisi76t6vzc27a4s6zfarlnqb5lt3zdivh43rkvmxslx23h4CID from the indexer
+content: verified
+binding: unconfirmed
+history: verified
+recorded on chain: unavailable
+binding: above the live tip (revision 0)
+recorded: receipt unavailable: Transaction receipt with hash "0x0000000000000000000000000000000000000000000000000000000000000001" could not be found. The Transaction may not be processed on a block yet. Version: viem@2.57.4
+Payload data

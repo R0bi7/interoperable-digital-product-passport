@@ -1,0 +1,180 @@
+{
+  "header": {
+    "startedAt": "2026-10-20T16:56:53.644Z",
+    "account": "0x9415E00f429549A26310C83c1F47db40eb300415",
+    "casks": [
+      "421614000000000026",
+      "421614000000000027"
+    ],
+    "cask 421614000000000026": {
+      "revision": "1",
+      "cid": "bafkreigvppjwonzr2swttut3fnjd7qqkn4ntjiz6mgbzxlt7bjvug6xa4m"
+    },
+    "cask 421614000000000027": {
+      "revision": "1",
+      "cid": "bafkreicmglc3bvbgvil4otcuwhhhdvincsindsrpugcj7rhqhf5qqyzozm"
+    },
+    "finishedAt": "2026-10-20T17:01:31.359Z"
+  },
+  "steps": [
+    {
+      "step": "mint bottle with one source cask",
+      "tokenId": "421614000000000039",
+      "chainId": 421614,
+      "txHash": "0x3d89de4e7514aaa62b4028eab393532c9b07cc5651d3c72d3917bcae485ef80d",
+      "cid": "bafkreicwj6fttof6qv3dpeosnxib5ild2ug3wtt4bhpoxgxvpiifsagmc4",
+      "sources": [
+        {
+          "tokenId": "421614000000000026",
+          "revision": "1",
+          "volumeMl": "350"
+        }
+      ],
+      "clickAt": "2026-10-20T16:56:54.691Z",
+      "confirmedAt": "2026-10-20T16:57:02.131Z"
+    },
+    {
+      "step": "mint bottle with two source casks",
+      "tokenId": "421614000000000040",
+      "chainId": 421614,
+      "txHash": "0x192a2f529560bc81b0122d14e94022c568980e6d507cbe156f5de661aed28ee0",
+      "cid": "bafkreifkvhd2fktf73ye366zumm734cnhpama33c5mzxkm43d2ssyj2tci",
+      "sources": [
+        {
+          "tokenId": "421614000000000026",
+          "revision": "1",
+          "volumeMl": "350"
+        },
+        {
+          "tokenId": "421614000000000027",
+          "revision": "1",
+          "volumeMl": "350"
+        }
+      ],
+      "clickAt": "2026-10-20T16:57:02.622Z",
+      "confirmedAt": "2026-10-20T16:57:09.585Z"
+    },
+    {
+      "step": "revise bottle with two source casks",
+      "tokenId": "421614000000000040",
+      "chainId": 421614,
+      "txHash": "0x26fb2867cd3f39815a227129245671122a895fb914803713a28c68efedde004a",
+      "cid": "bafkreifkppq3ubz4u4urtntwh5l2oy5c63wss55cqdlay4wxti4bek43uq",
+      "revision": "1"
+    },
+    {
+      "step": "send bottle 1",
+      "tokenId": "421614000000000039",
+      "from": 421614,
+      "to": 84532,
+      "txHash": "0x1c4a492b41ef5cdbd90d35ba0846a2e38c11ccac54d5cb4dd8322c68e0f382f4",
+      "clickAt": "2026-10-20T16:59:28.365Z",
+      "deliveredObservedAt": "2026-10-20T17:00:23.210Z",
+      "reader": {
+        "historyHash": "verified",
+        "rows": [
+          {
+            "revision": "0",
+            "content": "verified",
+            "binding": "verified",
+            "history": "verified",
+            "recordedOnChain": "verified"
+          }
+        ]
+      },
+      "readerText": "Skip to content\nWhisky Distillery\nInteroperable Digital Product Passport\nPassports\nScan\nMint\nConnect Wallet\n\nNo browser wallet found. Install an Ethereum wallet extension (for example MetaMask) and reload.\n\nPASSPORT\n\n421614000000000039\nheld\nRevise\nSend to another chain\nVerify owner\nProve ownership\nOrigin (originOf)\nArbitrum Sepolia (421614)\nDeployment\nwhisky-v2-eval3\nCurrent chain\nBase Sepolia\nContract\n0xFE84e01B03Cae9B4AaD5678A5681B70bA77435C2\nOwner\n0x9415e00f429549a26310c83c1f47db40eb300415\nRevision\n0\nCID\nbafkreicwj6fttof6qv3dpeosnxib5ild2ug3wtt4bhpoxgxvpiifsagmc4\nLive confirmation\n\nRead ownerOf and passportOf on Base Sepolia in one multicall at block 48373668.\n\nThe live read agrees with the indexer.\n\nIndexer progress\nArbitrum Sepolia: indexed block 321121423 of 321121426 (3 blocks behind)\nQR code\n\nPrint this on the cask or bottle. Scanning it opens this passport and its verification.\n\nhttp://localhost:3115/passport/421614000000000039?deployment=whisky-v2-eval3\n\nDownload PNG\nCopy link\nTimeline\nIssued on Arbitrum Sepolia\n2026-10-20T16:57:00Z, block 321120657, 0x3d89de4e…5ef80d\nHop: Arbitrum Sepolia to Base Sepolia\nSent 2026-10-20T16:59:29Z, block 321121224, 0x1c4a492b…f382f4\nReceived 2026-10-20T17:00:16Z, block 48373664, 0x5d992982…555e3e\nBlock interval (approximate): 47 s(difference of the two block timestamps, not a latency measurement)\nguid 0x2af34feedcbc278e6a1dc6e3a4c5f253ff48ec7d187a4b5633eaf269adc37ed9\nLayerZero Scan\nRevisions and verification\n\nChecked in this browser on the raw bytes from the gateway: content (bytes hash to the CID), binding (envelope names this deployment, token and revision), history (each previousCid is the preceding revision's CID), recorded on chain (the emitting contract receipt confirms this CID, revision and author; timestamps remain indexer-sourced), and once for the passport history hash (the CIDs of every revision, in order, recompute the historyHash of the live passportOf read).\n\nhistory hash: verified\nRevision 0\nArbitrum Sepolia, 2026-10-20T16:57:00Z, tx\nbafkreicwj6fttof6qv3dpeosnxib5ild2ug3wtt4bhpoxgxvpiifsagmc4CID from passportOf on chain (live read)\ncontent: verified\nbinding: verified\nhistory: verified\nrecorded on chain: verified\nPayload data\nKind\nbottle\nGranularity\nitem\nBrand\nDS11 Demo\nBottle type\nSingle cask\nBottled date\n2026-10-20(domain assertion by the issuer, not chain evidence)\nVolume (ml)\n700\nAlcohol by volume (%)\n46\nDescription\nDS11 bottle with one source cask\nSource cask\n421614000000000026, revision 1, 350 ml"
+    },
+    {
+      "step": "send bottle 2",
+      "tokenId": "421614000000000040",
+      "from": 421614,
+      "to": 84532,
+      "txHash": "0xbf15cc6a10974cb5eea9a2b5c23d8d9f00efd374ec631220f4360379ad3d61b3",
+      "clickAt": "2026-10-20T17:00:28.540Z",
+      "deliveredObservedAt": "2026-10-20T17:01:22.405Z",
+      "reader": {
+        "historyHash": "verified",
+        "rows": [
+          {
+            "revision": "0",
+            "content": "verified",
+            "binding": "verified",
+            "history": "verified",
+            "recordedOnChain": "verified"
+          },
+          {
+            "revision": "1",
+            "content": "verified",
+            "binding": "verified",
+            "history": "verified",
+            "recordedOnChain": "verified"
+          }
+        ]
+      },
+      "readerText": "Skip to content\nWhisky Distillery\nInteroperable Digital Product Passport\nPassports\nScan\nMint\nConnect Wallet\n\nNo browser wallet found. Install an Ethereum wallet extension (for example MetaMask) and reload.\n\nPASSPORT\n\n421614000000000040\nheld\nRevise\nSend to another chain\nVerify owner\nProve ownership\nOrigin (originOf)\nArbitrum Sepolia (421614)\nDeployment\nwhisky-v2-eval3\nCurrent chain\nBase Sepolia\nContract\n0xFE84e01B03Cae9B4AaD5678A5681B70bA77435C2\nOwner\n0x9415e00f429549a26310c83c1f47db40eb300415\nRevision\n1\nCID\nbafkreifkppq3ubz4u4urtntwh5l2oy5c63wss55cqdlay4wxti4bek43uq\nLive confirmation\n\nRead ownerOf and passportOf on Base Sepolia in one multicall at block 48373697.\n\nThe live read agrees with the indexer.\n\nIndexer progress\nBase Sepolia: indexed block 48373695 of 48373696 (1 blocks behind)\nArbitrum Sepolia: indexed block 321121656 of 321121659 (3 blocks behind)\nQR code\n\nPrint this on the cask or bottle. Scanning it opens this passport and its verification.\n\nhttp://localhost:3115/passport/421614000000000040?deployment=whisky-v2-eval3\n\nDownload PNG\nCopy link\nTimeline\nIssued on Arbitrum Sepolia\n2026-10-20T16:57:07Z, block 321120683, 0x192a2f52…d28ee0\nRevised on Arbitrum Sepolia\n2026-10-20T16:59:24Z, block 321121203, 0x26fb2867…de004a\nHop: Arbitrum Sepolia to Base Sepolia\nSent 2026-10-20T17:00:29Z, block 321121462, 0xbf15cc6a…3d61b3\nReceived 2026-10-20T17:01:14Z, block 48373693, 0xda8844fe…e6ed12\nBlock interval (approximate): 45 s(difference of the two block timestamps, not a latency measurement)\nguid 0xf4e6cc0b0f815fdad80802ff99c667c593a326bf669e04123b06d989c8710f50\nLayerZero Scan\nRevisions and verification\n\nChecked in this browser on the raw bytes from the gateway: content (bytes hash to the CID), binding (envelope names this deployment, token and revision), history (each previousCid is the preceding revision's CID), recorded on chain (the emitting contract receipt confirms this CID, revision and author; timestamps remain indexer-sourced), and once for the passport history hash (the CIDs of every revision, in order, recompute the historyHash of the live passportOf read).\n\nhistory hash: verified\nRevision 0\nArbitrum Sepolia, 2026-10-20T16:57:07Z, tx\nbafkreifkvhd2fktf73ye366zumm734cnhpama33c5mzxkm43d2ssyj2tciCID from the indexer\ncontent: verified\nbinding: verified\nhistory: verified\nrecorded on chain: verified\nPayload data\nRevision 1\nArbitrum Sepolia, 2026-10-20T16:59:24Z, tx\nbafkreifkppq3ubz4u4urtntwh5l2oy5c63wss55cqdlay4wxti4bek43uqCID from passportOf on chain (live read)\ncontent: verified\nbinding: verified\nhistory: verified\nrecorded on chain: verified\nPayload data\nKind\nbottle\nGranularity\nitem\nBrand\nDS11 Demo\nBottle type\nSingle cask\nBottled date\n2026-10-20(domain assertion by the issuer, not chain evidence)\nVolume (ml)\n700\nAlcohol by volume (%)\n46\nDescription\nDS11 bottle revised; source casks unchanged.\nSource cask\n421614000000000026, revision 1, 350 ml\nSource cask\n421614000000000027, revision 1, 350 ml"
+    },
+    {
+      "step": "rejection: missing cask",
+      "source": {
+        "tokenId": "421614000000999999",
+        "revision": "0",
+        "volumeMl": "350"
+      },
+      "expected": "source cask 421614000000999999: not held on any chain of the deployment",
+      "shown": "source_cask_missing\n: source cask 421614000000999999: not held on any chain of the deployment",
+      "mintRequests": 1,
+      "nextTokenIdBefore": "421614000000000041",
+      "nextTokenIdAfter": "421614000000000041",
+      "noncesBefore": {
+        "84532": 106,
+        "421614": 140
+      },
+      "noncesAfter": {
+        "84532": 106,
+        "421614": 140
+      }
+    },
+    {
+      "step": "rejection: non-cask",
+      "source": {
+        "tokenId": "421614000000000039",
+        "revision": "0",
+        "volumeMl": "350"
+      },
+      "expected": "is a bottle, not a cask",
+      "shown": "source_cask_not_cask\n: source cask 421614000000000039: revision 0 is a bottle, not a cask",
+      "mintRequests": 1,
+      "nextTokenIdBefore": "421614000000000041",
+      "nextTokenIdAfter": "421614000000000041",
+      "noncesBefore": {
+        "84532": 106,
+        "421614": 140
+      },
+      "noncesAfter": {
+        "84532": 106,
+        "421614": 140
+      }
+    },
+    {
+      "step": "rejection: nonexistent revision",
+      "source": {
+        "tokenId": "421614000000000026",
+        "revision": "9",
+        "volumeMl": "350"
+      },
+      "expected": "revision 9 does not exist",
+      "shown": "source_cask_revision\n: source cask 421614000000000026: revision 9 does not exist; the chain holds revision 1",
+      "mintRequests": 1,
+      "nextTokenIdBefore": "421614000000000041",
+      "nextTokenIdAfter": "421614000000000041",
+      "noncesBefore": {
+        "84532": 106,
+        "421614": 140
+      },
+      "noncesAfter": {
+        "84532": 106,
+        "421614": 140
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "at": "2026-10-20T17:30:40.053Z",
+  "appUrl": "http://localhost:3120",
+  "idleMutations": 0,
+  "clicks": [
+    {
+      "clickMs": 46,
+      "rowsAfter": 40
+    },
+    {
+      "clickMs": 12,
+      "rowsAfter": 60
+    },
+    {
+      "clickMs": 22,
+      "rowsAfter": 80
+    },
+    {
+      "clickMs": 19,
+      "rowsAfter": 83
+    }
+  ],
+  "finalRows": 83,
+  "buttonGone": true,
+  "initialRows": 20
+}

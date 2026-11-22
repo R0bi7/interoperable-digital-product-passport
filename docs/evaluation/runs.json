@@ -1,0 +1,86 @@
+[
+  {
+    "runId": "1792440313119",
+    "task": "flows",
+    "dataset": "smoke",
+    "role": "excluded",
+    "note": "Smoke on whisky-v2-eval3, clean 9402a13: 10/10 flows, nine delivered sends across all six directions, 39 verified payload reads and matching history hashes. Three Base-source send clocks unavailable; smoke only, never pooled into datasets."
+  },
+  {
+    "runId": "1792442510606",
+    "task": "ops",
+    "dataset": "DS1",
+    "role": "dataset",
+    "note": "Eval3 DS1, clean 366d9cc, window ds1: 9/9 flows, 90 transactions, ten per operation and chain, zero verification failures. All 90 block/confirmation clocks present and all 30 Base supplementary L1 charges captured; no first mint on an untouched chain (smoke already ran)."
+  },
+  {
+    "runId": "1792443397016",
+    "task": "latency",
+    "dataset": "DS2",
+    "role": "dataset",
+    "note": "Eval3 window w1, clean f115ab7, UTC start 2026-10-19T20:56:42.276Z: 24/24 sends delivered, four per direction, all 24 primary and continuity clocks present, matching payload/history checks."
+  },
+  {
+    "runId": "1792454208270",
+    "task": "latency",
+    "dataset": "DS2",
+    "role": "dataset",
+    "note": "Eval3 window w2, clean a87f9ca, UTC start 2026-10-19T23:56:53.837Z: 24/24 delivered, four per direction, all primary and continuity clocks present and payload/history checks verified. Actual start spacing 10811.561s."
+  },
+  {
+    "runId": "1792465019048",
+    "task": "latency",
+    "dataset": "DS2",
+    "role": "dataset",
+    "note": "Eval3 window w3, clean 5c442d5, UTC start 2026-10-20T02:57:04.939Z: 24/24 delivered, four per direction, all primary and continuity clocks present and payload/history checks verified. Actual start spacing 10811.102s. Three-window collection complete; 72/72 delivered and 12 per direction."
+  },
+  {
+    "runId": "1792468448106",
+    "task": "edge",
+    "dataset": "DS3",
+    "role": "dataset",
+    "note": "Eval3 DS3, clean 7ca650a, window ds3, repeats 1: 18/18 flows; all named role/input/configuration rejections and approved-operator transfers passed; three maximum-length CID deliveries and three replay refusals. Synthetic 96-byte strings have no payload by design."
+  },
+  {
+    "runId": "1792508379099",
+    "task": "ui",
+    "dataset": "DS12",
+    "role": "excluded",
+    "note": "Eval3 DS12 live flows, attempt 1: stopped after its first mint (token 421614000000000025) because the run header recorded a dirty tree (untracked report files). Not counted."
+  },
+  {
+    "runId": "1792508518714",
+    "task": "ui",
+    "dataset": "DS12",
+    "role": "dataset",
+    "note": "Eval3 DS12, clean cc92544, indexer-backed: live flows 42/42 with LIVE_REPEAT=10 (n = 10 mint, 11 revise, 10 per send direction, all verified); indexer suite 7 of 11 (four spec assumptions, docs/acceptance/2026-10-20-live-suite.md); indexer test:live 17/17; Pinata round trip 1/1; figure set and live proof of ownership 2/2."
+  },
+  {
+    "runId": "1792514551703",
+    "task": "ui",
+    "dataset": "DS10",
+    "role": "dataset",
+    "note": "Eval3 DS10, reader at 5db5cd7 through the indexer stand-in (the tree state of the run was not recorded in a file): a1, a2, c and b met on all three chains; INJECTED decoy and future revision met on Arbitrum and Base Sepolia, not on Sepolia (browser default RPC 429, indexer-only fallback). 19 of 21 loads met the predeclared result; DS10 stays partial."
+  },
+  {
+    "runId": "1792515413644",
+    "task": "ui",
+    "dataset": "DS11",
+    "role": "dataset",
+    "note": "Eval3 DS11, clean ee4cdec: bottles with one and two sourceCasks minted, the second revised, both sent to Base Sepolia and read there with every check verified; three source-cask rejections refused with no transaction."
+  },
+  {
+    "runId": "1792515715428",
+    "task": "ui",
+    "dataset": "DS9",
+    "role": "dataset",
+    "note": "Eval3 DS9, kubo 0.43.1: ten ledger CIDs pinned from the IPFS network; 10/10 verified through the Pinata gateway and offline from the local node."
+  },
+  {
+    "runId": "1792677430419",
+    "task": "scale",
+    "dataset": "DS4",
+    "role": "dataset",
+    "note": "Eval3 DS4, clean f11953d, window ds4: 20/20 Base mints and 10/10 Base-to-Arbitrum sends; all five predeclared criteria met, including 45 s to last delivery. Local CIDs, no pins; 6/10 individual primary clocks within the DS2 band."
+  }
+]

@@ -1,0 +1,83 @@
+Skip to content
+Whisky Distillery
+Interoperable Digital Product Passport
+Passports
+Scan
+Mint
+Connect Wallet
+
+No browser wallet found. Install an Ethereum wallet extension (for example MetaMask) and reload.
+
+PASSPORT
+
+84532000000000020
+held
+Revise
+Send to another chain
+Verify owner
+Prove ownership
+Origin (originOf)
+Base Sepolia (84532)
+Deployment
+whisky-v2-eval3
+Current chain
+Base Sepolia
+Contract
+0xFE84e01B03Cae9B4AaD5678A5681B70bA77435C2
+Owner
+0x9415e00f429549a26310c83c1f47db40eb300415
+Revision
+0
+CID
+bafkreihnukwgkpblhrln6adjtxeky7xu6stlfheld7yiydkghzu2mpmqbi
+Live confirmation
+
+Read ownerOf and passportOf on Base Sepolia in one multicall at block 48373289.
+
+The live read agrees with the indexer.
+
+Indexer progress
+Arbitrum Sepolia: indexed block 321118507 of 321118513 (6 blocks behind)
+QR code
+
+Print this on the cask or bottle. Scanning it opens this passport and its verification.
+
+http://localhost:3120/passport/84532000000000020?deployment=whisky-v2-eval3
+
+Download PNG
+Copy link
+Timeline
+Issued on Base Sepolia
+2026-10-20T16:43:50Z, block 48373171, 0xdd6789a6…52d94c
+Revisions and verification
+
+Checked in this browser on the raw bytes from the gateway: content (bytes hash to the CID), binding (envelope names this deployment, token and revision), history (each previousCid is the preceding revision's CID), recorded on chain (the emitting contract receipt confirms this CID, revision and author; timestamps remain indexer-sourced), and once for the passport history hash (the CIDs of every revision, in order, recompute the historyHash of the live passportOf read).
+
+history hash: verified
+Revision 0
+Base Sepolia, 2026-10-20T16:43:50Z, tx
+bafkreihnukwgkpblhrln6adjtxeky7xu6stlfheld7yiydkghzu2mpmqbiCID from passportOf on chain (live read)
+content: verified
+binding: failed
+history: verified
+recorded on chain: verified
+binding: deploymentId whisky-v2-tamper-fixture-other differs from whisky-v2-eval3
+Payload data
+Kind
+cask
+Granularity
+item
+Distillery
+Demo Distillery
+Cask type
+Bourbon barrel
+Cask number
+84532000000000020
+Volume (liters)
+200
+Alcohol by volume (%)
+63.5
+Fill date
+2026-10-01(domain assertion by the issuer, not chain evidence)
+Description
+TAMPER FIXTURE a2: envelope carries deploymentId whisky-v2-tamper-fixture-other. Not a real passport.

@@ -1,0 +1,30 @@
+{
+  "startedAt": "2026-10-20T16:42:05.743Z",
+  "finishedAt": "2026-10-20T16:42:08.330Z",
+  "tokenId": "421614000000000035",
+  "challenge": {
+    "kind": "idpp-ownership-challenge",
+    "v": 1,
+    "tokenId": "421614000000000035",
+    "chainId": 421614,
+    "contract": "0xFE84e01B03Cae9B4AaD5678A5681B70bA77435C2",
+    "nonce": "0xaf4bb863e03d24e1a3c995229ab437635bcf5e26ce5da4c0e5cb1cb7141e2dcf",
+    "expiresAt": "1792514647"
+  },
+  "proof": {
+    "kind": "idpp-ownership-proof",
+    "v": 1,
+    "tokenId": "421614000000000035",
+    "chainId": 421614,
+    "contract": "0xFE84e01B03Cae9B4AaD5678A5681B70bA77435C2",
+    "nonce": "0xaf4bb863e03d24e1a3c995229ab437635bcf5e26ce5da4c0e5cb1cb7141e2dcf",
+    "expiresAt": "1792514647",
+    "holder": "0x9415E00f429549A26310C83c1F47db40eb300415",
+    "signature": "0xd86595a2c8693df2e5927970bf6e89f64a30ac98b5289c6fd6bcd2d019c16b61564546be5d9236ef06aa53b45f26c3b4a65d3647827bfe10130a962a62ec9c7d1b"
+  },
+  "verified": "Ownership verified: 0x9415E00f429549A26310C83c1F47db40eb300415 signed this challenge and owns the token at the fresh chain read. The challenge is now consumed.",
+  "secondPresentation": "Ownership not verified: already used. Ask for a new challenge if needed.",
+  "walletRequests": [
+    "eth_signTypedData_v4 on 421614"
+  ]
+}

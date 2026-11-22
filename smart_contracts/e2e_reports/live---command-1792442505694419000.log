@@ -1,0 +1,765 @@
+Active live log: <tmp>/idpp-live/live---command-1792442505694419000.log; archive after exit: <repo>/smart_contracts/e2e_reports/live---command-1792442505694419000.log
+Watchdog idle=300s waiting=480s heartbeat=30s
+{
+  "at": "2026-10-19T20:41:47.365Z",
+  "account": "0x9415E00f429549A26310C83c1F47db40eb300415",
+  "balances": [
+    {
+      "network": "arbitrum-sepolia",
+      "balanceETH": "0.099569148848628351"
+    },
+    {
+      "network": "base-sepolia",
+      "balanceETH": "0.099657297673545964"
+    },
+    {
+      "network": "sepolia",
+      "balanceETH": "2.245616975800748297"
+    }
+  ],
+  "pins": 371,
+  "remainingPins": 84,
+  "plannedTotal": 455,
+  "capacity": 500
+}
+Scan healthy: sepolia eid=40161 dstEid=40231 age=571s status=DELIVERED at=2026-10-19T20:41:48.665965+00:00
+Scan healthy: arbitrum-sepolia eid=40231 dstEid=40161 age=545s status=DELIVERED at=2026-10-19T20:41:48.665965+00:00
+Scan healthy: base-sepolia eid=40245 dstEid=40161 age=531s status=DELIVERED at=2026-10-19T20:41:48.665965+00:00
+[2026-10-19T20:41:50.849Z] sepolia: 0xAD3B1CA4eD7e212cA7a231829a542128feA8A5Ba, balance 2.245616975800748297, idPrefix 11155111
+[2026-10-19T20:41:51.021Z] arbitrum-sepolia: 0xFE84e01B03Cae9B4AaD5678A5681B70bA77435C2, balance 0.099569148848628351, idPrefix 421614
+[2026-10-19T20:41:51.495Z] base-sepolia: 0xFE84e01B03Cae9B4AaD5678A5681B70bA77435C2, balance 0.099657297673545964, idPrefix 84532
+[2026-10-19T20:41:51.496Z] Deployment whisky-v2-eval3, gateway <gateway>, upload path v3
+[2026-10-19T20:41:51.914Z] === ops mint sepolia ===
+[2026-10-19T20:41:54.402Z]   pinned revision 0 of 11155111000000000004: bafkreid6zsxrmr5lr3drn54c7pe7lcl2ukxryefktg2tp2b5xzdt6zxfva (384 bytes)
+[2026-10-19T20:41:54.402Z] [sepolia] mint(0x9415E00f429549A26310C83c1F47db40eb300415, 11155111000000000004, bafkreid6zsxrmr5lr3drn54c7pe7lcl2ukxryefktg2tp2b5xzdt6zxfva)
+[2026-10-19T20:42:03.311Z]   ok   PassportIssued emitted: tokenId 11155111000000000004
+[2026-10-19T20:42:03.311Z]   ok   tokenId is the expectedTokenId and next in the chain namespace: 11155111000000000004 == 11155111000000000004
+[2026-10-19T20:42:03.311Z]   ok   originOf is this chain: 11155111 == 11155111
+[2026-10-19T20:42:03.311Z]   ok   recipient holds the token: ownerOf 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:42:03.311Z]   ok   passport is revision 0: (revision 0, bafkreid6zsxrmr5lr3drn54c7pe7lcl2ukxryefktg2tp2b5xzdt6zxfva)
+[2026-10-19T20:42:03.311Z]   ok   history hash commits to the run's CIDs: 0x1fca27b7d5118e88d652eb6f6f0bd951fbbc469749b507f3f736952f7dc3f9df (expected 0x1fca27b7d5118e88d652eb6f6f0bd951fbbc469749b507f3f736952f7dc3f9df over 1 CIDs)
+[2026-10-19T20:42:03.311Z]   ok   tokenURI resolves the CID: ipfs://bafkreid6zsxrmr5lr3drn54c7pe7lcl2ukxryefktg2tp2b5xzdt6zxfva
+[2026-10-19T20:42:03.311Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:42:04.307Z]   pinned revision 0 of 11155111000000000005: bafkreiapyrpzg2itob6aicbs7vh476w7djljr6xpjor2lidcadag27pzze (384 bytes)
+[2026-10-19T20:42:04.308Z] [sepolia] mint(0x9415E00f429549A26310C83c1F47db40eb300415, 11155111000000000005, bafkreiapyrpzg2itob6aicbs7vh476w7djljr6xpjor2lidcadag27pzze)
+[2026-10-19T20:42:13.159Z]   ok   PassportIssued emitted: tokenId 11155111000000000005
+[2026-10-19T20:42:13.159Z]   ok   tokenId is the expectedTokenId and next in the chain namespace: 11155111000000000005 == 11155111000000000005
+[2026-10-19T20:42:13.159Z]   ok   originOf is this chain: 11155111 == 11155111
+[2026-10-19T20:42:13.159Z]   ok   recipient holds the token: ownerOf 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:42:13.159Z]   ok   passport is revision 0: (revision 0, bafkreiapyrpzg2itob6aicbs7vh476w7djljr6xpjor2lidcadag27pzze)
+[2026-10-19T20:42:13.159Z]   ok   history hash commits to the run's CIDs: 0xcf1b5fbf7ba352b0efd78679498d6642adea2ead50ffd77c50a553c8d425c262 (expected 0xcf1b5fbf7ba352b0efd78679498d6642adea2ead50ffd77c50a553c8d425c262 over 1 CIDs)
+[2026-10-19T20:42:13.159Z]   ok   tokenURI resolves the CID: ipfs://bafkreiapyrpzg2itob6aicbs7vh476w7djljr6xpjor2lidcadag27pzze
+[2026-10-19T20:42:13.159Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:42:14.223Z]   pinned revision 0 of 11155111000000000006: bafkreiel7pefix2zppsyj2uy7rmkjvgrp76vxxdm7vj4gvr6ghpsgkvxdm (384 bytes)
+[2026-10-19T20:42:14.224Z] [sepolia] mint(0x9415E00f429549A26310C83c1F47db40eb300415, 11155111000000000006, bafkreiel7pefix2zppsyj2uy7rmkjvgrp76vxxdm7vj4gvr6ghpsgkvxdm)
+Watchdog status: pid=246 alive=True launcher_alive=True silence=2s last=[2026-10-19T20:42:14.224Z] [sepolia] mint(0x9415E00f429549A26310C83c1F47db40eb300415, 11155111000000000006, bafkreiel7pefix2zppsyj2uy7rmkjvgrp76vxxdm7vj4gvr6ghpsgkvxdm)
+[2026-10-19T20:42:27.418Z]   ok   PassportIssued emitted: tokenId 11155111000000000006
+[2026-10-19T20:42:27.418Z]   ok   tokenId is the expectedTokenId and next in the chain namespace: 11155111000000000006 == 11155111000000000006
+[2026-10-19T20:42:27.418Z]   ok   originOf is this chain: 11155111 == 11155111
+[2026-10-19T20:42:27.418Z]   ok   recipient holds the token: ownerOf 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:42:27.418Z]   ok   passport is revision 0: (revision 0, bafkreiel7pefix2zppsyj2uy7rmkjvgrp76vxxdm7vj4gvr6ghpsgkvxdm)
+[2026-10-19T20:42:27.418Z]   ok   history hash commits to the run's CIDs: 0x1336341a0478eaa57c44a107c8943a47a6108a826924dcfc2a16de7b8948aa47 (expected 0x1336341a0478eaa57c44a107c8943a47a6108a826924dcfc2a16de7b8948aa47 over 1 CIDs)
+[2026-10-19T20:42:27.418Z]   ok   tokenURI resolves the CID: ipfs://bafkreiel7pefix2zppsyj2uy7rmkjvgrp76vxxdm7vj4gvr6ghpsgkvxdm
+[2026-10-19T20:42:27.418Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:42:28.479Z]   pinned revision 0 of 11155111000000000007: bafkreigszk3yj5f573k6bgg4sgehc6c4luunbpk57hj5nprlyges2dvtei (384 bytes)
+[2026-10-19T20:42:28.479Z] [sepolia] mint(0x9415E00f429549A26310C83c1F47db40eb300415, 11155111000000000007, bafkreigszk3yj5f573k6bgg4sgehc6c4luunbpk57hj5nprlyges2dvtei)
+[2026-10-19T20:42:37.316Z]   ok   PassportIssued emitted: tokenId 11155111000000000007
+[2026-10-19T20:42:37.316Z]   ok   tokenId is the expectedTokenId and next in the chain namespace: 11155111000000000007 == 11155111000000000007
+[2026-10-19T20:42:37.316Z]   ok   originOf is this chain: 11155111 == 11155111
+[2026-10-19T20:42:37.316Z]   ok   recipient holds the token: ownerOf 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:42:37.316Z]   ok   passport is revision 0: (revision 0, bafkreigszk3yj5f573k6bgg4sgehc6c4luunbpk57hj5nprlyges2dvtei)
+[2026-10-19T20:42:37.316Z]   ok   history hash commits to the run's CIDs: 0xe26608426d21cb71aa296b6a8288a24522e2d1634ffbfb0f4f605f35ed2bad32 (expected 0xe26608426d21cb71aa296b6a8288a24522e2d1634ffbfb0f4f605f35ed2bad32 over 1 CIDs)
+[2026-10-19T20:42:37.316Z]   ok   tokenURI resolves the CID: ipfs://bafkreigszk3yj5f573k6bgg4sgehc6c4luunbpk57hj5nprlyges2dvtei
+[2026-10-19T20:42:37.316Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:42:38.598Z]   pinned revision 0 of 11155111000000000008: bafkreie6ylzst46o4vm5jo6evb2fxpquy2iscxhbzq7hzpnuzftufrlote (384 bytes)
+[2026-10-19T20:42:38.598Z] [sepolia] mint(0x9415E00f429549A26310C83c1F47db40eb300415, 11155111000000000008, bafkreie6ylzst46o4vm5jo6evb2fxpquy2iscxhbzq7hzpnuzftufrlote)
+Watchdog status: pid=246 alive=True launcher_alive=True silence=7s last=[2026-10-19T20:42:38.598Z] [sepolia] mint(0x9415E00f429549A26310C83c1F47db40eb300415, 11155111000000000008, bafkreie6ylzst46o4vm5jo6evb2fxpquy2iscxhbzq7hzpnuzftufrlote)
+[2026-10-19T20:42:51.421Z]   ok   PassportIssued emitted: tokenId 11155111000000000008
+[2026-10-19T20:42:51.421Z]   ok   tokenId is the expectedTokenId and next in the chain namespace: 11155111000000000008 == 11155111000000000008
+[2026-10-19T20:42:51.421Z]   ok   originOf is this chain: 11155111 == 11155111
+[2026-10-19T20:42:51.421Z]   ok   recipient holds the token: ownerOf 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:42:51.421Z]   ok   passport is revision 0: (revision 0, bafkreie6ylzst46o4vm5jo6evb2fxpquy2iscxhbzq7hzpnuzftufrlote)
+[2026-10-19T20:42:51.421Z]   ok   history hash commits to the run's CIDs: 0xbde63e127096f86128f74e776cd0d30a428b5d4e12077a292ea0e1132ff7f1a6 (expected 0xbde63e127096f86128f74e776cd0d30a428b5d4e12077a292ea0e1132ff7f1a6 over 1 CIDs)
+[2026-10-19T20:42:51.421Z]   ok   tokenURI resolves the CID: ipfs://bafkreie6ylzst46o4vm5jo6evb2fxpquy2iscxhbzq7hzpnuzftufrlote
+[2026-10-19T20:42:51.421Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:42:52.392Z]   pinned revision 0 of 11155111000000000009: bafkreifbmvxymr3tvmtifjgftzybzxgl52674aso4hgtb42bkfpy4whzee (384 bytes)
+[2026-10-19T20:42:52.392Z] [sepolia] mint(0x9415E00f429549A26310C83c1F47db40eb300415, 11155111000000000009, bafkreifbmvxymr3tvmtifjgftzybzxgl52674aso4hgtb42bkfpy4whzee)
+[2026-10-19T20:43:05.326Z]   ok   PassportIssued emitted: tokenId 11155111000000000009
+[2026-10-19T20:43:05.326Z]   ok   tokenId is the expectedTokenId and next in the chain namespace: 11155111000000000009 == 11155111000000000009
+[2026-10-19T20:43:05.326Z]   ok   originOf is this chain: 11155111 == 11155111
+[2026-10-19T20:43:05.326Z]   ok   recipient holds the token: ownerOf 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:43:05.326Z]   ok   passport is revision 0: (revision 0, bafkreifbmvxymr3tvmtifjgftzybzxgl52674aso4hgtb42bkfpy4whzee)
+[2026-10-19T20:43:05.326Z]   ok   history hash commits to the run's CIDs: 0xf1f9043f7fe71fc289ae09bf6cdcf37844b7986eb38736329081f3f3b1c26e62 (expected 0xf1f9043f7fe71fc289ae09bf6cdcf37844b7986eb38736329081f3f3b1c26e62 over 1 CIDs)
+[2026-10-19T20:43:05.326Z]   ok   tokenURI resolves the CID: ipfs://bafkreifbmvxymr3tvmtifjgftzybzxgl52674aso4hgtb42bkfpy4whzee
+[2026-10-19T20:43:05.326Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:43:10.686Z]   pinned revision 0 of 11155111000000000010: bafkreihsm4wmivvcdsvfrvj4vql6dwngxlo6j7kvt5yh6q675dp5pfmv5e (384 bytes)
+[2026-10-19T20:43:10.686Z] [sepolia] mint(0x9415E00f429549A26310C83c1F47db40eb300415, 11155111000000000010, bafkreihsm4wmivvcdsvfrvj4vql6dwngxlo6j7kvt5yh6q675dp5pfmv5e)
+Watchdog status: pid=246 alive=True launcher_alive=True silence=5s last=[2026-10-19T20:43:10.686Z] [sepolia] mint(0x9415E00f429549A26310C83c1F47db40eb300415, 11155111000000000010, bafkreihsm4wmivvcdsvfrvj4vql6dwngxlo6j7kvt5yh6q675dp5pfmv5e)
+[2026-10-19T20:43:20.604Z]   ok   PassportIssued emitted: tokenId 11155111000000000010
+[2026-10-19T20:43:20.604Z]   ok   tokenId is the expectedTokenId and next in the chain namespace: 11155111000000000010 == 11155111000000000010
+[2026-10-19T20:43:20.604Z]   ok   originOf is this chain: 11155111 == 11155111
+[2026-10-19T20:43:20.604Z]   ok   recipient holds the token: ownerOf 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:43:20.604Z]   ok   passport is revision 0: (revision 0, bafkreihsm4wmivvcdsvfrvj4vql6dwngxlo6j7kvt5yh6q675dp5pfmv5e)
+[2026-10-19T20:43:20.604Z]   ok   history hash commits to the run's CIDs: 0x3e949c6ad949cf2f3126262b44b115f38a093acda3f0f0f7e66636c7fed792a3 (expected 0x3e949c6ad949cf2f3126262b44b115f38a093acda3f0f0f7e66636c7fed792a3 over 1 CIDs)
+[2026-10-19T20:43:20.604Z]   ok   tokenURI resolves the CID: ipfs://bafkreihsm4wmivvcdsvfrvj4vql6dwngxlo6j7kvt5yh6q675dp5pfmv5e
+[2026-10-19T20:43:20.604Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:43:21.712Z]   pinned revision 0 of 11155111000000000011: bafkreiejfn674dagwho5o3binfqwbfmffnxt7dx7xbrwp7yu2rxsnrvbry (384 bytes)
+[2026-10-19T20:43:21.712Z] [sepolia] mint(0x9415E00f429549A26310C83c1F47db40eb300415, 11155111000000000011, bafkreiejfn674dagwho5o3binfqwbfmffnxt7dx7xbrwp7yu2rxsnrvbry)
+[2026-10-19T20:43:26.530Z]   ok   PassportIssued emitted: tokenId 11155111000000000011
+[2026-10-19T20:43:26.530Z]   ok   tokenId is the expectedTokenId and next in the chain namespace: 11155111000000000011 == 11155111000000000011
+[2026-10-19T20:43:26.530Z]   ok   originOf is this chain: 11155111 == 11155111
+[2026-10-19T20:43:26.530Z]   ok   recipient holds the token: ownerOf 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:43:26.530Z]   ok   passport is revision 0: (revision 0, bafkreiejfn674dagwho5o3binfqwbfmffnxt7dx7xbrwp7yu2rxsnrvbry)
+[2026-10-19T20:43:26.530Z]   ok   history hash commits to the run's CIDs: 0xce5104ab7e6e03710859af776f0a47ca857abb87bd58268daf68de4f3ad4e529 (expected 0xce5104ab7e6e03710859af776f0a47ca857abb87bd58268daf68de4f3ad4e529 over 1 CIDs)
+[2026-10-19T20:43:26.530Z]   ok   tokenURI resolves the CID: ipfs://bafkreiejfn674dagwho5o3binfqwbfmffnxt7dx7xbrwp7yu2rxsnrvbry
+[2026-10-19T20:43:26.530Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:43:27.738Z]   pinned revision 0 of 11155111000000000012: bafkreicq7p4ki45vtjbhb3upvshiljmr24j5f3hriu7ew3rjkktnxroabu (384 bytes)
+[2026-10-19T20:43:27.738Z] [sepolia] mint(0x9415E00f429549A26310C83c1F47db40eb300415, 11155111000000000012, bafkreicq7p4ki45vtjbhb3upvshiljmr24j5f3hriu7ew3rjkktnxroabu)
+[2026-10-19T20:43:40.546Z]   ok   PassportIssued emitted: tokenId 11155111000000000012
+[2026-10-19T20:43:40.546Z]   ok   tokenId is the expectedTokenId and next in the chain namespace: 11155111000000000012 == 11155111000000000012
+[2026-10-19T20:43:40.546Z]   ok   originOf is this chain: 11155111 == 11155111
+[2026-10-19T20:43:40.546Z]   ok   recipient holds the token: ownerOf 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:43:40.546Z]   ok   passport is revision 0: (revision 0, bafkreicq7p4ki45vtjbhb3upvshiljmr24j5f3hriu7ew3rjkktnxroabu)
+[2026-10-19T20:43:40.546Z]   ok   history hash commits to the run's CIDs: 0x73a62f7901a99d3caf6d79d78883ded499b0416582bcaeff45db9aff18dfdd7a (expected 0x73a62f7901a99d3caf6d79d78883ded499b0416582bcaeff45db9aff18dfdd7a over 1 CIDs)
+[2026-10-19T20:43:40.546Z]   ok   tokenURI resolves the CID: ipfs://bafkreicq7p4ki45vtjbhb3upvshiljmr24j5f3hriu7ew3rjkktnxroabu
+[2026-10-19T20:43:40.546Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:43:41.668Z]   pinned revision 0 of 11155111000000000013: bafkreicjr5tifnlwmoaeetqwpq7fbmuwejuwr2tldboxe4h2ymjffhwgue (385 bytes)
+[2026-10-19T20:43:41.669Z] [sepolia] mint(0x9415E00f429549A26310C83c1F47db40eb300415, 11155111000000000013, bafkreicjr5tifnlwmoaeetqwpq7fbmuwejuwr2tldboxe4h2ymjffhwgue)
+Watchdog status: pid=246 alive=True launcher_alive=True silence=4s last=[2026-10-19T20:43:41.669Z] [sepolia] mint(0x9415E00f429549A26310C83c1F47db40eb300415, 11155111000000000013, bafkreicjr5tifnlwmoaeetqwpq7fbmuwejuwr2tldboxe4h2ymjffhwgue)
+[2026-10-19T20:43:56.001Z]   ok   PassportIssued emitted: tokenId 11155111000000000013
+[2026-10-19T20:43:56.001Z]   ok   tokenId is the expectedTokenId and next in the chain namespace: 11155111000000000013 == 11155111000000000013
+[2026-10-19T20:43:56.001Z]   ok   originOf is this chain: 11155111 == 11155111
+[2026-10-19T20:43:56.001Z]   ok   recipient holds the token: ownerOf 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:43:56.001Z]   ok   passport is revision 0: (revision 0, bafkreicjr5tifnlwmoaeetqwpq7fbmuwejuwr2tldboxe4h2ymjffhwgue)
+[2026-10-19T20:43:56.001Z]   ok   history hash commits to the run's CIDs: 0x95fb7d6cb599c0c99af736a8d771d9c566063088778f6f82c48f4d364ad4b7e5 (expected 0x95fb7d6cb599c0c99af736a8d771d9c566063088778f6f82c48f4d364ad4b7e5 over 1 CIDs)
+[2026-10-19T20:43:56.001Z]   ok   tokenURI resolves the CID: ipfs://bafkreicjr5tifnlwmoaeetqwpq7fbmuwejuwr2tldboxe4h2ymjffhwgue
+[2026-10-19T20:43:56.001Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:43:56.002Z] === ops mint sepolia: PASS ===
+[2026-10-19T20:43:56.002Z] === ops revise sepolia ===
+[2026-10-19T20:43:57.161Z]   pinned revision 1 of 11155111000000000004: bafkreihf24i6iwjr4b3szaewcif4krjsqbpp7v5ytb7uqspde6kesfqcz4 (449 bytes)
+[2026-10-19T20:43:57.161Z] [sepolia] revise(11155111000000000004, 0, bafkreihf24i6iwjr4b3szaewcif4krjsqbpp7v5ytb7uqspde6kesfqcz4)
+[2026-10-19T20:44:05.875Z]   ok   PassportRevised emitted with the sender as author: revision 1, author 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:44:05.876Z]   ok   passport is revision 1: (revision 1, bafkreihf24i6iwjr4b3szaewcif4krjsqbpp7v5ytb7uqspde6kesfqcz4)
+[2026-10-19T20:44:05.876Z]   ok   history hash commits to the run's CIDs: 0x67a2a9169a0f0f98a620f94bd33d02e1e78e82b8da377abf51637c1f8cced78b (expected 0x67a2a9169a0f0f98a620f94bd33d02e1e78e82b8da377abf51637c1f8cced78b over 2 CIDs)
+[2026-10-19T20:44:05.876Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:44:06.995Z]   pinned revision 2 of 11155111000000000004: bafkreib2k2gbw2bvpeipg7du6ihbw76rc3pm7zme7h44dzriyx4jwwes3m (449 bytes)
+[2026-10-19T20:44:06.995Z] [sepolia] revise(11155111000000000004, 1, bafkreib2k2gbw2bvpeipg7du6ihbw76rc3pm7zme7h44dzriyx4jwwes3m)
+Watchdog status: pid=246 alive=True launcher_alive=True silence=9s last=[2026-10-19T20:44:06.995Z] [sepolia] revise(11155111000000000004, 1, bafkreib2k2gbw2bvpeipg7du6ihbw76rc3pm7zme7h44dzriyx4jwwes3m)
+[2026-10-19T20:44:16.065Z]   ok   PassportRevised emitted with the sender as author: revision 2, author 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:44:16.065Z]   ok   passport is revision 2: (revision 2, bafkreib2k2gbw2bvpeipg7du6ihbw76rc3pm7zme7h44dzriyx4jwwes3m)
+[2026-10-19T20:44:16.065Z]   ok   history hash commits to the run's CIDs: 0xd0f2ca708d0dfcd6dc7f4a30258618b2ea56c0e394aed7038cedaaa27c356ff9 (expected 0xd0f2ca708d0dfcd6dc7f4a30258618b2ea56c0e394aed7038cedaaa27c356ff9 over 3 CIDs)
+[2026-10-19T20:44:16.065Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:44:17.105Z]   pinned revision 3 of 11155111000000000004: bafkreibo5j7kcnpncxntb2umyj3uz3baiglsslbytvrmucheazzfngvf7e (449 bytes)
+[2026-10-19T20:44:17.105Z] [sepolia] revise(11155111000000000004, 2, bafkreibo5j7kcnpncxntb2umyj3uz3baiglsslbytvrmucheazzfngvf7e)
+[2026-10-19T20:44:25.810Z]   ok   PassportRevised emitted with the sender as author: revision 3, author 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:44:25.810Z]   ok   passport is revision 3: (revision 3, bafkreibo5j7kcnpncxntb2umyj3uz3baiglsslbytvrmucheazzfngvf7e)
+[2026-10-19T20:44:25.810Z]   ok   history hash commits to the run's CIDs: 0xaab305467c07700fb1889282610d57140475ff3de643f9dad67596b69d9b07be (expected 0xaab305467c07700fb1889282610d57140475ff3de643f9dad67596b69d9b07be over 4 CIDs)
+[2026-10-19T20:44:25.810Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:44:27.856Z]   pinned revision 4 of 11155111000000000004: bafkreibydbobyvcglr6pexzzvbvowxbbwlln33bqht3xunfo5xsfpal4um (449 bytes)
+[2026-10-19T20:44:27.856Z] [sepolia] revise(11155111000000000004, 3, bafkreibydbobyvcglr6pexzzvbvowxbbwlln33bqht3xunfo5xsfpal4um)
+[2026-10-19T20:44:40.556Z]   ok   PassportRevised emitted with the sender as author: revision 4, author 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:44:40.556Z]   ok   passport is revision 4: (revision 4, bafkreibydbobyvcglr6pexzzvbvowxbbwlln33bqht3xunfo5xsfpal4um)
+[2026-10-19T20:44:40.556Z]   ok   history hash commits to the run's CIDs: 0x36faf3de2031e9f75a3e441bbbfe88d449cde9c1656fdc48ed9ad4243a151f2d (expected 0x36faf3de2031e9f75a3e441bbbfe88d449cde9c1656fdc48ed9ad4243a151f2d over 5 CIDs)
+[2026-10-19T20:44:40.556Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:44:41.780Z]   pinned revision 5 of 11155111000000000004: bafkreibatugbnmk2ehbxrrthvmrzeyfro2e2yf3wm4m6iu6misbl23nqsi (449 bytes)
+[2026-10-19T20:44:41.781Z] [sepolia] revise(11155111000000000004, 4, bafkreibatugbnmk2ehbxrrthvmrzeyfro2e2yf3wm4m6iu6misbl23nqsi)
+Watchdog status: pid=246 alive=True launcher_alive=True silence=4s last=[2026-10-19T20:44:41.781Z] [sepolia] revise(11155111000000000004, 4, bafkreibatugbnmk2ehbxrrthvmrzeyfro2e2yf3wm4m6iu6misbl23nqsi)
+[2026-10-19T20:44:50.511Z]   ok   PassportRevised emitted with the sender as author: revision 5, author 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:44:50.511Z]   ok   passport is revision 5: (revision 5, bafkreibatugbnmk2ehbxrrthvmrzeyfro2e2yf3wm4m6iu6misbl23nqsi)
+[2026-10-19T20:44:50.511Z]   ok   history hash commits to the run's CIDs: 0x426d83be47ef3e0bcbba951657c65c37faab548d552a1ebd755f977340da733f (expected 0x426d83be47ef3e0bcbba951657c65c37faab548d552a1ebd755f977340da733f over 6 CIDs)
+[2026-10-19T20:44:50.511Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:44:51.634Z]   pinned revision 6 of 11155111000000000004: bafkreibrjzoe32qwulpikdbqrdqxzhlnrkxcs4lneqj6iat33ri7j7ewve (449 bytes)
+[2026-10-19T20:44:51.634Z] [sepolia] revise(11155111000000000004, 5, bafkreibrjzoe32qwulpikdbqrdqxzhlnrkxcs4lneqj6iat33ri7j7ewve)
+[2026-10-19T20:45:04.266Z]   ok   PassportRevised emitted with the sender as author: revision 6, author 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:45:04.266Z]   ok   passport is revision 6: (revision 6, bafkreibrjzoe32qwulpikdbqrdqxzhlnrkxcs4lneqj6iat33ri7j7ewve)
+[2026-10-19T20:45:04.266Z]   ok   history hash commits to the run's CIDs: 0x9139db3f7de714f4a53a84c7e4a057ccfdc93c6959b321aa7c646e0a452d9f96 (expected 0x9139db3f7de714f4a53a84c7e4a057ccfdc93c6959b321aa7c646e0a452d9f96 over 7 CIDs)
+[2026-10-19T20:45:04.266Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:45:05.359Z]   pinned revision 7 of 11155111000000000004: bafkreib2qn7ldil54gbokypvnn5eukmjw3aidvy6jj4taa2h4xvfozphay (449 bytes)
+[2026-10-19T20:45:05.359Z] [sepolia] revise(11155111000000000004, 6, bafkreib2qn7ldil54gbokypvnn5eukmjw3aidvy6jj4taa2h4xvfozphay)
+[2026-10-19T20:45:14.102Z]   ok   PassportRevised emitted with the sender as author: revision 7, author 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:45:14.102Z]   ok   passport is revision 7: (revision 7, bafkreib2qn7ldil54gbokypvnn5eukmjw3aidvy6jj4taa2h4xvfozphay)
+[2026-10-19T20:45:14.102Z]   ok   history hash commits to the run's CIDs: 0xd4badfe6324d3b43abf75ef433f9d7f596375313c5fda92c5427e2f2f171b453 (expected 0xd4badfe6324d3b43abf75ef433f9d7f596375313c5fda92c5427e2f2f171b453 over 8 CIDs)
+[2026-10-19T20:45:14.102Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:45:15.170Z]   pinned revision 8 of 11155111000000000004: bafkreiagkzoafqkgwv7yq2gqgmsg2jy4jelmckzyrtaf75vwnw64isxily (449 bytes)
+[2026-10-19T20:45:15.170Z] [sepolia] revise(11155111000000000004, 7, bafkreiagkzoafqkgwv7yq2gqgmsg2jy4jelmckzyrtaf75vwnw64isxily)
+Watchdog status: pid=246 alive=True launcher_alive=True silence=1s last=[2026-10-19T20:45:15.170Z] [sepolia] revise(11155111000000000004, 7, bafkreiagkzoafqkgwv7yq2gqgmsg2jy4jelmckzyrtaf75vwnw64isxily)
+[2026-10-19T20:45:27.789Z]   ok   PassportRevised emitted with the sender as author: revision 8, author 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:45:27.789Z]   ok   passport is revision 8: (revision 8, bafkreiagkzoafqkgwv7yq2gqgmsg2jy4jelmckzyrtaf75vwnw64isxily)
+[2026-10-19T20:45:27.789Z]   ok   history hash commits to the run's CIDs: 0x321103b5ae1f2f3a8068269bfea5007700724c8446e49fe57f322bcc99bd70cb (expected 0x321103b5ae1f2f3a8068269bfea5007700724c8446e49fe57f322bcc99bd70cb over 9 CIDs)
+[2026-10-19T20:45:27.789Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:45:28.811Z]   pinned revision 9 of 11155111000000000004: bafkreibc6qnlm45agdfbibgxx2m7taqso3qbt7k4pgl5a3tzk2hbtl5uwe (449 bytes)
+[2026-10-19T20:45:28.812Z] [sepolia] revise(11155111000000000004, 8, bafkreibc6qnlm45agdfbibgxx2m7taqso3qbt7k4pgl5a3tzk2hbtl5uwe)
+[2026-10-19T20:45:37.494Z]   ok   PassportRevised emitted with the sender as author: revision 9, author 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:45:37.494Z]   ok   passport is revision 9: (revision 9, bafkreibc6qnlm45agdfbibgxx2m7taqso3qbt7k4pgl5a3tzk2hbtl5uwe)
+[2026-10-19T20:45:37.494Z]   ok   history hash commits to the run's CIDs: 0x3ec525f2b77c3890ad5970f293e3f55da74bc85a5be25460aa70d12d78c21e50 (expected 0x3ec525f2b77c3890ad5970f293e3f55da74bc85a5be25460aa70d12d78c21e50 over 10 CIDs)
+[2026-10-19T20:45:37.494Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:45:38.593Z]   pinned revision 10 of 11155111000000000004: bafkreih2fujysr2gqztb7b7mnt2cqfsvnsouf63dri4jetguh4embfuury (451 bytes)
+[2026-10-19T20:45:38.593Z] [sepolia] revise(11155111000000000004, 9, bafkreih2fujysr2gqztb7b7mnt2cqfsvnsouf63dri4jetguh4embfuury)
+Watchdog status: pid=246 alive=True launcher_alive=True silence=7s last=[2026-10-19T20:45:38.593Z] [sepolia] revise(11155111000000000004, 9, bafkreih2fujysr2gqztb7b7mnt2cqfsvnsouf63dri4jetguh4embfuury)
+[2026-10-19T20:45:51.652Z]   ok   PassportRevised emitted with the sender as author: revision 10, author 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:45:51.652Z]   ok   passport is revision 10: (revision 10, bafkreih2fujysr2gqztb7b7mnt2cqfsvnsouf63dri4jetguh4embfuury)
+[2026-10-19T20:45:51.652Z]   ok   history hash commits to the run's CIDs: 0xf6d3d09f9a7057ca4c47ab499339b609c5ae30ffcbd62586bacd1e14ccc27a45 (expected 0xf6d3d09f9a7057ca4c47ab499339b609c5ae30ffcbd62586bacd1e14ccc27a45 over 11 CIDs)
+[2026-10-19T20:45:51.652Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:45:51.652Z] === ops revise sepolia: PASS ===
+[2026-10-19T20:45:51.652Z] === ops transfer sepolia ===
+[2026-10-19T20:45:51.709Z] [sepolia] transferFrom(0x9415E00f429549A26310C83c1F47db40eb300415, 0x6D729A9352f28b3Aec59F22528C43f9868251227, 11155111000000000004) by 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:46:04.458Z]   ok   recipient holds the token: ownerOf 0x6D729A9352f28b3Aec59F22528C43f9868251227
+[2026-10-19T20:46:04.459Z]   ok   passport unchanged by the transfer: (revision 10, bafkreih2fujysr2gqztb7b7mnt2cqfsvnsouf63dri4jetguh4embfuury)
+[2026-10-19T20:46:04.459Z]   ok   history hash commits to the run's CIDs: 0xf6d3d09f9a7057ca4c47ab499339b609c5ae30ffcbd62586bacd1e14ccc27a45 (expected 0xf6d3d09f9a7057ca4c47ab499339b609c5ae30ffcbd62586bacd1e14ccc27a45 over 11 CIDs)
+[2026-10-19T20:46:04.459Z]   ok   the new holder cannot revise: with ownerOf the new holder, revise() eth_call reverts with NotIssuer
+[2026-10-19T20:46:04.459Z]   ok   former holder and sender can no longer move the token: transferFrom() eth_call reverts with ERC721InsufficientApproval
+[2026-10-19T20:46:04.459Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:46:04.512Z] [sepolia] transferFrom(0x9415E00f429549A26310C83c1F47db40eb300415, 0x61F9cCfdDF6cB786E5506D07c6C60c5eBE1814d1, 11155111000000000005) by 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:46:13.500Z]   ok   recipient holds the token: ownerOf 0x61F9cCfdDF6cB786E5506D07c6C60c5eBE1814d1
+[2026-10-19T20:46:13.500Z]   ok   passport unchanged by the transfer: (revision 0, bafkreiapyrpzg2itob6aicbs7vh476w7djljr6xpjor2lidcadag27pzze)
+[2026-10-19T20:46:13.500Z]   ok   history hash commits to the run's CIDs: 0xcf1b5fbf7ba352b0efd78679498d6642adea2ead50ffd77c50a553c8d425c262 (expected 0xcf1b5fbf7ba352b0efd78679498d6642adea2ead50ffd77c50a553c8d425c262 over 1 CIDs)
+[2026-10-19T20:46:13.500Z]   ok   the new holder cannot revise: with ownerOf the new holder, revise() eth_call reverts with NotIssuer
+[2026-10-19T20:46:13.500Z]   ok   former holder and sender can no longer move the token: transferFrom() eth_call reverts with ERC721InsufficientApproval
+[2026-10-19T20:46:13.500Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:46:13.555Z] [sepolia] transferFrom(0x9415E00f429549A26310C83c1F47db40eb300415, 0x9f83767BC92f5751254e57aC3F0450b170B3b9B0, 11155111000000000006) by 0x9415E00f429549A26310C83c1F47db40eb300415
+Watchdog status: pid=246 alive=True launcher_alive=True silence=3s last=[2026-10-19T20:46:13.555Z] [sepolia] transferFrom(0x9415E00f429549A26310C83c1F47db40eb300415, 0x9f83767BC92f5751254e57aC3F0450b170B3b9B0, 11155111000000000006) by 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:46:26.513Z]   ok   recipient holds the token: ownerOf 0x9f83767BC92f5751254e57aC3F0450b170B3b9B0
+[2026-10-19T20:46:26.513Z]   ok   passport unchanged by the transfer: (revision 0, bafkreiel7pefix2zppsyj2uy7rmkjvgrp76vxxdm7vj4gvr6ghpsgkvxdm)
+[2026-10-19T20:46:26.513Z]   ok   history hash commits to the run's CIDs: 0x1336341a0478eaa57c44a107c8943a47a6108a826924dcfc2a16de7b8948aa47 (expected 0x1336341a0478eaa57c44a107c8943a47a6108a826924dcfc2a16de7b8948aa47 over 1 CIDs)
+[2026-10-19T20:46:26.513Z]   ok   the new holder cannot revise: with ownerOf the new holder, revise() eth_call reverts with NotIssuer
+[2026-10-19T20:46:26.513Z]   ok   former holder and sender can no longer move the token: transferFrom() eth_call reverts with ERC721InsufficientApproval
+[2026-10-19T20:46:26.513Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:46:26.569Z] [sepolia] transferFrom(0x9415E00f429549A26310C83c1F47db40eb300415, 0x5F1f906E8FDD89e5D0876b32420dE5D1B5885020, 11155111000000000007) by 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:46:40.238Z]   ok   recipient holds the token: ownerOf 0x5F1f906E8FDD89e5D0876b32420dE5D1B5885020
+[2026-10-19T20:46:40.238Z]   ok   passport unchanged by the transfer: (revision 0, bafkreigszk3yj5f573k6bgg4sgehc6c4luunbpk57hj5nprlyges2dvtei)
+[2026-10-19T20:46:40.238Z]   ok   history hash commits to the run's CIDs: 0xe26608426d21cb71aa296b6a8288a24522e2d1634ffbfb0f4f605f35ed2bad32 (expected 0xe26608426d21cb71aa296b6a8288a24522e2d1634ffbfb0f4f605f35ed2bad32 over 1 CIDs)
+[2026-10-19T20:46:40.238Z]   ok   the new holder cannot revise: with ownerOf the new holder, revise() eth_call reverts with NotIssuer
+[2026-10-19T20:46:40.238Z]   ok   former holder and sender can no longer move the token: transferFrom() eth_call reverts with ERC721InsufficientApproval
+[2026-10-19T20:46:40.238Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:46:40.294Z] [sepolia] transferFrom(0x9415E00f429549A26310C83c1F47db40eb300415, 0x8124A8D291fd50D449632701394Ab00C178146A1, 11155111000000000008) by 0x9415E00f429549A26310C83c1F47db40eb300415
+Watchdog status: pid=246 alive=True launcher_alive=True silence=6s last=[2026-10-19T20:46:40.294Z] [sepolia] transferFrom(0x9415E00f429549A26310C83c1F47db40eb300415, 0x8124A8D291fd50D449632701394Ab00C178146A1, 11155111000000000008) by 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:46:53.499Z]   ok   recipient holds the token: ownerOf 0x8124A8D291fd50D449632701394Ab00C178146A1
+[2026-10-19T20:46:53.499Z]   ok   passport unchanged by the transfer: (revision 0, bafkreie6ylzst46o4vm5jo6evb2fxpquy2iscxhbzq7hzpnuzftufrlote)
+[2026-10-19T20:46:53.499Z]   ok   history hash commits to the run's CIDs: 0xbde63e127096f86128f74e776cd0d30a428b5d4e12077a292ea0e1132ff7f1a6 (expected 0xbde63e127096f86128f74e776cd0d30a428b5d4e12077a292ea0e1132ff7f1a6 over 1 CIDs)
+[2026-10-19T20:46:53.499Z]   ok   the new holder cannot revise: with ownerOf the new holder, revise() eth_call reverts with NotIssuer
+[2026-10-19T20:46:53.499Z]   ok   former holder and sender can no longer move the token: transferFrom() eth_call reverts with ERC721InsufficientApproval
+[2026-10-19T20:46:53.499Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:46:53.558Z] [sepolia] transferFrom(0x9415E00f429549A26310C83c1F47db40eb300415, 0x976B24E7101E4e447693d0c5E6796dCf10e8293C, 11155111000000000009) by 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:47:02.787Z]   ok   recipient holds the token: ownerOf 0x976B24E7101E4e447693d0c5E6796dCf10e8293C
+[2026-10-19T20:47:02.787Z]   ok   passport unchanged by the transfer: (revision 0, bafkreifbmvxymr3tvmtifjgftzybzxgl52674aso4hgtb42bkfpy4whzee)
+[2026-10-19T20:47:02.787Z]   ok   history hash commits to the run's CIDs: 0xf1f9043f7fe71fc289ae09bf6cdcf37844b7986eb38736329081f3f3b1c26e62 (expected 0xf1f9043f7fe71fc289ae09bf6cdcf37844b7986eb38736329081f3f3b1c26e62 over 1 CIDs)
+[2026-10-19T20:47:02.787Z]   ok   the new holder cannot revise: with ownerOf the new holder, revise() eth_call reverts with NotIssuer
+[2026-10-19T20:47:02.787Z]   ok   former holder and sender can no longer move the token: transferFrom() eth_call reverts with ERC721InsufficientApproval
+[2026-10-19T20:47:02.787Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:47:02.845Z] [sepolia] transferFrom(0x9415E00f429549A26310C83c1F47db40eb300415, 0xF61ED70843a70052939db948BDc5319e55353AbB, 11155111000000000010) by 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:47:15.904Z]   ok   recipient holds the token: ownerOf 0xF61ED70843a70052939db948BDc5319e55353AbB
+[2026-10-19T20:47:15.905Z]   ok   passport unchanged by the transfer: (revision 0, bafkreihsm4wmivvcdsvfrvj4vql6dwngxlo6j7kvt5yh6q675dp5pfmv5e)
+[2026-10-19T20:47:15.905Z]   ok   history hash commits to the run's CIDs: 0x3e949c6ad949cf2f3126262b44b115f38a093acda3f0f0f7e66636c7fed792a3 (expected 0x3e949c6ad949cf2f3126262b44b115f38a093acda3f0f0f7e66636c7fed792a3 over 1 CIDs)
+[2026-10-19T20:47:15.905Z]   ok   the new holder cannot revise: with ownerOf the new holder, revise() eth_call reverts with NotIssuer
+[2026-10-19T20:47:15.905Z]   ok   former holder and sender can no longer move the token: transferFrom() eth_call reverts with ERC721InsufficientApproval
+[2026-10-19T20:47:15.905Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:47:15.961Z] [sepolia] transferFrom(0x9415E00f429549A26310C83c1F47db40eb300415, 0x0a1573870B1384CF41B2ce41A0d54b564d90857c, 11155111000000000011) by 0x9415E00f429549A26310C83c1F47db40eb300415
+Watchdog status: pid=246 alive=True launcher_alive=True silence=0s last=[2026-10-19T20:47:15.961Z] [sepolia] transferFrom(0x9415E00f429549A26310C83c1F47db40eb300415, 0x0a1573870B1384CF41B2ce41A0d54b564d90857c, 11155111000000000011) by 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:47:29.974Z]   ok   recipient holds the token: ownerOf 0x0a1573870B1384CF41B2ce41A0d54b564d90857c
+[2026-10-19T20:47:29.974Z]   ok   passport unchanged by the transfer: (revision 0, bafkreiejfn674dagwho5o3binfqwbfmffnxt7dx7xbrwp7yu2rxsnrvbry)
+[2026-10-19T20:47:29.974Z]   ok   history hash commits to the run's CIDs: 0xce5104ab7e6e03710859af776f0a47ca857abb87bd58268daf68de4f3ad4e529 (expected 0xce5104ab7e6e03710859af776f0a47ca857abb87bd58268daf68de4f3ad4e529 over 1 CIDs)
+[2026-10-19T20:47:29.974Z]   ok   the new holder cannot revise: with ownerOf the new holder, revise() eth_call reverts with NotIssuer
+[2026-10-19T20:47:29.974Z]   ok   former holder and sender can no longer move the token: transferFrom() eth_call reverts with ERC721InsufficientApproval
+[2026-10-19T20:47:29.974Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:47:30.027Z] [sepolia] transferFrom(0x9415E00f429549A26310C83c1F47db40eb300415, 0x81F69700Cb3bF2175A874C3616fC34756a14bf0A, 11155111000000000012) by 0x9415E00f429549A26310C83c1F47db40eb300415
+Watchdog status: pid=246 alive=True launcher_alive=True silence=16s last=[2026-10-19T20:47:30.027Z] [sepolia] transferFrom(0x9415E00f429549A26310C83c1F47db40eb300415, 0x81F69700Cb3bF2175A874C3616fC34756a14bf0A, 11155111000000000012) by 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:47:50.946Z]   ok   recipient holds the token: ownerOf 0x81F69700Cb3bF2175A874C3616fC34756a14bf0A
+[2026-10-19T20:47:50.946Z]   ok   passport unchanged by the transfer: (revision 0, bafkreicq7p4ki45vtjbhb3upvshiljmr24j5f3hriu7ew3rjkktnxroabu)
+[2026-10-19T20:47:50.946Z]   ok   history hash commits to the run's CIDs: 0x73a62f7901a99d3caf6d79d78883ded499b0416582bcaeff45db9aff18dfdd7a (expected 0x73a62f7901a99d3caf6d79d78883ded499b0416582bcaeff45db9aff18dfdd7a over 1 CIDs)
+[2026-10-19T20:47:50.946Z]   ok   the new holder cannot revise: with ownerOf the new holder, revise() eth_call reverts with NotIssuer
+[2026-10-19T20:47:50.946Z]   ok   former holder and sender can no longer move the token: transferFrom() eth_call reverts with ERC721InsufficientApproval
+[2026-10-19T20:47:50.946Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:47:50.997Z] [sepolia] transferFrom(0x9415E00f429549A26310C83c1F47db40eb300415, 0x902455700e1Acd1aCC327BA7476a2C130d9D35d4, 11155111000000000013) by 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:48:04.628Z]   ok   recipient holds the token: ownerOf 0x902455700e1Acd1aCC327BA7476a2C130d9D35d4
+[2026-10-19T20:48:04.628Z]   ok   passport unchanged by the transfer: (revision 0, bafkreicjr5tifnlwmoaeetqwpq7fbmuwejuwr2tldboxe4h2ymjffhwgue)
+[2026-10-19T20:48:04.628Z]   ok   history hash commits to the run's CIDs: 0x95fb7d6cb599c0c99af736a8d771d9c566063088778f6f82c48f4d364ad4b7e5 (expected 0x95fb7d6cb599c0c99af736a8d771d9c566063088778f6f82c48f4d364ad4b7e5 over 1 CIDs)
+[2026-10-19T20:48:04.628Z]   ok   the new holder cannot revise: with ownerOf the new holder, revise() eth_call reverts with NotIssuer
+[2026-10-19T20:48:04.628Z]   ok   former holder and sender can no longer move the token: transferFrom() eth_call reverts with ERC721InsufficientApproval
+[2026-10-19T20:48:04.628Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:48:04.628Z] === ops transfer sepolia: PASS ===
+[2026-10-19T20:48:04.628Z] === ops mint arbitrum-sepolia ===
+[2026-10-19T20:48:06.058Z]   pinned revision 0 of 421614000000000004: bafkreibebqdlrlfeyr7sujcptxztpkatrnnptowqmyw4yzuqhpiri5zw7e (380 bytes)
+[2026-10-19T20:48:06.058Z] [arbitrum-sepolia] mint(0x9415E00f429549A26310C83c1F47db40eb300415, 421614000000000004, bafkreibebqdlrlfeyr7sujcptxztpkatrnnptowqmyw4yzuqhpiri5zw7e)
+[2026-10-19T20:48:12.513Z]   ok   PassportIssued emitted: tokenId 421614000000000004
+[2026-10-19T20:48:12.513Z]   ok   tokenId is the expectedTokenId and next in the chain namespace: 421614000000000004 == 421614000000000004
+[2026-10-19T20:48:12.513Z]   ok   originOf is this chain: 421614 == 421614
+[2026-10-19T20:48:12.513Z]   ok   recipient holds the token: ownerOf 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:48:12.513Z]   ok   passport is revision 0: (revision 0, bafkreibebqdlrlfeyr7sujcptxztpkatrnnptowqmyw4yzuqhpiri5zw7e)
+[2026-10-19T20:48:12.513Z]   ok   history hash commits to the run's CIDs: 0xd9fad99059678bde41ae82f7b726a0d6460d93ee9f0a406a64dec2241fc4caec (expected 0xd9fad99059678bde41ae82f7b726a0d6460d93ee9f0a406a64dec2241fc4caec over 1 CIDs)
+[2026-10-19T20:48:12.513Z]   ok   tokenURI resolves the CID: ipfs://bafkreibebqdlrlfeyr7sujcptxztpkatrnnptowqmyw4yzuqhpiri5zw7e
+[2026-10-19T20:48:12.513Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:48:13.889Z]   pinned revision 0 of 421614000000000005: bafkreig5r7brwvjytbm3lqqtjucmyeajxgnomuhv753og7j23zfipe3p2m (380 bytes)
+[2026-10-19T20:48:13.889Z] [arbitrum-sepolia] mint(0x9415E00f429549A26310C83c1F47db40eb300415, 421614000000000005, bafkreig5r7brwvjytbm3lqqtjucmyeajxgnomuhv753og7j23zfipe3p2m)
+Watchdog status: pid=246 alive=True launcher_alive=True silence=2s last=[2026-10-19T20:48:13.889Z] [arbitrum-sepolia] mint(0x9415E00f429549A26310C83c1F47db40eb300415, 421614000000000005, bafkreig5r7brwvjytbm3lqqtjucmyeajxgnomuhv753og7j23zfipe3p2m)
+[2026-10-19T20:48:19.983Z]   ok   PassportIssued emitted: tokenId 421614000000000005
+[2026-10-19T20:48:19.984Z]   ok   tokenId is the expectedTokenId and next in the chain namespace: 421614000000000005 == 421614000000000005
+[2026-10-19T20:48:19.984Z]   ok   originOf is this chain: 421614 == 421614
+[2026-10-19T20:48:19.984Z]   ok   recipient holds the token: ownerOf 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:48:19.984Z]   ok   passport is revision 0: (revision 0, bafkreig5r7brwvjytbm3lqqtjucmyeajxgnomuhv753og7j23zfipe3p2m)
+[2026-10-19T20:48:19.984Z]   ok   history hash commits to the run's CIDs: 0xea26a72610652454d9b503186cb9aedea138019d0341ffee62535fb2670d1749 (expected 0xea26a72610652454d9b503186cb9aedea138019d0341ffee62535fb2670d1749 over 1 CIDs)
+[2026-10-19T20:48:19.984Z]   ok   tokenURI resolves the CID: ipfs://bafkreig5r7brwvjytbm3lqqtjucmyeajxgnomuhv753og7j23zfipe3p2m
+[2026-10-19T20:48:19.984Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:48:21.182Z]   pinned revision 0 of 421614000000000006: bafkreibbu66u23apikqfqaz2ly75gmmb7oxouarmtdobjy4wovhawhgf6a (380 bytes)
+[2026-10-19T20:48:21.183Z] [arbitrum-sepolia] mint(0x9415E00f429549A26310C83c1F47db40eb300415, 421614000000000006, bafkreibbu66u23apikqfqaz2ly75gmmb7oxouarmtdobjy4wovhawhgf6a)
+[2026-10-19T20:48:27.287Z]   ok   PassportIssued emitted: tokenId 421614000000000006
+[2026-10-19T20:48:27.287Z]   ok   tokenId is the expectedTokenId and next in the chain namespace: 421614000000000006 == 421614000000000006
+[2026-10-19T20:48:27.287Z]   ok   originOf is this chain: 421614 == 421614
+[2026-10-19T20:48:27.287Z]   ok   recipient holds the token: ownerOf 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:48:27.287Z]   ok   passport is revision 0: (revision 0, bafkreibbu66u23apikqfqaz2ly75gmmb7oxouarmtdobjy4wovhawhgf6a)
+[2026-10-19T20:48:27.287Z]   ok   history hash commits to the run's CIDs: 0x2e7d120fbdffb2582238d7007950d4e12779df5870a92a956c058360d18b9fa0 (expected 0x2e7d120fbdffb2582238d7007950d4e12779df5870a92a956c058360d18b9fa0 over 1 CIDs)
+[2026-10-19T20:48:27.287Z]   ok   tokenURI resolves the CID: ipfs://bafkreibbu66u23apikqfqaz2ly75gmmb7oxouarmtdobjy4wovhawhgf6a
+[2026-10-19T20:48:27.287Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:48:28.403Z]   pinned revision 0 of 421614000000000007: bafkreic3vditdrpl4srgti4thqlpkzfpjr63kvsli4gahg72tcdoj6vnc4 (380 bytes)
+[2026-10-19T20:48:28.403Z] [arbitrum-sepolia] mint(0x9415E00f429549A26310C83c1F47db40eb300415, 421614000000000007, bafkreic3vditdrpl4srgti4thqlpkzfpjr63kvsli4gahg72tcdoj6vnc4)
+[2026-10-19T20:48:34.711Z]   ok   PassportIssued emitted: tokenId 421614000000000007
+[2026-10-19T20:48:34.711Z]   ok   tokenId is the expectedTokenId and next in the chain namespace: 421614000000000007 == 421614000000000007
+[2026-10-19T20:48:34.711Z]   ok   originOf is this chain: 421614 == 421614
+[2026-10-19T20:48:34.711Z]   ok   recipient holds the token: ownerOf 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:48:34.711Z]   ok   passport is revision 0: (revision 0, bafkreic3vditdrpl4srgti4thqlpkzfpjr63kvsli4gahg72tcdoj6vnc4)
+[2026-10-19T20:48:34.711Z]   ok   history hash commits to the run's CIDs: 0x449e97d4a1ef0f8ed01d83012e7c42aa98ff1e815ccaea340b0d43bb7f1b3578 (expected 0x449e97d4a1ef0f8ed01d83012e7c42aa98ff1e815ccaea340b0d43bb7f1b3578 over 1 CIDs)
+[2026-10-19T20:48:34.711Z]   ok   tokenURI resolves the CID: ipfs://bafkreic3vditdrpl4srgti4thqlpkzfpjr63kvsli4gahg72tcdoj6vnc4
+[2026-10-19T20:48:34.711Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:48:35.884Z]   pinned revision 0 of 421614000000000008: bafkreia23rj75gy6ejkgoht4fp5qflmx5idi3fowiwa36do3cnvcrbq6cy (380 bytes)
+[2026-10-19T20:48:35.884Z] [arbitrum-sepolia] mint(0x9415E00f429549A26310C83c1F47db40eb300415, 421614000000000008, bafkreia23rj75gy6ejkgoht4fp5qflmx5idi3fowiwa36do3cnvcrbq6cy)
+[2026-10-19T20:48:42.092Z]   ok   PassportIssued emitted: tokenId 421614000000000008
+[2026-10-19T20:48:42.092Z]   ok   tokenId is the expectedTokenId and next in the chain namespace: 421614000000000008 == 421614000000000008
+[2026-10-19T20:48:42.092Z]   ok   originOf is this chain: 421614 == 421614
+[2026-10-19T20:48:42.092Z]   ok   recipient holds the token: ownerOf 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:48:42.092Z]   ok   passport is revision 0: (revision 0, bafkreia23rj75gy6ejkgoht4fp5qflmx5idi3fowiwa36do3cnvcrbq6cy)
+[2026-10-19T20:48:42.092Z]   ok   history hash commits to the run's CIDs: 0xf209f1de211beebd153910a4188f4e4d1e2408fc9bcb68a14256fd41a3538a08 (expected 0xf209f1de211beebd153910a4188f4e4d1e2408fc9bcb68a14256fd41a3538a08 over 1 CIDs)
+[2026-10-19T20:48:42.092Z]   ok   tokenURI resolves the CID: ipfs://bafkreia23rj75gy6ejkgoht4fp5qflmx5idi3fowiwa36do3cnvcrbq6cy
+[2026-10-19T20:48:42.092Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:48:43.180Z]   pinned revision 0 of 421614000000000009: bafkreibqjhgrcpwsliccuxzqucanqi7a5cjpzfcmjcye6lk7e6twmnwofm (380 bytes)
+[2026-10-19T20:48:43.180Z] [arbitrum-sepolia] mint(0x9415E00f429549A26310C83c1F47db40eb300415, 421614000000000009, bafkreibqjhgrcpwsliccuxzqucanqi7a5cjpzfcmjcye6lk7e6twmnwofm)
+Watchdog status: pid=246 alive=True launcher_alive=True silence=3s last=[2026-10-19T20:48:43.180Z] [arbitrum-sepolia] mint(0x9415E00f429549A26310C83c1F47db40eb300415, 421614000000000009, bafkreibqjhgrcpwsliccuxzqucanqi7a5cjpzfcmjcye6lk7e6twmnwofm)
+[2026-10-19T20:48:49.612Z]   ok   PassportIssued emitted: tokenId 421614000000000009
+[2026-10-19T20:48:49.612Z]   ok   tokenId is the expectedTokenId and next in the chain namespace: 421614000000000009 == 421614000000000009
+[2026-10-19T20:48:49.612Z]   ok   originOf is this chain: 421614 == 421614
+[2026-10-19T20:48:49.612Z]   ok   recipient holds the token: ownerOf 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:48:49.612Z]   ok   passport is revision 0: (revision 0, bafkreibqjhgrcpwsliccuxzqucanqi7a5cjpzfcmjcye6lk7e6twmnwofm)
+[2026-10-19T20:48:49.612Z]   ok   history hash commits to the run's CIDs: 0x1d8a633dba18efb31657f4db8534e0a26f0170435e2034b031be377bdb6f39d9 (expected 0x1d8a633dba18efb31657f4db8534e0a26f0170435e2034b031be377bdb6f39d9 over 1 CIDs)
+[2026-10-19T20:48:49.612Z]   ok   tokenURI resolves the CID: ipfs://bafkreibqjhgrcpwsliccuxzqucanqi7a5cjpzfcmjcye6lk7e6twmnwofm
+[2026-10-19T20:48:49.612Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:48:51.241Z]   pinned revision 0 of 421614000000000010: bafkreidwymkrpp6vqiwwdhc676qxjtfo6lqxqvvbxtc5fkn7ccgdavrxxe (380 bytes)
+[2026-10-19T20:48:51.241Z] [arbitrum-sepolia] mint(0x9415E00f429549A26310C83c1F47db40eb300415, 421614000000000010, bafkreidwymkrpp6vqiwwdhc676qxjtfo6lqxqvvbxtc5fkn7ccgdavrxxe)
+[2026-10-19T20:48:57.562Z]   ok   PassportIssued emitted: tokenId 421614000000000010
+[2026-10-19T20:48:57.562Z]   ok   tokenId is the expectedTokenId and next in the chain namespace: 421614000000000010 == 421614000000000010
+[2026-10-19T20:48:57.562Z]   ok   originOf is this chain: 421614 == 421614
+[2026-10-19T20:48:57.562Z]   ok   recipient holds the token: ownerOf 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:48:57.562Z]   ok   passport is revision 0: (revision 0, bafkreidwymkrpp6vqiwwdhc676qxjtfo6lqxqvvbxtc5fkn7ccgdavrxxe)
+[2026-10-19T20:48:57.562Z]   ok   history hash commits to the run's CIDs: 0x6161960b4de74e856e44aa94fefaa020bc8fa4bc9ef18bf615a3043d20e28c38 (expected 0x6161960b4de74e856e44aa94fefaa020bc8fa4bc9ef18bf615a3043d20e28c38 over 1 CIDs)
+[2026-10-19T20:48:57.562Z]   ok   tokenURI resolves the CID: ipfs://bafkreidwymkrpp6vqiwwdhc676qxjtfo6lqxqvvbxtc5fkn7ccgdavrxxe
+[2026-10-19T20:48:57.562Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:48:58.988Z]   pinned revision 0 of 421614000000000011: bafkreidgcqutzbbv6vjgvydqebljlhcvrzgjhbnqjyadspteyoqe6qb3cu (380 bytes)
+[2026-10-19T20:48:58.988Z] [arbitrum-sepolia] mint(0x9415E00f429549A26310C83c1F47db40eb300415, 421614000000000011, bafkreidgcqutzbbv6vjgvydqebljlhcvrzgjhbnqjyadspteyoqe6qb3cu)
+[2026-10-19T20:49:05.101Z]   ok   PassportIssued emitted: tokenId 421614000000000011
+[2026-10-19T20:49:05.101Z]   ok   tokenId is the expectedTokenId and next in the chain namespace: 421614000000000011 == 421614000000000011
+[2026-10-19T20:49:05.101Z]   ok   originOf is this chain: 421614 == 421614
+[2026-10-19T20:49:05.101Z]   ok   recipient holds the token: ownerOf 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:49:05.101Z]   ok   passport is revision 0: (revision 0, bafkreidgcqutzbbv6vjgvydqebljlhcvrzgjhbnqjyadspteyoqe6qb3cu)
+[2026-10-19T20:49:05.101Z]   ok   history hash commits to the run's CIDs: 0x2141fc7fa3f768f28c97c719def79289bfc832e3fdfb77b21f30b9e3b330e6ac (expected 0x2141fc7fa3f768f28c97c719def79289bfc832e3fdfb77b21f30b9e3b330e6ac over 1 CIDs)
+[2026-10-19T20:49:05.101Z]   ok   tokenURI resolves the CID: ipfs://bafkreidgcqutzbbv6vjgvydqebljlhcvrzgjhbnqjyadspteyoqe6qb3cu
+[2026-10-19T20:49:05.101Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:49:06.255Z]   pinned revision 0 of 421614000000000012: bafkreig4uj7f2qf4zxg6zdtielvkzpiggb7iem7u3gooave427lq4gih7m (380 bytes)
+[2026-10-19T20:49:06.255Z] [arbitrum-sepolia] mint(0x9415E00f429549A26310C83c1F47db40eb300415, 421614000000000012, bafkreig4uj7f2qf4zxg6zdtielvkzpiggb7iem7u3gooave427lq4gih7m)
+[2026-10-19T20:49:12.607Z]   ok   PassportIssued emitted: tokenId 421614000000000012
+[2026-10-19T20:49:12.607Z]   ok   tokenId is the expectedTokenId and next in the chain namespace: 421614000000000012 == 421614000000000012
+[2026-10-19T20:49:12.607Z]   ok   originOf is this chain: 421614 == 421614
+[2026-10-19T20:49:12.607Z]   ok   recipient holds the token: ownerOf 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:49:12.607Z]   ok   passport is revision 0: (revision 0, bafkreig4uj7f2qf4zxg6zdtielvkzpiggb7iem7u3gooave427lq4gih7m)
+[2026-10-19T20:49:12.607Z]   ok   history hash commits to the run's CIDs: 0xed4ef3fcb00d8f79ac3b2213486f2d43763afc342eaad74b989760cd83160847 (expected 0xed4ef3fcb00d8f79ac3b2213486f2d43763afc342eaad74b989760cd83160847 over 1 CIDs)
+[2026-10-19T20:49:12.607Z]   ok   tokenURI resolves the CID: ipfs://bafkreig4uj7f2qf4zxg6zdtielvkzpiggb7iem7u3gooave427lq4gih7m
+[2026-10-19T20:49:12.607Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:49:13.722Z]   pinned revision 0 of 421614000000000013: bafkreig633oco4s7swxy7hszxfvg5tulftqhefukmjslmdv2h24jbfb5ku (381 bytes)
+[2026-10-19T20:49:13.722Z] [arbitrum-sepolia] mint(0x9415E00f429549A26310C83c1F47db40eb300415, 421614000000000013, bafkreig633oco4s7swxy7hszxfvg5tulftqhefukmjslmdv2h24jbfb5ku)
+Watchdog status: pid=246 alive=True launcher_alive=True silence=3s last=[2026-10-19T20:49:13.722Z] [arbitrum-sepolia] mint(0x9415E00f429549A26310C83c1F47db40eb300415, 421614000000000013, bafkreig633oco4s7swxy7hszxfvg5tulftqhefukmjslmdv2h24jbfb5ku)
+[2026-10-19T20:49:19.792Z]   ok   PassportIssued emitted: tokenId 421614000000000013
+[2026-10-19T20:49:19.792Z]   ok   tokenId is the expectedTokenId and next in the chain namespace: 421614000000000013 == 421614000000000013
+[2026-10-19T20:49:19.792Z]   ok   originOf is this chain: 421614 == 421614
+[2026-10-19T20:49:19.792Z]   ok   recipient holds the token: ownerOf 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:49:19.792Z]   ok   passport is revision 0: (revision 0, bafkreig633oco4s7swxy7hszxfvg5tulftqhefukmjslmdv2h24jbfb5ku)
+[2026-10-19T20:49:19.792Z]   ok   history hash commits to the run's CIDs: 0x39183a5a8cf9e9da47c51d9e86313ce6fe5767c8f2cad48964ff534c48202f99 (expected 0x39183a5a8cf9e9da47c51d9e86313ce6fe5767c8f2cad48964ff534c48202f99 over 1 CIDs)
+[2026-10-19T20:49:19.792Z]   ok   tokenURI resolves the CID: ipfs://bafkreig633oco4s7swxy7hszxfvg5tulftqhefukmjslmdv2h24jbfb5ku
+[2026-10-19T20:49:19.793Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:49:19.793Z] === ops mint arbitrum-sepolia: PASS ===
+[2026-10-19T20:49:19.793Z] === ops revise arbitrum-sepolia ===
+[2026-10-19T20:49:20.934Z]   pinned revision 1 of 421614000000000004: bafkreiacdrguqgeocbounzxlmfiueqeep5slzw4cs5ppvfh3exqthz3zd4 (445 bytes)
+[2026-10-19T20:49:20.934Z] [arbitrum-sepolia] revise(421614000000000004, 0, bafkreiacdrguqgeocbounzxlmfiueqeep5slzw4cs5ppvfh3exqthz3zd4)
+[2026-10-19T20:49:26.643Z]   ok   PassportRevised emitted with the sender as author: revision 1, author 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:49:26.644Z]   ok   passport is revision 1: (revision 1, bafkreiacdrguqgeocbounzxlmfiueqeep5slzw4cs5ppvfh3exqthz3zd4)
+[2026-10-19T20:49:26.644Z]   ok   history hash commits to the run's CIDs: 0x7fa1a889a17416759c81443055f8ed88a35abc4f8e24ba3939c49a555951834e (expected 0x7fa1a889a17416759c81443055f8ed88a35abc4f8e24ba3939c49a555951834e over 2 CIDs)
+[2026-10-19T20:49:26.644Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:49:27.772Z]   pinned revision 2 of 421614000000000004: bafkreiffsg7bmyzspgoa4nfmjdtjf5mi34linm7v4jefrszmq2qqnw2vmi (445 bytes)
+[2026-10-19T20:49:27.772Z] [arbitrum-sepolia] revise(421614000000000004, 1, bafkreiffsg7bmyzspgoa4nfmjdtjf5mi34linm7v4jefrszmq2qqnw2vmi)
+[2026-10-19T20:49:33.496Z]   ok   PassportRevised emitted with the sender as author: revision 2, author 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:49:33.497Z]   ok   passport is revision 2: (revision 2, bafkreiffsg7bmyzspgoa4nfmjdtjf5mi34linm7v4jefrszmq2qqnw2vmi)
+[2026-10-19T20:49:33.497Z]   ok   history hash commits to the run's CIDs: 0x004558b719728184c32ca3330afc9b0466534f9dc4b0b5ea54869736f92feb69 (expected 0x004558b719728184c32ca3330afc9b0466534f9dc4b0b5ea54869736f92feb69 over 3 CIDs)
+[2026-10-19T20:49:33.497Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:49:34.643Z]   pinned revision 3 of 421614000000000004: bafkreifyd7w2yv3hnegrwjagg4nl5323aj26cluy4kpmwksz7ajruxkjzq (445 bytes)
+[2026-10-19T20:49:34.643Z] [arbitrum-sepolia] revise(421614000000000004, 2, bafkreifyd7w2yv3hnegrwjagg4nl5323aj26cluy4kpmwksz7ajruxkjzq)
+[2026-10-19T20:49:40.425Z]   ok   PassportRevised emitted with the sender as author: revision 3, author 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:49:40.426Z]   ok   passport is revision 3: (revision 3, bafkreifyd7w2yv3hnegrwjagg4nl5323aj26cluy4kpmwksz7ajruxkjzq)
+[2026-10-19T20:49:40.426Z]   ok   history hash commits to the run's CIDs: 0xf1a57553943a5093cd959caa0b781a19a68035303f423dfdcb996b1c719e35b4 (expected 0xf1a57553943a5093cd959caa0b781a19a68035303f423dfdcb996b1c719e35b4 over 4 CIDs)
+[2026-10-19T20:49:40.426Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:49:41.479Z]   pinned revision 4 of 421614000000000004: bafkreidr3ki7lze4nfgnjeswegkifu66jiix2izr4tw4nyiscoz6e3ngzi (445 bytes)
+[2026-10-19T20:49:41.479Z] [arbitrum-sepolia] revise(421614000000000004, 3, bafkreidr3ki7lze4nfgnjeswegkifu66jiix2izr4tw4nyiscoz6e3ngzi)
+Watchdog status: pid=246 alive=True launcher_alive=True silence=5s last=[2026-10-19T20:49:41.479Z] [arbitrum-sepolia] revise(421614000000000004, 3, bafkreidr3ki7lze4nfgnjeswegkifu66jiix2izr4tw4nyiscoz6e3ngzi)
+[2026-10-19T20:49:47.184Z]   ok   PassportRevised emitted with the sender as author: revision 4, author 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:49:47.184Z]   ok   passport is revision 4: (revision 4, bafkreidr3ki7lze4nfgnjeswegkifu66jiix2izr4tw4nyiscoz6e3ngzi)
+[2026-10-19T20:49:47.184Z]   ok   history hash commits to the run's CIDs: 0xbb3e95d482b321b3d82a2df7fb126ad107c182d914f326c396ab0817d3080b6d (expected 0xbb3e95d482b321b3d82a2df7fb126ad107c182d914f326c396ab0817d3080b6d over 5 CIDs)
+[2026-10-19T20:49:47.184Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:49:48.377Z]   pinned revision 5 of 421614000000000004: bafkreifaj3snm7bfjt5qibcvk454uxpwgkoahij54roahudy4kzfkihlqm (445 bytes)
+[2026-10-19T20:49:48.377Z] [arbitrum-sepolia] revise(421614000000000004, 4, bafkreifaj3snm7bfjt5qibcvk454uxpwgkoahij54roahudy4kzfkihlqm)
+[2026-10-19T20:49:53.939Z]   ok   PassportRevised emitted with the sender as author: revision 5, author 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:49:53.939Z]   ok   passport is revision 5: (revision 5, bafkreifaj3snm7bfjt5qibcvk454uxpwgkoahij54roahudy4kzfkihlqm)
+[2026-10-19T20:49:53.939Z]   ok   history hash commits to the run's CIDs: 0xf8038f7a4eddfad57141595f11ca0d9fac26899cd4098a196931d0dfd67befca (expected 0xf8038f7a4eddfad57141595f11ca0d9fac26899cd4098a196931d0dfd67befca over 6 CIDs)
+[2026-10-19T20:49:53.940Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:49:55.086Z]   pinned revision 6 of 421614000000000004: bafkreiey7rwd7jnb7luwga7pzwf7j6h64eyoxf7wb6ntqvygaosg7lvbke (445 bytes)
+[2026-10-19T20:49:55.086Z] [arbitrum-sepolia] revise(421614000000000004, 5, bafkreiey7rwd7jnb7luwga7pzwf7j6h64eyoxf7wb6ntqvygaosg7lvbke)
+[2026-10-19T20:50:00.670Z]   ok   PassportRevised emitted with the sender as author: revision 6, author 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:50:00.670Z]   ok   passport is revision 6: (revision 6, bafkreiey7rwd7jnb7luwga7pzwf7j6h64eyoxf7wb6ntqvygaosg7lvbke)
+[2026-10-19T20:50:00.670Z]   ok   history hash commits to the run's CIDs: 0x16f4516b5a52588f724424e6484353cd474fad653769889fb856bd89e3fa2aaa (expected 0x16f4516b5a52588f724424e6484353cd474fad653769889fb856bd89e3fa2aaa over 7 CIDs)
+[2026-10-19T20:50:00.670Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:50:01.859Z]   pinned revision 7 of 421614000000000004: bafkreids5z3qqqpiktpbywsvi6hq4qpwvee6r6dvyymledgjgwt2ag3fja (445 bytes)
+[2026-10-19T20:50:01.860Z] [arbitrum-sepolia] revise(421614000000000004, 6, bafkreids5z3qqqpiktpbywsvi6hq4qpwvee6r6dvyymledgjgwt2ag3fja)
+[2026-10-19T20:50:07.704Z]   ok   PassportRevised emitted with the sender as author: revision 7, author 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:50:07.704Z]   ok   passport is revision 7: (revision 7, bafkreids5z3qqqpiktpbywsvi6hq4qpwvee6r6dvyymledgjgwt2ag3fja)
+[2026-10-19T20:50:07.704Z]   ok   history hash commits to the run's CIDs: 0x1d2a687161fa7426092c71637bdbc80ea0095bfbbd543660708692fe8216ee0e (expected 0x1d2a687161fa7426092c71637bdbc80ea0095bfbbd543660708692fe8216ee0e over 8 CIDs)
+[2026-10-19T20:50:07.704Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:50:08.777Z]   pinned revision 8 of 421614000000000004: bafkreifkqt4kpgt3dhvzhi5w6purcqzzo7dfxkkszjzzn5txh44zrx7eqq (445 bytes)
+[2026-10-19T20:50:08.777Z] [arbitrum-sepolia] revise(421614000000000004, 7, bafkreifkqt4kpgt3dhvzhi5w6purcqzzo7dfxkkszjzzn5txh44zrx7eqq)
+[2026-10-19T20:50:14.479Z]   ok   PassportRevised emitted with the sender as author: revision 8, author 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:50:14.479Z]   ok   passport is revision 8: (revision 8, bafkreifkqt4kpgt3dhvzhi5w6purcqzzo7dfxkkszjzzn5txh44zrx7eqq)
+[2026-10-19T20:50:14.479Z]   ok   history hash commits to the run's CIDs: 0x8a92a63b0fb133a7dbd956b81a8307285913cfe808d0fb787eded0259b125371 (expected 0x8a92a63b0fb133a7dbd956b81a8307285913cfe808d0fb787eded0259b125371 over 9 CIDs)
+[2026-10-19T20:50:14.479Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:50:15.621Z]   pinned revision 9 of 421614000000000004: bafkreifzegirmngimqnjmzimaak3czjsduzhiyfcfrvru6upg36olcwj5y (445 bytes)
+[2026-10-19T20:50:15.621Z] [arbitrum-sepolia] revise(421614000000000004, 8, bafkreifzegirmngimqnjmzimaak3czjsduzhiyfcfrvru6upg36olcwj5y)
+Watchdog status: pid=246 alive=True launcher_alive=True silence=1s last=[2026-10-19T20:50:15.621Z] [arbitrum-sepolia] revise(421614000000000004, 8, bafkreifzegirmngimqnjmzimaak3czjsduzhiyfcfrvru6upg36olcwj5y)
+[2026-10-19T20:50:21.472Z]   ok   PassportRevised emitted with the sender as author: revision 9, author 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:50:21.472Z]   ok   passport is revision 9: (revision 9, bafkreifzegirmngimqnjmzimaak3czjsduzhiyfcfrvru6upg36olcwj5y)
+[2026-10-19T20:50:21.472Z]   ok   history hash commits to the run's CIDs: 0x4c5858ed4c1d8767e1d7390dc0308f98cb9532fd1e9b57fa7a17bcf071ea8dd3 (expected 0x4c5858ed4c1d8767e1d7390dc0308f98cb9532fd1e9b57fa7a17bcf071ea8dd3 over 10 CIDs)
+[2026-10-19T20:50:21.472Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:50:22.683Z]   pinned revision 10 of 421614000000000004: bafkreihbgb25oswprr2i3v5hdgz7fyc6cwhobibqlisqsjr4qcxw7u2ohm (447 bytes)
+[2026-10-19T20:50:22.684Z] [arbitrum-sepolia] revise(421614000000000004, 9, bafkreihbgb25oswprr2i3v5hdgz7fyc6cwhobibqlisqsjr4qcxw7u2ohm)
+[2026-10-19T20:50:28.557Z]   ok   PassportRevised emitted with the sender as author: revision 10, author 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:50:28.557Z]   ok   passport is revision 10: (revision 10, bafkreihbgb25oswprr2i3v5hdgz7fyc6cwhobibqlisqsjr4qcxw7u2ohm)
+[2026-10-19T20:50:28.557Z]   ok   history hash commits to the run's CIDs: 0x7890acad77a20267ee07a8652d0821e08d9e26350cbee8e1e568287a4f5c3f3b (expected 0x7890acad77a20267ee07a8652d0821e08d9e26350cbee8e1e568287a4f5c3f3b over 11 CIDs)
+[2026-10-19T20:50:28.557Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:50:28.557Z] === ops revise arbitrum-sepolia: PASS ===
+[2026-10-19T20:50:28.557Z] === ops transfer arbitrum-sepolia ===
+[2026-10-19T20:50:28.716Z] [arbitrum-sepolia] transferFrom(0x9415E00f429549A26310C83c1F47db40eb300415, 0xF56a1697955668E5aBa05f54d384fb26CA1bf9c5, 421614000000000004) by 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:50:35.430Z]   ok   recipient holds the token: ownerOf 0xF56a1697955668E5aBa05f54d384fb26CA1bf9c5
+[2026-10-19T20:50:35.430Z]   ok   passport unchanged by the transfer: (revision 10, bafkreihbgb25oswprr2i3v5hdgz7fyc6cwhobibqlisqsjr4qcxw7u2ohm)
+[2026-10-19T20:50:35.430Z]   ok   history hash commits to the run's CIDs: 0x7890acad77a20267ee07a8652d0821e08d9e26350cbee8e1e568287a4f5c3f3b (expected 0x7890acad77a20267ee07a8652d0821e08d9e26350cbee8e1e568287a4f5c3f3b over 11 CIDs)
+[2026-10-19T20:50:35.430Z]   ok   the new holder cannot revise: with ownerOf the new holder, revise() eth_call reverts with NotIssuer
+[2026-10-19T20:50:35.430Z]   ok   former holder and sender can no longer move the token: transferFrom() eth_call reverts with ERC721InsufficientApproval
+[2026-10-19T20:50:35.430Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:50:35.589Z] [arbitrum-sepolia] transferFrom(0x9415E00f429549A26310C83c1F47db40eb300415, 0x37577FfAc3942B1A35bAb0e009BC8EF7b2BbdE25, 421614000000000005) by 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:50:41.969Z]   ok   recipient holds the token: ownerOf 0x37577FfAc3942B1A35bAb0e009BC8EF7b2BbdE25
+[2026-10-19T20:50:41.969Z]   ok   passport unchanged by the transfer: (revision 0, bafkreig5r7brwvjytbm3lqqtjucmyeajxgnomuhv753og7j23zfipe3p2m)
+[2026-10-19T20:50:41.969Z]   ok   history hash commits to the run's CIDs: 0xea26a72610652454d9b503186cb9aedea138019d0341ffee62535fb2670d1749 (expected 0xea26a72610652454d9b503186cb9aedea138019d0341ffee62535fb2670d1749 over 1 CIDs)
+[2026-10-19T20:50:41.969Z]   ok   the new holder cannot revise: with ownerOf the new holder, revise() eth_call reverts with NotIssuer
+[2026-10-19T20:50:41.969Z]   ok   former holder and sender can no longer move the token: transferFrom() eth_call reverts with ERC721InsufficientApproval
+[2026-10-19T20:50:41.969Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:50:42.121Z] [arbitrum-sepolia] transferFrom(0x9415E00f429549A26310C83c1F47db40eb300415, 0xea12576C5DDa8857917dAD466f9335E2Cf877703, 421614000000000006) by 0x9415E00f429549A26310C83c1F47db40eb300415
+Watchdog status: pid=246 alive=True launcher_alive=True silence=4s last=[2026-10-19T20:50:42.121Z] [arbitrum-sepolia] transferFrom(0x9415E00f429549A26310C83c1F47db40eb300415, 0xea12576C5DDa8857917dAD466f9335E2Cf877703, 421614000000000006) by 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:50:48.262Z]   ok   recipient holds the token: ownerOf 0xea12576C5DDa8857917dAD466f9335E2Cf877703
+[2026-10-19T20:50:48.263Z]   ok   passport unchanged by the transfer: (revision 0, bafkreibbu66u23apikqfqaz2ly75gmmb7oxouarmtdobjy4wovhawhgf6a)
+[2026-10-19T20:50:48.263Z]   ok   history hash commits to the run's CIDs: 0x2e7d120fbdffb2582238d7007950d4e12779df5870a92a956c058360d18b9fa0 (expected 0x2e7d120fbdffb2582238d7007950d4e12779df5870a92a956c058360d18b9fa0 over 1 CIDs)
+[2026-10-19T20:50:48.263Z]   ok   the new holder cannot revise: with ownerOf the new holder, revise() eth_call reverts with NotIssuer
+[2026-10-19T20:50:48.263Z]   ok   former holder and sender can no longer move the token: transferFrom() eth_call reverts with ERC721InsufficientApproval
+[2026-10-19T20:50:48.263Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:50:48.451Z] [arbitrum-sepolia] transferFrom(0x9415E00f429549A26310C83c1F47db40eb300415, 0x17458Be9F865795832E90BA17199Ca676A420Eb1, 421614000000000007) by 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:50:55.215Z]   ok   recipient holds the token: ownerOf 0x17458Be9F865795832E90BA17199Ca676A420Eb1
+[2026-10-19T20:50:55.215Z]   ok   passport unchanged by the transfer: (revision 0, bafkreic3vditdrpl4srgti4thqlpkzfpjr63kvsli4gahg72tcdoj6vnc4)
+[2026-10-19T20:50:55.215Z]   ok   history hash commits to the run's CIDs: 0x449e97d4a1ef0f8ed01d83012e7c42aa98ff1e815ccaea340b0d43bb7f1b3578 (expected 0x449e97d4a1ef0f8ed01d83012e7c42aa98ff1e815ccaea340b0d43bb7f1b3578 over 1 CIDs)
+[2026-10-19T20:50:55.215Z]   ok   the new holder cannot revise: with ownerOf the new holder, revise() eth_call reverts with NotIssuer
+[2026-10-19T20:50:55.215Z]   ok   former holder and sender can no longer move the token: transferFrom() eth_call reverts with ERC721InsufficientApproval
+[2026-10-19T20:50:55.215Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:50:55.366Z] [arbitrum-sepolia] transferFrom(0x9415E00f429549A26310C83c1F47db40eb300415, 0x01C8505157376e238a1362fdc2E2b0E41D4C6a02, 421614000000000008) by 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:51:01.716Z]   ok   recipient holds the token: ownerOf 0x01C8505157376e238a1362fdc2E2b0E41D4C6a02
+[2026-10-19T20:51:01.716Z]   ok   passport unchanged by the transfer: (revision 0, bafkreia23rj75gy6ejkgoht4fp5qflmx5idi3fowiwa36do3cnvcrbq6cy)
+[2026-10-19T20:51:01.716Z]   ok   history hash commits to the run's CIDs: 0xf209f1de211beebd153910a4188f4e4d1e2408fc9bcb68a14256fd41a3538a08 (expected 0xf209f1de211beebd153910a4188f4e4d1e2408fc9bcb68a14256fd41a3538a08 over 1 CIDs)
+[2026-10-19T20:51:01.716Z]   ok   the new holder cannot revise: with ownerOf the new holder, revise() eth_call reverts with NotIssuer
+[2026-10-19T20:51:01.716Z]   ok   former holder and sender can no longer move the token: transferFrom() eth_call reverts with ERC721InsufficientApproval
+[2026-10-19T20:51:01.716Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:51:01.870Z] [arbitrum-sepolia] transferFrom(0x9415E00f429549A26310C83c1F47db40eb300415, 0x53D60785000EE5bC1009c5d97222013afEa0dfE5, 421614000000000009) by 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:51:08.372Z]   ok   recipient holds the token: ownerOf 0x53D60785000EE5bC1009c5d97222013afEa0dfE5
+[2026-10-19T20:51:08.372Z]   ok   passport unchanged by the transfer: (revision 0, bafkreibqjhgrcpwsliccuxzqucanqi7a5cjpzfcmjcye6lk7e6twmnwofm)
+[2026-10-19T20:51:08.372Z]   ok   history hash commits to the run's CIDs: 0x1d8a633dba18efb31657f4db8534e0a26f0170435e2034b031be377bdb6f39d9 (expected 0x1d8a633dba18efb31657f4db8534e0a26f0170435e2034b031be377bdb6f39d9 over 1 CIDs)
+[2026-10-19T20:51:08.372Z]   ok   the new holder cannot revise: with ownerOf the new holder, revise() eth_call reverts with NotIssuer
+[2026-10-19T20:51:08.372Z]   ok   former holder and sender can no longer move the token: transferFrom() eth_call reverts with ERC721InsufficientApproval
+[2026-10-19T20:51:08.372Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:51:08.622Z] [arbitrum-sepolia] transferFrom(0x9415E00f429549A26310C83c1F47db40eb300415, 0x5b912BF1d19D52483e79dB4f92e87C2d454275Ea, 421614000000000010) by 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:51:15.077Z]   ok   recipient holds the token: ownerOf 0x5b912BF1d19D52483e79dB4f92e87C2d454275Ea
+[2026-10-19T20:51:15.077Z]   ok   passport unchanged by the transfer: (revision 0, bafkreidwymkrpp6vqiwwdhc676qxjtfo6lqxqvvbxtc5fkn7ccgdavrxxe)
+[2026-10-19T20:51:15.077Z]   ok   history hash commits to the run's CIDs: 0x6161960b4de74e856e44aa94fefaa020bc8fa4bc9ef18bf615a3043d20e28c38 (expected 0x6161960b4de74e856e44aa94fefaa020bc8fa4bc9ef18bf615a3043d20e28c38 over 1 CIDs)
+[2026-10-19T20:51:15.077Z]   ok   the new holder cannot revise: with ownerOf the new holder, revise() eth_call reverts with NotIssuer
+[2026-10-19T20:51:15.077Z]   ok   former holder and sender can no longer move the token: transferFrom() eth_call reverts with ERC721InsufficientApproval
+[2026-10-19T20:51:15.077Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:51:15.235Z] [arbitrum-sepolia] transferFrom(0x9415E00f429549A26310C83c1F47db40eb300415, 0xC88677405570e276aA053B075301329c3a2d280C, 421614000000000011) by 0x9415E00f429549A26310C83c1F47db40eb300415
+Watchdog status: pid=246 alive=True launcher_alive=True silence=1s last=[2026-10-19T20:51:15.235Z] [arbitrum-sepolia] transferFrom(0x9415E00f429549A26310C83c1F47db40eb300415, 0xC88677405570e276aA053B075301329c3a2d280C, 421614000000000011) by 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:51:21.632Z]   ok   recipient holds the token: ownerOf 0xC88677405570e276aA053B075301329c3a2d280C
+[2026-10-19T20:51:21.632Z]   ok   passport unchanged by the transfer: (revision 0, bafkreidgcqutzbbv6vjgvydqebljlhcvrzgjhbnqjyadspteyoqe6qb3cu)
+[2026-10-19T20:51:21.632Z]   ok   history hash commits to the run's CIDs: 0x2141fc7fa3f768f28c97c719def79289bfc832e3fdfb77b21f30b9e3b330e6ac (expected 0x2141fc7fa3f768f28c97c719def79289bfc832e3fdfb77b21f30b9e3b330e6ac over 1 CIDs)
+[2026-10-19T20:51:21.632Z]   ok   the new holder cannot revise: with ownerOf the new holder, revise() eth_call reverts with NotIssuer
+[2026-10-19T20:51:21.632Z]   ok   former holder and sender can no longer move the token: transferFrom() eth_call reverts with ERC721InsufficientApproval
+[2026-10-19T20:51:21.632Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:51:21.789Z] [arbitrum-sepolia] transferFrom(0x9415E00f429549A26310C83c1F47db40eb300415, 0x0b234b44814d3f52d7adAB89a360C5C19756884D, 421614000000000012) by 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:51:28.090Z]   ok   recipient holds the token: ownerOf 0x0b234b44814d3f52d7adAB89a360C5C19756884D
+[2026-10-19T20:51:28.090Z]   ok   passport unchanged by the transfer: (revision 0, bafkreig4uj7f2qf4zxg6zdtielvkzpiggb7iem7u3gooave427lq4gih7m)
+[2026-10-19T20:51:28.090Z]   ok   history hash commits to the run's CIDs: 0xed4ef3fcb00d8f79ac3b2213486f2d43763afc342eaad74b989760cd83160847 (expected 0xed4ef3fcb00d8f79ac3b2213486f2d43763afc342eaad74b989760cd83160847 over 1 CIDs)
+[2026-10-19T20:51:28.090Z]   ok   the new holder cannot revise: with ownerOf the new holder, revise() eth_call reverts with NotIssuer
+[2026-10-19T20:51:28.090Z]   ok   former holder and sender can no longer move the token: transferFrom() eth_call reverts with ERC721InsufficientApproval
+[2026-10-19T20:51:28.090Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:51:28.249Z] [arbitrum-sepolia] transferFrom(0x9415E00f429549A26310C83c1F47db40eb300415, 0xB28954012CE6CB49059B4b6898751C656711eD51, 421614000000000013) by 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:51:34.635Z]   ok   recipient holds the token: ownerOf 0xB28954012CE6CB49059B4b6898751C656711eD51
+[2026-10-19T20:51:34.635Z]   ok   passport unchanged by the transfer: (revision 0, bafkreig633oco4s7swxy7hszxfvg5tulftqhefukmjslmdv2h24jbfb5ku)
+[2026-10-19T20:51:34.635Z]   ok   history hash commits to the run's CIDs: 0x39183a5a8cf9e9da47c51d9e86313ce6fe5767c8f2cad48964ff534c48202f99 (expected 0x39183a5a8cf9e9da47c51d9e86313ce6fe5767c8f2cad48964ff534c48202f99 over 1 CIDs)
+[2026-10-19T20:51:34.635Z]   ok   the new holder cannot revise: with ownerOf the new holder, revise() eth_call reverts with NotIssuer
+[2026-10-19T20:51:34.635Z]   ok   former holder and sender can no longer move the token: transferFrom() eth_call reverts with ERC721InsufficientApproval
+[2026-10-19T20:51:34.635Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:51:34.635Z] === ops transfer arbitrum-sepolia: PASS ===
+[2026-10-19T20:51:34.635Z] === ops mint base-sepolia ===
+[2026-10-19T20:51:35.874Z]   pinned revision 0 of 84532000000000002: bafkreigympqgvc7kgmedpwrlc3gpdcnc5gmdc2kxt2vlona2smwp3e4vqm (378 bytes)
+[2026-10-19T20:51:35.874Z] [base-sepolia] mint(0x9415E00f429549A26310C83c1F47db40eb300415, 84532000000000002, bafkreigympqgvc7kgmedpwrlc3gpdcnc5gmdc2kxt2vlona2smwp3e4vqm)
+[2026-10-19T20:51:39.200Z]   ok   PassportIssued emitted: tokenId 84532000000000002
+[2026-10-19T20:51:39.200Z]   ok   tokenId is the expectedTokenId and next in the chain namespace: 84532000000000002 == 84532000000000002
+[2026-10-19T20:51:39.200Z]   ok   originOf is this chain: 84532 == 84532
+[2026-10-19T20:51:39.200Z]   ok   recipient holds the token: ownerOf 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:51:39.200Z]   ok   passport is revision 0: (revision 0, bafkreigympqgvc7kgmedpwrlc3gpdcnc5gmdc2kxt2vlona2smwp3e4vqm)
+[2026-10-19T20:51:39.200Z]   ok   history hash commits to the run's CIDs: 0xaa4bfa54bad18247a3acb4d6db207769d2d42efef5eca403214e0c6a461f6b44 (expected 0xaa4bfa54bad18247a3acb4d6db207769d2d42efef5eca403214e0c6a461f6b44 over 1 CIDs)
+[2026-10-19T20:51:39.200Z]   ok   tokenURI resolves the CID: ipfs://bafkreigympqgvc7kgmedpwrlc3gpdcnc5gmdc2kxt2vlona2smwp3e4vqm
+[2026-10-19T20:51:39.200Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:51:41.072Z]   pinned revision 0 of 84532000000000003: bafkreihepj4ty5snejx2yzqpcdr22j5mqi5c75fvynyfrlrmrdofovnvse (378 bytes)
+[2026-10-19T20:51:41.072Z] [base-sepolia] mint(0x9415E00f429549A26310C83c1F47db40eb300415, 84532000000000003, bafkreihepj4ty5snejx2yzqpcdr22j5mqi5c75fvynyfrlrmrdofovnvse)
+Watchdog status: pid=246 alive=True launcher_alive=True silence=6s last=[2026-10-19T20:51:41.072Z] [base-sepolia] mint(0x9415E00f429549A26310C83c1F47db40eb300415, 84532000000000003, bafkreihepj4ty5snejx2yzqpcdr22j5mqi5c75fvynyfrlrmrdofovnvse)
+[2026-10-19T20:51:46.851Z]   ok   PassportIssued emitted: tokenId 84532000000000003
+[2026-10-19T20:51:46.851Z]   ok   tokenId is the expectedTokenId and next in the chain namespace: 84532000000000003 == 84532000000000003
+[2026-10-19T20:51:46.851Z]   ok   originOf is this chain: 84532 == 84532
+[2026-10-19T20:51:46.851Z]   ok   recipient holds the token: ownerOf 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:51:46.851Z]   ok   passport is revision 0: (revision 0, bafkreihepj4ty5snejx2yzqpcdr22j5mqi5c75fvynyfrlrmrdofovnvse)
+[2026-10-19T20:51:46.851Z]   ok   history hash commits to the run's CIDs: 0xd6ba024047ca130407b92c9158e6e5da1f8e57ddeb07dcdf10a668efc650b29e (expected 0xd6ba024047ca130407b92c9158e6e5da1f8e57ddeb07dcdf10a668efc650b29e over 1 CIDs)
+[2026-10-19T20:51:46.851Z]   ok   tokenURI resolves the CID: ipfs://bafkreihepj4ty5snejx2yzqpcdr22j5mqi5c75fvynyfrlrmrdofovnvse
+[2026-10-19T20:51:46.851Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:51:48.047Z]   pinned revision 0 of 84532000000000004: bafkreibapdjrdlfmku4ijx2bbcf3qxyoh3m6nynz4ugpeq3tqu2ubdbnge (378 bytes)
+[2026-10-19T20:51:48.047Z] [base-sepolia] mint(0x9415E00f429549A26310C83c1F47db40eb300415, 84532000000000004, bafkreibapdjrdlfmku4ijx2bbcf3qxyoh3m6nynz4ugpeq3tqu2ubdbnge)
+[2026-10-19T20:51:51.751Z]   ok   PassportIssued emitted: tokenId 84532000000000004
+[2026-10-19T20:51:51.751Z]   ok   tokenId is the expectedTokenId and next in the chain namespace: 84532000000000004 == 84532000000000004
+[2026-10-19T20:51:51.751Z]   ok   originOf is this chain: 84532 == 84532
+[2026-10-19T20:51:51.751Z]   ok   recipient holds the token: ownerOf 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:51:51.751Z]   ok   passport is revision 0: (revision 0, bafkreibapdjrdlfmku4ijx2bbcf3qxyoh3m6nynz4ugpeq3tqu2ubdbnge)
+[2026-10-19T20:51:51.751Z]   ok   history hash commits to the run's CIDs: 0x1501d8d09436d56ded9170fede19e53811a84d921a48cfd14040503ea8007baf (expected 0x1501d8d09436d56ded9170fede19e53811a84d921a48cfd14040503ea8007baf over 1 CIDs)
+[2026-10-19T20:51:51.751Z]   ok   tokenURI resolves the CID: ipfs://bafkreibapdjrdlfmku4ijx2bbcf3qxyoh3m6nynz4ugpeq3tqu2ubdbnge
+[2026-10-19T20:51:51.751Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:51:57.060Z]   pinned revision 0 of 84532000000000005: bafkreibendbl26im7ixabj5bf3nzq4yhmwinavwo3stffn33yszbkflyaa (378 bytes)
+[2026-10-19T20:51:57.060Z] [base-sepolia] mint(0x9415E00f429549A26310C83c1F47db40eb300415, 84532000000000005, bafkreibendbl26im7ixabj5bf3nzq4yhmwinavwo3stffn33yszbkflyaa)
+[2026-10-19T20:52:03.405Z]   ok   PassportIssued emitted: tokenId 84532000000000005
+[2026-10-19T20:52:03.405Z]   ok   tokenId is the expectedTokenId and next in the chain namespace: 84532000000000005 == 84532000000000005
+[2026-10-19T20:52:03.405Z]   ok   originOf is this chain: 84532 == 84532
+[2026-10-19T20:52:03.405Z]   ok   recipient holds the token: ownerOf 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:52:03.405Z]   ok   passport is revision 0: (revision 0, bafkreibendbl26im7ixabj5bf3nzq4yhmwinavwo3stffn33yszbkflyaa)
+[2026-10-19T20:52:03.405Z]   ok   history hash commits to the run's CIDs: 0xc3a2dd1acf9921336aadcc88532b1f7dadab983599105d24dac1f3a053472f72 (expected 0xc3a2dd1acf9921336aadcc88532b1f7dadab983599105d24dac1f3a053472f72 over 1 CIDs)
+[2026-10-19T20:52:03.405Z]   ok   tokenURI resolves the CID: ipfs://bafkreibendbl26im7ixabj5bf3nzq4yhmwinavwo3stffn33yszbkflyaa
+[2026-10-19T20:52:03.405Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:52:04.662Z]   pinned revision 0 of 84532000000000006: bafkreicrboq5xf5nxkiijmtlu42e4x47zndq5a6nd42muj2wkbapszu4iu (378 bytes)
+[2026-10-19T20:52:04.662Z] [base-sepolia] mint(0x9415E00f429549A26310C83c1F47db40eb300415, 84532000000000006, bafkreicrboq5xf5nxkiijmtlu42e4x47zndq5a6nd42muj2wkbapszu4iu)
+[2026-10-19T20:52:06.943Z]   ok   PassportIssued emitted: tokenId 84532000000000006
+[2026-10-19T20:52:06.943Z]   ok   tokenId is the expectedTokenId and next in the chain namespace: 84532000000000006 == 84532000000000006
+[2026-10-19T20:52:06.943Z]   ok   originOf is this chain: 84532 == 84532
+[2026-10-19T20:52:06.943Z]   ok   recipient holds the token: ownerOf 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:52:06.943Z]   ok   passport is revision 0: (revision 0, bafkreicrboq5xf5nxkiijmtlu42e4x47zndq5a6nd42muj2wkbapszu4iu)
+[2026-10-19T20:52:06.943Z]   ok   history hash commits to the run's CIDs: 0x0e167b65123a758efe474ff53c1967946bc86766e2bfc62f2632b15af51b6277 (expected 0x0e167b65123a758efe474ff53c1967946bc86766e2bfc62f2632b15af51b6277 over 1 CIDs)
+[2026-10-19T20:52:06.943Z]   ok   tokenURI resolves the CID: ipfs://bafkreicrboq5xf5nxkiijmtlu42e4x47zndq5a6nd42muj2wkbapszu4iu
+[2026-10-19T20:52:06.943Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:52:07.979Z]   pinned revision 0 of 84532000000000007: bafkreigd55lqtnqtilejvph4uek3gi43flldwqvqjcmhyo7gh3hyhgewc4 (378 bytes)
+[2026-10-19T20:52:07.979Z] [base-sepolia] mint(0x9415E00f429549A26310C83c1F47db40eb300415, 84532000000000007, bafkreigd55lqtnqtilejvph4uek3gi43flldwqvqjcmhyo7gh3hyhgewc4)
+[2026-10-19T20:52:11.033Z]   ok   PassportIssued emitted: tokenId 84532000000000007
+[2026-10-19T20:52:11.033Z]   ok   tokenId is the expectedTokenId and next in the chain namespace: 84532000000000007 == 84532000000000007
+[2026-10-19T20:52:11.033Z]   ok   originOf is this chain: 84532 == 84532
+[2026-10-19T20:52:11.033Z]   ok   recipient holds the token: ownerOf 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:52:11.033Z]   ok   passport is revision 0: (revision 0, bafkreigd55lqtnqtilejvph4uek3gi43flldwqvqjcmhyo7gh3hyhgewc4)
+[2026-10-19T20:52:11.033Z]   ok   history hash commits to the run's CIDs: 0xa48e7b4f2409129a1679e0040ebc572d677dd491ba410fff35df3631f1526813 (expected 0xa48e7b4f2409129a1679e0040ebc572d677dd491ba410fff35df3631f1526813 over 1 CIDs)
+[2026-10-19T20:52:11.033Z]   ok   tokenURI resolves the CID: ipfs://bafkreigd55lqtnqtilejvph4uek3gi43flldwqvqjcmhyo7gh3hyhgewc4
+[2026-10-19T20:52:11.033Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:52:12.223Z]   pinned revision 0 of 84532000000000008: bafkreiawge4nibi7ukn2izzz7a2r6pex4jryyxuvv6b5ir25fqzec4zboa (378 bytes)
+[2026-10-19T20:52:12.223Z] [base-sepolia] mint(0x9415E00f429549A26310C83c1F47db40eb300415, 84532000000000008, bafkreiawge4nibi7ukn2izzz7a2r6pex4jryyxuvv6b5ir25fqzec4zboa)
+[2026-10-19T20:52:15.186Z]   ok   PassportIssued emitted: tokenId 84532000000000008
+[2026-10-19T20:52:15.186Z]   ok   tokenId is the expectedTokenId and next in the chain namespace: 84532000000000008 == 84532000000000008
+[2026-10-19T20:52:15.186Z]   ok   originOf is this chain: 84532 == 84532
+[2026-10-19T20:52:15.186Z]   ok   recipient holds the token: ownerOf 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:52:15.186Z]   ok   passport is revision 0: (revision 0, bafkreiawge4nibi7ukn2izzz7a2r6pex4jryyxuvv6b5ir25fqzec4zboa)
+[2026-10-19T20:52:15.186Z]   ok   history hash commits to the run's CIDs: 0xdd03508ca3b01a22f4f25ba050ad0273da8353f7fcbef78f7a4b968ec81634fb (expected 0xdd03508ca3b01a22f4f25ba050ad0273da8353f7fcbef78f7a4b968ec81634fb over 1 CIDs)
+[2026-10-19T20:52:15.186Z]   ok   tokenURI resolves the CID: ipfs://bafkreiawge4nibi7ukn2izzz7a2r6pex4jryyxuvv6b5ir25fqzec4zboa
+[2026-10-19T20:52:15.186Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:52:16.251Z]   pinned revision 0 of 84532000000000009: bafkreifdbvy6tl4xu3l5fthys2jvkxrgyyf5xzfcf3zuwxpdxizvpkdyhq (378 bytes)
+[2026-10-19T20:52:16.251Z] [base-sepolia] mint(0x9415E00f429549A26310C83c1F47db40eb300415, 84532000000000009, bafkreifdbvy6tl4xu3l5fthys2jvkxrgyyf5xzfcf3zuwxpdxizvpkdyhq)
+Watchdog status: pid=246 alive=True launcher_alive=True silence=0s last=[2026-10-19T20:52:16.251Z] [base-sepolia] mint(0x9415E00f429549A26310C83c1F47db40eb300415, 84532000000000009, bafkreifdbvy6tl4xu3l5fthys2jvkxrgyyf5xzfcf3zuwxpdxizvpkdyhq)
+[2026-10-19T20:52:19.098Z]   ok   PassportIssued emitted: tokenId 84532000000000009
+[2026-10-19T20:52:19.098Z]   ok   tokenId is the expectedTokenId and next in the chain namespace: 84532000000000009 == 84532000000000009
+[2026-10-19T20:52:19.098Z]   ok   originOf is this chain: 84532 == 84532
+[2026-10-19T20:52:19.098Z]   ok   recipient holds the token: ownerOf 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:52:19.098Z]   ok   passport is revision 0: (revision 0, bafkreifdbvy6tl4xu3l5fthys2jvkxrgyyf5xzfcf3zuwxpdxizvpkdyhq)
+[2026-10-19T20:52:19.098Z]   ok   history hash commits to the run's CIDs: 0x043ee9c1ea50e35a4dae4d860fd35a66cb59016df941c4ebe41074226a31c94a (expected 0x043ee9c1ea50e35a4dae4d860fd35a66cb59016df941c4ebe41074226a31c94a over 1 CIDs)
+[2026-10-19T20:52:19.098Z]   ok   tokenURI resolves the CID: ipfs://bafkreifdbvy6tl4xu3l5fthys2jvkxrgyyf5xzfcf3zuwxpdxizvpkdyhq
+[2026-10-19T20:52:19.098Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:52:20.169Z]   pinned revision 0 of 84532000000000010: bafkreibd3637h2lhg6mfp6eklym2knxlnjgivgo2a3i65tbnsol27clrm4 (378 bytes)
+[2026-10-19T20:52:20.169Z] [base-sepolia] mint(0x9415E00f429549A26310C83c1F47db40eb300415, 84532000000000010, bafkreibd3637h2lhg6mfp6eklym2knxlnjgivgo2a3i65tbnsol27clrm4)
+[2026-10-19T20:52:23.123Z]   ok   PassportIssued emitted: tokenId 84532000000000010
+[2026-10-19T20:52:23.123Z]   ok   tokenId is the expectedTokenId and next in the chain namespace: 84532000000000010 == 84532000000000010
+[2026-10-19T20:52:23.123Z]   ok   originOf is this chain: 84532 == 84532
+[2026-10-19T20:52:23.123Z]   ok   recipient holds the token: ownerOf 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:52:23.123Z]   ok   passport is revision 0: (revision 0, bafkreibd3637h2lhg6mfp6eklym2knxlnjgivgo2a3i65tbnsol27clrm4)
+[2026-10-19T20:52:23.123Z]   ok   history hash commits to the run's CIDs: 0xd92cc5c94e50d314d40bbd6e03a1f7eda292dd27e709ad3139f69e52897b3664 (expected 0xd92cc5c94e50d314d40bbd6e03a1f7eda292dd27e709ad3139f69e52897b3664 over 1 CIDs)
+[2026-10-19T20:52:23.123Z]   ok   tokenURI resolves the CID: ipfs://bafkreibd3637h2lhg6mfp6eklym2knxlnjgivgo2a3i65tbnsol27clrm4
+[2026-10-19T20:52:23.123Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:52:24.300Z]   pinned revision 0 of 84532000000000011: bafkreicclku4ztbxryzlqh2vemq5urfatozzgqwricb43btmkthxurfqaq (379 bytes)
+[2026-10-19T20:52:24.301Z] [base-sepolia] mint(0x9415E00f429549A26310C83c1F47db40eb300415, 84532000000000011, bafkreicclku4ztbxryzlqh2vemq5urfatozzgqwricb43btmkthxurfqaq)
+[2026-10-19T20:52:27.194Z]   ok   PassportIssued emitted: tokenId 84532000000000011
+[2026-10-19T20:52:27.194Z]   ok   tokenId is the expectedTokenId and next in the chain namespace: 84532000000000011 == 84532000000000011
+[2026-10-19T20:52:27.194Z]   ok   originOf is this chain: 84532 == 84532
+[2026-10-19T20:52:27.194Z]   ok   recipient holds the token: ownerOf 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:52:27.194Z]   ok   passport is revision 0: (revision 0, bafkreicclku4ztbxryzlqh2vemq5urfatozzgqwricb43btmkthxurfqaq)
+[2026-10-19T20:52:27.194Z]   ok   history hash commits to the run's CIDs: 0x99a0f44def6e43f02e4231de5f97716d43a2947e44fe380eea73df83e34f2e73 (expected 0x99a0f44def6e43f02e4231de5f97716d43a2947e44fe380eea73df83e34f2e73 over 1 CIDs)
+[2026-10-19T20:52:27.194Z]   ok   tokenURI resolves the CID: ipfs://bafkreicclku4ztbxryzlqh2vemq5urfatozzgqwricb43btmkthxurfqaq
+[2026-10-19T20:52:27.194Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:52:27.194Z] === ops mint base-sepolia: PASS ===
+[2026-10-19T20:52:27.194Z] === ops revise base-sepolia ===
+[2026-10-19T20:52:28.210Z]   pinned revision 1 of 84532000000000002: bafkreifdajowrbb3x3ofdynbe4c6dnm5hi7ouha7k57oxmb3pgljdizj7e (443 bytes)
+[2026-10-19T20:52:28.210Z] [base-sepolia] revise(84532000000000002, 0, bafkreifdajowrbb3x3ofdynbe4c6dnm5hi7ouha7k57oxmb3pgljdizj7e)
+[2026-10-19T20:52:30.912Z]   ok   PassportRevised emitted with the sender as author: revision 1, author 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:52:30.912Z]   ok   passport is revision 1: (revision 1, bafkreifdajowrbb3x3ofdynbe4c6dnm5hi7ouha7k57oxmb3pgljdizj7e)
+[2026-10-19T20:52:30.912Z]   ok   history hash commits to the run's CIDs: 0x374569ac6f4bd268e7c5f8b2f5472dbc0a054477a42177660c68fb4d776baf03 (expected 0x374569ac6f4bd268e7c5f8b2f5472dbc0a054477a42177660c68fb4d776baf03 over 2 CIDs)
+[2026-10-19T20:52:30.912Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:52:32.073Z]   pinned revision 2 of 84532000000000002: bafkreihutr5dwze7fmjl5btoscqmvqlm7t5a5sr72jys22kuqq5d5zoepq (443 bytes)
+[2026-10-19T20:52:32.073Z] [base-sepolia] revise(84532000000000002, 1, bafkreihutr5dwze7fmjl5btoscqmvqlm7t5a5sr72jys22kuqq5d5zoepq)
+[2026-10-19T20:52:34.640Z]   ok   PassportRevised emitted with the sender as author: revision 2, author 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:52:34.640Z]   ok   passport is revision 2: (revision 2, bafkreihutr5dwze7fmjl5btoscqmvqlm7t5a5sr72jys22kuqq5d5zoepq)
+[2026-10-19T20:52:34.640Z]   ok   history hash commits to the run's CIDs: 0x8ecc9c1b6eaffbfd4247fd53d94d3e2ac36e71715bc18b83b5d9f71eff92560a (expected 0x8ecc9c1b6eaffbfd4247fd53d94d3e2ac36e71715bc18b83b5d9f71eff92560a over 3 CIDs)
+[2026-10-19T20:52:34.640Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:52:35.798Z]   pinned revision 3 of 84532000000000002: bafkreidnakbr2kuo46gmrv4genzxvxt47vf4xqpz6yjzveh5m26wes27iy (443 bytes)
+[2026-10-19T20:52:35.798Z] [base-sepolia] revise(84532000000000002, 2, bafkreidnakbr2kuo46gmrv4genzxvxt47vf4xqpz6yjzveh5m26wes27iy)
+[2026-10-19T20:52:38.995Z]   ok   PassportRevised emitted with the sender as author: revision 3, author 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:52:38.995Z]   ok   passport is revision 3: (revision 3, bafkreidnakbr2kuo46gmrv4genzxvxt47vf4xqpz6yjzveh5m26wes27iy)
+[2026-10-19T20:52:38.995Z]   ok   history hash commits to the run's CIDs: 0x4110a1c8fe985083a9c18e670fcaa50de0cd7066a0a322719a5c05f3cb45bb00 (expected 0x4110a1c8fe985083a9c18e670fcaa50de0cd7066a0a322719a5c05f3cb45bb00 over 4 CIDs)
+[2026-10-19T20:52:38.995Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:52:40.051Z]   pinned revision 4 of 84532000000000002: bafkreiexretntz2nwz3nlxo6exwvxqm7onachuweykinzc5or77s2orjpe (443 bytes)
+[2026-10-19T20:52:40.051Z] [base-sepolia] revise(84532000000000002, 3, bafkreiexretntz2nwz3nlxo6exwvxqm7onachuweykinzc5or77s2orjpe)
+[2026-10-19T20:52:42.770Z]   ok   PassportRevised emitted with the sender as author: revision 4, author 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:52:42.770Z]   ok   passport is revision 4: (revision 4, bafkreiexretntz2nwz3nlxo6exwvxqm7onachuweykinzc5or77s2orjpe)
+[2026-10-19T20:52:42.770Z]   ok   history hash commits to the run's CIDs: 0x3f6a98bedd6642196eb4cbdb5afd549baec3c4d447a9d35be766110e6b803d4c (expected 0x3f6a98bedd6642196eb4cbdb5afd549baec3c4d447a9d35be766110e6b803d4c over 5 CIDs)
+[2026-10-19T20:52:42.770Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:52:43.951Z]   pinned revision 5 of 84532000000000002: bafkreibjc5j4dovcwldhdfbmjbencaedsreicauyulv64aumjgp4xna3h4 (443 bytes)
+[2026-10-19T20:52:43.951Z] [base-sepolia] revise(84532000000000002, 4, bafkreibjc5j4dovcwldhdfbmjbencaedsreicauyulv64aumjgp4xna3h4)
+[2026-10-19T20:52:46.529Z]   ok   PassportRevised emitted with the sender as author: revision 5, author 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:52:46.529Z]   ok   passport is revision 5: (revision 5, bafkreibjc5j4dovcwldhdfbmjbencaedsreicauyulv64aumjgp4xna3h4)
+[2026-10-19T20:52:46.529Z]   ok   history hash commits to the run's CIDs: 0xe54cdb7a8aeadcc72178740b7d9aa3db60034e47df9036c436c4a48904fb745d (expected 0xe54cdb7a8aeadcc72178740b7d9aa3db60034e47df9036c436c4a48904fb745d over 6 CIDs)
+[2026-10-19T20:52:46.529Z]   ok   payload verified (content, binding, history): content, binding and history verified
+Watchdog status: pid=246 alive=True launcher_alive=True silence=0s last=[2026-10-19T20:52:46.529Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:52:47.638Z]   pinned revision 6 of 84532000000000002: bafkreihzz3l4ymyfzfmfbpsdt5ds4u4pvdighbgbxmwywesdnwdki3qwte (443 bytes)
+[2026-10-19T20:52:47.638Z] [base-sepolia] revise(84532000000000002, 5, bafkreihzz3l4ymyfzfmfbpsdt5ds4u4pvdighbgbxmwywesdnwdki3qwte)
+[2026-10-19T20:52:50.753Z]   ok   PassportRevised emitted with the sender as author: revision 6, author 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:52:50.753Z]   ok   passport is revision 6: (revision 6, bafkreihzz3l4ymyfzfmfbpsdt5ds4u4pvdighbgbxmwywesdnwdki3qwte)
+[2026-10-19T20:52:50.753Z]   ok   history hash commits to the run's CIDs: 0xa05a167b3b54cda32a74e7a6a835acf5a29f26b806a5d3b55f5b4c7b910004a3 (expected 0xa05a167b3b54cda32a74e7a6a835acf5a29f26b806a5d3b55f5b4c7b910004a3 over 7 CIDs)
+[2026-10-19T20:52:50.753Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:52:51.773Z]   pinned revision 7 of 84532000000000002: bafkreid2ddbwtqokvk6jn5ekqdzjqnrymiohcrvqn5j3a5yjxkgxvpuiqe (443 bytes)
+[2026-10-19T20:52:51.773Z] [base-sepolia] revise(84532000000000002, 6, bafkreid2ddbwtqokvk6jn5ekqdzjqnrymiohcrvqn5j3a5yjxkgxvpuiqe)
+[2026-10-19T20:52:55.070Z]   ok   PassportRevised emitted with the sender as author: revision 7, author 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:52:55.070Z]   ok   passport is revision 7: (revision 7, bafkreid2ddbwtqokvk6jn5ekqdzjqnrymiohcrvqn5j3a5yjxkgxvpuiqe)
+[2026-10-19T20:52:55.070Z]   ok   history hash commits to the run's CIDs: 0x9286eb3690795c8ff56c75a9b0f779bc507bb409741dc4fa015f8b26f83cabca (expected 0x9286eb3690795c8ff56c75a9b0f779bc507bb409741dc4fa015f8b26f83cabca over 8 CIDs)
+[2026-10-19T20:52:55.070Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:53:00.401Z]   pinned revision 8 of 84532000000000002: bafkreiblfijl5erpgnufhmvan6wbdljap7wpojkfkdkbvc3jxe4dis2qty (443 bytes)
+[2026-10-19T20:53:00.401Z] [base-sepolia] revise(84532000000000002, 7, bafkreiblfijl5erpgnufhmvan6wbdljap7wpojkfkdkbvc3jxe4dis2qty)
+[2026-10-19T20:53:03.059Z]   ok   PassportRevised emitted with the sender as author: revision 8, author 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:53:03.059Z]   ok   passport is revision 8: (revision 8, bafkreiblfijl5erpgnufhmvan6wbdljap7wpojkfkdkbvc3jxe4dis2qty)
+[2026-10-19T20:53:03.059Z]   ok   history hash commits to the run's CIDs: 0x962319eb3e1a7dd843cb82d2af3b9c5381e14a1781590868de83eaa6bea07269 (expected 0x962319eb3e1a7dd843cb82d2af3b9c5381e14a1781590868de83eaa6bea07269 over 9 CIDs)
+[2026-10-19T20:53:03.059Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:53:06.318Z]   pinned revision 9 of 84532000000000002: bafkreib2tj22xzzaahqku7kljv3lnlqovg3z42pca277eo4h24aspe4pmi (443 bytes)
+[2026-10-19T20:53:06.318Z] [base-sepolia] revise(84532000000000002, 8, bafkreib2tj22xzzaahqku7kljv3lnlqovg3z42pca277eo4h24aspe4pmi)
+[2026-10-19T20:53:08.833Z]   ok   PassportRevised emitted with the sender as author: revision 9, author 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:53:08.833Z]   ok   passport is revision 9: (revision 9, bafkreib2tj22xzzaahqku7kljv3lnlqovg3z42pca277eo4h24aspe4pmi)
+[2026-10-19T20:53:08.833Z]   ok   history hash commits to the run's CIDs: 0xddbfb4292178511cc47f4897780965009981018f4a83cf96201a50f129f61cb7 (expected 0xddbfb4292178511cc47f4897780965009981018f4a83cf96201a50f129f61cb7 over 10 CIDs)
+[2026-10-19T20:53:08.833Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:53:09.896Z]   pinned revision 10 of 84532000000000002: bafkreifuhzxoqacy6v73jqheklr64sjudn3d3rlhubklytxxcb2akpheam (445 bytes)
+[2026-10-19T20:53:09.896Z] [base-sepolia] revise(84532000000000002, 9, bafkreifuhzxoqacy6v73jqheklr64sjudn3d3rlhubklytxxcb2akpheam)
+[2026-10-19T20:53:12.636Z]   ok   PassportRevised emitted with the sender as author: revision 10, author 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:53:12.636Z]   ok   passport is revision 10: (revision 10, bafkreifuhzxoqacy6v73jqheklr64sjudn3d3rlhubklytxxcb2akpheam)
+[2026-10-19T20:53:12.636Z]   ok   history hash commits to the run's CIDs: 0x3306290a559f2d24d3ee18b8e006d42fb5f33ac55dc242d43fd1a65e991b572b (expected 0x3306290a559f2d24d3ee18b8e006d42fb5f33ac55dc242d43fd1a65e991b572b over 11 CIDs)
+[2026-10-19T20:53:12.636Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:53:12.636Z] === ops revise base-sepolia: PASS ===
+[2026-10-19T20:53:12.637Z] === ops transfer base-sepolia ===
+[2026-10-19T20:53:12.776Z] [base-sepolia] transferFrom(0x9415E00f429549A26310C83c1F47db40eb300415, 0x80426bAEaa73C414326f82351A7946814Fea3F1F, 84532000000000002) by 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:53:14.993Z]   ok   recipient holds the token: ownerOf 0x80426bAEaa73C414326f82351A7946814Fea3F1F
+[2026-10-19T20:53:14.993Z]   ok   passport unchanged by the transfer: (revision 10, bafkreifuhzxoqacy6v73jqheklr64sjudn3d3rlhubklytxxcb2akpheam)
+[2026-10-19T20:53:14.993Z]   ok   history hash commits to the run's CIDs: 0x3306290a559f2d24d3ee18b8e006d42fb5f33ac55dc242d43fd1a65e991b572b (expected 0x3306290a559f2d24d3ee18b8e006d42fb5f33ac55dc242d43fd1a65e991b572b over 11 CIDs)
+[2026-10-19T20:53:14.993Z]   ok   the new holder cannot revise: with ownerOf the new holder, revise() eth_call reverts with NotIssuer
+[2026-10-19T20:53:14.993Z]   ok   former holder and sender can no longer move the token: transferFrom() eth_call reverts with ERC721InsufficientApproval
+[2026-10-19T20:53:14.993Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:53:15.137Z] [base-sepolia] transferFrom(0x9415E00f429549A26310C83c1F47db40eb300415, 0xB8D4846f721b63ECE9Bb1d33E097e3eC2259804A, 84532000000000003) by 0x9415E00f429549A26310C83c1F47db40eb300415
+Watchdog status: pid=246 alive=True launcher_alive=True silence=2s last=[2026-10-19T20:53:15.137Z] [base-sepolia] transferFrom(0x9415E00f429549A26310C83c1F47db40eb300415, 0xB8D4846f721b63ECE9Bb1d33E097e3eC2259804A, 84532000000000003) by 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:53:21.219Z]   ok   recipient holds the token: ownerOf 0xB8D4846f721b63ECE9Bb1d33E097e3eC2259804A
+[2026-10-19T20:53:21.219Z]   ok   passport unchanged by the transfer: (revision 0, bafkreihepj4ty5snejx2yzqpcdr22j5mqi5c75fvynyfrlrmrdofovnvse)
+[2026-10-19T20:53:21.219Z]   ok   history hash commits to the run's CIDs: 0xd6ba024047ca130407b92c9158e6e5da1f8e57ddeb07dcdf10a668efc650b29e (expected 0xd6ba024047ca130407b92c9158e6e5da1f8e57ddeb07dcdf10a668efc650b29e over 1 CIDs)
+[2026-10-19T20:53:21.219Z]   ok   the new holder cannot revise: with ownerOf the new holder, revise() eth_call reverts with NotIssuer
+[2026-10-19T20:53:21.219Z]   ok   former holder and sender can no longer move the token: transferFrom() eth_call reverts with ERC721InsufficientApproval
+[2026-10-19T20:53:21.219Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:53:21.361Z] [base-sepolia] transferFrom(0x9415E00f429549A26310C83c1F47db40eb300415, 0xeDf5C18dF6B33dFF04f1354c66A5263695314ddA, 84532000000000004) by 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:53:27.286Z]   ok   recipient holds the token: ownerOf 0xeDf5C18dF6B33dFF04f1354c66A5263695314ddA
+[2026-10-19T20:53:27.286Z]   ok   passport unchanged by the transfer: (revision 0, bafkreibapdjrdlfmku4ijx2bbcf3qxyoh3m6nynz4ugpeq3tqu2ubdbnge)
+[2026-10-19T20:53:27.287Z]   ok   history hash commits to the run's CIDs: 0x1501d8d09436d56ded9170fede19e53811a84d921a48cfd14040503ea8007baf (expected 0x1501d8d09436d56ded9170fede19e53811a84d921a48cfd14040503ea8007baf over 1 CIDs)
+[2026-10-19T20:53:27.287Z]   ok   the new holder cannot revise: with ownerOf the new holder, revise() eth_call reverts with NotIssuer
+[2026-10-19T20:53:27.287Z]   ok   former holder and sender can no longer move the token: transferFrom() eth_call reverts with ERC721InsufficientApproval
+[2026-10-19T20:53:27.287Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:53:27.424Z] [base-sepolia] transferFrom(0x9415E00f429549A26310C83c1F47db40eb300415, 0xCb18f4eaE7857CeDB20C38bc8Ef1f52EEa0A77fC, 84532000000000005) by 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:53:31.035Z]   ok   recipient holds the token: ownerOf 0xCb18f4eaE7857CeDB20C38bc8Ef1f52EEa0A77fC
+[2026-10-19T20:53:31.035Z]   ok   passport unchanged by the transfer: (revision 0, bafkreibendbl26im7ixabj5bf3nzq4yhmwinavwo3stffn33yszbkflyaa)
+[2026-10-19T20:53:31.035Z]   ok   history hash commits to the run's CIDs: 0xc3a2dd1acf9921336aadcc88532b1f7dadab983599105d24dac1f3a053472f72 (expected 0xc3a2dd1acf9921336aadcc88532b1f7dadab983599105d24dac1f3a053472f72 over 1 CIDs)
+[2026-10-19T20:53:31.035Z]   ok   the new holder cannot revise: with ownerOf the new holder, revise() eth_call reverts with NotIssuer
+[2026-10-19T20:53:31.035Z]   ok   former holder and sender can no longer move the token: transferFrom() eth_call reverts with ERC721InsufficientApproval
+[2026-10-19T20:53:31.035Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:53:31.173Z] [base-sepolia] transferFrom(0x9415E00f429549A26310C83c1F47db40eb300415, 0x90F3763618F25dcF21034B5285229bcc241B629e, 84532000000000006) by 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:53:35.263Z]   ok   recipient holds the token: ownerOf 0x90F3763618F25dcF21034B5285229bcc241B629e
+[2026-10-19T20:53:35.263Z]   ok   passport unchanged by the transfer: (revision 0, bafkreicrboq5xf5nxkiijmtlu42e4x47zndq5a6nd42muj2wkbapszu4iu)
+[2026-10-19T20:53:35.263Z]   ok   history hash commits to the run's CIDs: 0x0e167b65123a758efe474ff53c1967946bc86766e2bfc62f2632b15af51b6277 (expected 0x0e167b65123a758efe474ff53c1967946bc86766e2bfc62f2632b15af51b6277 over 1 CIDs)
+[2026-10-19T20:53:35.263Z]   ok   the new holder cannot revise: with ownerOf the new holder, revise() eth_call reverts with NotIssuer
+[2026-10-19T20:53:35.263Z]   ok   former holder and sender can no longer move the token: transferFrom() eth_call reverts with ERC721InsufficientApproval
+[2026-10-19T20:53:35.263Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:53:35.465Z] [base-sepolia] transferFrom(0x9415E00f429549A26310C83c1F47db40eb300415, 0x0C376a3AD9c7BE18aBD5A6e3391F12733d075915, 84532000000000007) by 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:53:39.259Z]   ok   recipient holds the token: ownerOf 0x0C376a3AD9c7BE18aBD5A6e3391F12733d075915
+[2026-10-19T20:53:39.259Z]   ok   passport unchanged by the transfer: (revision 0, bafkreigd55lqtnqtilejvph4uek3gi43flldwqvqjcmhyo7gh3hyhgewc4)
+[2026-10-19T20:53:39.259Z]   ok   history hash commits to the run's CIDs: 0xa48e7b4f2409129a1679e0040ebc572d677dd491ba410fff35df3631f1526813 (expected 0xa48e7b4f2409129a1679e0040ebc572d677dd491ba410fff35df3631f1526813 over 1 CIDs)
+[2026-10-19T20:53:39.259Z]   ok   the new holder cannot revise: with ownerOf the new holder, revise() eth_call reverts with NotIssuer
+[2026-10-19T20:53:39.259Z]   ok   former holder and sender can no longer move the token: transferFrom() eth_call reverts with ERC721InsufficientApproval
+[2026-10-19T20:53:39.259Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:53:39.395Z] [base-sepolia] transferFrom(0x9415E00f429549A26310C83c1F47db40eb300415, 0x9B4917e1CD183042402121FA3835082c6255bbB5, 84532000000000008) by 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:53:43.085Z]   ok   recipient holds the token: ownerOf 0x9B4917e1CD183042402121FA3835082c6255bbB5
+[2026-10-19T20:53:43.085Z]   ok   passport unchanged by the transfer: (revision 0, bafkreiawge4nibi7ukn2izzz7a2r6pex4jryyxuvv6b5ir25fqzec4zboa)
+[2026-10-19T20:53:43.085Z]   ok   history hash commits to the run's CIDs: 0xdd03508ca3b01a22f4f25ba050ad0273da8353f7fcbef78f7a4b968ec81634fb (expected 0xdd03508ca3b01a22f4f25ba050ad0273da8353f7fcbef78f7a4b968ec81634fb over 1 CIDs)
+[2026-10-19T20:53:43.085Z]   ok   the new holder cannot revise: with ownerOf the new holder, revise() eth_call reverts with NotIssuer
+[2026-10-19T20:53:43.085Z]   ok   former holder and sender can no longer move the token: transferFrom() eth_call reverts with ERC721InsufficientApproval
+[2026-10-19T20:53:43.085Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:53:43.229Z] [base-sepolia] transferFrom(0x9415E00f429549A26310C83c1F47db40eb300415, 0xeE46C418BEE92FF82618A23046260fE990d437E6, 84532000000000009) by 0x9415E00f429549A26310C83c1F47db40eb300415
+Watchdog status: pid=246 alive=True launcher_alive=True silence=4s last=[2026-10-19T20:53:43.229Z] [base-sepolia] transferFrom(0x9415E00f429549A26310C83c1F47db40eb300415, 0xeE46C418BEE92FF82618A23046260fE990d437E6, 84532000000000009) by 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:53:47.206Z]   ok   recipient holds the token: ownerOf 0xeE46C418BEE92FF82618A23046260fE990d437E6
+[2026-10-19T20:53:47.206Z]   ok   passport unchanged by the transfer: (revision 0, bafkreifdbvy6tl4xu3l5fthys2jvkxrgyyf5xzfcf3zuwxpdxizvpkdyhq)
+[2026-10-19T20:53:47.206Z]   ok   history hash commits to the run's CIDs: 0x043ee9c1ea50e35a4dae4d860fd35a66cb59016df941c4ebe41074226a31c94a (expected 0x043ee9c1ea50e35a4dae4d860fd35a66cb59016df941c4ebe41074226a31c94a over 1 CIDs)
+[2026-10-19T20:53:47.206Z]   ok   the new holder cannot revise: with ownerOf the new holder, revise() eth_call reverts with NotIssuer
+[2026-10-19T20:53:47.206Z]   ok   former holder and sender can no longer move the token: transferFrom() eth_call reverts with ERC721InsufficientApproval
+[2026-10-19T20:53:47.206Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:53:47.346Z] [base-sepolia] transferFrom(0x9415E00f429549A26310C83c1F47db40eb300415, 0xC4375a7397F90c210aBaEdD91a1c1FeAbBCc5Ab8, 84532000000000010) by 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:53:51.268Z]   ok   recipient holds the token: ownerOf 0xC4375a7397F90c210aBaEdD91a1c1FeAbBCc5Ab8
+[2026-10-19T20:53:51.269Z]   ok   passport unchanged by the transfer: (revision 0, bafkreibd3637h2lhg6mfp6eklym2knxlnjgivgo2a3i65tbnsol27clrm4)
+[2026-10-19T20:53:51.269Z]   ok   history hash commits to the run's CIDs: 0xd92cc5c94e50d314d40bbd6e03a1f7eda292dd27e709ad3139f69e52897b3664 (expected 0xd92cc5c94e50d314d40bbd6e03a1f7eda292dd27e709ad3139f69e52897b3664 over 1 CIDs)
+[2026-10-19T20:53:51.269Z]   ok   the new holder cannot revise: with ownerOf the new holder, revise() eth_call reverts with NotIssuer
+[2026-10-19T20:53:51.269Z]   ok   former holder and sender can no longer move the token: transferFrom() eth_call reverts with ERC721InsufficientApproval
+[2026-10-19T20:53:51.269Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:53:51.442Z] [base-sepolia] transferFrom(0x9415E00f429549A26310C83c1F47db40eb300415, 0x4ABeEFf2718845Cd642C837a66561B0b23D4C819, 84532000000000011) by 0x9415E00f429549A26310C83c1F47db40eb300415
+[2026-10-19T20:53:55.079Z]   ok   recipient holds the token: ownerOf 0x4ABeEFf2718845Cd642C837a66561B0b23D4C819
+[2026-10-19T20:53:55.079Z]   ok   passport unchanged by the transfer: (revision 0, bafkreicclku4ztbxryzlqh2vemq5urfatozzgqwricb43btmkthxurfqaq)
+[2026-10-19T20:53:55.079Z]   ok   history hash commits to the run's CIDs: 0x99a0f44def6e43f02e4231de5f97716d43a2947e44fe380eea73df83e34f2e73 (expected 0x99a0f44def6e43f02e4231de5f97716d43a2947e44fe380eea73df83e34f2e73 over 1 CIDs)
+[2026-10-19T20:53:55.079Z]   ok   the new holder cannot revise: with ownerOf the new holder, revise() eth_call reverts with NotIssuer
+[2026-10-19T20:53:55.079Z]   ok   former holder and sender can no longer move the token: transferFrom() eth_call reverts with ERC721InsufficientApproval
+[2026-10-19T20:53:55.079Z]   ok   payload verified (content, binding, history): content, binding and history verified
+[2026-10-19T20:53:55.079Z] === ops transfer base-sepolia: PASS ===
+[2026-10-19T20:53:55.087Z] 9 flows run, 9 passed, 0 verification failures. Report: <repo>/smart_contracts/e2e_reports/ops-1792442510606.md
+Watchdog exit=0

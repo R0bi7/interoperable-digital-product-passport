@@ -1,0 +1,283 @@
+{
+  "fuzzSeed": 1,
+  "mutants": [
+    {
+      "id": "M01",
+      "status": "killed",
+      "breaks": "anyone can mint",
+      "failed": [
+        "WhiskyDistilleryTest.test_P3_onlyIssuersMint()"
+      ]
+    },
+    {
+      "id": "M02",
+      "status": "killed",
+      "breaks": "anyone can revise, the holder included",
+      "failed": [
+        "WhiskyDistilleryTest.test_P3_onlyIssuersRevise()"
+      ]
+    },
+    {
+      "id": "M03",
+      "status": "killed",
+      "breaks": "compose messages accepted",
+      "failed": [
+        "WhiskyDistilleryTest.test_sendRejectsInvalidReceiversAndCompose()"
+      ]
+    },
+    {
+      "id": "M04",
+      "status": "killed",
+      "breaks": "invalid receivers accepted",
+      "failed": [
+        "WhiskyDistilleryTest.test_sendRejectsInvalidReceiversAndCompose()"
+      ]
+    },
+    {
+      "id": "M05",
+      "status": "killed",
+      "breaks": "the message inspector is never called (former survivor)",
+      "failed": [
+        "WhiskyDistilleryTest.test_setMsgInspectorGatesEverySend()"
+      ]
+    },
+    {
+      "id": "M06",
+      "status": "killed",
+      "breaks": "no ONFTReceived on delivery (former survivor)",
+      "failed": [
+        "WhiskyDistilleryTest.test_deliveryEmitsOnftSentAndOnftReceived()"
+      ]
+    },
+    {
+      "id": "M07",
+      "status": "killed",
+      "breaks": "minting to a contract without receiver reverts (former survivor)",
+      "failed": [
+        "WhiskyDistilleryTest.test_mintToAContractWithoutReceiverSucceeds()"
+      ]
+    },
+    {
+      "id": "M08",
+      "status": "killed",
+      "breaks": "wrong default base URI",
+      "failed": [
+        "WhiskyDistilleryTest.test_P5_destinationResolvesTheCarriedPassport()",
+        "WhiskyDistilleryTest.test_P5_revisionMadeOnTheDestinationTravelsBack()",
+        "WhiskyDistilleryTest.test_setBaseURIChangesTheTokenUriAndEmits()"
+      ]
+    },
+    {
+      "id": "M09",
+      "status": "killed",
+      "breaks": "tokenURI without the base URI",
+      "failed": [
+        "WhiskyDistilleryTest.test_P5_destinationResolvesTheCarriedPassport()",
+        "WhiskyDistilleryTest.test_P5_revisionMadeOnTheDestinationTravelsBack()",
+        "WhiskyDistilleryTest.test_setBaseURIChangesTheTokenUriAndEmits()"
+      ]
+    },
+    {
+      "id": "M10",
+      "status": "killed",
+      "breaks": "the source serves the passport of a token that left",
+      "failed": [
+        "WhiskyDistilleryTest.test_P5_destinationResolvesTheCarriedPassport()"
+      ]
+    },
+    {
+      "id": "M11",
+      "status": "killed",
+      "breaks": "no PassportIssued (former survivor)",
+      "failed": [
+        "WhiskyDistilleryTest.test_mintEmitsPassportIssued()"
+      ]
+    },
+    {
+      "id": "M12",
+      "status": "killed",
+      "breaks": "no PassportRevised",
+      "failed": [
+        "WhiskyDistilleryTest.test_P5_revisionMadeOnTheDestinationTravelsBack()",
+        "WhiskyDistilleryTest.test_P7_concurrentRevisionsOneSucceedsOneReverts()"
+      ]
+    },
+    {
+      "id": "M13",
+      "status": "killed",
+      "breaks": "no PassportImported",
+      "failed": [
+        "WhiskyDistilleryTest.test_P5_destinationResolvesTheCarriedPassport()"
+      ]
+    },
+    {
+      "id": "M14",
+      "status": "killed",
+      "breaks": "ids are never advanced",
+      "failed": [
+        "WhiskyDistilleryTest.test_P1_idsAreSequentialInTheChainNamespace()",
+        "WhiskyDistilleryTest.test_P1_revertsWhenTheNamespaceIsExhausted()",
+        "WhiskyDistilleryTest.test_P2_roundTripKeepsTheTokenId()",
+        "WhiskyDistilleryTest.test_P5_revisionMadeOnTheDestinationTravelsBack()",
+        "WhiskyDistilleryTest.test_P7_mintRejectsUnexpectedTokenId()",
+        "WhiskyDistilleryTest.test_P7_oldSelectorsDoNotExist()",
+        "WhiskyDistilleryTest.test_P8_historyHashTravelsAndRevisionsOnAnyChainExtendIt()",
+        "WhiskyDistilleryTest.test_S1_importAcceptsTheIdsTheChainIssued()",
+        "WhiskyDistilleryTest.test_mintToAContractWithoutReceiverSucceeds()",
+        "WhiskyDistilleryTest.test_setMsgInspectorGatesEverySend()"
+      ]
+    },
+    {
+      "id": "M15",
+      "status": "killed",
+      "breaks": "the namespace can overflow into the next chain",
+      "failed": [
+        "WhiskyDistilleryTest.test_P1_revertsWhenTheNamespaceIsExhausted()"
+      ]
+    },
+    {
+      "id": "M16",
+      "status": "killed",
+      "breaks": "mint ignores the id the payload was built for",
+      "failed": [
+        "WhiskyDistilleryTest.test_P7_mintRejectsUnexpectedTokenId()"
+      ]
+    },
+    {
+      "id": "M17",
+      "status": "killed",
+      "breaks": "revise ignores the revision the payload was built for",
+      "failed": [
+        "WhiskyDistilleryTest.test_P7_concurrentRevisionsOneSucceedsOneReverts()",
+        "WhiskyDistilleryTest.test_P7_reviseRejectsStaleRevision()"
+      ]
+    },
+    {
+      "id": "M18",
+      "status": "killed",
+      "breaks": "revise does not advance the revision",
+      "failed": [
+        "StorageBaselineTest.test_DS5_storageBaseline()",
+        "WhiskyDistilleryTest.test_P3_onlyIssuersRevise()",
+        "WhiskyDistilleryTest.test_P5_destinationResolvesTheCarriedPassport()",
+        "WhiskyDistilleryTest.test_P5_revisionMadeOnTheDestinationTravelsBack()",
+        "WhiskyDistilleryTest.test_P7_concurrentRevisionsOneSucceedsOneReverts()",
+        "WhiskyDistilleryTest.test_P7_reviseRejectsStaleRevision()",
+        "WhiskyDistilleryTest.test_P8_historyHashCommitsToEveryRevisionInOrder()",
+        "WhiskyDistilleryTest.test_P8_historyHashTravelsAndRevisionsOnAnyChainExtendIt()"
+      ]
+    },
+    {
+      "id": "M19",
+      "status": "killed",
+      "breaks": "empty CIDs accepted",
+      "failed": [
+        "WhiskyDistilleryTest.test_S5_importRejectsAnInvalidCid()",
+        "WhiskyDistilleryTest.test_mintAndReviseRejectInvalidCids()"
+      ]
+    },
+    {
+      "id": "M20",
+      "status": "killed",
+      "breaks": "the longest legal CID rejected (off by one)",
+      "failed": [
+        "WhiskyDistilleryTest.test_Gas_firstArrivalMaxCid()",
+        "WhiskyDistilleryTest.test_Gas_firstArrivalMaxCidRevised()",
+        "WhiskyDistilleryTest.test_S5_importRejectsAnInvalidCid()"
+      ]
+    },
+    {
+      "id": "M21",
+      "status": "killed",
+      "breaks": "import accepts an id this chain never issued (S1)",
+      "failed": [
+        "WhiskyDistilleryTest.test_S1_importRejectsAnIdOfTheOwnNamespaceThatWasNeverIssued()"
+      ]
+    },
+    {
+      "id": "M22",
+      "status": "killed",
+      "breaks": "import accepts the next id to be issued (S1, off by one)",
+      "failed": [
+        "WhiskyDistilleryTest.test_S1_importRejectsAnIdOfTheOwnNamespaceThatWasNeverIssued()"
+      ]
+    },
+    {
+      "id": "M23",
+      "status": "killed",
+      "breaks": "import accepts an invalid CID (S5)",
+      "failed": [
+        "WhiskyDistilleryTest.test_S5_importRejectsAnInvalidCid()"
+      ]
+    },
+    {
+      "id": "M24",
+      "status": "killed",
+      "breaks": "nextTokenId is wrong",
+      "failed": [
+        "WhiskyDistilleryTest.testFuzz_P1_namespacesAreDisjoint(uint256,uint256)",
+        "WhiskyDistilleryTest.test_P1_idsAreSequentialInTheChainNamespace()",
+        "WhiskyDistilleryTest.test_P1_revertsWhenTheNamespaceIsExhausted()"
+      ]
+    },
+    {
+      "id": "M25",
+      "status": "killed",
+      "breaks": "originOf is wrong",
+      "failed": [
+        "WhiskyDistilleryTest.testFuzz_P1_namespacesAreDisjoint(uint256,uint256)",
+        "WhiskyDistilleryTest.test_P1_idsAreSequentialInTheChainNamespace()",
+        "WhiskyDistilleryTest.test_P1_revertsWhenTheNamespaceIsExhausted()",
+        "WhiskyDistilleryTest.test_P2_roundTripKeepsTheTokenId()",
+        "WhiskyDistilleryTest.test_S1_importRejectsAnIdOfTheOwnNamespaceThatWasNeverIssued()"
+      ]
+    },
+    {
+      "id": "M26",
+      "status": "killed",
+      "breaks": "anyone can make itself an issuer",
+      "failed": [
+        "WhiskyDistilleryTest.test_P3_onlyOwnerSetsIssuers()"
+      ]
+    },
+    {
+      "id": "M27",
+      "status": "killed",
+      "breaks": "an issuer revises the stale snapshot of a token that left",
+      "failed": [
+        "WhiskyDistilleryTest.test_P3_cannotReviseATokenThatLeftTheChain()"
+      ]
+    },
+    {
+      "id": "M28",
+      "status": "killed",
+      "breaks": "a revision does not extend the history hash (P8)",
+      "failed": [
+        "WhiskyDistilleryTest.test_P5_destinationResolvesTheCarriedPassport()",
+        "WhiskyDistilleryTest.test_P8_historyHashCommitsToEveryRevisionInOrder()",
+        "WhiskyDistilleryTest.test_P8_historyHashTravelsAndRevisionsOnAnyChainExtendIt()"
+      ]
+    },
+    {
+      "id": "M29",
+      "status": "killed",
+      "breaks": "the history hash is not bound to the token id (P8)",
+      "failed": [
+        "WhiskyDistilleryTest.test_P5_destinationResolvesTheCarriedPassport()",
+        "WhiskyDistilleryTest.test_P6_failedDeliveryStaysStoredAndCanBeRetried()",
+        "WhiskyDistilleryTest.test_P8_historyHashCommitsToEveryRevisionInOrder()",
+        "WhiskyDistilleryTest.test_P8_historyHashTravelsAndRevisionsOnAnyChainExtendIt()",
+        "WhiskyDistilleryTest.test_S4_importOfAnExistingIdFailsClosedAndTheMessageStaysStored()"
+      ]
+    },
+    {
+      "id": "M30",
+      "status": "killed",
+      "breaks": "the history hash is lost on import (P8)",
+      "failed": [
+        "WhiskyDistilleryTest.test_P5_destinationResolvesTheCarriedPassport()",
+        "WhiskyDistilleryTest.test_P8_historyHashTravelsAndRevisionsOnAnyChainExtendIt()"
+      ]
+    }
+  ]
+}

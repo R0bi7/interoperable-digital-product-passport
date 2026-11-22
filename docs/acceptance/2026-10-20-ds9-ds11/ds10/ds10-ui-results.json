@@ -1,0 +1,497 @@
+[
+  {
+    "name": "ds10-a1-arb",
+    "tokenId": "421614000000000036",
+    "startedAt": "2026-10-20T16:47:23.635Z",
+    "settled": true,
+    "hits": [],
+    "historyHash": "verified",
+    "revisions": [
+      {
+        "revision": "0",
+        "cid": "bafkreielk6g5tzk4op673x73adey5bt3micbj7wwxnv4tlyfu6s6326dem",
+        "content": "verified",
+        "binding": "failed",
+        "history": "verified",
+        "recordedOnChain": "verified"
+      }
+    ],
+    "banners": []
+  },
+  {
+    "name": "ds10-a1-base",
+    "tokenId": "84532000000000019",
+    "startedAt": "2026-10-20T16:47:28.935Z",
+    "settled": true,
+    "hits": [],
+    "historyHash": "verified",
+    "revisions": [
+      {
+        "revision": "0",
+        "cid": "bafkreieyy74er4otdoxfq5rdo4hfgn5efke5aziidiqrsngjwwffvatpxq",
+        "content": "verified",
+        "binding": "failed",
+        "history": "verified",
+        "recordedOnChain": "verified"
+      }
+    ],
+    "banners": []
+  },
+  {
+    "name": "ds10-a1-sep",
+    "tokenId": "11155111000000000017",
+    "startedAt": "2026-10-20T16:47:33.161Z",
+    "settled": true,
+    "hits": [],
+    "historyHash": "unavailable",
+    "revisions": [
+      {
+        "revision": "0",
+        "cid": "bafkreicxbvkbgwdlrw66jmkvf5cktzuuigkroffrgxxjogd37w3pdds2im",
+        "content": "verified",
+        "binding": "failed",
+        "history": "verified",
+        "recordedOnChain": "verified"
+      }
+    ],
+    "banners": [
+      "Indexer only: the live read failed. No binding below is confirmed on chain."
+    ]
+  },
+  {
+    "name": "ds10-a2-arb",
+    "tokenId": "421614000000000037",
+    "startedAt": "2026-10-20T16:47:42.406Z",
+    "settled": true,
+    "hits": [],
+    "historyHash": "verified",
+    "revisions": [
+      {
+        "revision": "0",
+        "cid": "bafkreignzruzresdw5ue7z2p674uon2eqrpzdszvjlpytsfdl6bh34yola",
+        "content": "verified",
+        "binding": "failed",
+        "history": "verified",
+        "recordedOnChain": "verified"
+      }
+    ],
+    "banners": []
+  },
+  {
+    "name": "ds10-a2-base",
+    "tokenId": "84532000000000020",
+    "startedAt": "2026-10-20T16:47:46.604Z",
+    "settled": true,
+    "hits": [],
+    "historyHash": "verified",
+    "revisions": [
+      {
+        "revision": "0",
+        "cid": "bafkreihnukwgkpblhrln6adjtxeky7xu6stlfheld7yiydkghzu2mpmqbi",
+        "content": "verified",
+        "binding": "failed",
+        "history": "verified",
+        "recordedOnChain": "verified"
+      }
+    ],
+    "banners": []
+  },
+  {
+    "name": "ds10-a2-sep",
+    "tokenId": "11155111000000000018",
+    "startedAt": "2026-10-20T16:47:50.804Z",
+    "settled": true,
+    "hits": [],
+    "historyHash": "unavailable",
+    "revisions": [
+      {
+        "revision": "0",
+        "cid": "bafkreifjcdlms7qbkzvyzdm2zhmyuvew2h4jeu7usvqp5wkeebeajdu35m",
+        "content": "verified",
+        "binding": "failed",
+        "history": "verified",
+        "recordedOnChain": "unavailable"
+      }
+    ],
+    "banners": [
+      "Indexer only: the live read failed. No binding below is confirmed on chain."
+    ]
+  },
+  {
+    "name": "ds10-c-arb",
+    "tokenId": "421614000000000038",
+    "startedAt": "2026-10-20T16:47:59.049Z",
+    "settled": true,
+    "hits": [],
+    "historyHash": "verified",
+    "revisions": [
+      {
+        "revision": "0",
+        "cid": "bafkreihqmccn3pzef4pbjgwgb56lvr5tjgl6mt7iufq2zx2jomdj6vg56m",
+        "content": "verified",
+        "binding": "verified",
+        "history": "verified",
+        "recordedOnChain": "verified"
+      },
+      {
+        "revision": "1",
+        "cid": "bafkreiblnnz3kcpe2qzugrrsbtehsyba63hdump3iheonsmmq2o2cvdzwq",
+        "content": "verified",
+        "binding": "verified",
+        "history": "failed",
+        "recordedOnChain": "verified"
+      }
+    ],
+    "banners": []
+  },
+  {
+    "name": "ds10-c-base",
+    "tokenId": "84532000000000021",
+    "startedAt": "2026-10-20T16:48:03.266Z",
+    "settled": true,
+    "hits": [],
+    "historyHash": "verified",
+    "revisions": [
+      {
+        "revision": "0",
+        "cid": "bafkreicz2rqf7vh26zp27f2qkkbxpswljao5envlwfzrvwpofb5x5fxyoy",
+        "content": "verified",
+        "binding": "verified",
+        "history": "verified",
+        "recordedOnChain": "verified"
+      },
+      {
+        "revision": "1",
+        "cid": "bafkreie2hut7i2uoknnppxbjrnwyspvscrm6g4wwuh4czy7owsu7tv6oai",
+        "content": "verified",
+        "binding": "verified",
+        "history": "failed",
+        "recordedOnChain": "verified"
+      }
+    ],
+    "banners": []
+  },
+  {
+    "name": "ds10-c-sep",
+    "tokenId": "11155111000000000019",
+    "startedAt": "2026-10-20T16:48:07.484Z",
+    "settled": true,
+    "hits": [],
+    "historyHash": "unavailable",
+    "revisions": [
+      {
+        "revision": "0",
+        "cid": "bafkreigqj5tf2duvzgpxestvox4ghcrvdrhzex4pallcq7bykow4vttmrm",
+        "content": "verified",
+        "binding": "unconfirmed",
+        "history": "verified",
+        "recordedOnChain": "unavailable"
+      },
+      {
+        "revision": "1",
+        "cid": "bafkreifsnurnp2nnxygng5we5wij5lgkskm657bk4njkoxvfe63dkjdrmy",
+        "content": "verified",
+        "binding": "unconfirmed",
+        "history": "failed",
+        "recordedOnChain": "unavailable"
+      }
+    ],
+    "banners": [
+      "Indexer only: the live read failed. No binding below is confirmed on chain."
+    ]
+  },
+  {
+    "name": "ds10-b-control-arb",
+    "tokenId": "421614000000000005",
+    "startedAt": "2026-10-20T16:48:15.876Z",
+    "settled": true,
+    "hits": [],
+    "historyHash": "verified",
+    "revisions": [
+      {
+        "revision": "0",
+        "cid": "bafkreig5r7brwvjytbm3lqqtjucmyeajxgnomuhv753og7j23zfipe3p2m",
+        "content": "verified",
+        "binding": "verified",
+        "history": "verified",
+        "recordedOnChain": "verified"
+      }
+    ],
+    "banners": []
+  },
+  {
+    "name": "ds10-b-altered-arb",
+    "tokenId": "421614000000000005",
+    "startedAt": "2026-10-20T16:48:20.489Z",
+    "settled": true,
+    "hits": [
+      "gateway answer for bafkreig5r7brwvjytbm3lqqtjucmyeajxgnomuhv753og7j23zfipe3p2m replaced"
+    ],
+    "historyHash": "verified",
+    "revisions": [
+      {
+        "revision": "0",
+        "cid": "bafkreig5r7brwvjytbm3lqqtjucmyeajxgnomuhv753og7j23zfipe3p2m",
+        "content": "failed",
+        "binding": "unavailable",
+        "history": "unavailable",
+        "recordedOnChain": "verified"
+      }
+    ],
+    "banners": []
+  },
+  {
+    "name": "ds10-b-control-base",
+    "tokenId": "84532000000000003",
+    "startedAt": "2026-10-20T16:48:23.720Z",
+    "settled": true,
+    "hits": [],
+    "historyHash": "verified",
+    "revisions": [
+      {
+        "revision": "0",
+        "cid": "bafkreihepj4ty5snejx2yzqpcdr22j5mqi5c75fvynyfrlrmrdofovnvse",
+        "content": "verified",
+        "binding": "verified",
+        "history": "verified",
+        "recordedOnChain": "verified"
+      }
+    ],
+    "banners": []
+  },
+  {
+    "name": "ds10-b-altered-base",
+    "tokenId": "84532000000000003",
+    "startedAt": "2026-10-20T16:48:28.354Z",
+    "settled": true,
+    "hits": [
+      "gateway answer for bafkreihepj4ty5snejx2yzqpcdr22j5mqi5c75fvynyfrlrmrdofovnvse replaced"
+    ],
+    "historyHash": "verified",
+    "revisions": [
+      {
+        "revision": "0",
+        "cid": "bafkreihepj4ty5snejx2yzqpcdr22j5mqi5c75fvynyfrlrmrdofovnvse",
+        "content": "failed",
+        "binding": "unavailable",
+        "history": "unavailable",
+        "recordedOnChain": "verified"
+      }
+    ],
+    "banners": []
+  },
+  {
+    "name": "ds10-b-control-sep",
+    "tokenId": "11155111000000000005",
+    "startedAt": "2026-10-20T16:48:31.593Z",
+    "settled": true,
+    "hits": [],
+    "historyHash": "unavailable",
+    "revisions": [
+      {
+        "revision": "0",
+        "cid": "bafkreiapyrpzg2itob6aicbs7vh476w7djljr6xpjor2lidcadag27pzze",
+        "content": "verified",
+        "binding": "unconfirmed",
+        "history": "verified",
+        "recordedOnChain": "unavailable"
+      }
+    ],
+    "banners": [
+      "Indexer only: the live read failed. No binding below is confirmed on chain."
+    ]
+  },
+  {
+    "name": "ds10-b-altered-sep",
+    "tokenId": "11155111000000000005",
+    "startedAt": "2026-10-20T16:48:40.251Z",
+    "settled": true,
+    "hits": [
+      "gateway answer for bafkreiapyrpzg2itob6aicbs7vh476w7djljr6xpjor2lidcadag27pzze replaced"
+    ],
+    "historyHash": "unavailable",
+    "revisions": [
+      {
+        "revision": "0",
+        "cid": "bafkreiapyrpzg2itob6aicbs7vh476w7djljr6xpjor2lidcadag27pzze",
+        "content": "failed",
+        "binding": "unavailable",
+        "history": "unavailable",
+        "recordedOnChain": "unavailable"
+      }
+    ],
+    "banners": [
+      "Indexer only: the live read failed. No binding below is confirmed on chain."
+    ]
+  },
+  {
+    "name": "ds10-decoy-arb",
+    "tokenId": "421614000000000038",
+    "startedAt": "2026-10-20T16:48:48.486Z",
+    "settled": true,
+    "hits": [],
+    "historyHash": "failed",
+    "revisions": [
+      {
+        "revision": "0",
+        "cid": "bafkreicj26427kimuqzutdzz4k742w5kdlatyaqi6g4iwjsgdef4ftdzqe",
+        "content": "verified",
+        "binding": "verified",
+        "history": "verified",
+        "recordedOnChain": "failed"
+      },
+      {
+        "revision": "1",
+        "cid": "bafkreiblnnz3kcpe2qzugrrsbtehsyba63hdump3iheonsmmq2o2cvdzwq",
+        "content": "verified",
+        "binding": "verified",
+        "history": "verified",
+        "recordedOnChain": "verified"
+      }
+    ],
+    "banners": []
+  },
+  {
+    "name": "ds10-decoy-base",
+    "tokenId": "84532000000000021",
+    "startedAt": "2026-10-20T16:48:52.706Z",
+    "settled": true,
+    "hits": [],
+    "historyHash": "failed",
+    "revisions": [
+      {
+        "revision": "0",
+        "cid": "bafkreigjydy6iohe6pritxzynvq3xqttfewvqg4dw7bszlg7dtvdk75u3e",
+        "content": "verified",
+        "binding": "verified",
+        "history": "verified",
+        "recordedOnChain": "failed"
+      },
+      {
+        "revision": "1",
+        "cid": "bafkreie2hut7i2uoknnppxbjrnwyspvscrm6g4wwuh4czy7owsu7tv6oai",
+        "content": "verified",
+        "binding": "verified",
+        "history": "verified",
+        "recordedOnChain": "verified"
+      }
+    ],
+    "banners": []
+  },
+  {
+    "name": "ds10-decoy-sep",
+    "tokenId": "11155111000000000019",
+    "startedAt": "2026-10-20T16:48:56.940Z",
+    "settled": true,
+    "hits": [],
+    "historyHash": "unavailable",
+    "revisions": [
+      {
+        "revision": "0",
+        "cid": "bafkreie44kw2mfhh6xakolofihgvnfpfyxuy66re4kske47fmueqtqozxy",
+        "content": "verified",
+        "binding": "unconfirmed",
+        "history": "verified",
+        "recordedOnChain": "unavailable"
+      },
+      {
+        "revision": "1",
+        "cid": "bafkreifsnurnp2nnxygng5we5wij5lgkskm657bk4njkoxvfe63dkjdrmy",
+        "content": "verified",
+        "binding": "unconfirmed",
+        "history": "verified",
+        "recordedOnChain": "unavailable"
+      }
+    ],
+    "banners": [
+      "Indexer only: the live read failed. No binding below is confirmed on chain."
+    ]
+  },
+  {
+    "name": "ds10-future-arb",
+    "tokenId": "421614000000000006",
+    "startedAt": "2026-10-20T16:49:05.176Z",
+    "settled": true,
+    "hits": [],
+    "historyHash": "verified",
+    "revisions": [
+      {
+        "revision": "0",
+        "cid": "bafkreibbu66u23apikqfqaz2ly75gmmb7oxouarmtdobjy4wovhawhgf6a",
+        "content": "verified",
+        "binding": "verified",
+        "history": "verified",
+        "recordedOnChain": "verified"
+      },
+      {
+        "revision": "1",
+        "cid": "bafkreihilbaisi76t6vzc27a4s6zfarlnqb5lt3zdivh43rkvmxslx23h4",
+        "content": "verified",
+        "binding": "unconfirmed",
+        "history": "verified",
+        "recordedOnChain": "unavailable"
+      }
+    ],
+    "banners": [
+      "The chain holds revision 0; the indexer lists revision 1. Revisions above 0 are not confirmed on chain."
+    ]
+  },
+  {
+    "name": "ds10-future-base",
+    "tokenId": "84532000000000004",
+    "startedAt": "2026-10-20T16:49:09.395Z",
+    "settled": true,
+    "hits": [],
+    "historyHash": "verified",
+    "revisions": [
+      {
+        "revision": "0",
+        "cid": "bafkreibapdjrdlfmku4ijx2bbcf3qxyoh3m6nynz4ugpeq3tqu2ubdbnge",
+        "content": "verified",
+        "binding": "verified",
+        "history": "verified",
+        "recordedOnChain": "verified"
+      },
+      {
+        "revision": "1",
+        "cid": "bafkreigpfd6t32it5mlr5hg7x67iuwlkqroge5bad2yasntffot3qnkzze",
+        "content": "verified",
+        "binding": "unconfirmed",
+        "history": "verified",
+        "recordedOnChain": "unavailable"
+      }
+    ],
+    "banners": [
+      "The chain holds revision 0; the indexer lists revision 1. Revisions above 0 are not confirmed on chain."
+    ]
+  },
+  {
+    "name": "ds10-future-sep",
+    "tokenId": "11155111000000000006",
+    "startedAt": "2026-10-20T16:49:13.600Z",
+    "settled": true,
+    "hits": [],
+    "historyHash": "unavailable",
+    "revisions": [
+      {
+        "revision": "0",
+        "cid": "bafkreiel7pefix2zppsyj2uy7rmkjvgrp76vxxdm7vj4gvr6ghpsgkvxdm",
+        "content": "verified",
+        "binding": "unconfirmed",
+        "history": "verified",
+        "recordedOnChain": "unavailable"
+      },
+      {
+        "revision": "1",
+        "cid": "bafkreidnjprg4iiofo6n3tvrwc3c6fiyrom4rsbrybq7ymlupj6yc2qkwu",
+        "content": "verified",
+        "binding": "unconfirmed",
+        "history": "verified",
+        "recordedOnChain": "unavailable"
+      }
+    ],
+    "banners": [
+      "Indexer only: the live read failed. No binding below is confirmed on chain."
+    ]
+  }
+]

@@ -1,0 +1,21 @@
+\begin{table}[htbp]
+    \centering
+    \small
+    \begin{tabular}{llrrrrrrr}
+    \toprule
+    Operation & Chain & n & Median (s) & Q1--Q3 & p95 & Range & Outliers & Block diff. median (s) \\
+    \midrule
+    mint & arbitrum-sepolia & 10 & 4.4 & 4.4--4.4 & 4.5 & 4.4--4.5 & 2 & 0.5 \\
+    mint & base-sepolia & 10 & 0.1 & 0.1--0.4 & 4.4 & 0.1--4.4 & 2 & 2.0 \\
+    mint & sepolia & 10 & 8.2 & 8.1--12.1 & 12.2 & 4.1--12.2 & 0 & 12.0 \\
+    revise & arbitrum-sepolia & 10 & 4.4 & 4.4--4.5 & 4.5 & 4.4--4.5 & 0 & 1.0 \\
+    revise & base-sepolia & 10 & 0.1 & 0.1--0.2 & 0.3 & 0.1--0.4 & 1 & 2.0 \\
+    revise & sepolia & 10 & 8.1 & 8.1--12.1 & 12.1 & 8.1--12.2 & 0 & 12.0 \\
+    transfer & arbitrum-sepolia & 10 & 4.4 & 4.4--4.4 & 4.5 & 4.4--4.5 & 2 & 1.0 \\
+    transfer & base-sepolia & 10 & 0.3 & 0.1--0.4 & 4.4 & 0.1--4.4 & 2 & 3.0 \\
+    transfer & sepolia & 10 & 12.1 & 9.1--12.2 & 16.7 & 8.1--20.1 & 1 & 12.0 \\
+    \bottomrule
+    \end{tabular}
+    \caption{Same-chain time per operation and chain on deployment whisky-v2-eval3: submission to first receipt, wall clock of the harness, all slot states together. n is the number of observations in the row, window ds1 (UTC), LIVE (whisky-v2-eval3). Outliers are Tukey-fence counts and stay in the sample. Public RPCs, fee policy of rule 11. First receipt observation can be a Base preconfirmation; it does not measure finality. Intervals are not given; the observations of a run are back to back.}
+    \label{tab:confirmation-time}
+\end{table}

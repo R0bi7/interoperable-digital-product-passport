@@ -1,0 +1,18 @@
+\begin{table}[htbp]
+    \centering
+    \small
+    \begin{tabular}{lrrrrrrr}
+    \toprule
+    Direction & Sent & Delivered & n & Median (s) & Q1--Q3 & p95 & Range \\
+    \midrule
+    arbitrum-sepolia -> base-sepolia & 4 & 4 & 4 &  &  &  &  \\
+    base-sepolia -> arbitrum-sepolia & 4 & 4 & 4 &  &  &  &  \\
+    arbitrum-sepolia -> sepolia & 4 & 4 & 4 &  &  &  &  \\
+    sepolia -> arbitrum-sepolia & 4 & 4 & 4 &  &  &  &  \\
+    base-sepolia -> sepolia & 4 & 4 & 4 &  &  &  &  \\
+    sepolia -> base-sepolia & 4 & 4 & 4 &  &  &  &  \\
+    \bottomrule
+    \end{tabular}
+    \caption{Delivery time per hop in seconds, primary clock: from the block timestamp of the send to the block timestamp of the delivery on the destination. Run 1792454208270, deployment whisky-v2-eval3, window w2, LIVE (whisky-v2-eval3). n counts delivered hops with both timestamps; a row with n under 10 shows no statistic (rule 5), the values are in the Markdown report.}
+    \label{tab:delivery-latency-1792454208270}
+\end{table}

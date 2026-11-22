@@ -1,0 +1,29 @@
+{
+  "runId": "1792508379099",
+  "deploymentId": "whisky-v2-eval3",
+  "header": {
+    "window": "ds12",
+    "gitSha": "cc9254438b0d03b67fb2b5ab4c13d8436df44694",
+    "gitDirty": true,
+    "startedAt": "2026-10-20T14:59:39.099Z",
+    "sources": [
+      "docs/acceptance/2026-10-20-live-suite/ui-timings-attempt1-aborted.json"
+    ],
+    "note": "Stopped by the operator after one mint: untracked report files made the header dirty."
+  },
+  "flows": [
+    {
+      "flow": "live flows (aborted): mint",
+      "status": "PASS",
+      "tokenId": "421614000000000025",
+      "steps": [
+        {
+          "step": "mint",
+          "network": "arbitrum-sepolia",
+          "txHash": "0xb2d3df02c48590285b51d45ac5f717718ff8d868f50f07592c4c3c790212808a",
+          "checks": []
+        }
+      ]
+    }
+  ]
+}

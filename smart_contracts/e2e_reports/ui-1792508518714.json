@@ -1,0 +1,637 @@
+{
+  "runId": "1792508518714",
+  "deploymentId": "whisky-v2-eval3",
+  "header": {
+    "window": "ds12",
+    "gitSha": "cc9254438b0d03b67fb2b5ab4c13d8436df44694",
+    "gitDirty": false,
+    "startedAt": "2026-10-20T15:01:58.714Z",
+    "sources": [
+      "docs/acceptance/2026-10-20-live-suite.md",
+      "docs/acceptance/2026-10-20-live-suite/ui-timings.json"
+    ],
+    "note": "Live flows from the timing header's commit; the indexer suites ran from the same tree, the evidence spec from the test-only harness commit e64240e."
+  },
+  "flows": [
+    {
+      "flow": "live flows: connects the injected wallet (wagmi reconnects it on load)",
+      "status": "PASS",
+      "steps": []
+    },
+    {
+      "flow": "live flows: sample 1: mints a cask: signs the challenge, pins, mints, and the chain agrees",
+      "status": "PASS",
+      "tokenId": "421614000000000026",
+      "steps": [
+        {
+          "step": "mint",
+          "network": "arbitrum-sepolia",
+          "txHash": "0x38ce9a014f58e65914889ab5b2024ee4a775516c19546005342c368b62cf02ef",
+          "checks": []
+        }
+      ]
+    },
+    {
+      "flow": "live flows: sample 1: revises the passport: signs the pin challenge, pins, writes revision 1 (2.1m)",
+      "status": "PASS",
+      "tokenId": "421614000000000026",
+      "steps": [
+        {
+          "step": "revise",
+          "network": "arbitrum-sepolia",
+          "txHash": "0x9f46a3bfc6919d05fb67f0ea4bd2e18abf9ae4ba01210c366a601064f089a1a2",
+          "checks": []
+        }
+      ]
+    },
+    {
+      "flow": "live flows: sample 2: mints a cask: signs the challenge, pins, mints, and the chain agrees",
+      "status": "PASS",
+      "tokenId": "421614000000000027",
+      "steps": [
+        {
+          "step": "mint",
+          "network": "arbitrum-sepolia",
+          "txHash": "0x29d34000c41e89bf406b499e113dfb2ff25da6a2c55003b7c98f950d5ec20201",
+          "checks": []
+        }
+      ]
+    },
+    {
+      "flow": "live flows: sample 2: revises the passport: signs the pin challenge, pins, writes revision 1 (2.1m)",
+      "status": "PASS",
+      "tokenId": "421614000000000027",
+      "steps": [
+        {
+          "step": "revise",
+          "network": "arbitrum-sepolia",
+          "txHash": "0xc0192b88b81d1b8b528247cb92b68e398a9278a8748d540bbb7c23cd13d01ec1",
+          "checks": []
+        }
+      ]
+    },
+    {
+      "flow": "live flows: sample 3: mints a cask: signs the challenge, pins, mints, and the chain agrees",
+      "status": "PASS",
+      "tokenId": "421614000000000028",
+      "steps": [
+        {
+          "step": "mint",
+          "network": "arbitrum-sepolia",
+          "txHash": "0x39d587228c46222ccb8dae138cddb3a007c36a787bc2faf2e54c839a22f6fc44",
+          "checks": []
+        }
+      ]
+    },
+    {
+      "flow": "live flows: sample 3: revises the passport: signs the pin challenge, pins, writes revision 1 (2.1m)",
+      "status": "PASS",
+      "tokenId": "421614000000000028",
+      "steps": [
+        {
+          "step": "revise",
+          "network": "arbitrum-sepolia",
+          "txHash": "0xbacc765a4758e9d1ed02e2e62bb2d328b534ec4b937797e31397d0a62a058d93",
+          "checks": []
+        }
+      ]
+    },
+    {
+      "flow": "live flows: sample 4: mints a cask: signs the challenge, pins, mints, and the chain agrees",
+      "status": "PASS",
+      "tokenId": "421614000000000029",
+      "steps": [
+        {
+          "step": "mint",
+          "network": "arbitrum-sepolia",
+          "txHash": "0xda509fb3864ecf44305e1166ea5853b486cf9fda58ef659f9f71157cd3042d41",
+          "checks": []
+        }
+      ]
+    },
+    {
+      "flow": "live flows: sample 4: revises the passport: signs the pin challenge, pins, writes revision 1 (2.2m)",
+      "status": "PASS",
+      "tokenId": "421614000000000029",
+      "steps": [
+        {
+          "step": "revise",
+          "network": "arbitrum-sepolia",
+          "txHash": "0x0840703dc5cccfc540c9734c45a9c4feeff3a2e11d0818302839f0a0420efbee",
+          "checks": []
+        }
+      ]
+    },
+    {
+      "flow": "live flows: sample 5: mints a cask: signs the challenge, pins, mints, and the chain agrees",
+      "status": "PASS",
+      "tokenId": "421614000000000030",
+      "steps": [
+        {
+          "step": "mint",
+          "network": "arbitrum-sepolia",
+          "txHash": "0x4f199c9674b67a9e0205068e8d568a660bb38e0e8add280dc2c7ffdf5396cbe0",
+          "checks": []
+        }
+      ]
+    },
+    {
+      "flow": "live flows: sample 5: revises the passport: signs the pin challenge, pins, writes revision 1 (2.2m)",
+      "status": "PASS",
+      "tokenId": "421614000000000030",
+      "steps": [
+        {
+          "step": "revise",
+          "network": "arbitrum-sepolia",
+          "txHash": "0xca83d9823568d0a54c0a32e2bc183427b8fa7fad2d3c251ae81615c9e4d3c1a9",
+          "checks": []
+        }
+      ]
+    },
+    {
+      "flow": "live flows: sample 6: mints a cask: signs the challenge, pins, mints, and the chain agrees",
+      "status": "PASS",
+      "tokenId": "421614000000000031",
+      "steps": [
+        {
+          "step": "mint",
+          "network": "arbitrum-sepolia",
+          "txHash": "0xfa7ca1326a2655f9f4c6acf031478da463dfa8d49b9dde034ccdd4027ff109d3",
+          "checks": []
+        }
+      ]
+    },
+    {
+      "flow": "live flows: sample 6: revises the passport: signs the pin challenge, pins, writes revision 1 (2.2m)",
+      "status": "PASS",
+      "tokenId": "421614000000000031",
+      "steps": [
+        {
+          "step": "revise",
+          "network": "arbitrum-sepolia",
+          "txHash": "0x021e250b07429349733a7023791f203b5b81d930db3b59cbcd988d19aed6c63e",
+          "checks": []
+        }
+      ]
+    },
+    {
+      "flow": "live flows: sample 7: mints a cask: signs the challenge, pins, mints, and the chain agrees",
+      "status": "PASS",
+      "tokenId": "421614000000000032",
+      "steps": [
+        {
+          "step": "mint",
+          "network": "arbitrum-sepolia",
+          "txHash": "0x4d64eba7d24a48adde14fdf46c6129d661dd47c7dd9a893bd3df077d4b2c6bd2",
+          "checks": []
+        }
+      ]
+    },
+    {
+      "flow": "live flows: sample 7: revises the passport: signs the pin challenge, pins, writes revision 1 (2.2m)",
+      "status": "PASS",
+      "tokenId": "421614000000000032",
+      "steps": [
+        {
+          "step": "revise",
+          "network": "arbitrum-sepolia",
+          "txHash": "0xb125682e9c50faa68bfbbecc6a313f937e4f648b252486a42edbef9acf0f0d58",
+          "checks": []
+        }
+      ]
+    },
+    {
+      "flow": "live flows: sample 8: mints a cask: signs the challenge, pins, mints, and the chain agrees",
+      "status": "PASS",
+      "tokenId": "421614000000000033",
+      "steps": [
+        {
+          "step": "mint",
+          "network": "arbitrum-sepolia",
+          "txHash": "0x8d462a6e46a8bc58972029da414211f13550e24b77833b8b2d7081b47f4a79d2",
+          "checks": []
+        }
+      ]
+    },
+    {
+      "flow": "live flows: sample 8: revises the passport: signs the pin challenge, pins, writes revision 1 (2.2m)",
+      "status": "PASS",
+      "tokenId": "421614000000000033",
+      "steps": [
+        {
+          "step": "revise",
+          "network": "arbitrum-sepolia",
+          "txHash": "0x1f96a607d76a821e7a712f3b7987cac10591580c2b4a70d6073211beba8b0926",
+          "checks": []
+        }
+      ]
+    },
+    {
+      "flow": "live flows: sample 9: mints a cask: signs the challenge, pins, mints, and the chain agrees",
+      "status": "PASS",
+      "tokenId": "421614000000000034",
+      "steps": [
+        {
+          "step": "mint",
+          "network": "arbitrum-sepolia",
+          "txHash": "0x8b3b8b61a592cf2513fdb74c0c0a85b96afee676b4efa943ec5ac5a76a4e66a1",
+          "checks": []
+        }
+      ]
+    },
+    {
+      "flow": "live flows: sample 9: revises the passport: signs the pin challenge, pins, writes revision 1 (2.1m)",
+      "status": "PASS",
+      "tokenId": "421614000000000034",
+      "steps": [
+        {
+          "step": "revise",
+          "network": "arbitrum-sepolia",
+          "txHash": "0xb9a78fb3813dd1117c3c66987ce31df19f246e836fae2bb4dbb7e38178bf8e03",
+          "checks": []
+        }
+      ]
+    },
+    {
+      "flow": "live flows: sample 10: mints a cask: signs the challenge, pins, mints, and the chain agrees",
+      "status": "PASS",
+      "tokenId": "421614000000000035",
+      "steps": [
+        {
+          "step": "mint",
+          "network": "arbitrum-sepolia",
+          "txHash": "0x63208678aa9b51d464b7b3721b8b169c8c45f8b77cfb4a7c974c3efcf66d5106",
+          "checks": []
+        }
+      ]
+    },
+    {
+      "flow": "live flows: sample 10: revises the passport: signs the pin challenge, pins, writes revision 1 (2.2m)",
+      "status": "PASS",
+      "tokenId": "421614000000000035",
+      "steps": [
+        {
+          "step": "revise",
+          "network": "arbitrum-sepolia",
+          "txHash": "0x561d76d5fc9ad4c2b6d2fbd7a0e06e9bf476a689d1be44e4d161685f20b7229f",
+          "checks": []
+        }
+      ]
+    },
+    {
+      "flow": "live flows: a stale revise is refused with a clear message",
+      "status": "PASS",
+      "tokenId": "421614000000000035",
+      "steps": [
+        {
+          "step": "revise",
+          "network": "arbitrum-sepolia",
+          "txHash": "0x6aac8398d68199594ad7aa8c9e3505812dac6f105bdc5986625d0b4bda6b5d0d",
+          "checks": []
+        }
+      ]
+    },
+    {
+      "flow": "live flows: send sample 1: 421614 to 84532",
+      "status": "PASS",
+      "tokenId": "421614000000000035",
+      "steps": [
+        {
+          "step": "send",
+          "network": "arbitrum-sepolia",
+          "txHash": "0x9c4992613042e7e01fbaaddb47c073d088483219b8bb342e747f74756661310d",
+          "checks": []
+        }
+      ]
+    },
+    {
+      "flow": "live flows: send sample 2: 84532 to 421614",
+      "status": "PASS",
+      "tokenId": "421614000000000035",
+      "steps": [
+        {
+          "step": "send",
+          "network": "base-sepolia",
+          "txHash": "0xdcc4c86af420f206ee668ab402dc5af0020cea9d605b2ea9e8eecf326f29b4c1",
+          "checks": []
+        }
+      ]
+    },
+    {
+      "flow": "live flows: send sample 3: 421614 to 84532",
+      "status": "PASS",
+      "tokenId": "421614000000000035",
+      "steps": [
+        {
+          "step": "send",
+          "network": "arbitrum-sepolia",
+          "txHash": "0x89122919b028fba8b1dec1c52214eae940c66d4e38140cecc09074368dabdb0b",
+          "checks": []
+        }
+      ]
+    },
+    {
+      "flow": "live flows: send sample 4: 84532 to 421614",
+      "status": "PASS",
+      "tokenId": "421614000000000035",
+      "steps": [
+        {
+          "step": "send",
+          "network": "base-sepolia",
+          "txHash": "0x7e6f63c30c1a2c89fdc7c6e49a79407e73d44e83d5d0099638e582145943f1b8",
+          "checks": []
+        }
+      ]
+    },
+    {
+      "flow": "live flows: send sample 5: 421614 to 84532",
+      "status": "PASS",
+      "tokenId": "421614000000000035",
+      "steps": [
+        {
+          "step": "send",
+          "network": "arbitrum-sepolia",
+          "txHash": "0x93e58ffb67561a49f44ad9ab2b234f32dcb27c46d4aada993ca615223a206fc2",
+          "checks": []
+        }
+      ]
+    },
+    {
+      "flow": "live flows: send sample 6: 84532 to 421614",
+      "status": "PASS",
+      "tokenId": "421614000000000035",
+      "steps": [
+        {
+          "step": "send",
+          "network": "base-sepolia",
+          "txHash": "0xee71f02694fadc96a5cb18bc28241c60a8d75a7ce0347f5313f38f4f65e64db7",
+          "checks": []
+        }
+      ]
+    },
+    {
+      "flow": "live flows: send sample 7: 421614 to 84532",
+      "status": "PASS",
+      "tokenId": "421614000000000035",
+      "steps": [
+        {
+          "step": "send",
+          "network": "arbitrum-sepolia",
+          "txHash": "0x33ec677d28d1c2b1288e9182a6294fd0d8dfc868ea374a38d0960519da6fb33e",
+          "checks": []
+        }
+      ]
+    },
+    {
+      "flow": "live flows: send sample 8: 84532 to 421614",
+      "status": "PASS",
+      "tokenId": "421614000000000035",
+      "steps": [
+        {
+          "step": "send",
+          "network": "base-sepolia",
+          "txHash": "0x5a08304b076365ad11a4a0183554d2d15e568e7e43fe5ee4f7621d042b8e723d",
+          "checks": []
+        }
+      ]
+    },
+    {
+      "flow": "live flows: send sample 9: 421614 to 84532",
+      "status": "PASS",
+      "tokenId": "421614000000000035",
+      "steps": [
+        {
+          "step": "send",
+          "network": "arbitrum-sepolia",
+          "txHash": "0xd6fc12b0ba26bc304c201e2d29d5f61ae960af9047e758302cf84de186d35c79",
+          "checks": []
+        }
+      ]
+    },
+    {
+      "flow": "live flows: send sample 10: 84532 to 421614",
+      "status": "PASS",
+      "tokenId": "421614000000000035",
+      "steps": [
+        {
+          "step": "send",
+          "network": "base-sepolia",
+          "txHash": "0x4aafccbadb064a9b8306aea5e0d4c82506011905a4346b4e34d380e996bd02cb",
+          "checks": []
+        }
+      ]
+    },
+    {
+      "flow": "live flows: send sample 11: 421614 to 84532",
+      "status": "PASS",
+      "tokenId": "421614000000000035",
+      "steps": [
+        {
+          "step": "send",
+          "network": "arbitrum-sepolia",
+          "txHash": "0x2aae0d67745fb8d8abcafb7c4925eff26896c4aac0293970227b5527fbb32101",
+          "checks": []
+        }
+      ]
+    },
+    {
+      "flow": "live flows: send sample 12: 84532 to 421614",
+      "status": "PASS",
+      "tokenId": "421614000000000035",
+      "steps": [
+        {
+          "step": "send",
+          "network": "base-sepolia",
+          "txHash": "0x3621ff3a11a004314869efa710f68f57f6229a3b534d30ed9c0474608a2da0e2",
+          "checks": []
+        }
+      ]
+    },
+    {
+      "flow": "live flows: send sample 13: 421614 to 84532 (1.0m)",
+      "status": "PASS",
+      "tokenId": "421614000000000035",
+      "steps": [
+        {
+          "step": "send",
+          "network": "arbitrum-sepolia",
+          "txHash": "0xe77dabfa75e49259c61bf565bdea5dff295fd94e073accaba17ae000e4f7a371",
+          "checks": []
+        }
+      ]
+    },
+    {
+      "flow": "live flows: send sample 14: 84532 to 421614 (1.0m)",
+      "status": "PASS",
+      "tokenId": "421614000000000035",
+      "steps": [
+        {
+          "step": "send",
+          "network": "base-sepolia",
+          "txHash": "0x90ddf4c9b1dced33b143b5ef9089f763456a9d07e1ae406998a28ed30bfec29d",
+          "checks": []
+        }
+      ]
+    },
+    {
+      "flow": "live flows: send sample 15: 421614 to 84532",
+      "status": "PASS",
+      "tokenId": "421614000000000035",
+      "steps": [
+        {
+          "step": "send",
+          "network": "arbitrum-sepolia",
+          "txHash": "0x65a6742ad14e2dbec4aa8ef3115b77d0d52a0a67c7f5b0e0cf65a267b4afc949",
+          "checks": []
+        }
+      ]
+    },
+    {
+      "flow": "live flows: send sample 16: 84532 to 421614",
+      "status": "PASS",
+      "tokenId": "421614000000000035",
+      "steps": [
+        {
+          "step": "send",
+          "network": "base-sepolia",
+          "txHash": "0xe732bb5ec115120575c854c2c5e430396246318df835baaf8621da27a240ca71",
+          "checks": []
+        }
+      ]
+    },
+    {
+      "flow": "live flows: send sample 17: 421614 to 84532",
+      "status": "PASS",
+      "tokenId": "421614000000000035",
+      "steps": [
+        {
+          "step": "send",
+          "network": "arbitrum-sepolia",
+          "txHash": "0x3d7760772114a5f748df34cb1b2adc726dc4849181894f78e41c2536f03c7975",
+          "checks": []
+        }
+      ]
+    },
+    {
+      "flow": "live flows: send sample 18: 84532 to 421614",
+      "status": "PASS",
+      "tokenId": "421614000000000035",
+      "steps": [
+        {
+          "step": "send",
+          "network": "base-sepolia",
+          "txHash": "0x4d1060a5f3097004aa6994639de93711f262fe67edfab8f4b0dcca8552adfb75",
+          "checks": []
+        }
+      ]
+    },
+    {
+      "flow": "live flows: send sample 19: 421614 to 84532",
+      "status": "PASS",
+      "tokenId": "421614000000000035",
+      "steps": [
+        {
+          "step": "send",
+          "network": "arbitrum-sepolia",
+          "txHash": "0x2314a67cc40695c7100cc9b1f73c7f94000b6c301df9067b7f719be4c2226b7a",
+          "checks": []
+        }
+      ]
+    },
+    {
+      "flow": "live flows: send sample 20: 84532 to 421614",
+      "status": "PASS",
+      "tokenId": "421614000000000035",
+      "steps": [
+        {
+          "step": "send",
+          "network": "base-sepolia",
+          "txHash": "0x590678540741f59ca0b5bdafb0002e6ed3da7da92a521b58a95e5ce7410c9709",
+          "checks": []
+        }
+      ]
+    },
+    {
+      "flow": "indexer suite: list › shows the indexer's passports, not fixtures (15.0m)",
+      "status": "FAIL",
+      "steps": []
+    },
+    {
+      "flow": "indexer suite: list › filters by status and by chain the way the API does (1.0m)",
+      "status": "FAIL",
+      "steps": []
+    },
+    {
+      "flow": "indexer suite: detail › renders the indexer's view and the chain confirms it",
+      "status": "PASS",
+      "steps": []
+    },
+    {
+      "flow": "indexer suite: detail › shows the origin, the current chain and one card per revision (4.0m)",
+      "status": "FAIL",
+      "steps": []
+    },
+    {
+      "flow": "indexer suite: detail › lists every timeline event the indexer reports, hops merged",
+      "status": "PASS",
+      "steps": []
+    },
+    {
+      "flow": "indexer suite: detail › verifies every revision's payload against its CID (2.0m)",
+      "status": "FAIL",
+      "steps": []
+    },
+    {
+      "flow": "indexer suite: detail › tells an unknown token from a malformed one",
+      "status": "PASS",
+      "steps": []
+    },
+    {
+      "flow": "indexer suite: scan › opens the passport from a bare id and from its URL",
+      "status": "PASS",
+      "steps": []
+    },
+    {
+      "flow": "indexer suite: mint refusal (no gas, nothing pinned) › a wallet outside the allowlist gets no challenge",
+      "status": "PASS",
+      "steps": []
+    },
+    {
+      "flow": "indexer suite: mint refusal (no gas, nothing pinned) › a forged mint request is refused before any pin or transaction",
+      "status": "PASS",
+      "steps": []
+    },
+    {
+      "flow": "indexer suite: send, observed by the indexer › the indexer places the token on the destination and the panel cites it (5.1m)",
+      "status": "PASS",
+      "steps": [
+        {
+          "step": "send",
+          "network": "arbitrum-sepolia",
+          "txHash": "0x2d1e68ca59412aa8c1e92e2c43e103fe51ef5df5a98bb8125c4f91e758397507",
+          "checks": []
+        }
+      ]
+    },
+    {
+      "flow": "indexer test:live (17 of 17 tests)",
+      "status": "PASS",
+      "steps": []
+    },
+    {
+      "flow": "passport-config test:int (Pinata round trip) (1 of 1 tests)",
+      "status": "PASS",
+      "steps": []
+    },
+    {
+      "flow": "evidence: figure set: list, detail with results and QR, mint form, send form",
+      "status": "PASS",
+      "steps": []
+    },
+    {
+      "flow": "evidence: proof of ownership: challenge, signed proof, fresh owner read, nonce consumed",
+      "status": "PASS",
+      "steps": []
+    }
+  ]
+}

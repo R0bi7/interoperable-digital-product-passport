@@ -1,0 +1,93 @@
+Skip to content
+Whisky Distillery
+Interoperable Digital Product Passport
+Passports
+Scan
+Mint
+Connect Wallet
+
+No browser wallet found. Install an Ethereum wallet extension (for example MetaMask) and reload.
+
+PASSPORT
+
+84532000000000021
+held
+Revise
+Send to another chain
+Verify owner
+Prove ownership
+Origin (originOf)
+Base Sepolia (84532)
+Deployment
+whisky-v2-eval3
+Current chain
+Base Sepolia
+Contract
+0xFE84e01B03Cae9B4AaD5678A5681B70bA77435C2
+Owner
+0x9415e00f429549a26310c83c1f47db40eb300415
+Revision
+1
+CID
+bafkreie2hut7i2uoknnppxbjrnwyspvscrm6g4wwuh4czy7owsu7tv6oai
+Live confirmation
+
+Read ownerOf and passportOf on Base Sepolia in one multicall at block 48373297.
+
+The live read agrees with the indexer.
+
+Indexer progress
+Arbitrum Sepolia: indexed block 321118572 of 321118576 (4 blocks behind)
+QR code
+
+Print this on the cask or bottle. Scanning it opens this passport and its verification.
+
+http://localhost:3120/passport/84532000000000021?deployment=whisky-v2-eval3
+
+Download PNG
+Copy link
+Timeline
+Issued on Base Sepolia
+2026-10-20T16:44:24Z, block 48373188, 0xeb993e53…83a3d4
+Revised on Base Sepolia
+2026-10-20T16:44:54Z, block 48373203, 0x9983a5e0…be1fad
+Revisions and verification
+
+Checked in this browser on the raw bytes from the gateway: content (bytes hash to the CID), binding (envelope names this deployment, token and revision), history (each previousCid is the preceding revision's CID), recorded on chain (the emitting contract receipt confirms this CID, revision and author; timestamps remain indexer-sourced), and once for the passport history hash (the CIDs of every revision, in order, recompute the historyHash of the live passportOf read).
+
+history hash: verified
+Revision 0
+Base Sepolia, 2026-10-20T16:44:24Z, tx
+bafkreicz2rqf7vh26zp27f2qkkbxpswljao5envlwfzrvwpofb5x5fxyoyCID from the indexer
+content: verified
+binding: verified
+history: verified
+recorded on chain: verified
+Payload data
+Revision 1
+Base Sepolia, 2026-10-20T16:44:54Z, tx
+bafkreie2hut7i2uoknnppxbjrnwyspvscrm6g4wwuh4czy7owsu7tv6oaiCID from passportOf on chain (live read)
+content: verified
+binding: verified
+history: failed
+recorded on chain: verified
+history: revision 1 previousCid bafkreigjydy6iohe6pritxzynvq3xqttfewvqg4dw7bszlg7dtvdk75u3e, expected bafkreicz2rqf7vh26zp27f2qkkbxpswljao5envlwfzrvwpofb5x5fxyoy
+Payload data
+Kind
+cask
+Granularity
+item
+Distillery
+Demo Distillery
+Cask type
+Bourbon barrel
+Cask number
+84532000000000021
+Volume (liters)
+200
+Alcohol by volume (%)
+63.5
+Fill date
+2026-10-01(domain assertion by the issuer, not chain evidence)
+Description
+TAMPER FIXTURE c: revision 1, previousCid points at the decoy instead of revision 0. Not a real passport.

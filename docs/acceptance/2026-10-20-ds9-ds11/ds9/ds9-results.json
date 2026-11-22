@@ -1,0 +1,194 @@
+{
+  "header": {
+    "startedAt": "2026-10-20T17:01:55.428Z",
+    "deploymentId": "whisky-v2-eval3",
+    "kubo": "Kubo version: 0.43.1-Homebrew\nRepo version: 18\nSystem version: arm64/darwin\nGolang version: go1.27.1",
+    "gateway": "Pinata dedicated gateway (host not recorded)",
+    "fixedAt": "2026-10-20T17:01:57.424Z",
+    "daemonOnlineAt": "2026-10-20T17:01:59.936Z",
+    "daemonStoppedAt": "2026-10-20T17:02:08.002Z",
+    "finishedAt": "2026-10-20T17:02:17.528Z"
+  },
+  "rows": [
+    {
+      "role": "DS1 Arbitrum Sepolia",
+      "tokenId": "421614000000000007",
+      "chainId": 421614,
+      "revision": "0",
+      "cid": "bafkreic3vditdrpl4srgti4thqlpkzfpjr63kvsli4gahg72tcdoj6vnc4",
+      "copy": "network (ipfs pin add)",
+      "copyMs": 2308,
+      "gateway": {
+        "status": 200,
+        "bytes": 380,
+        "verified": true
+      },
+      "localOffline": {
+        "bytes": 380,
+        "verified": true
+      }
+    },
+    {
+      "role": "DS1 Base Sepolia",
+      "tokenId": "84532000000000005",
+      "chainId": 84532,
+      "revision": "0",
+      "cid": "bafkreibendbl26im7ixabj5bf3nzq4yhmwinavwo3stffn33yszbkflyaa",
+      "copy": "network (ipfs pin add)",
+      "copyMs": 608,
+      "gateway": {
+        "status": 200,
+        "bytes": 378,
+        "verified": true
+      },
+      "localOffline": {
+        "bytes": 378,
+        "verified": true
+      }
+    },
+    {
+      "role": "DS1 Sepolia",
+      "tokenId": "11155111000000000007",
+      "chainId": 11155111,
+      "revision": "0",
+      "cid": "bafkreigszk3yj5f573k6bgg4sgehc6c4luunbpk57hj5nprlyges2dvtei",
+      "copy": "network (ipfs pin add)",
+      "copyMs": 574,
+      "gateway": {
+        "status": 200,
+        "bytes": 384,
+        "verified": true
+      },
+      "localOffline": {
+        "bytes": 384,
+        "verified": true
+      }
+    },
+    {
+      "role": "DS2 w3 arbitrum<->base, after last hop",
+      "tokenId": "421614000000000018",
+      "chainId": 421614,
+      "revision": "0",
+      "cid": "bafkreidti262jfo26j7db3pxeiflyjvhslcvvsovykeaumsjmohwigynru",
+      "copy": "network (ipfs pin add)",
+      "copyMs": 853,
+      "gateway": {
+        "status": 200,
+        "bytes": 411,
+        "verified": true
+      },
+      "localOffline": {
+        "bytes": 411,
+        "verified": true
+      }
+    },
+    {
+      "role": "DS2 w3 arbitrum<->sepolia, after last hop",
+      "tokenId": "421614000000000019",
+      "chainId": 421614,
+      "revision": "0",
+      "cid": "bafkreicynj4tshgirqy4cn2crs22ifs5ny4xuzix3s3zaboggqasyyz3aq",
+      "copy": "network (ipfs pin add)",
+      "copyMs": 759,
+      "gateway": {
+        "status": 200,
+        "bytes": 406,
+        "verified": true
+      },
+      "localOffline": {
+        "bytes": 406,
+        "verified": true
+      }
+    },
+    {
+      "role": "DS2 w3 base<->sepolia, after last hop",
+      "tokenId": "84532000000000014",
+      "chainId": 84532,
+      "revision": "0",
+      "cid": "bafkreiffobwu6r4qa3vr5i3xcfzjkhp52jlwirrrhpldezc2o4srm2ourq",
+      "copy": "network (ipfs pin add)",
+      "copyMs": 724,
+      "gateway": {
+        "status": 200,
+        "bytes": 400,
+        "verified": true
+      },
+      "localOffline": {
+        "bytes": 400,
+        "verified": true
+      }
+    },
+    {
+      "role": "DS10 case c (revision 1)",
+      "tokenId": "421614000000000038",
+      "chainId": 421614,
+      "revision": "1",
+      "cid": "bafkreiblnnz3kcpe2qzugrrsbtehsyba63hdump3iheonsmmq2o2cvdzwq",
+      "copy": "network (ipfs pin add)",
+      "copyMs": 715,
+      "gateway": {
+        "status": 200,
+        "bytes": 512,
+        "verified": true
+      },
+      "localOffline": {
+        "bytes": 512,
+        "verified": true
+      }
+    },
+    {
+      "role": "DS11 bottle with two source casks",
+      "tokenId": "421614000000000040",
+      "chainId": 84532,
+      "revision": "1",
+      "cid": "bafkreifkppq3ubz4u4urtntwh5l2oy5c63wss55cqdlay4wxti4bek43uq",
+      "copy": "network (ipfs pin add)",
+      "copyMs": 233,
+      "gateway": {
+        "status": 200,
+        "bytes": 550,
+        "verified": true
+      },
+      "localOffline": {
+        "bytes": 550,
+        "verified": true
+      }
+    },
+    {
+      "role": "DS12 round-trip token",
+      "tokenId": "421614000000000035",
+      "chainId": 421614,
+      "revision": "2",
+      "cid": "bafkreigj4q4hywugtg435s2dagdpeksop2nb4e62txgovpnosk7uvxhwom",
+      "copy": "network (ipfs pin add)",
+      "copyMs": 1021,
+      "gateway": {
+        "status": 200,
+        "bytes": 443,
+        "verified": true
+      },
+      "localOffline": {
+        "bytes": 443,
+        "verified": true
+      }
+    },
+    {
+      "role": "DS12 sample 3 cask",
+      "tokenId": "421614000000000028",
+      "chainId": 421614,
+      "revision": "1",
+      "cid": "bafkreiaevo53a2xqz2hmkaiexwobxbjzuyxxtrmx4l3ywuprets7ean2wi",
+      "copy": "network (ipfs pin add)",
+      "copyMs": 238,
+      "gateway": {
+        "status": 200,
+        "bytes": 448,
+        "verified": true
+      },
+      "localOffline": {
+        "bytes": 448,
+        "verified": true
+      }
+    }
+  ]
+}

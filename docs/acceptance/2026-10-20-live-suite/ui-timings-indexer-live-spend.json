@@ -1,0 +1,49 @@
+{
+  "header": {
+    "startedAt": "2026-10-20T16:05:01.594Z",
+    "gitSha": "cc9254438b0d03b67fb2b5ab4c13d8436df44694",
+    "gitDirty": false,
+    "deploymentId": "whisky-v2-eval3",
+    "chains": [
+      {
+        "chainId": 421614,
+        "eid": 40231,
+        "address": "0xFE84e01B03Cae9B4AaD5678A5681B70bA77435C2"
+      },
+      {
+        "chainId": 84532,
+        "eid": 40245,
+        "address": "0xFE84e01B03Cae9B4AaD5678A5681B70bA77435C2"
+      },
+      {
+        "chainId": 11155111,
+        "eid": 40161,
+        "address": "0xAD3B1CA4eD7e212cA7a231829a542128feA8A5Ba"
+      }
+    ],
+    "tools": {
+      "node": "v24.10.0",
+      "playwright": "1.64.0"
+    },
+    "indexerUrl": "http://localhost:42069"
+  },
+  "observations": [
+    {
+      "operation": "send",
+      "direction": "421614->84532",
+      "tokenId": "84532000000000018",
+      "chainId": 421614,
+      "clickAt": "2026-10-20T16:05:04.373Z",
+      "confirmedAt": "2026-10-20T16:05:07.729Z",
+      "verifiedAt": null,
+      "outcome": "timed-out",
+      "txHash": "0x2d1e68ca59412aa8c1e92e2c43e103fe51ef5df5a98bb8125c4f91e758397507",
+      "lastPageState": "Skip to content\nWhisky Distillery\nInteroperable Digital Product Passport\nPassports\nScan\nMint\nConnect Wallet\n\nNo browser wallet found. Install an Ethereum wallet extension (for example MetaMask) and reload.\n\nPASSPORT\n\n84532000000000018\nheld\nRevise\nSend to another chain\nVerify owner\nProve ownership\nOrigin (originOf)\nBase Sepolia (84532)\nDeployment\nwhisky-v2-eval3\nCurrent chain\nBase Sepolia\nContract\n0xFE84e01B03Cae9B4AaD5678A5681B70bA77435C2\nOwner\n0x9415e00f429549a26310c83c1f47db40eb300415\nRevision\n0\nCID\nbafkreiaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\nLive confirmation\n\nRead ownerOf and passportOf on Base Sepolia in one multicall at block 48372157.\n\nThe live read agrees with the indexer.\n\nIndexer progress\nBase Sepolia: indexed block 48372156 of 48372157 (1 blocks behind)\nArbitrum Sepolia: indexed block 321109651 of 321109654 (3 blocks behind)\nQR code\n\nPrint this on the cask or bottle. Scanning it opens this passport and its verification.\n\nhttp://localhost:3113/passport/84532000000000018?deployment=whisky-v2-eval3\n\nDownload PNG\nCopy link\nTimeline\nIssued on Base Sepolia\n2026-10-20T03:58:06Z, block 48350199, 0x4cb494b4…9483ee\nHop: Base Sepolia to Arbitrum Sepolia\nSent 2026-10-20T03:58:10Z, block 48350201, 0xfef22a70…7fbc80\nReceived 2026-10-20T03:58:40Z, block 320939873, 0x91970fed…fa06ff\nBlock interval (approximate): 30 s(difference of the two block timestamps, not a latency measurement)\nguid 0x43fa6ac44e4c329cc9fed836fce4d109fc5b65a46332d6e2980da6781824ba9f\nLayerZero Scan\nHop: Arbitrum Sepolia to Base Sepolia\nSent 2026-10-20T16:05:05Z, block 321108504, 0x2d1e68ca…397507\nReceived 2026-10-20T16:05:52Z, block 48372032, 0xe2ab5d9e…0d867a\nBlock interval (approximate): 47 s(difference of the two block timestamps, not a latency measurement)\nguid 0xad2118d706f3e1ca38892b6bf64991711f6ab72a2cc5c47e5ec554becd098fcd\nLayerZero Scan\nRevisions and verification\n\nChecked in this browser on the raw bytes from the gateway: content (bytes hash to the CID), binding (envelope names this deployment, token and revision), history (each previousCid is the preceding revision's CID), recorded on chain (the emitting contract receipt confirms this CID, revision and author; timestamps remain indexer-sourced), and once for the passport history hash (the CIDs of every revision, in order, recompute the historyHash of the live passportOf read).\n\nhistory hash: verified\nRevision 0\nBase Sepolia, 2026-10-20T03:58:06Z, tx\nbafkreiaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaCID from passportOf on chain (live read)\ncontent: unavailable\nbinding: unavailable\nhistory: unavailable\nrecorded on chain: verified\ncontent: payload unavailable: CID is not a CIDv1 raw sha2-256 base32 CID\nbinding: payload unavailable: CID is not a CIDv1 raw sha2-256 base32 CID\nhistory: not evaluated: content is unavailable",
+      "delivery": {
+        "mountedAt": "2026-10-20T16:05:07.270Z",
+        "deliveredAt": "2026-10-20T16:05:52.331Z",
+        "indexerObservedAt": "2026-10-20T16:05:55.873Z"
+      }
+    }
+  ]
+}

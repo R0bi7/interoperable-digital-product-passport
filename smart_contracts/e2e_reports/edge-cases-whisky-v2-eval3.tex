@@ -1,0 +1,84 @@
+\begin{table}[htbp]
+    \centering
+    \small
+    \begin{tabular}{llrlrrr}
+    \toprule
+    Case & Chain & n & Expected error & Held & Mined as reverted & Gas of the reverted tx \\
+    \midrule
+    mint by a non-issuer & arbitrum-sepolia & 1 & NotIssuer & 1 of 1 & 1 of 1 & 25,802 \\
+    mint by a non-issuer & base-sepolia & 1 & NotIssuer & 1 of 1 & 1 of 1 & 25,802 \\
+    mint by a non-issuer & sepolia & 1 & NotIssuer & 1 of 1 & 1 of 1 & 27,544 \\
+    mint with a wrong expected token id & arbitrum-sepolia & 1 & UnexpectedTokenId & 1 of 1 & 1 of 1 & 28,425 \\
+    mint with a wrong expected token id & base-sepolia & 1 & UnexpectedTokenId & 1 of 1 & 1 of 1 & 28,425 \\
+    mint with a wrong expected token id & sepolia & 1 & UnexpectedTokenId & 1 of 1 & 1 of 1 & 27,544 \\
+    revise by the holder & arbitrum-sepolia & 1 & NotIssuer & 1 of 1 & 1 of 1 & 25,598 \\
+    revise by the holder & base-sepolia & 1 & NotIssuer & 1 of 1 & 1 of 1 & 25,598 \\
+    revise by the holder & sepolia & 1 & NotIssuer & 1 of 1 & 1 of 1 & 27,544 \\
+    revise with a stale revision & arbitrum-sepolia & 1 & StaleRevision & 1 of 1 & 1 of 1 & 30,339 \\
+    revise with a stale revision & base-sepolia & 1 & StaleRevision & 1 of 1 & 1 of 1 & 30,339 \\
+    revise with a stale revision & sepolia & 1 & StaleRevision & 1 of 1 & 1 of 1 & 27,544 \\
+    \bottomrule
+    \end{tabular}
+    \caption{Rejection cases on deployment whisky-v2-eval3: n observations per case and chain, how many held (named custom error from the simulation and a transaction mined with status 0). LIVE (whisky-v2-eval3), no clock. Gas of the reverted transaction: the harness sets a limit of 400,000.}
+    \label{tab:edge-rejections}
+\end{table}
+
+\begin{table}[htbp]
+    \centering
+    \small
+    \begin{tabular}{llrrr}
+    \toprule
+    Case & Chain & n & Succeeded & Gas used \\
+    \midrule
+    transferFrom by an approved operator & arbitrum-sepolia & 1 & 1 of 1 & 60,472 \\
+    transferFrom by an approved operator & base-sepolia & 1 & 1 of 1 & 60,472 \\
+    transferFrom by an approved operator & sepolia & 1 & 1 of 1 & 157,276 \\
+    \bottomrule
+    \end{tabular}
+    \caption{Permitted cases on deployment whisky-v2-eval3: n observations per case and chain. LIVE (whisky-v2-eval3), no clock.}
+    \label{tab:edge-permitted}
+\end{table}
+
+\begin{table}[htbp]
+    \centering
+    \small
+    \begin{tabular}{llrlr}
+    \toprule
+    Call & Chain & n & Expected error & Held \\
+    \midrule
+    lzReceive & arbitrum-sepolia & 1 & OnlyEndpoint & 1 of 1 \\
+    lzReceive & base-sepolia & 1 & OnlyEndpoint & 1 of 1 \\
+    lzReceive & sepolia & 1 & OnlyEndpoint & 1 of 1 \\
+    setBaseURI & arbitrum-sepolia & 1 & OwnableUnauthorizedAccount & 1 of 1 \\
+    setBaseURI & base-sepolia & 1 & OwnableUnauthorizedAccount & 1 of 1 \\
+    setBaseURI & sepolia & 1 & OwnableUnauthorizedAccount & 1 of 1 \\
+    setEnforcedOptions & arbitrum-sepolia & 1 & OwnableUnauthorizedAccount & 1 of 1 \\
+    setEnforcedOptions & base-sepolia & 1 & OwnableUnauthorizedAccount & 1 of 1 \\
+    setEnforcedOptions & sepolia & 1 & OwnableUnauthorizedAccount & 1 of 1 \\
+    setIssuer & arbitrum-sepolia & 1 & OwnableUnauthorizedAccount & 1 of 1 \\
+    setIssuer & base-sepolia & 1 & OwnableUnauthorizedAccount & 1 of 1 \\
+    setIssuer & sepolia & 1 & OwnableUnauthorizedAccount & 1 of 1 \\
+    setPeer & arbitrum-sepolia & 1 & OwnableUnauthorizedAccount & 1 of 1 \\
+    setPeer & base-sepolia & 1 & OwnableUnauthorizedAccount & 1 of 1 \\
+    setPeer & sepolia & 1 & OwnableUnauthorizedAccount & 1 of 1 \\
+    \bottomrule
+    \end{tabular}
+    \caption{Owner-only configuration and endpoint-only receive called by another account on deployment whisky-v2-eval3: n eth\_calls per call and chain, how many reverted with the named custom error. LIVE (whisky-v2-eval3), no transaction, no clock.}
+    \label{tab:edge-configuration}
+\end{table}
+
+\begin{table}[htbp]
+    \centering
+    \small
+    \begin{tabular}{lrrlrrr}
+    \toprule
+    Route & n & Delivered & Primary clock (s) & Delivery tx gas used & Enforced lzReceive gas & Replays rejected \\
+    \midrule
+    arbitrum-sepolia -> base-sepolia & 1 & 1 of 1 & 45 & 211,733 & 286,000 & 1 of 1 \\
+    arbitrum-sepolia -> sepolia & 1 & 1 of 1 & 153 & 749,637 & 1,291,000 & 1 of 1 \\
+    base-sepolia -> arbitrum-sepolia & 1 & 1 of 1 & 30 & 211,733 & 286,000 & 1 of 1 \\
+    \bottomrule
+    \end{tabular}
+    \caption{Maximum-length (96-byte) CID on deployment whisky-v2-eval3: n deliveries per route, primary delivery clock of each in seconds, gas used by the whole delivery transaction against the enforced lzReceive gas, and replays rejected. LIVE (whisky-v2-eval3).}
+    \label{tab:edge-maxcid}
+\end{table}

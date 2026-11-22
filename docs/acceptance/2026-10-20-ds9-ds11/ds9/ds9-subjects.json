@@ -1,0 +1,52 @@
+[
+  {
+    "role": "DS1 Arbitrum Sepolia",
+    "tokenId": "421614000000000007",
+    "chainId": 421614
+  },
+  {
+    "role": "DS1 Base Sepolia",
+    "tokenId": "84532000000000005",
+    "chainId": 84532
+  },
+  {
+    "role": "DS1 Sepolia",
+    "tokenId": "11155111000000000007",
+    "chainId": 11155111
+  },
+  {
+    "role": "DS2 w3 arbitrum<->base, after last hop",
+    "tokenId": "421614000000000018",
+    "chainId": 421614
+  },
+  {
+    "role": "DS2 w3 arbitrum<->sepolia, after last hop",
+    "tokenId": "421614000000000019",
+    "chainId": 421614
+  },
+  {
+    "role": "DS2 w3 base<->sepolia, after last hop",
+    "tokenId": "84532000000000014",
+    "chainId": 84532
+  },
+  {
+    "role": "DS10 case c (revision 1)",
+    "tokenId": "421614000000000038",
+    "chainId": 421614
+  },
+  {
+    "role": "DS11 bottle with two source casks",
+    "tokenId": "421614000000000040",
+    "chainId": 84532
+  },
+  {
+    "role": "DS12 round-trip token",
+    "tokenId": "421614000000000035",
+    "chainId": 421614
+  },
+  {
+    "role": "DS12 sample 3 cask",
+    "tokenId": "421614000000000028",
+    "chainId": 421614
+  }
+]
